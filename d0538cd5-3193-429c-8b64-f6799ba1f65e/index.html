@@ -1,0 +1,62 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ski tours map</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="build/trailheads.js"></script>
+<style>
+.pin { transform: translate(-50%, -50%); width: max-content; cursor: pointer; line-height: 0; }
+/* Cluster bubbles go yellow (few) to red-orange (many), so none look like a green-circle rating. */
+.marker-cluster div { width: 30px; height: 30px; margin: 5px; border-radius: 15px; text-align: center; line-height: 30px; }
+.marker-cluster-small div { background: rgb(240, 195, 20); }
+.marker-cluster-medium div { background: rgb(240, 130, 20); }
+.marker-cluster-large div { background: rgb(225, 70, 20); }
+.sym { vertical-align: top; font-size: 18px; padding-right: 4px; }
+</style>
+<div id="map" style="height:95vh"></div>
+<script>
+// Data: build/trailheads.js, made by build.py. HTML entities keep this file ASCII.
+// Ski-trail symbols (green circle, blue square, black diamond) and SVG shapes for the pins.
+var LEVELS = {
+  green: {color: "#1a7f37", text: "&#9679;", svg: '<circle r="50"'},
+  blue:  {color: "#0550ae", text: "&#9632;", svg: '<rect x="-40" y="-40" width="80" height="80"'},
+  black: {color: "#000",    text: "&#9670;", svg: '<polygon points="0,-50 50,0 0,50 -50,0"'}};
+// A pin nests one shape per difficulty at the trailhead: outermost = easiest, innermost = hardest.
+var NEST = {1: [0.92], 2: [0.94, 0.72], 3: [0.94, 0.72, 0.48]};
+var PIN_PX = 40, BASEMAP_MAX_ZOOM = 16, POPUP_MAX_PX = 420;  // USGS topo has no tiles past 16
+
+function pin(levels) {
+  return '<div class="pin"><svg width="' + PIN_PX + '" height="' + PIN_PX + '" viewBox="-50 -50 100 100">' +
+    levels.map(function (d, i) {
+      return '<g transform="scale(' + NEST[levels.length][i] + ')">' + LEVELS[d].svg +
+             ' fill="' + LEVELS[d].color + '" stroke="#fff" stroke-width="6"/></g>';
+    }).join("") + "</svg></div>";
+}
+function link(href, text) { return '<a target="_blank" rel="noopener" href="' + href + '">' + text + "</a>"; }
+function popup(p) {
+  return "<b>" + p.name + "</b>" + (p.approximate ? " (approximate location)" : "") + "<table>" +
+    p.tours.map(function (t) {
+      var L = LEVELS[t.difficulty];
+      return '<tr><td class="sym" style="color:' + L.color + '">' + L.text + "</td><td><b>" + link(t.image, t.name) +
+             "</b><br>" + [t.miles && t.miles + " mi", t.gain].filter(Boolean).join(", ") +
+             "<br>" + link(t.image, t.source) + "</td></tr>";
+    }).join("") + "</table>";
+}
+
+var map = L.map("map", {attributionControl: false});
+L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
+            {maxZoom: BASEMAP_MAX_ZOOM}).addTo(map);
+var layer = L.geoJSON(trailheads, {
+  pointToLayer: function (f, latlng) {
+    var levels = ["green", "blue", "black"].filter(function (d) {
+      return f.properties.tours.some(function (t) { return t.difficulty === d; }); });
+    return L.marker(latlng, {icon: L.divIcon({className: "", iconSize: [0, 0], html: pin(levels)})})
+            .bindPopup(popup(f.properties), {maxHeight: POPUP_MAX_PX});  // tall lists scroll instead of panning the map away
+  }});
+L.markerClusterGroup().addLayer(layer).addTo(map);
+map.fitBounds(layer.getBounds().pad(0.2));
+</script>
