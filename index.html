@@ -19,21 +19,24 @@ body { margin: 0; }
 .marker-cluster-small div { background: rgb(240, 195, 20); }
 .marker-cluster-medium div { background: rgb(240, 130, 20); }
 .marker-cluster-large div { background: rgb(225, 70, 20); }
-.leaflet-control-attribution { font-size: 9px; }
-.sym { vertical-align: top; font-size: 18px; padding-right: 4px; }
+.sym { vertical-align: top; padding: 2px 4px 0 0; }
 </style>
 <div id="map"></div>
 <script>
 // Data: build/trailheads.js, made by build.py. HTML entities keep this file ASCII.
-// Ski-trail symbols (green circle, blue square, black diamond) and SVG shapes for the pins.
+// Ski-trail symbols (green circle, blue square, black diamond), drawn as SVG so all three are one size.
 var LEVELS = {
-  green: {color: "#1a7f37", text: "&#9679;", svg: '<circle r="50"'},
-  blue:  {color: "#0550ae", text: "&#9632;", svg: '<rect x="-40" y="-40" width="80" height="80"'},
-  black: {color: "#000",    text: "&#9670;", svg: '<polygon points="0,-50 50,0 0,50 -50,0"'}};
+  green: {color: "#1a7f37", svg: '<circle r="50"'},
+  blue:  {color: "#0550ae", svg: '<rect x="-40" y="-40" width="80" height="80"'},
+  black: {color: "#000",    svg: '<polygon points="0,-50 50,0 0,50 -50,0"'}};
 // A pin nests one shape per difficulty at the trailhead: outermost = easiest, innermost = hardest.
 var NEST = {1: [0.92], 2: [0.94, 0.78], 3: [0.94, 0.78, 0.56]};
-var PIN_PX = 40, CLUSTER_OVERLAP = 0.7, BASEMAP_MAX_ZOOM = 16;  // USGS topo has no tiles past 16
+var PIN_PX = 40, SYMBOL_PX = 18, CLUSTER_OVERLAP = 0.7, BASEMAP_MAX_ZOOM = 16;  // USGS topo has no tiles past 16
 
+function symbol(d) {
+  return '<svg width="' + SYMBOL_PX + '" height="' + SYMBOL_PX + '" viewBox="-50 -50 100 100">' +
+         LEVELS[d].svg + ' fill="' + LEVELS[d].color + '"/></svg>';
+}
 function pin(levels) {
   return '<div class="pin"><svg width="' + PIN_PX + '" height="' + PIN_PX + '" viewBox="-50 -50 100 100">' +
     levels.map(function (d, i) {
@@ -45,8 +48,7 @@ function link(href, text) { return '<a target="_blank" rel="noopener" href="' + 
 function popup(p) {
   return "<b>" + p.name + "</b>" + (p.approximate ? " (approximate location)" : "") + "<table>" +
     p.tours.map(function (t) {
-      var L = LEVELS[t.difficulty];
-      return '<tr><td class="sym" style="color:' + L.color + '">' + L.text + "</td><td><b>" + link(t.image, t.name) +
+      return '<tr><td class="sym">' + symbol(t.difficulty) + "</td><td><b>" + link(t.image, t.name) +
              "</b>" + [t.miles && t.miles + " mi", t.gain].filter(Boolean).join(", ").replace(/^(?=.)/, "<br>") +
              "<br>" + link(t.image, t.source) + "</td></tr>";
     }).join("") + "</table>";
@@ -55,15 +57,8 @@ function popup(p) {
 // Zoom buttons go bottom right, where a popup (which opens upward) does not cover them.
 var map = L.map("map", {attributionControl: false, zoomControl: false});
 L.control.zoom({position: "bottomright"}).addTo(map);
-// Credits, bottom left: the map libraries, the two tile sources, and the books.
-var credits = L.control.attribution({position: "bottomleft", prefix:
-  '<a href="https://leafletjs.com">Leaflet</a>, <a href="https://github.com/Leaflet/Leaflet.markercluster">markercluster</a>'}).addTo(map);
 L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
-            {maxZoom: BASEMAP_MAX_ZOOM, attribution: "USGS The National Map"}).addTo(map);
-// Roads drawn over the topo map: coloured, labelled highways.
-L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}",
-            {maxZoom: BASEMAP_MAX_ZOOM, attribution: "roads: Esri"}).addTo(map);
-credits.addAttribution("tours: Meissner (1984), Vielbig (1994)");
+            {maxZoom: BASEMAP_MAX_ZOOM}).addTo(map);
 var layer = L.geoJSON(trailheads, {
   pointToLayer: function (f, latlng) {
     var levels = ["green", "blue", "black"].filter(function (d) {
