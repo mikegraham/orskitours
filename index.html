@@ -30,7 +30,7 @@ var LEVELS = {
   blue:  {color: "#0550ae", text: "&#9632;", svg: '<rect x="-40" y="-40" width="80" height="80"'},
   black: {color: "#000",    text: "&#9670;", svg: '<polygon points="0,-50 50,0 0,50 -50,0"'}};
 // A pin nests one shape per difficulty at the trailhead: outermost = easiest, innermost = hardest.
-var NEST = {1: [0.92], 2: [0.94, 0.72], 3: [0.94, 0.72, 0.48]};
+var NEST = {1: [0.92], 2: [0.94, 0.78], 3: [0.94, 0.78, 0.56]};
 var PIN_PX = 40, CLUSTER_OVERLAP = 0.7, BASEMAP_MAX_ZOOM = 16;  // USGS topo has no tiles past 16
 
 function pin(levels) {
