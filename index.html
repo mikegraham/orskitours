@@ -13,59 +13,47 @@ body { margin: 0; }
 #map { height: 100vh; height: 100dvh; }  /* dvh = the visible height on phones, under the address bar */
 /* A popup never outgrows the screen, in either orientation; long lists scroll inside it. */
 .leaflet-popup-content { max-height: 50vh; max-width: calc(100vw - 90px); overflow-y: auto; }
-.pin { transform: translate(-50%, -50%); width: max-content; cursor: pointer; line-height: 0; }
+.pin use { stroke: #fff; stroke-width: 6; }
+td { vertical-align: top; }
 /* Cluster bubbles go yellow (few) to red-orange (many), so none look like a green-circle rating. */
-.marker-cluster div { width: 30px; height: 30px; margin: 5px; border-radius: 15px; text-align: center; line-height: 30px; }
+.marker-cluster div { width: 30px; height: 30px; margin: 5px; border-radius: 50%; text-align: center; line-height: 30px; }
 .marker-cluster-small div { background: rgb(240, 195, 20); }
 .marker-cluster-medium div { background: rgb(240, 130, 20); }
 .marker-cluster-large div { background: rgb(225, 70, 20); }
-.sym { vertical-align: top; padding: 2px 4px 0 0; }
 </style>
+<!-- Ski-trail symbols, drawn once and reused by every pin and popup. -->
+<svg width="0" height="0" style="position: absolute"><defs>
+  <circle id="green" r="50" fill="#1a7f37"/>
+  <rect id="blue" x="-40" y="-40" width="80" height="80" fill="#0550ae"/>
+  <polygon id="black" points="0,-50 50,0 0,50 -50,0" fill="#000"/>
+</defs></svg>
 <div id="map"></div>
 <script>
-// Data: build/trailheads.js, made by build.py. HTML entities keep this file ASCII.
-// Ski-trail symbols (green circle, blue square, black diamond), drawn as SVG so all three are one size.
-var LEVELS = {
-  green: {color: "#1a7f37", svg: '<circle r="50"'},
-  blue:  {color: "#0550ae", svg: '<rect x="-40" y="-40" width="80" height="80"'},
-  black: {color: "#000",    svg: '<polygon points="0,-50 50,0 0,50 -50,0"'}};
+// Data: build/trailheads.js, made by build.py.
+const PIN_PX = 36, SYMBOL_PX = 18, CLUSTER_RADIUS_PX = 26;
+const BASEMAP_MAX_ZOOM = 16;  // USGS topo has no tiles past 16
 // A pin nests one shape per difficulty at the trailhead: outermost = easiest, innermost = hardest.
-var NEST = {1: [0.92], 2: [0.94, 0.78], 3: [0.94, 0.78, 0.56]};
-var PIN_PX = 36, SYMBOL_PX = 18, CLUSTER_RADIUS_PX = 26, BASEMAP_MAX_ZOOM = 16;  // USGS topo has no tiles past 16
+const NEST = {1: [0.92], 2: [0.94, 0.78], 3: [0.94, 0.78, 0.56]};
 
-function symbol(d) {
-  return '<svg width="' + SYMBOL_PX + '" height="' + SYMBOL_PX + '" viewBox="-50 -50 100 100">' +
-         LEVELS[d].svg + ' fill="' + LEVELS[d].color + '"/></svg>';
-}
-function pin(levels) {
-  return '<div class="pin"><svg width="' + PIN_PX + '" height="' + PIN_PX + '" viewBox="-50 -50 100 100">' +
-    levels.map(function (d, i) {
-      return '<g transform="scale(' + NEST[levels.length][i] + ')">' + LEVELS[d].svg +
-             ' fill="' + LEVELS[d].color + '" stroke="#fff" stroke-width="6"/></g>';
-    }).join("") + "</svg></div>";
-}
-function link(href, text) { return '<a target="_blank" rel="noopener" href="' + href + '">' + text + "</a>"; }
-function popup(p) {
-  return "<b>" + p.name + "</b>" + (p.approximate ? " (approximate location)" : "") + "<table>" +
-    p.tours.map(function (t) {
-      return '<tr><td class="sym">' + symbol(t.difficulty) + "</td><td><b>" + link(t.image, t.name) +
-             "</b>" + [t.miles && t.miles + " mi", t.gain].filter(Boolean).join(", ").replace(/^(?=.)/, "<br>") +
-             "<br>" + link(t.image, t.source) + "</td></tr>";
-    }).join("") + "</table>";
-}
+const svg = (px, shapes) => `<svg width="${px}" height="${px}" viewBox="-50 -50 100 100">${shapes}</svg>`;
+const pin = levels => svg(PIN_PX, levels.map((d, i) =>
+  `<use href="#${d}" transform="scale(${NEST[levels.length][i]})"/>`).join(""));
+const link = (href, text) => `<a target="_blank" rel="noopener" href="${href}">${text}</a>`;
+const popup = p => `<b>${p.name}</b>${p.approximate ? " (approximate location)" : ""}<table>` +
+  p.tours.map(t => `<tr><td>${svg(SYMBOL_PX, `<use href="#${t.difficulty}"/>`)}</td><td>` +
+    [`<b>${link(t.image, t.name)}</b>`, [t.miles && `${t.miles} mi`, t.gain].filter(Boolean).join(", "),
+     link(t.image, t.source)].filter(Boolean).join("<br>") + "</td></tr>").join("") + "</table>";
 
 // Zoom buttons go bottom right, where a popup (which opens upward) does not cover them.
-var map = L.map("map", {attributionControl: false, zoomControl: false});
+const map = L.map("map", {attributionControl: false, zoomControl: false});
 L.control.zoom({position: "bottomright"}).addTo(map);
 L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
             {maxZoom: BASEMAP_MAX_ZOOM}).addTo(map);
-var layer = L.geoJSON(trailheads, {
-  pointToLayer: function (f, latlng) {
-    var levels = ["green", "blue", "black"].filter(function (d) {
-      return f.properties.tours.some(function (t) { return t.difficulty === d; }); });
-    return L.marker(latlng, {icon: L.divIcon({className: "", iconSize: [0, 0], html: pin(levels)})})
-            .bindPopup(popup(f.properties));
-  }});
+const layer = L.geoJSON(trailheads, {pointToLayer: ({properties}, latlng) => {
+  const levels = ["green", "blue", "black"].filter(d => properties.tours.some(t => t.difficulty === d));
+  return L.marker(latlng, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(levels)})})
+          .bindPopup(popup(properties));
+}});
 // Pins combine only when they overlap by more than a graze; the shapes don't fill their box,
 // so the radius is under a pin's width: pins may overlap by up to PIN_PX - CLUSTER_RADIUS_PX.
 L.markerClusterGroup({maxClusterRadius: CLUSTER_RADIUS_PX}).addLayer(layer).addTo(map);
