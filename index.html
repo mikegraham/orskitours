@@ -31,7 +31,7 @@ var LEVELS = {
   black: {color: "#000",    svg: '<polygon points="0,-50 50,0 0,50 -50,0"'}};
 // A pin nests one shape per difficulty at the trailhead: outermost = easiest, innermost = hardest.
 var NEST = {1: [0.92], 2: [0.94, 0.78], 3: [0.94, 0.78, 0.56]};
-var PIN_PX = 40, SYMBOL_PX = 18, CLUSTER_OVERLAP = 0.7, BASEMAP_MAX_ZOOM = 16;  // USGS topo has no tiles past 16
+var PIN_PX = 36, SYMBOL_PX = 18, CLUSTER_OVERLAP = 0.7, BASEMAP_MAX_ZOOM = 16;  // USGS topo has no tiles past 16
 
 function symbol(d) {
   return '<svg width="' + SYMBOL_PX + '" height="' + SYMBOL_PX + '" viewBox="-50 -50 100 100">' +
