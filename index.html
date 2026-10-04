@@ -9,6 +9,10 @@
 <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script src="build/trailheads.js"></script>
 <style>
+body { margin: 0; }
+#map { height: 100vh; height: 100dvh; }  /* dvh = the visible height on phones, under the address bar */
+/* A popup never outgrows the screen, in either orientation; long lists scroll inside it. */
+.leaflet-popup-content { max-height: 50vh; max-width: calc(100vw - 90px); overflow-y: auto; }
 .pin { transform: translate(-50%, -50%); width: max-content; cursor: pointer; line-height: 0; }
 /* Cluster bubbles go yellow (few) to red-orange (many), so none look like a green-circle rating. */
 .marker-cluster div { width: 30px; height: 30px; margin: 5px; border-radius: 15px; text-align: center; line-height: 30px; }
@@ -17,7 +21,7 @@
 .marker-cluster-large div { background: rgb(225, 70, 20); }
 .sym { vertical-align: top; font-size: 18px; padding-right: 4px; }
 </style>
-<div id="map" style="height:95vh"></div>
+<div id="map"></div>
 <script>
 // Data: build/trailheads.js, made by build.py. HTML entities keep this file ASCII.
 // Ski-trail symbols (green circle, blue square, black diamond) and SVG shapes for the pins.
@@ -27,7 +31,7 @@ var LEVELS = {
   black: {color: "#000",    text: "&#9670;", svg: '<polygon points="0,-50 50,0 0,50 -50,0"'}};
 // A pin nests one shape per difficulty at the trailhead: outermost = easiest, innermost = hardest.
 var NEST = {1: [0.92], 2: [0.94, 0.72], 3: [0.94, 0.72, 0.48]};
-var PIN_PX = 40, BASEMAP_MAX_ZOOM = 16, POPUP_MAX_PX = 420;  // USGS topo has no tiles past 16
+var PIN_PX = 40, CLUSTER_OVERLAP = 0.7, BASEMAP_MAX_ZOOM = 16;  // USGS topo has no tiles past 16
 
 function pin(levels) {
   return '<div class="pin"><svg width="' + PIN_PX + '" height="' + PIN_PX + '" viewBox="-50 -50 100 100">' +
@@ -57,8 +61,10 @@ var layer = L.geoJSON(trailheads, {
     var levels = ["green", "blue", "black"].filter(function (d) {
       return f.properties.tours.some(function (t) { return t.difficulty === d; }); });
     return L.marker(latlng, {icon: L.divIcon({className: "", iconSize: [0, 0], html: pin(levels)})})
-            .bindPopup(popup(f.properties), {maxHeight: POPUP_MAX_PX});  // tall lists scroll instead of panning the map away
+            .bindPopup(popup(f.properties));
   }});
-L.markerClusterGroup().addLayer(layer).addTo(map);
+// Pins combine only when they overlap by more than a graze; the shapes don't fill their box,
+// so the radius is a bit under a pin's width (the library's default is twice that).
+L.markerClusterGroup({maxClusterRadius: PIN_PX * CLUSTER_OVERLAP}).addLayer(layer).addTo(map);
 map.fitBounds(layer.getBounds().pad(0.2));
 </script>
