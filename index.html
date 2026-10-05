@@ -7,6 +7,7 @@
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
 <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-hash@0.2.1/leaflet-hash.js"></script>
 <script src="build/trailheads.js"></script>
 <style>
 body { margin: 0; }
@@ -17,6 +18,8 @@ body { margin: 0; }
 /* Each tour is one card; tapping anywhere on it opens the tour's pages. */
 .card { display: flex; gap: 6px; margin-top: 6px; padding: 5px 7px; border: 1px solid #bbb; border-radius: 6px;
         color: inherit !important; text-decoration: none; }
+/* Without this a long tour name squeezes its symbol smaller than the others. */
+.card svg { flex: none; }
 /* Cluster bubbles go yellow (few) to red-orange (many), so none look like a green-circle rating. */
 .marker-cluster div { width: 30px; height: 30px; margin: 5px; border-radius: 50%; text-align: center; line-height: 30px; }
 .marker-cluster-small div { background: rgb(240, 195, 20); }
@@ -60,4 +63,5 @@ const layer = L.geoJSON(trailheads, {pointToLayer: ({properties}, latlng) => {
 // so the radius is under a pin's width: pins may overlap by up to PIN_PX - CLUSTER_RADIUS_PX.
 L.markerClusterGroup({maxClusterRadius: CLUSTER_RADIUS_PX}).addLayer(layer).addTo(map);
 map.fitBounds(layer.getBounds().pad(0.2));
+new L.Hash(map);  // the address ends in #zoom/lat/lon, so any view can be linked
 </script>
