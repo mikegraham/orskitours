@@ -48,10 +48,12 @@ const NEST = {1: [0.92], 2: [0.94, 0.78], 3: [0.94, 0.70, 0.56]};
 // The narrow black diamond reads smaller than the other shapes: grow it a little when it stands alone,
 // and shrink it a little when it sits inside a circle or square, so more of the outer colour shows.
 const BLACK_SCALE = {1: 1.08, 2: 0.9, 3: 0.9};
+const BLACK_STRETCH = 1.08;  // inside another shape the diamond is a touch taller than it is wide
 
 const svg = (px, shapes) => `<svg width="${px}" height="${px}" viewBox="-50 -50 100 100">${shapes}</svg>`;
 const pin = levels => svg(PIN_PX, levels.map((d, i) =>
-  `<use href="#${d}" transform="scale(${NEST[levels.length][i] * (d === "black" ? BLACK_SCALE[levels.length] : 1)})"/>`).join(""));
+  `<use href="#${d}" transform="scale(${NEST[levels.length][i] * (d === "black" ? BLACK_SCALE[levels.length] : 1)}` +
+  `${d === "black" && levels.length > 1 ? `, ${NEST[levels.length][i] * BLACK_SCALE[levels.length] * BLACK_STRETCH}` : ""})"/>`).join(""));
 const link = (href, html, cls = "") => `<a class="${cls}" target="_blank" rel="noopener" href="${href}">${html}</a>`;
 // A card opens its tour's pages. A tour two books describe has two sets of pages, so that card is not
 // one link: its name, numbers and first source open the first book, and the second source line the other.
