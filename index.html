@@ -49,14 +49,18 @@ const NEST = {1: [0.92], 2: [0.94, 0.70], 3: [0.94, 0.70, 0.56]};
 // and shrink it a little when it sits inside a circle or square, so more of the outer colour shows.
 const BLACK_SCALE = {1: 1.08, 2: 1.0, 3: 1.0};
 const BLACK_STRETCH = 1.08;
-// A trailhead known to be closed or moved gets a question-mark badge at the pin's top right corner.
-const BADGE = '<g transform="translate(34,-34)"><circle r="24" fill="#fff" stroke="#000" stroke-width="5"/>' +
-  '<text y="13" text-anchor="middle" font-size="38" font-weight="bold" font-family="sans-serif">?</text></g>';  // inside another shape the diamond is a touch taller than it is wide
+// A badge at the pin's top right corner: X = the parking place is gone, * = changed since the book
+// (the popup says how), ? = approximate location. A closed pin shows the X whatever else applies.
+const BADGES = {closed: ["X", "#c00"], moved: ["*", "#000"], approximate: ["?", "#000"]};
+const badge = kind => { const [mark, colour] = BADGES[kind]; return '<g transform="translate(34,-34)">' +
+  `<circle r="24" fill="#fff" stroke="${colour}" stroke-width="5"/>` +
+  `<text y="${mark === "*" ? 24 : 13}" text-anchor="middle" font-size="${mark === "*" ? 54 : 38}" font-weight="bold" ` +
+  `font-family="sans-serif" fill="${colour}">${mark}</text></g>`; };  // inside another shape the diamond is a touch taller than it is wide
 
 const svg = (px, shapes) => `<svg width="${px}" height="${px}" viewBox="-50 -50 100 100">${shapes}</svg>`;
-const pin = (levels, badge) => svg(PIN_PX, levels.map((d, i) =>
+const pin = (levels, kind) => svg(PIN_PX, levels.map((d, i) =>
   `<use href="#${d}" transform="scale(${NEST[levels.length][i] * (d === "black" ? BLACK_SCALE[levels.length] : 1)}` +
-  `${d === "black" && levels.length > 1 ? `, ${NEST[levels.length][i] * BLACK_SCALE[levels.length] * BLACK_STRETCH}` : ""})"/>`).join("") + (badge ? BADGE : ""));
+  `${d === "black" && levels.length > 1 ? `, ${NEST[levels.length][i] * BLACK_SCALE[levels.length] * BLACK_STRETCH}` : ""})"/>`).join("") + (kind ? badge(kind) : ""));
 const link = (href, html, cls = "") => `<a class="${cls}" target="_blank" rel="noopener" href="${href}">${html}</a>`;
 // A card opens its tour's pages. A tour two books describe has two sets of pages, so that card is not
 // one link: its name, numbers and first source open the first book, and the second source line the other.
@@ -81,7 +85,7 @@ const layer = L.geoJSON(trailheads, {pointToLayer: ({properties}, latlng) => {
   const pinLevel = t => t.difficulty === "double" ? "black" : t.difficulty;
   let levels = ["green", "blue", "black"].filter(d => properties.tours.some(t => pinLevel(t) === d));
   if (properties.tours.every(t => t.difficulty === "double")) levels = ["double"];
-  return L.marker(latlng, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(levels, properties.status)})})
+  return L.marker(latlng, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(levels, properties.status ? properties.status.split(":")[0] : properties.approximate ? "approximate" : "")})})
           .bindPopup(popup(properties));
 }});
 // Pins combine only when they overlap by more than a graze; the shapes don't fill their box,
