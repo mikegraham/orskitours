@@ -33,9 +33,9 @@ body { margin: 0; }
   <circle id="green" r="50" fill="#1a7f37"/>
   <rect id="blue" x="-40" y="-40" width="80" height="80" fill="#0550ae"/>
   <polygon id="black" points="0,-50 50,0 0,50 -50,0" fill="#000"/>
-  <!-- Triple black (ski mountaineering): three narrow diamonds overlapping at the waist, one outline so
+  <!-- Double black (ski mountaineering): two narrow diamonds overlapping at the waist, one outline so
        the pin's white stroke runs round the outside only and black meets black. -->
-  <polygon id="triple" points="-50,0 -30,-50 -15,-12.5 0,-50 15,-12.5 30,-50 50,0 30,50 15,12.5 0,50 -15,12.5 -30,50" fill="#000"/>
+  <polygon id="double" points="-50,0 -20,-50 0,-16.7 20,-50 50,0 20,50 0,16.7 -20,50" fill="#000"/>
 </defs></svg>
 <div id="map"></div>
 <script>
@@ -67,10 +67,10 @@ L.control.zoom({position: "bottomright"}).addTo(map);
 L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
             {maxZoom: BASEMAP_MAX_ZOOM}).addTo(map);
 const layer = L.geoJSON(trailheads, {pointToLayer: ({properties}, latlng) => {
-  // On a pin a triple black counts as black; only a pin with nothing but triple blacks shows the triple.
-  const pinLevel = t => t.difficulty === "triple" ? "black" : t.difficulty;
+  // On a pin a double black counts as black; only a pin with nothing but double blacks shows the double.
+  const pinLevel = t => t.difficulty === "double" ? "black" : t.difficulty;
   let levels = ["green", "blue", "black"].filter(d => properties.tours.some(t => pinLevel(t) === d));
-  if (properties.tours.every(t => t.difficulty === "triple")) levels = ["triple"];
+  if (properties.tours.every(t => t.difficulty === "double")) levels = ["double"];
   return L.marker(latlng, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(levels)})})
           .bindPopup(popup(properties));
 }});
