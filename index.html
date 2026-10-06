@@ -49,13 +49,12 @@ const NEST = {1: [0.92], 2: [0.94, 0.70], 3: [0.94, 0.70, 0.56]};
 // and shrink it a little when it sits inside a circle or square, so more of the outer colour shows.
 const BLACK_SCALE = {1: 1.08, 2: 1.0, 3: 1.0};
 const BLACK_STRETCH = 1.08;
-// A badge at the pin's top right corner: X = the parking place is gone, * = changed since the book
+// A badge at the pin's top right corner: X = the parking place is gone, i = changed since the book
 // (the popup says how), ? = approximate location. A closed pin shows the X whatever else applies.
-const BADGES = {closed: ["X", "#c00"], moved: ["*", "#000"], approximate: ["?", "#000"]};
-const badge = kind => { const [mark, colour] = BADGES[kind]; return '<g transform="translate(34,-34)">' +
+const BADGES = {closed: ["X", "#c00", "sans-serif", 38, 13], moved: ["i", "#000", "serif", 40, 14], approximate: ["?", "#000", "sans-serif", 38, 13]};
+const badge = kind => { const [mark, colour, font, size, y] = BADGES[kind]; return '<g transform="translate(34,-34)">' +
   `<circle r="24" fill="#fff" stroke="${colour}" stroke-width="5"/>` +
-  `<text y="${mark === "*" ? 24 : 13}" text-anchor="middle" font-size="${mark === "*" ? 54 : 38}" font-weight="bold" ` +
-  `font-family="sans-serif" fill="${colour}">${mark}</text></g>`; };  // inside another shape the diamond is a touch taller than it is wide
+  `<text y="${y}" text-anchor="middle" font-size="${size}" font-weight="bold" font-family="${font}" fill="${colour}">${mark}</text></g>`; };  // inside another shape the diamond is a touch taller than it is wide
 
 const svg = (px, shapes) => `<svg width="${px}" height="${px}" viewBox="-50 -50 100 100">${shapes}</svg>`;
 const pin = (levels, kind) => svg(PIN_PX, levels.map((d, i) =>
