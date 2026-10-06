@@ -14,15 +14,16 @@ body { margin: 0; }
 #map { height: 100vh; height: 100dvh; }  /* dvh = the visible height on phones, under the address bar */
 /* A popup never outgrows the screen, in either orientation; long lists scroll inside it. */
 .leaflet-popup-content { max-height: 50vh; max-width: calc(100vw - 90px); overflow-y: auto; }
-.pin use { stroke: #fff; stroke-width: 4; }
+.pin use { stroke: #fff; stroke-width: 5; }
 .pin svg { overflow: visible; }  /* a grown shape may poke past the box */
 /* Each tour is one card; tapping anywhere on it opens the tour's pages. */
 .card { display: flex; gap: 6px; margin-top: 6px; padding: 5px 7px; border: 1px solid #bbb; border-radius: 6px;
         color: inherit !important; text-decoration: none; }
 /* Without this a long tour name squeezes its symbol smaller than the others. */
 .card svg { flex: none; }
+.card .out { margin-left: auto; align-self: center; flex: none; padding-left: 6px; }  /* box-and-arrow: this opens in a new tab */
+.card:active { background: #e8eef8; }
 .card a { color: inherit !important; text-decoration: none; }
-.card .also { text-decoration: underline; }  /* the second book's pages: its own link inside the card */
 /* Cluster bubbles go yellow (few) to red-orange (many), so none look like a green-circle rating. */
 .marker-cluster div { width: 30px; height: 30px; margin: 5px; border-radius: 50%; text-align: center; line-height: 30px; }
 .marker-cluster-small div { background: rgb(240, 195, 20); }
@@ -34,6 +35,9 @@ body { margin: 0; }
   <circle id="green" r="50" fill="#1a7f37"/>
   <rect id="blue" x="-40" y="-40" width="80" height="80" fill="#0550ae"/>
   <polygon id="black" points="0,-50 42,0 0,50 -42,0" fill="#000"/>  <!-- a little narrower than a rotated square -->
+  <!-- "Opens elsewhere" mark for the cards: a box with an arrow leaving its top right corner. -->
+  <g id="out" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 3h7v7M21 3l-9 9M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></g>
   <!-- Double black (ski mountaineering): two narrow diamonds overlapping at the waist, one outline so
        the pin's white stroke runs round the outside only and black meets black. -->
   <polygon id="double" points="-50,0 -20,-50 0,-16.7 20,-50 50,0 20,50 0,16.7 -20,50" fill="#000"/>
@@ -60,23 +64,21 @@ const svg = (px, shapes) => `<svg width="${px}" height="${px}" viewBox="-50 -50 
 const pin = (levels, kind) => svg(PIN_PX, levels.map((d, i) =>
   `<use href="#${d}" transform="scale(${NEST[levels.length][i] * (d === "black" ? BLACK_SCALE[levels.length] : 1)}` +
   `${d === "black" && levels.length > 1 ? `, ${NEST[levels.length][i] * BLACK_SCALE[levels.length] * BLACK_STRETCH}` : ""})"/>`).join("") + (kind ? badge(kind) : ""));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const OUT = '<svg class="out" width="16" height="16" viewBox="0 0 24 24"><use href="#out"/></svg>';
 const link = (href, html, cls = "") => `<a class="${cls}" target="_blank" rel="noopener" href="${href}">${html}</a>`;
-// A card opens its tour's pages. A tour two books describe has two sets of pages, so that card is not
-// one link: its name, numbers and first source open the first book, and the second source line the other.
+// A card opens its tour's pages; a tour two books describe opens one image of both books' pages.
 // The Google Maps link goes to the pin's coordinates (opens the app on a phone), so it works for every trailhead.
 // With a known Google place (data/google_places.toml) the link opens that place, named so a wrong match shows.
 const mapsLink = (p, ll) => p.place
-  ? link(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.place.name)}&query_place_id=${p.place.id}`, `Google Maps: ${p.place.name}`)
+  ? link(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.place.name)}&query_place_id=${p.place.id}`, `Google Maps: ${esc(p.place.name)}`)
   : link(`https://www.google.com/maps/search/?api=1&query=${ll.lat},${ll.lng}`, "Google Maps");
-const popup = (p, ll) => `<b>${p.name}</b>${p.approximate ? " (approximate location)" : ""} &middot; ${mapsLink(p, ll)}` +
-  (p.status ? `<br><i>${p.status.replace(/^./, c => c.toUpperCase())}</i>` : "") + p.tours.map(t => {
+const popup = (p, ll) => `<b>${esc(p.name)}</b>${p.approximate ? " (approximate location)" : ""} &middot; ${mapsLink(p, ll)}` +
+  (p.status ? `<br><i>${esc(p.status.replace(/^./, c => c.toUpperCase()))}</i>` : "") + p.tours.map(t => {
   const symbol = svg(SYMBOL_PX, `<use href="#${t.difficulty}"/>`);
-  const text = [`<b>${t.name}</b>`, [t.miles && `${t.miles} mi`, t.gain].filter(Boolean).join(", "), t.source]
+  const text = [`<b>${esc(t.name)}</b>`, [t.miles && `${t.miles} mi`, t.gain].filter(Boolean).join(", "), esc(t.source)]
     .filter(Boolean).join("<br>");
-  return t.also.length
-    ? `<div class="card">${symbol}<span>${link(t.image, text)}` +
-      t.also.map(a => "<br>" + link(a.image, a.source, "also")).join("") + "</span></div>"
-    : link(t.image, `${symbol}<span>${text}</span>`, "card");
+  return link(t.image, `${symbol}<span>${text}</span>${OUT}`, "card");
 }).join("");
 
 // Zoom buttons go bottom right, where a popup (which opens upward) does not cover them.
