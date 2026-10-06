@@ -42,7 +42,7 @@ body { margin: 0; }
 <script>
 // Data: build/trailheads.js, made by build.py.
 const PIN_PX = 32, SYMBOL_PX = 18, CLUSTER_RADIUS_PX = 23;
-const BASEMAP_MAX_ZOOM = 16;  // USGS topo has no tiles past 16
+const TILE_NATIVE_ZOOM = 16, MAX_ZOOM = 18;  // USGS topo has no tiles past 16; beyond that they are scaled up
 // A pin nests one shape per difficulty at the trailhead: outermost = easiest, innermost = hardest.
 const NEST = {1: [0.92], 2: [0.94, 0.70], 3: [0.94, 0.70, 0.56]};
 // The narrow black diamond reads smaller than the other shapes: grow it a little when it stands alone,
@@ -83,7 +83,7 @@ const popup = (p, ll) => `<b>${p.name}</b>${p.approximate ? " (approximate locat
 const map = L.map("map", {attributionControl: false, zoomControl: false});
 L.control.zoom({position: "bottomright"}).addTo(map);
 L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
-            {maxZoom: BASEMAP_MAX_ZOOM}).addTo(map);
+            {maxNativeZoom: TILE_NATIVE_ZOOM, maxZoom: MAX_ZOOM}).addTo(map);
 const layer = L.geoJSON(trailheads, {pointToLayer: ({properties}, latlng) => {
   // On a pin a double black counts as black; only a pin with nothing but double blacks shows the double.
   const pinLevel = t => t.difficulty === "double" ? "black" : t.difficulty;
