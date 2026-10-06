@@ -64,7 +64,9 @@ const pin = (levels, kind) => svg(PIN_PX, levels.map((d, i) =>
 const link = (href, html, cls = "") => `<a class="${cls}" target="_blank" rel="noopener" href="${href}">${html}</a>`;
 // A card opens its tour's pages. A tour two books describe has two sets of pages, so that card is not
 // one link: its name, numbers and first source open the first book, and the second source line the other.
-const popup = p => `<b>${p.name}</b>${p.approximate ? " (approximate location)" : ""}` +
+// The Google Maps link goes to the pin's coordinates (opens the app on a phone), so it works for every trailhead.
+const mapsLink = ll => link(`https://www.google.com/maps/search/?api=1&query=${ll.lat},${ll.lng}`, "Google Maps");
+const popup = (p, ll) => `<b>${p.name}</b>${p.approximate ? " (approximate location)" : ""} &middot; ${mapsLink(ll)}` +
   (p.status ? `<br><i>${p.status.replace(/^./, c => c.toUpperCase())}</i>` : "") + p.tours.map(t => {
   const symbol = svg(SYMBOL_PX, `<use href="#${t.difficulty}"/>`);
   const text = [`<b>${t.name}</b>`, [t.miles && `${t.miles} mi`, t.gain].filter(Boolean).join(", "), t.source]
@@ -86,7 +88,7 @@ const layer = L.geoJSON(trailheads, {pointToLayer: ({properties}, latlng) => {
   let levels = ["green", "blue", "black"].filter(d => properties.tours.some(t => pinLevel(t) === d));
   if (properties.tours.every(t => t.difficulty === "double")) levels = ["double"];
   return L.marker(latlng, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(levels, properties.status ? properties.status.split(":")[0] : properties.approximate ? "approximate" : "")})})
-          .bindPopup(popup(properties));
+          .bindPopup(popup(properties, latlng));
 }});
 // Pins combine only when they overlap by more than a graze; the shapes don't fill their box,
 // so the radius is under a pin's width: pins may overlap by up to PIN_PX - CLUSTER_RADIUS_PX.
