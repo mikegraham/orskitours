@@ -16,8 +16,6 @@ body { margin: 0; }
 .leaflet-popup-content { max-height: 50vh; max-width: calc(100vw - 90px); overflow-y: auto; }
 .pin use { stroke: #fff; stroke-width: 4; }
 .pin svg { overflow: visible; }  /* a grown shape may poke past the box */
-.toggle { background: #fff; padding: 4px 8px; font: 13px sans-serif; }
-.toggle svg { vertical-align: middle; }
 /* Each tour is one card; tapping anywhere on it opens the tour's pages. */
 .card { display: flex; gap: 6px; margin-top: 6px; padding: 5px 7px; border: 1px solid #bbb; border-radius: 6px;
         color: inherit !important; text-decoration: none; }
@@ -86,14 +84,7 @@ const map = L.map("map", {attributionControl: false, zoomControl: false});
 L.control.zoom({position: "bottomright"}).addTo(map);
 L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
             {maxNativeZoom: TILE_NATIVE_ZOOM, maxZoom: MAX_ZOOM}).addTo(map);
-// Ski mountaineering (double black) can be hidden with the checkbox; a trailhead with nothing else left disappears.
-const showDouble = () => document.getElementById("double-black").checked;
-const visible = () => ({type: "FeatureCollection", features: trailheads.features.map(f => ({...f, properties: {...f.properties,
-  tours: f.properties.tours.filter(t => showDouble() || t.difficulty !== "double")}})).filter(f => f.properties.tours.length)});
-let layer, cluster;
-const draw = () => {
-  if (cluster) map.removeLayer(cluster);
-  layer = L.geoJSON(visible(), {pointToLayer: ({properties}, latlng) => {
+const layer = L.geoJSON(trailheads, {pointToLayer: ({properties}, latlng) => {
   // On a pin a double black counts as black; only a pin with nothing but double blacks shows the double.
   const pinLevel = t => t.difficulty === "double" ? "black" : t.difficulty;
   let levels = ["green", "blue", "black"].filter(d => properties.tours.some(t => pinLevel(t) === d));
@@ -101,16 +92,9 @@ const draw = () => {
   return L.marker(latlng, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(levels, properties.status ? properties.status.split(":")[0] : properties.approximate ? "approximate" : "")})})
           .bindPopup(popup(properties, latlng));
 }});
-  // Pins combine only when they overlap by more than a graze; the shapes don't fill their box,
-  // so the radius is under a pin's width: pins may overlap by up to PIN_PX - CLUSTER_RADIUS_PX.
-  cluster = L.markerClusterGroup({maxClusterRadius: CLUSTER_RADIUS_PX}).addLayer(layer).addTo(map);
-};
-const toggle = L.control({position: "topright"});
-toggle.onAdd = () => { const div = L.DomUtil.create("div", "leaflet-bar toggle");
-  div.innerHTML = '<label><input type="checkbox" id="double-black" checked> ' + svg(SYMBOL_PX, '<use href="#double"/>') + ' ski mountaineering</label>';
-  L.DomEvent.disableClickPropagation(div); div.querySelector("input").addEventListener("change", draw); return div; };
-toggle.addTo(map);
-draw();
+// Pins combine only when they overlap by more than a graze; the shapes don't fill their box,
+// so the radius is under a pin's width: pins may overlap by up to PIN_PX - CLUSTER_RADIUS_PX.
+L.markerClusterGroup({maxClusterRadius: CLUSTER_RADIUS_PX}).addLayer(layer).addTo(map);
 map.fitBounds(layer.getBounds().pad(0.2));
 new L.Hash(map);  // the address ends in #zoom/lat/lon, so any view can be linked
 </script>
