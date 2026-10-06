@@ -33,8 +33,9 @@ body { margin: 0; }
   <circle id="green" r="50" fill="#1a7f37"/>
   <rect id="blue" x="-40" y="-40" width="80" height="80" fill="#0550ae"/>
   <polygon id="black" points="0,-50 50,0 0,50 -50,0" fill="#000"/>
-  <!-- Triple black (ski mountaineering): three narrow diamonds in the width of one symbol. -->
-  <g id="triple" fill="#000"><polygon points="-33,-50 -17,0 -33,50 -49,0"/><polygon points="0,-50 16,0 0,50 -16,0"/><polygon points="33,-50 49,0 33,50 17,0"/></g>
+  <!-- Triple black (ski mountaineering): three narrow diamonds overlapping at the waist, one outline so
+       the pin's white stroke runs round the outside only and black meets black. -->
+  <polygon id="triple" points="-50,0 -30,-50 -15,-12.5 0,-50 15,-12.5 30,-50 50,0 30,50 15,12.5 0,50 -15,12.5 -30,50" fill="#000"/>
 </defs></svg>
 <div id="map"></div>
 <script>
