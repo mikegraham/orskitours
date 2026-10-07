@@ -53,7 +53,7 @@ const NEST = {1: [0.92], 2: [0.94, 0.70], 3: [0.94, 0.70, 0.56]};
 // and shrink it a little when it sits inside a circle or square, so more of the outer colour shows.
 const BLACK_SCALE = {1: 1.08, 2: 1.0, 3: 1.0};
 const BLACK_STRETCH = 1.08;
-// A badge at the pin's top right corner: X = the parking place is gone, i = moved or changed since the book
+// A badge at the pin's top right corner: X = the parking place is gone, i = moved or changed since the book, or a note
 // (the popup says how), ? = approximate location. A closed pin shows the X whatever else applies.
 const BADGES = {closed: ["X", "#c00", "sans-serif", 38, 13], moved: ["i", "#000", "serif", 40, 14], changed: ["i", "#000", "serif", 40, 14], approximate: ["?", "#000", "sans-serif", 38, 13]};
 const badge = kind => { const [mark, colour, font, size, y] = BADGES[kind]; return '<g transform="translate(34,-34)">' +
@@ -74,7 +74,8 @@ const mapsLink = (p, ll) => p.place
   ? link(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.place.name)}&query_place_id=${p.place.id}`, `Google Maps: ${esc(p.place.name)}`)
   : link(`https://www.google.com/maps/search/?api=1&query=${ll.lat},${ll.lng}`, "Google Maps");
 const popup = (p, ll) => `<b>${esc(p.name)}</b>${p.approximate ? " (approximate location)" : ""} &middot; ${mapsLink(p, ll)}` +
-  (p.status ? `<br><i>${esc(p.status.replace(/^./, c => c.toUpperCase()))}</i>` : "") + p.tours.map(t => {
+  (p.status ? `<br><i>${esc(p.status.replace(/^./, c => c.toUpperCase()))}</i>` : "") +
+  (p.note ? `<br><i>${esc(p.note)}</i>` : "") + p.tours.map(t => {
   const symbol = svg(SYMBOL_PX, `<use href="#${t.difficulty}"/>`);
   const text = [`<b>${esc(t.name)}</b>`, [t.miles && `${t.miles} mi`, t.gain].filter(Boolean).join(", "), esc(t.source)]
     .filter(Boolean).join("<br>");
@@ -91,7 +92,7 @@ const layer = L.geoJSON(trailheads, {pointToLayer: ({properties}, latlng) => {
   const pinLevel = t => t.difficulty === "double" ? "black" : t.difficulty;
   let levels = ["green", "blue", "black"].filter(d => properties.tours.some(t => pinLevel(t) === d));
   if (properties.tours.every(t => t.difficulty === "double")) levels = ["double"];
-  return L.marker(latlng, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(levels, properties.status ? properties.status.split(" ")[0] : properties.approximate ? "approximate" : "")})})
+  return L.marker(latlng, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(levels, properties.status ? properties.status.split(" ")[0] : properties.note ? "changed" : properties.approximate ? "approximate" : "")})})
           .bindPopup(popup(properties, latlng));
 }});
 // Pins combine only when they overlap by more than a graze; the shapes don't fill their box,
