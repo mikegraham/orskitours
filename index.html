@@ -52,13 +52,13 @@ const NEST = {1: [0.92], 2: [0.94, 0.70], 3: [0.94, 0.70, 0.56]};
 // The narrow black diamond reads smaller than the other shapes: grow it a little when it stands alone,
 // and shrink it a little when it sits inside a circle or square, so more of the outer colour shows.
 const BLACK_SCALE = {1: 1.08, 2: 1.0, 3: 1.0};
-const BLACK_STRETCH = 1.08;
+const BLACK_STRETCH = 1.08;  // inside another shape the diamond is a touch taller than it is wide
 // A badge at the pin's top right corner: X = the parking place is gone, i = moved or changed since the book, or a note
 // (the popup says how), ? = approximate location. A closed pin shows the X whatever else applies.
 const BADGES = {closed: ["X", "#c00", "sans-serif", 38, 13], moved: ["i", "#000", "serif", 40, 14], changed: ["i", "#000", "serif", 40, 14], approximate: ["?", "#000", "sans-serif", 38, 13]};
 const badge = kind => { const [mark, colour, font, size, y] = BADGES[kind]; return '<g transform="translate(34,-34)">' +
   `<circle r="24" fill="#fff" stroke="${colour}" stroke-width="5"/>` +
-  `<text y="${y}" text-anchor="middle" font-size="${size}" font-weight="bold" font-family="${font}" fill="${colour}">${mark}</text></g>`; };  // inside another shape the diamond is a touch taller than it is wide
+  `<text y="${y}" text-anchor="middle" font-size="${size}" font-weight="bold" font-family="${font}" fill="${colour}">${mark}</text></g>`; };
 
 const svg = (px, shapes) => `<svg width="${px}" height="${px}" viewBox="-50 -50 100 100">${shapes}</svg>`;
 const pin = (levels, kind) => svg(PIN_PX, levels.map((d, i) =>
