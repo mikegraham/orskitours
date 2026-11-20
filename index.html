@@ -1,4 +1,16 @@
 <!doctype html>
+<!-- One page for the trailheads and the route lines (design: notes/ui-design-proposal.md; test: map_test.py).
+     What it shows is decided by the data files below and nothing else: a
+     published copy drops the tracks_map.js line and is then the book map with book lines.
+
+     How it behaves, all of it:
+     - At rest: a pin per trailhead (a count bubble where pins would hide each other) and, from zoom 9, every line.
+     - At most one thing is picked: a trailhead, or a trailhead and one of its tours. The address says which.
+     - Tap a pin: that trailhead is picked. Its panel opens with a card per tour, its pin stands alone in a ring.
+     - Tap a card, any card: that tour is picked. If it has a line, the line goes bold and the map shows all of it.
+       Tap a line: the same, except that the map stays where it is.
+     - Every card has an arrow, which opens the tour's pages; the picked card of a tour with a line has a GPX chip.
+     - Tap anything else (bare map, a bubble, the close button, Escape): nothing is picked. -->
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,30 +19,72 @@
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
 <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/leaflet-hash@0.2.1/leaflet-hash.js"></script>
-<script src="build/trailheads.js"></script>
+<script src="build/trailheads.js"></script>       <!-- book trailheads and tours (build.py) -->
+<script src="build/map_routes.js"></script>  <!-- lines of book tours, ours to publish (map_routes.py) -->
 <style>
 body { margin: 0; }
 #map { height: 100vh; height: 100dvh; }  /* dvh = the visible height on phones, under the address bar */
-/* A popup never outgrows the screen, in either orientation; long lists scroll inside it. */
-.leaflet-popup-content { max-height: 50vh; max-width: calc(100vw - 90px); overflow-y: auto; }
 .pin use { stroke: #fff; stroke-width: 5; }
 .pin svg { overflow: visible; }  /* a grown shape may poke past the box */
-/* Each tour is one card; tapping anywhere on it opens the tour's pages. */
-.card { display: flex; gap: 6px; margin-top: 6px; padding: 5px 7px; border: 1px solid #bbb; border-radius: 6px;
-        color: inherit !important; text-decoration: none; }
-/* Without this a long tour name squeezes its symbol smaller than the others. */
-.card svg { flex: none; }
-.card .out { margin-left: auto; align-self: center; flex: none; padding-left: 6px; }  /* box-and-arrow: this opens in a new tab */
-.card:active { background: #e8eef8; }
-.card a { color: inherit !important; text-decoration: none; }
 /* Cluster bubbles go yellow (few) to red-orange (many), so none look like a green-circle rating. */
 .marker-cluster div { width: 30px; height: 30px; margin: 5px; border-radius: 50%; text-align: center; line-height: 30px; }
 .marker-cluster-small div { background: rgb(240, 195, 20); }
 .marker-cluster-medium div { background: rgb(240, 130, 20); }
 .marker-cluster-large div { background: rgb(225, 70, 20); }
+
+/* A bubble is "several pins here": the pins' size, and their white edge. */
+.marker-cluster div { box-shadow: 0 0 0 1.5px #fff; }
+/* Under a finger a pin or bubble takes taps from a 44 px square. */
+@media (pointer: coarse) { .pin::after, .marker-cluster::after { content: ""; position: absolute; inset: -6px; } }
+/* The picked trailhead wears a ring. Black and white only: every other colour on this map is a rating or a count. */
+.ring { border: 3px solid #000; border-radius: 50%; box-shadow: 0 0 0 2px #fff, inset 0 0 0 2px #fff; box-sizing: border-box; pointer-events: none; }
+
+/* The picked trailhead's tours: a panel beside the map on a wide screen, a sheet along the bottom on a phone.
+   Unlike a popup it never sits on the lines it is about. Long lists scroll inside it. */
+#panel { position: absolute; z-index: 1000; top: 10px; left: 10px; width: 340px; max-height: calc(100dvh - 20px); box-sizing: border-box;
+         overflow-y: auto; overscroll-behavior: contain; background: #fff; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.4);
+         /* The scrollbar gets its own strip beside the cards (reserved even when nothing scrolls), not a place on top of them. */
+         scrollbar-gutter: stable; padding: 10px 6px 12px 12px; font: 14px/1.3 "Helvetica Neue", Arial, Helvetica, sans-serif; color: #222;
+         touch-action: pan-y; }  /* a finger scrolls the list; it does not pinch-zoom the page from here */
+#cards { padding-right: 6px; }  /* and clear of a scrollbar that draws over the content (phones, some desktops) */
+#panel[hidden] { display: none; }
+#panel a { color: #0078a8; }
+#head { margin-right: 34px; min-height: 34px; }  /* room for the close button, beside and below */
+.closed { color: #c00; }
+/* The close button keeps its corner while the list scrolls under it. */
+#bar { position: sticky; top: 0; height: 0; z-index: 1; }
+#close { position: absolute; top: -10px; right: -6px; width: 44px; height: 44px; border: 0; border-radius: 0 10px 0 10px; background: #fff;
+         font: 24px/44px sans-serif; color: #555; cursor: pointer; }
+@media (max-width: 700px) {
+  #panel { top: auto; left: 0; right: 0; bottom: 0; width: auto; max-height: 45dvh; border-radius: 12px 12px 0 0; }
+  .leaflet-bottom { transition: bottom .15s; }
+}
+
+/* Each tour is one card, and every card works the same way. The card is a button: it picks the tour. Beside it,
+   always in the same place, is the arrow: a link that opens the tour's pages in a new tab (44 px wide, for a finger). */
+.card { display: grid; grid-template-columns: 1fr 44px; margin-top: 6px; border: 1px solid #bbb; border-left: 5px solid #ddd; border-radius: 6px; }
+.pick { display: flex; gap: 6px; padding: 5px 7px 5px 5px; border: 0; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; border-radius: 2px 0 0 2px; }
+.pick svg { flex: none; }  /* without this a long tour name squeezes its symbol smaller than the others */
+.open { grid-column: 2; grid-row: 1 / span 2; display: flex; align-items: center; justify-content: center; border-left: 1px solid #ddd; border-radius: 0 5px 5px 0; }
+@media (hover: hover) { .pick:hover, .open:hover { background: #f3f3f3; } }
+.pick:active, .open:active { background: #dfe7f3; }
+/* A tour that has a line wears the line's colour down its card's left edge. */
+.card.line.green { border-left-color: #1a7f37; }
+.card.line.blue { border-left-color: #0550ae; }
+.card.line.black, .card.line.double { border-left-color: #000; }
+.card.picked { background: #eef3fb; box-shadow: 0 0 0 1px #555; }
+/* Tapping the picked card again shows its line again. With no line that would do nothing, so the card does not offer it. */
+.card.picked:not(.line) .pick { cursor: default; background: none; }
+/* The picked card of a tour with a line offers the line as a file: one chip, small, the way a download usually looks. */
+.gpx { display: none; position: relative; grid-column: 1; justify-self: start; align-items: center; gap: 4px; margin: 0 0 7px 29px; padding: 2px 7px;
+       border: 1px solid #999; border-radius: 4px; background: #fff; color: #333 !important; text-decoration: none; font: bold 11px/16px sans-serif; letter-spacing: .03em; }
+.card.picked .gpx { display: flex; }
+.gpx:hover { background: #f0f0f0; }
+/* Under a finger the chip takes taps from a 44 px tall area without looking any bigger. */
+@media (pointer: coarse) { .gpx::after { content: ""; position: absolute; inset: -12px -10px; } }
+.leaflet-control-attribution { font-size: 10px; }
 </style>
-<!-- Ski-trail symbols, drawn once and reused by every pin and popup. -->
+<!-- Ski-trail symbols, drawn once and reused by every pin and card. -->
 <svg width="0" height="0" style="position: absolute"><defs>
   <circle id="green" r="50" fill="#1a7f37"/>
   <rect id="blue" x="-40" y="-40" width="80" height="80" fill="#0550ae"/>
@@ -41,11 +95,16 @@ body { margin: 0; }
   <!-- Double black (ski mountaineering): two narrow diamonds overlapping at the waist, one outline so
        the pin's white stroke runs round the outside only and black meets black. -->
   <polygon id="double" points="-50,0 -20,-50 0,-16.7 20,-50 50,0 20,50 0,16.7 -20,50" fill="#000"/>
+  <!-- A closed trailhead's pin in greys: each colour becomes a grey as light as it was (0.35 + 0.65 x its luminance),
+       so white stays white, black goes mid grey, and the nested shapes can still be told apart. -->
+  <filter id="gone" color-interpolation-filters="sRGB">
+    <feColorMatrix values=".138 .465 .047 0 .35  .138 .465 .047 0 .35  .138 .465 .047 0 .35  0 0 0 1 0"/></filter>
 </defs></svg>
 <div id="map"></div>
+<div id="panel" hidden><div id="bar"><button id="close" aria-label="Close">&times;</button></div><div id="head"></div><div id="cards"></div></div>
 <script>
-// Data: build/trailheads.js, made by build.py.
-const PIN_PX = 32, SYMBOL_PX = 18, CLUSTER_RADIUS_PX = 23;
+// ---- Pin drawing and the links. ----
+const PIN_PX = 32, SYMBOL_PX = 18;
 const TILE_NATIVE_ZOOM = 16, MAX_ZOOM = 18;  // USGS topo has no tiles past 16; beyond that they are scaled up
 // A pin nests one shape per difficulty at the trailhead: outermost = easiest, innermost = hardest.
 const NEST = {1: [0.92], 2: [0.94, 0.70], 3: [0.94, 0.70, 0.56]};
@@ -53,51 +112,314 @@ const NEST = {1: [0.92], 2: [0.94, 0.70], 3: [0.94, 0.70, 0.56]};
 // and shrink it a little when it sits inside a circle or square, so more of the outer colour shows.
 const BLACK_SCALE = {1: 1.08, 2: 1.0, 3: 1.0};
 const BLACK_STRETCH = 1.08;  // inside another shape the diamond is a touch taller than it is wide
-// A badge at the pin's top right corner: X = the parking place is gone, i = moved or changed since the book, or a note
-// (the popup says how), ? = approximate location. A closed pin shows the X whatever else applies.
-const BADGES = {closed: ["X", "#c00", "sans-serif", 38, 13], moved: ["i", "#000", "serif", 40, 14], changed: ["i", "#000", "serif", 40, 14], approximate: ["?", "#000", "sans-serif", 38, 13]};
+// A badge at the pin's top right corner: i = moved or changed since the book, or a note (the panel says how),
+// ? = approximate location.
+const BADGES = {moved: ["i", "#000", "serif", 40, 14], changed: ["i", "#000", "serif", 40, 14], approximate: ["?", "#000", "sans-serif", 38, 13]};
 const badge = kind => { const [mark, colour, font, size, y] = BADGES[kind]; return '<g transform="translate(34,-34)">' +
   `<circle r="24" fill="#fff" stroke="${colour}" stroke-width="5"/>` +
   `<text y="${y}" text-anchor="middle" font-size="${size}" font-weight="bold" font-family="${font}" fill="${colour}">${mark}</text></g>`; };
 
 const svg = (px, shapes) => `<svg width="${px}" height="${px}" viewBox="-50 -50 100 100">${shapes}</svg>`;
-const pin = (levels, kind) => svg(PIN_PX, levels.map((d, i) =>
+const nested = levels => levels.map((d, i) =>
   `<use href="#${d}" transform="scale(${NEST[levels.length][i] * (d === "black" ? BLACK_SCALE[levels.length] : 1)}` +
-  `${d === "black" && levels.length > 1 ? `, ${NEST[levels.length][i] * BLACK_SCALE[levels.length] * BLACK_STRETCH}` : ""})"/>`).join("") + (kind ? badge(kind) : ""));
+  `${d === "black" && levels.length > 1 ? `, ${NEST[levels.length][i] * BLACK_SCALE[levels.length] * BLACK_STRETCH}` : ""})"/>`).join("");
+// A closed trailhead, one where the parking place
+// is gone, is drawn defunct: its shapes in greys, struck through by one red bar, corner to corner, as a closed
+// station is on a transit map. A bar and not an X: an X would hide the shapes, which still say what the tours are.
+// Moved and changed trailheads keep their colours and their corner badge: they can still be used.
+const STRUCK = '<path d="M-40-40L40 40" stroke="#fff" stroke-width="24" stroke-linecap="round"/>' +
+               '<path d="M-40-40L40 40" stroke="#c00" stroke-width="13" stroke-linecap="round"/>';
+const pin = (levels, kind) => svg(PIN_PX, kind === "closed" ? `<g filter="url(#gone)">${nested(levels)}</g>${STRUCK}`
+                                                             : nested(levels) + (kind ? badge(kind) : ""));
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
-const OUT = '<svg class="out" width="16" height="16" viewBox="0 0 24 24"><use href="#out"/></svg>';
-const link = (href, html, cls = "") => `<a class="${cls}" target="_blank" rel="noopener" href="${href}">${html}</a>`;
-// A card opens its tour's pages; a tour two books describe opens one image of both books' pages.
+const OUT = '<svg width="16" height="16" viewBox="0 0 24 24"><use href="#out"/></svg>';
+const link = (href, html) => `<a target="_blank" rel="noopener" href="${href}">${html}</a>`;
 // The Google Maps link goes to the pin's coordinates (opens the app on a phone), so it works for every trailhead.
 // With a known Google place (data/google_places.toml) the link opens that place, named so a wrong match shows.
+// (A place whose name says nothing, "Parking", is linked but not named.)
+const GENERIC_PLACE = /^(parking|parking lot|trailhead)$/i;
 const mapsLink = (p, ll) => p.place
-  ? link(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.place.name)}&query_place_id=${p.place.id}`, `Google Maps: ${esc(p.place.name)}`)
+  ? link(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.place.name)}&query_place_id=${p.place.id}`,
+         GENERIC_PLACE.test(p.place.name) ? "Google Maps" : `Google Maps: ${esc(p.place.name)}`)
   : link(`https://www.google.com/maps/search/?api=1&query=${ll.lat},${ll.lng}`, "Google Maps");
-const popup = (p, ll) => `<b>${esc(p.name)}</b>${p.approximate ? " (approximate location)" : ""} &middot; ${mapsLink(p, ll)}` +
-  (p.status ? `<br><i>${esc(p.status.replace(/^./, c => c.toUpperCase()))}</i>` : "") +
-  (p.note ? `<br><i>${esc(p.note)}</i>` : "") + p.tours.map(t => {
+// On a pin a double black counts as black; only a pin with nothing but double blacks shows the double.
+const pinLevels = tours => tours.every(t => t.difficulty === "double") ? ["double"]
+  : ["green", "blue", "black"].filter(d => tours.some(t => (t.difficulty === "double" ? "black" : t.difficulty) === d));
+
+// ---- Data. Each file is optional and the page draws what it is given: with tracks_map.js left out (a published
+// copy) there are no Snowlands tours and nothing of Libkind's in the page at all. ----
+const BOOK_ROUTES = typeof bookRoutes === "undefined" ? {} : bookRoutes;  // tour image path -> the tour's line
+const BOOK_GPX = typeof bookGpx === "undefined" ? {} : bookGpx;           // tour image path -> the line's GPX file
+const SNOWLANDS = typeof tracksMap === "undefined" ? [] : tracksMap.snowlands || [];
+
+// Both sources are put into one shape, and the rest of the page knows no other:
+//   place (a trailhead) = {name, at, tours, and for its heading: approximate, status, note, place (a Google place)}
+//   tour = {id, place, difficulty, name, miles, gain, source, href, legs, gpx}
+//          id   = book and tour number (or-vielbig-2e/268-1), or snow/<Libkind's tour number>: what the address uses
+//          href = its pages (a book page image, or Libkind's web page)
+//          legs = its line, when it has one: [[kind, confidence, [[lat, lon], ...]], ...];  gpx = that line's file
+const places = [], tourById = new Map();
+function addPlace(name, at, details) {
+  const place = {...details, name, at, tours: []};
+  places.push(place);
+  return place;
+}
+function addTour(place, tour) {
+  tour.place = place;
+  place.tours.push(tour);
+  tourById.set(tour.id, tour);
+}
+for (const {geometry, properties: p} of trailheads.features) {
+  const [lon, lat] = geometry.coordinates;
+  const place = addPlace(p.name, L.latLng(lat, lon), {approximate: p.approximate, status: p.status, note: p.note, place: p.place});
+  for (const t of p.tours) {
+    addTour(place, {id: t.image.replace(/^build\/tours\/|\.png$/g, ""), difficulty: t.difficulty, name: t.name, miles: t.miles, gain: t.gain,
+                    source: t.source, href: t.image, legs: BOOK_ROUTES[t.image], gpx: BOOK_GPX[t.image]});
+  }
+}
+// Libkind's 1-2 is green, 3 blue, 4-5 black (notes/snowlands-ratings-process.md); double_black shows as double.
+const SNOW_LEVEL = {1: "green", 2: "green", 3: "blue", 4: "black", 5: "black"};
+const SAME_START_M = 150;  // Snowlands tours starting this close together share one trailhead pin
+for (const t of SNOWLANDS) {
+  const at = L.latLng(t.waypoints[0][1], t.waypoints[0][2]);
+  const place = places.find(p => p.snow && p.at.distanceTo(at) < SAME_START_M) || addPlace(t.start || t.name, at, {snow: true});
+  place.place = place.place || t.place;  // the trailhead's Google place: any of its tours may carry it
+  addTour(place, {id: `snow/${t.number}`, difficulty: t.double_black ? "double" : SNOW_LEVEL[t.difficulty] || "blue", name: t.name,
+                  miles: t.miles, gain: t.gain, source: `Libkind, tour ${t.number}`, href: t.url,
+                  legs: t.line && t.line.map(([kind, points]) => [kind, "", points]), gpx: t.gpx});
+}
+
+// ---- The map: one base map and the pins. ----
+// Zoom buttons go bottom right, clear of the panel.
+const map = L.map("map", {zoomControl: false});
+map.attributionControl.setPrefix(false);
+L.control.zoom({position: "bottomright"}).addTo(map);
+// USGS topo and no other: its style is the same far out and close in, its contours are in feet, and
+// from about zoom 13 it draws trails. (OpenTopoMap draws more paths, but far out it turns into an elevation tint.)
+L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
+            {maxNativeZoom: TILE_NATIVE_ZOOM, maxZoom: MAX_ZOOM, attribution: "USGS The National Map"}).addTo(map);
+
+// Pins: one per trailhead, in one cluster layer. A pin is a symbol, not a thing on the ground: it is the same size
+// at every zoom, and so are the bubbles and the ring.
+// Pins join into a count bubble only when one would hide more than half of another: when their centres are nearer
+// than half a pin's width. (23 px joined pins that barely touched.)
+const CLUSTER_RADIUS_PX = PIN_PX / 2;
+const pins = L.markerClusterGroup({maxClusterRadius: CLUSTER_RADIUS_PX});
+for (const place of places) {
+  const kind = place.status ? place.status.split(" ")[0] : place.note ? "changed" : place.approximate ? "approximate" : "";
+  place.pin = L.marker(place.at, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(pinLevels(place.tours), kind)})});
+  place.pin.on("click", () => {
+    pick(place);
+    map.panInside(place.at, freeArea());  // the picked pin is never left under the panel
+  });
+  pins.addLayer(place.pin);
+}
+pins.on("clusterclick", () => pick(null));  // a bubble is not a trailhead: tapping it zooms in and lets go
+pins.addTo(map);
+// A tap on a pin or bubble goes to the one whose centre is nearest the tap. Their tap boxes are bigger than their
+// drawings and overlap where trailheads crowd; without this the box that happens to lie on top would win.
+map.getPane("markerPane").addEventListener("click", e => {
+  if (!e.isTrusted) return;  // the click sent on below
+  const distance = icon => {
+    const box = icon.getBoundingClientRect();
+    return Math.hypot(box.x + box.width / 2 - e.clientX, box.y + box.height / 2 - e.clientY);
+  };
+  const nearest = [...e.currentTarget.querySelectorAll(".pin, .marker-cluster")].reduce((a, b) => distance(b) < distance(a) ? b : a);
+  if (!nearest.contains(e.target)) {
+    e.stopPropagation();
+    nearest.click();
+  }
+}, true);
+const RING_PX = PIN_PX + 14;  // the ring stands clear of the pin it is round
+const ring = L.marker([0, 0], {icon: L.divIcon({className: "ring", iconSize: [RING_PX, RING_PX]}), interactive: false,
+                               zIndexOffset: 999});  // just under the picked pin, over every other
+
+// ---- Lines. A line takes its tour's difficulty colour, the pins' three colours; no colour means anything else. ----
+const COLOUR = {green: "#1a7f37", blue: "#0550ae", black: "#000", double: "#000"};
+const LINES_FROM_ZOOM = 9;  // owner, 2026-11-20: show the lines at rest, from fairly far out
+// How a line is made to read on a topo map, whose own ink is black lines on green and brown:
+// - a white halo under every line parts it from contours, roads and forest tint (a black line without one is a road);
+// - the colour is opaque (a 3 px line at 0.6 was lost);
+// - its width grows with zoom the way vector map styles do it (multiplied by a constant per zoom level, here 1.4,
+//   between a floor and a ceiling), so it is a hairline far out, where a whole tour is a few pixels long, and a
+//   firm stroke close in, where the map is large and pale.
+const LINE_PX = 5;  // at zoom 14
+const ZOOM_AT_FULL = 14, PER_ZOOM = 1.4, SCALE_MIN = 0.28, SCALE_MAX = 1.2;
+const zoomScale = zoom => Math.min(SCALE_MAX, Math.max(SCALE_MIN, PER_ZOOM ** (zoom - ZOOM_AT_FULL)));  // 0.28 by zoom 10, 1 at 14, 1.2 from about 14.5
+const HALO_PX = 1.5, HALO_OPACITY = 0.85;  // white showing either side of the line; it thins with the line, within limits
+const HALO_SCALE_MIN = 0.5, HALO_SCALE_MAX = 1.2;
+const FADED_OPACITY = 0.4;  // a line that is not part of what is picked
+const PICKED_EXTRA_PX = 2, PICKED_HALO_PX = 3;  // the picked tour: wider, a broad solid halo, on top
+// A leg is drawn solid or dotted, one distinction: dotted = do not follow it, find your own way (a straight
+// connector that nobody traced, or a leg its route file calls low confidence).
+const unsure = ([kind, confidence]) => kind === "straight" || confidence === "low";
+const dots = px => `0.1 ${(2.4 * px).toFixed(1)}`;  // with round caps: a row of dots as wide as the line
+// An unseen wide line over each tour takes the taps: a thin or dotted line is otherwise only tappable on its ink.
+// Finger-wide (44 px) on a touch screen, narrower under a mouse, where a wide band would get in the way.
+const HIT_PX = matchMedia("(pointer: coarse)").matches ? 44 : 28;
+// Three layers, bottom to top, all under the pins: every halo (so no halo covers another tour's colour), every
+// line, every tap band.
+const LINE_PANES = ["halo", "line", "hit"];
+LINE_PANES.forEach((name, i) => map.createPane(name).style.zIndex = 401 + i);
+// Where tours share a stretch only the top line shows. Drawn hardest first, that is the easiest tour's.
+const HARDEST_FIRST = ["double", "black", "blue", "green"];
+const lined = [...tourById.values()].filter(t => t.legs)
+  .sort((a, b) => HARDEST_FIRST.indexOf(a.difficulty) - HARDEST_FIRST.indexOf(b.difficulty));
+for (const tour of lined) {
+  const points = legs => legs.map(leg => leg[2]);
+  const solid = points(tour.legs.filter(leg => !unsure(leg))), dotted = points(tour.legs.filter(unsure));
+  const strokes = options => [L.polyline(solid, {interactive: false, ...options}), L.polyline(dotted, {interactive: false, ...options})];
+  tour.bounds = L.latLngBounds(points(tour.legs).flat());
+  tour.halo = strokes({pane: "halo", color: "#fff"});
+  tour.line = strokes({pane: "line", color: COLOUR[tour.difficulty]});
+  tour.hit = L.polyline(points(tour.legs), {pane: "hit", opacity: 0, weight: HIT_PX, bubblingMouseEvents: false});
+  tour.hit.on("click", e => tapLine(e.latlng));
+  [...tour.halo, ...tour.line, tour.hit].forEach(layer => layer.addTo(map));
+}
+// The one place a line is styled. strokes = [solid part, dotted part]; the dots are spaced by the line's own width,
+// so a halo's dots sit under its line's.
+function style([solid, dotted], px, opacity, linePx) {
+  solid.setStyle({weight: px, opacity});
+  dotted.setStyle({weight: px, opacity, dashArray: dots(linePx)});
+}
+const raise = tour => [...tour.halo, ...tour.line].forEach(layer => layer.bringToFront());
+// A tap near a line picks the tour whose line is nearest; the map stays where it is.
+function tapLine(latlng) {
+  const at = map.latLngToLayerPoint(latlng);
+  const distance = tour => {
+    const nearest = tour.hit.closestLayerPoint(at);  // null for a line wholly out of view
+    return nearest ? nearest.distance : Infinity;
+  };
+  const tour = lined.reduce((a, b) => distance(b) < distance(a) ? b : a);
+  pick(tour.place, tour);
+}
+
+// ---- The panel: the picked trailhead's heading and a card per tour. ----
+const panel = document.getElementById("panel"), head = document.getElementById("head"), cards = document.getElementById("cards");
+// A closed trailhead's status sentence starts with the word in red; the rest is as for any other status.
+const status = text => text.startsWith("closed") ? `<b class="closed">Closed</b><i>${esc(text.slice(6))}</i>`
+                                                 : `<i>${esc(text.replace(/^./, c => c.toUpperCase()))}</i>`;
+const heading = p => `<b>${esc(p.name)}</b>${p.approximate ? " (approximate location)" : ""} &middot; ${mapsLink(p, p.at)}` +
+  (p.status ? `<br>${status(p.status)}` : "") +
+  (p.note ? `<br><i>${esc(p.note)}</i>` : "");
+// The usual tray-and-arrow download icon.
+const DOWNLOAD = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></svg>';
+// One card, the same for every tour: a button that picks it, the arrow to its pages, and (shown when picked) the
+// GPX chip if it has a line.
+function card(t) {
   const symbol = svg(SYMBOL_PX, `<use href="#${t.difficulty}"/>`);
   const text = [`<b>${esc(t.name)}</b>`, [t.miles && `${t.miles} mi`, t.gain].filter(Boolean).join(", "), esc(t.source)]
     .filter(Boolean).join("<br>");
-  return link(t.image, `${symbol}<span>${text}</span>${OUT}`, "card");
-}).join("");
+  const pages = t.place.snow ? "Libkind's page" : "Book pages";
+  return `<div class="card ${t.legs ? `line ${t.difficulty}` : ""}" data-tour="${t.id}">` +
+    `<button class="pick" aria-pressed="false">${symbol}<span>${text}</span></button>` +
+    `<a class="open" target="_blank" rel="noopener" href="${t.href}" title="${pages}" aria-label="${pages}: ${esc(t.name)}">${OUT}</a>` +
+    (t.gpx ? `<a class="gpx" download="${t.gpx.split("/").pop()}" href="${t.gpx}" title="Download this route as a GPX file">${DOWNLOAD}GPX</a>` : "") +
+    `</div>`;
+}
+// The part of the map the panel leaves free, as padding for fitBounds and panInside: all of it but a margin when
+// nothing is picked, else beside the panel on a wide screen and above it on a phone.
+const MARGIN_PX = 40;
+function freeArea() {
+  const beside = !panel.hidden && panel.offsetLeft > 0, above = !panel.hidden && !beside;
+  return {paddingTopLeft: [MARGIN_PX + (beside ? panel.offsetWidth : 0), MARGIN_PX],
+          paddingBottomRight: [MARGIN_PX, MARGIN_PX + (above ? panel.offsetHeight : 0)]};
+}
 
-// Zoom buttons go bottom right, where a popup (which opens upward) does not cover them.
-const map = L.map("map", {attributionControl: false, zoomControl: false});
-L.control.zoom({position: "bottomright"}).addTo(map);
-L.tileLayer("https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
-            {maxNativeZoom: TILE_NATIVE_ZOOM, maxZoom: MAX_ZOOM}).addTo(map);
-const layer = L.geoJSON(trailheads, {pointToLayer: ({properties}, latlng) => {
-  // On a pin a double black counts as black; only a pin with nothing but double blacks shows the double.
-  const pinLevel = t => t.difficulty === "double" ? "black" : t.difficulty;
-  let levels = ["green", "blue", "black"].filter(d => properties.tours.some(t => pinLevel(t) === d));
-  if (properties.tours.every(t => t.difficulty === "double")) levels = ["double"];
-  return L.marker(latlng, {icon: L.divIcon({className: "pin", iconSize: [PIN_PX, PIN_PX], html: pin(levels, properties.status ? properties.status.split(" ")[0] : properties.note ? "changed" : properties.approximate ? "approximate" : "")})})
-          .bindPopup(popup(properties, latlng));
-}});
-// Pins combine only when they overlap by more than a graze; the shapes don't fill their box,
-// so the radius is under a pin's width: pins may overlap by up to PIN_PX - CLUSTER_RADIUS_PX.
-L.markerClusterGroup({maxClusterRadius: CLUSTER_RADIUS_PX}).addLayer(layer).addTo(map);
-map.fitBounds(layer.getBounds().pad(0.2));
-new L.Hash(map);  // the address ends in #zoom/lat/lon, so any view can be linked
+// ---- State. The address is the page's whole state and its only store:
+//   #zoom/lat/lon                      the view (leaflet-hash's form), nothing picked
+//   #zoom/lat/lon/trailhead/<tour id>  a trailhead picked; it goes by the id of its first tour
+//   #zoom/lat/lon/tour/<tour id>       a tour picked, and with it its trailhead
+// Whatever changes the state writes the address, and show() draws what the address says. So a link reopens exactly
+// what was shown, and Back and Forward step through what was picked (a new pick is a new entry in the history;
+// moving the map rewrites the current one). ----
+let written = "";  // the address as this page last wrote it; any other address came from outside (Back, a link)
+function write(hash, newEntry) {
+  written = hash;
+  if (newEntry) location.hash = hash; else location.replace(hash);
+}
+function viewHash() {
+  const zoom = map.getZoom(), centre = map.getCenter(), digits = Math.max(0, Math.ceil(Math.log2(zoom)));  // leaflet-hash's precision
+  return `#${zoom}/${centre.lat.toFixed(digits)}/${centre.lng.toFixed(digits)}`;
+}
+function readHash() {
+  const [zoom, lat, lon, kind, ...id] = location.hash.slice(1).split("/");
+  const tour = tourById.get(id.join("/"));
+  return {view: `#${zoom}/${lat}/${lon}`, zoom: +zoom, centre: [+lat, +lon], hasView: [zoom, lat, lon].every(part => part && !isNaN(part)),
+          place: tour ? tour.place : null, tour: tour && kind === "tour" ? tour : null};
+}
+// pick(place, tour) is the one way anything is picked; pick(null) lets go.
+function pick(place, tour = null) {
+  write(viewHash() + (tour ? `/tour/${tour.id}` : place ? `/trailhead/${place.tours[0].id}` : ""), true);
+  show();
+}
+map.on("moveend", () => write(viewHash() + location.hash.split("/").slice(3).map(part => "/" + part).join(""), false));
+addEventListener("hashchange", () => { if (location.hash !== written) show(); });
+
+// What show() last drew. Not a second copy of the state: only show() sets these, from the address.
+let pickedPlace = null, pickedTour = null;
+function show() {
+  const {view, zoom, centre, hasView, place, tour} = readHash();
+  if (hasView && view !== viewHash()) map.setView(centre, zoom, {animate: false});
+  if (place !== pickedPlace) {
+    // The picked trailhead's pin is never folded into a bubble: while picked it is drawn by itself, on top, at any
+    // zoom; let go, it rejoins the others. (A ring round a place whose pin had vanished looked like a glitch.)
+    if (pickedPlace) pickedPlace.pin.remove().setZIndexOffset(0).addTo(pins);
+    if (place) {
+      pins.removeLayer(place.pin);
+      place.pin.setZIndexOffset(1000).addTo(map);
+      head.innerHTML = heading(place);
+      cards.innerHTML = place.tours.map(card).join("");
+    }
+    panel.hidden = !place;
+    panel.scrollTop = 0;
+  }
+  [pickedPlace, pickedTour] = [place, tour];
+  for (const c of cards.children) {
+    const picked = !!tour && c.dataset.tour === tour.id;
+    c.classList.toggle("picked", picked);
+    c.firstChild.setAttribute("aria-pressed", picked);
+    if (picked) c.scrollIntoView({block: "nearest"});
+  }
+  // The zoom buttons and the credits ride above the sheet on a phone.
+  const sheet = place && panel.offsetLeft === 0 ? `${panel.offsetHeight}px` : "";
+  document.querySelectorAll(".leaflet-bottom").forEach(corner => corner.style.bottom = sheet);
+  lined.forEach(raise);
+  if (tour && tour.legs) raise(tour);
+  draw();
+}
+// Everything whose look depends on the zoom as well as on what is picked.
+function draw() {
+  const zoom = map.getZoom(), scale = zoomScale(zoom);
+  for (const name of LINE_PANES) map.getPane(name).style.display = zoom >= LINES_FROM_ZOOM ? "" : "none";
+  const haloScale = Math.max(HALO_SCALE_MIN, Math.min(HALO_SCALE_MAX, scale));
+  for (const tour of lined) {
+    const picked = tour === pickedTour;
+    const faded = pickedTour ? !picked : pickedPlace && tour.place !== pickedPlace;
+    const px = LINE_PX * scale + (picked ? PICKED_EXTRA_PX : 0);
+    const haloPx = picked ? PICKED_HALO_PX : HALO_PX * haloScale;
+    style(tour.line, px, faded ? FADED_OPACITY : 1, px);
+    style(tour.halo, px + 2 * haloPx, faded ? FADED_OPACITY : picked ? 1 : HALO_OPACITY, px);
+  }
+  if (pickedPlace) ring.setLatLng(pickedPlace.at).addTo(map); else ring.remove();
+}
+map.on("zoomend", draw);
+
+// A card picks its tour; if the tour has a line, the map shows the whole line. (The arrow and the chip are links.)
+cards.addEventListener("click", e => {
+  const button = e.target.closest(".pick");
+  if (!button) return;
+  const tour = tourById.get(button.parentNode.dataset.tour);
+  pick(tour.place, tour);
+  if (tour.legs) map.fitBounds(tour.bounds, {...freeArea(), maxZoom: 15});
+});
+// Everything else lets go.
+document.getElementById("close").onclick = () => pick(null);
+addEventListener("keydown", e => { if (e.key === "Escape") pick(null); });
+map.on("click", () => pick(null));
+
+// The first view: the address's, or else all the trailheads.
+const start = readHash();
+if (start.hasView) map.setView(start.centre, start.zoom); else map.fitBounds(L.latLngBounds(places.map(p => p.at)).pad(0.1));
+show();
 </script>
