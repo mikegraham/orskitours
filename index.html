@@ -8,7 +8,7 @@
      - Tap a pin: that trailhead is picked. Its panel opens with a card per tour, its pin stands alone in a ring.
      - Tap a card, any card: that tour is picked. If it has a line, the line goes bold and the map shows all of it.
        Tap a line: the same, except that the map stays where it is.
-     - Every card has an arrow, which opens the tour's pages; the card of a tour with a line has a GPX chip.
+     - Every card has an arrow, which opens the tour's pages; the card of a tour with a line has a GPX chip and an Analyze chip (fjell.ski).
      - Tap anything else (bare map, a bubble, the close button, Escape): nothing is picked. -->
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
@@ -18,9 +18,9 @@
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
 <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-<script src="build/trailheads.js?v=bf1c8a2a"></script>       <!-- book trailheads and tours (build.py) -->
-<script src="build/map_routes.js?v=a6e05c82"></script>  <!-- lines of book tours, ours to publish (map_routes.py) -->
-<script src="build/tracks_map.js?v=748fb583"></script>       <!-- Libkind's Snowlands tours and their lines (tracks_map.py) -->
+<script src="build/trailheads.js?v=d98a2469"></script>       <!-- book trailheads and tours (build.py) -->
+<script src="build/map_routes.js?v=f042196f"></script>  <!-- lines of book tours, ours to publish (map_routes.py) -->
+<script src="build/tracks_map.js?v=e082a587"></script>       <!-- Libkind's Snowlands tours and their lines (tracks_map.py) -->
 <style>
 body { margin: 0; }
 #map { height: 100vh; height: 100dvh; }  /* dvh = the visible height on phones, under the address bar */
@@ -78,12 +78,13 @@ body { margin: 0; }
 .card.picked { background: #eef3fb; box-shadow: 0 0 0 1px #555; }
 /* Tapping the picked card again shows its line again. With no line that would do nothing, so the card does not offer it. */
 .card.picked:not(.line) .pick { cursor: default; background: none; }
-/* The card of a tour with a line offers the line as a file: one chip, small, the way a download usually looks. */
-.gpx { display: flex; position: relative; grid-column: 1; justify-self: start; align-items: center; gap: 4px; margin: 0 0 7px 29px; padding: 2px 7px;
+/* The card of a tour with a line offers the line two ways, as small chips: the GPX file, and Analyze (fjell.ski reads the file). */
+.files { grid-column: 1; display: flex; gap: 8px; margin: 0 0 7px 29px; }
+.gpx, .fjell { display: flex; position: relative; align-items: center; gap: 4px; padding: 2px 7px; cursor: pointer;
        border: 1px solid #999; border-radius: 4px; background: #fff; color: #333 !important; text-decoration: none; font: bold 11px/16px sans-serif; letter-spacing: .03em; }
-.gpx:hover { background: #f0f0f0; }
-/* Under a finger the chip takes taps from a 44 px tall area without looking any bigger. */
-@media (pointer: coarse) { .gpx::after { content: ""; position: absolute; inset: -12px -10px; } }
+.gpx:hover, .fjell:hover { background: #f0f0f0; }
+/* Under a finger a chip takes taps from a 44 px tall area without looking any bigger. */
+@media (pointer: coarse) { .gpx::after, .fjell::after { content: ""; position: absolute; inset: -12px -4px; } }
 .leaflet-control-attribution { font-size: 10px; }
 </style>
 <!-- Ski-trail symbols, drawn once and reused by every pin and card. -->
@@ -99,6 +100,8 @@ body { margin: 0; }
   <polygon id="double" points="-50,0 -20,-50 0,-16.7 20,-50 50,0 20,50 0,16.7 -20,50" fill="#000"/>
 </defs></svg>
 <div id="map"></div>
+<!-- fjell.ski analyses a GPX file sent to it (it has no address that takes a link), so the Analyze chip sends one with this form. -->
+<form id="fjell" method="post" action="https://fjell.ski/analyze" enctype="multipart/form-data" target="_blank" hidden><input type="file" name="gpx_file"></form>
 <div id="panel" hidden><div id="bar"><button id="close" aria-label="Close">&times;</button></div><div id="head"></div><div id="cards"></div></div>
 <script>
 // ---- Pin drawing and the links. ----
@@ -148,7 +151,7 @@ const SNOWLANDS = tracksMap.snowlands;
 //   tour = {id, place, difficulty, name, miles, gain, source, href, legs, gpx}
 //          id   = book and tour number (or-vielbig-2e/268-1), or snow/<Libkind's tour number>: what the address uses
 //          href = its pages (a book page image, or Libkind's web page)
-//          legs = its line, when it has one: [[[lat, lon], ...], ...], a list of points per leg;  gpx = that line's file
+//          legs = its line, when it has one: [[[lat, lon], ...], ...], a list of points per leg, the way back included;  gpx = that line's file
 const places = [], tourById = new Map();
 function addPlace(name, at, details) {
   const place = {...details, name, at, tours: []};
@@ -289,7 +292,8 @@ function card(t) {
   return `<div class="card ${t.legs ? `line ${t.difficulty}` : ""}" data-tour="${t.id}">` +
     `<button class="pick" aria-pressed="false">${symbol}<span>${text}</span></button>` +
     `<a class="open" target="_blank" rel="noopener" href="${t.href}" title="${pages}" aria-label="${pages}: ${esc(t.name)}">${OUT}</a>` +
-    (t.gpx ? `<a class="gpx" download="${t.gpx.split("/").pop()}" href="${t.gpx}" title="Download this route as a GPX file">${DOWNLOAD}GPX</a>` : "") +
+    (t.gpx ? `<div class="files"><a class="gpx" download="${t.gpx.split("/").pop()}" href="${t.gpx}" title="Download this route as a GPX file">${DOWNLOAD}GPX</a>` +
+             `<button class="fjell" title="Open fjell.ski's analysis of this route (slope, climb, profile)">Analyze</button></div>` : "") +
     `</div>`;
 }
 // The part of the map the panel leaves free, as padding for fitBounds and panInside: all of it but a margin when
@@ -380,8 +384,21 @@ function draw() {
 }
 map.on("zoomend", draw);
 
-// A card picks its tour; if the tour has a line, the map shows the whole line. (The arrow and the chip are links.)
+// The Analyze chip: fjell.ski reads a GPX file sent to it. The file is written here from the tour's line (the whole
+// outing, way back included), so nothing is fetched and the page works opened from disk as well as from a site.
+function analyse(tour) {
+  const points = tour.legs.flat().map(([lat, lon]) => `<trkpt lat="${lat}" lon="${lon}"/>`).join("");
+  const gpx = `<?xml version="1.0"?><gpx version="1.1" creator="skitours" xmlns="http://www.topografix.com/GPX/1/1">` +
+    `<trk><name>${esc(tour.name)}</name><trkseg>${points}</trkseg></trk></gpx>`;
+  const sent = new DataTransfer();
+  sent.items.add(new File([gpx], tour.gpx.split("/").pop(), {type: "application/gpx+xml"}));
+  const form = document.getElementById("fjell");
+  form.gpx_file.files = sent.files;
+  form.submit();
+}
+// A card picks its tour; if the tour has a line, the map shows the whole line. (The arrow and the GPX chip are links.)
 cards.addEventListener("click", e => {
+  if (e.target.closest(".fjell")) return analyse(tourById.get(e.target.closest(".card").dataset.tour));
   const button = e.target.closest(".pick");
   if (!button) return;
   const tour = tourById.get(button.parentNode.dataset.tour);
