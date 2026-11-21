@@ -18,9 +18,9 @@
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
 <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-<script src="build/trailheads.js?v=59d506fb"></script>       <!-- book trailheads and tours (build.py) -->
+<script src="build/trailheads.js?v=a9d2f618"></script>       <!-- book trailheads and tours (build.py) -->
 <script src="build/map_routes.js?v=a6e05c82"></script>  <!-- lines of book tours, ours to publish (map_routes.py) -->
-<script src="build/tracks_map.js?v=7cbbcc65"></script>       <!-- Libkind's Snowlands tours and their lines (tracks_map.py) -->
+<script src="build/tracks_map.js?v=748fb583"></script>       <!-- Libkind's Snowlands tours and their lines (tracks_map.py) -->
 <style>
 body { margin: 0; }
 #map { height: 100vh; height: 100dvh; }  /* dvh = the visible height on phones, under the address bar */
@@ -170,7 +170,7 @@ for (const {geometry, properties: p} of trailheads.features) {
 }
 const SAME_START_M = 150;  // Snowlands tours starting this close together share one trailhead pin
 for (const t of SNOWLANDS) {
-  const at = L.latLng(t.waypoints[0][1], t.waypoints[0][2]);
+  const at = L.latLng(t.at);
   const place = places.find(p => p.snow && p.at.distanceTo(at) < SAME_START_M) || addPlace(t.start || t.name, at, {snow: true});
   place.place = place.place || t.place;  // the trailhead's Google place: any of its tours may carry it
   addTour(place, {id: `snow/${t.number}`, difficulty: t.difficulty || "blue", name: t.name,
