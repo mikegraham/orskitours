@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1304 Dewey Point Via the Meadow Trail</name><desc>out and back to waypoint 10. 6.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/13/1304_tour.htm</desc></metadata>
+<wpt lat="37.664507" lon="-119.663813"><ele>2209.68</ele><name>1304-01 trailhead</name></wpt>
+<wpt lat="37.671805" lon="-119.656639"><ele>2249.09</ele><name>1304-02 high point</name></wpt>
+<wpt lat="37.672588" lon="-119.65547"><ele>2245.05</ele><name>1304-03</name></wpt>
+<wpt lat="37.680053" lon="-119.661489"><ele>2276.41</ele><name>1304-04</name></wpt>
+<wpt lat="37.673882" lon="-119.651537"><ele>2230.72</ele><name>1304-05 turnoff for the Meadow Trail</name></wpt>
+<wpt lat="37.678185" lon="-119.651038"><ele>2221.56</ele><name>1304-06 south end of a meadow</name></wpt>
+<wpt lat="37.683487" lon="-119.647818"><ele>2213.79</ele><name>1304-07 north end of the meadow</name></wpt>
+<wpt lat="37.688871" lon="-119.651207"><ele>2245.95</ele><name>1304-08 top of a small hill</name></wpt>
+<wpt lat="37.695078" lon="-119.651412"><ele>2247.53</ele><name>1304-09 intersection with the Ridge Trail</name></wpt>
+<wpt lat="37.704299" lon="-119.64994"><ele>2226.48</ele><name>1304-10 Dewey Point</name></wpt>
+<trk><name>Snowlands 1304 Dewey Point Via the Meadow Trail</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.664507" lon="-119.663813"/><trkpt lat="37.664687" lon="-119.664212"/><trkpt lat="37.665099" lon="-119.664392"/><trkpt lat="37.665882" lon="-119.664342"/><trkpt lat="37.666457" lon="-119.664050"/><trkpt lat="37.667081" lon="-119.663070"/><trkpt lat="37.668337" lon="-119.660320"/><trkpt lat="37.669522" lon="-119.658842"/><trkpt lat="37.670644" lon="-119.657935"/><trkpt lat="37.671805" lon="-119.656639"/></trkseg>
+<trkseg><!-- 2-5: libkind-line: traced from his map --><trkpt lat="37.671805" lon="-119.656639"/><trkpt lat="37.672934" lon="-119.654518"/><trkpt lat="37.673882" lon="-119.651537"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="37.673882" lon="-119.651537"/><trkpt lat="37.677448" lon="-119.651584"/><trkpt lat="37.677788" lon="-119.651459"/><trkpt lat="37.678185" lon="-119.651038"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="37.678185" lon="-119.651038"/><trkpt lat="37.679591" lon="-119.649503"/><trkpt lat="37.681053" lon="-119.648335"/><trkpt lat="37.681836" lon="-119.647549"/><trkpt lat="37.682652" lon="-119.647451"/><trkpt lat="37.683487" lon="-119.647818"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="37.683487" lon="-119.647818"/><trkpt lat="37.685441" lon="-119.648776"/><trkpt lat="37.688026" lon="-119.650710"/><trkpt lat="37.688871" lon="-119.651207"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="37.688871" lon="-119.651207"/><trkpt lat="37.689624" lon="-119.651480"/><trkpt lat="37.690373" lon="-119.651484"/><trkpt lat="37.692311" lon="-119.650541"/><trkpt lat="37.693841" lon="-119.650143"/><trkpt lat="37.694311" lon="-119.650345"/><trkpt lat="37.695078" lon="-119.651412"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="37.695078" lon="-119.651412"/><trkpt lat="37.695715" lon="-119.652469"/><trkpt lat="37.696460" lon="-119.652847"/><trkpt lat="37.697684" lon="-119.652877"/><trkpt lat="37.699113" lon="-119.652535"/><trkpt lat="37.700981" lon="-119.652480"/><trkpt lat="37.701324" lon="-119.652281"/><trkpt lat="37.702127" lon="-119.651117"/><trkpt lat="37.702785" lon="-119.650514"/><trkpt lat="37.703329" lon="-119.650219"/><trkpt lat="37.704299" lon="-119.649940"/></trkseg>
+<trkseg><!-- 10-9: return: retraced --><trkpt lat="37.704299" lon="-119.649940"/><trkpt lat="37.703329" lon="-119.650219"/><trkpt lat="37.702785" lon="-119.650514"/><trkpt lat="37.702127" lon="-119.651117"/><trkpt lat="37.701324" lon="-119.652281"/><trkpt lat="37.700981" lon="-119.652480"/><trkpt lat="37.699113" lon="-119.652535"/><trkpt lat="37.697684" lon="-119.652877"/><trkpt lat="37.696460" lon="-119.652847"/><trkpt lat="37.695715" lon="-119.652469"/><trkpt lat="37.695078" lon="-119.651412"/></trkseg>
+<trkseg><!-- 9-8: return: retraced --><trkpt lat="37.695078" lon="-119.651412"/><trkpt lat="37.694311" lon="-119.650345"/><trkpt lat="37.693841" lon="-119.650143"/><trkpt lat="37.692311" lon="-119.650541"/><trkpt lat="37.690373" lon="-119.651484"/><trkpt lat="37.689624" lon="-119.651480"/><trkpt lat="37.688871" lon="-119.651207"/></trkseg>
+<trkseg><!-- 8-7: return: retraced --><trkpt lat="37.688871" lon="-119.651207"/><trkpt lat="37.688026" lon="-119.650710"/><trkpt lat="37.685441" lon="-119.648776"/><trkpt lat="37.683487" lon="-119.647818"/></trkseg>
+<trkseg><!-- 7-6: return: retraced --><trkpt lat="37.683487" lon="-119.647818"/><trkpt lat="37.682652" lon="-119.647451"/><trkpt lat="37.681836" lon="-119.647549"/><trkpt lat="37.681053" lon="-119.648335"/><trkpt lat="37.679591" lon="-119.649503"/><trkpt lat="37.678185" lon="-119.651038"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="37.678185" lon="-119.651038"/><trkpt lat="37.677788" lon="-119.651459"/><trkpt lat="37.677448" lon="-119.651584"/><trkpt lat="37.673882" lon="-119.651537"/></trkseg>
+<trkseg><!-- 5-2: return: retraced --><trkpt lat="37.673882" lon="-119.651537"/><trkpt lat="37.672934" lon="-119.654518"/><trkpt lat="37.671805" lon="-119.656639"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="37.671805" lon="-119.656639"/><trkpt lat="37.670644" lon="-119.657935"/><trkpt lat="37.669522" lon="-119.658842"/><trkpt lat="37.668337" lon="-119.660320"/><trkpt lat="37.667081" lon="-119.663070"/><trkpt lat="37.666457" lon="-119.664050"/><trkpt lat="37.665882" lon="-119.664342"/><trkpt lat="37.665099" lon="-119.664392"/><trkpt lat="37.664687" lon="-119.664212"/><trkpt lat="37.664507" lon="-119.663813"/></trkseg>
+</trk>
+</gpx>

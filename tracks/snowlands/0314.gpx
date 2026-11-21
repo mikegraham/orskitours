@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0314 Andesite Ridge Loop</name><desc>lollipop (stem back from waypoint 2). 4.5 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0314_tour.htm</desc></metadata>
+<wpt lat="39.339645" lon="-120.350227"><ele>2193.86</ele><name>0314-01 trailhead</name></wpt>
+<wpt lat="39.341951" lon="-120.348354"><ele>2227.55</ele><name>0314-02 road junction</name></wpt>
+<wpt lat="39.343153" lon="-120.358116"><ele>2283.96</ele><name>0314-03 meadow</name></wpt>
+<wpt lat="39.348558" lon="-120.372538"><ele>2395.86</ele><name>0314-04 west ridge of Andesite Peak</name></wpt>
+<wpt lat="39.349288" lon="-120.36976"><ele>2432.84</ele><name>0314-05 terrain is more level</name></wpt>
+<wpt lat="39.35825" lon="-120.365257"><ele>2414.89</ele><name>0314-06 Castle Pass</name></wpt>
+<wpt lat="39.357568" lon="-120.36433"><ele>2378.63</ele><name>0314-07 more level terrain</name></wpt>
+<trk><name>Snowlands 0314 Andesite Ridge Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.339645" lon="-120.350227"/><trkpt lat="39.340017" lon="-120.349665"/><trkpt lat="39.340244" lon="-120.348351"/><trkpt lat="39.340786" lon="-120.347614"/><trkpt lat="39.341016" lon="-120.347510"/><trkpt lat="39.341278" lon="-120.347594"/><trkpt lat="39.341951" lon="-120.348354"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.341951" lon="-120.348354"/><trkpt lat="39.341933" lon="-120.349495"/><trkpt lat="39.341691" lon="-120.350978"/><trkpt lat="39.341339" lon="-120.352080"/><trkpt lat="39.340277" lon="-120.354198"/><trkpt lat="39.340123" lon="-120.354876"/><trkpt lat="39.340114" lon="-120.355596"/><trkpt lat="39.340481" lon="-120.356486"/><trkpt lat="39.340885" lon="-120.357001"/><trkpt lat="39.342687" lon="-120.357688"/><trkpt lat="39.343153" lon="-120.358116"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.343153" lon="-120.358116"/><trkpt lat="39.343321" lon="-120.358412"/><trkpt lat="39.343529" lon="-120.359452"/><trkpt lat="39.343945" lon="-120.361888"/><trkpt lat="39.344361" lon="-120.364325"/><trkpt lat="39.344421" lon="-120.366867"/><trkpt lat="39.344293" lon="-120.368561"/><trkpt lat="39.344377" lon="-120.369197"/><trkpt lat="39.344882" lon="-120.369924"/><trkpt lat="39.346226" lon="-120.371187"/><trkpt lat="39.348558" lon="-120.372538"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.348558" lon="-120.372538"/><trkpt lat="39.348825" lon="-120.370934"/><trkpt lat="39.349288" lon="-120.369760"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.349288" lon="-120.369760"/><trkpt lat="39.349993" lon="-120.369604"/><trkpt lat="39.351910" lon="-120.368538"/><trkpt lat="39.353826" lon="-120.367471"/><trkpt lat="39.357201" lon="-120.365940"/><trkpt lat="39.358250" lon="-120.365257"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="39.358250" lon="-120.365257"/><trkpt lat="39.357568" lon="-120.364330"/></trkseg>
+<trkseg><!-- 7-2: libkind-line: traced from his map --><trkpt lat="39.357568" lon="-120.364330"/><trkpt lat="39.355497" lon="-120.363685"/><trkpt lat="39.353728" lon="-120.362762"/><trkpt lat="39.352844" lon="-120.362125"/><trkpt lat="39.351015" lon="-120.359876"/><trkpt lat="39.350135" lon="-120.358351"/><trkpt lat="39.349404" lon="-120.357420"/><trkpt lat="39.346717" lon="-120.355191"/><trkpt lat="39.346132" lon="-120.354517"/><trkpt lat="39.345472" lon="-120.353351"/><trkpt lat="39.344542" lon="-120.351021"/><trkpt lat="39.341951" lon="-120.348354"/></trkseg>
+<trkseg><!-- 2-1: libkind-line: traced from his map --><trkpt lat="39.341951" lon="-120.348354"/><trkpt lat="39.341278" lon="-120.347625"/><trkpt lat="39.341016" lon="-120.347532"/><trkpt lat="39.340791" lon="-120.347617"/><trkpt lat="39.340437" lon="-120.348182"/><trkpt lat="39.340113" lon="-120.349580"/><trkpt lat="39.339645" lon="-120.350227"/></trkseg>
+</trk>
+</gpx>

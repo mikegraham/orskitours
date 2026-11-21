@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0016 South Approach to Brokeoff Mountain</name><desc>one way. Up to 6.2 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0016_tour.htm</desc></metadata>
+<wpt lat="40.404727" lon="-121.530043"><ele>1965.35</ele><name>0016-01 trailhead</name></wpt>
+<wpt lat="40.40452" lon="-121.532006"><ele>1998.5</ele><name>0016-02 level area</name></wpt>
+<wpt lat="40.420612" lon="-121.546618"><ele>2178.75</ele><name>0016-03 small lake</name></wpt>
+<wpt lat="40.433529" lon="-121.559314"><ele>2432.71</ele><name>0016-04 south of the ridge that ascends Brokeoff Mountain</name></wpt>
+<wpt lat="40.438212" lon="-121.559985"><ele>2550.63</ele><name>0016-05 ridge becomes noticeably less broad</name></wpt>
+<wpt lat="40.430362" lon="-121.55095"><ele>2381.34</ele><name>0016-06</name></wpt>
+<trk><name>Snowlands 0016 South Approach to Brokeoff Mountain</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.404727" lon="-121.530043"/><trkpt lat="40.404520" lon="-121.532006"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.404520" lon="-121.532006"/><trkpt lat="40.404672" lon="-121.533391"/><trkpt lat="40.405574" lon="-121.535788"/><trkpt lat="40.406512" lon="-121.537386"/><trkpt lat="40.407729" lon="-121.538694"/><trkpt lat="40.410451" lon="-121.540719"/><trkpt lat="40.412084" lon="-121.541772"/><trkpt lat="40.413717" lon="-121.542824"/><trkpt lat="40.416054" lon="-121.544054"/><trkpt lat="40.418392" lon="-121.545284"/><trkpt lat="40.420612" lon="-121.546618"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="40.420612" lon="-121.546618"/><trkpt lat="40.422431" lon="-121.548127"/><trkpt lat="40.424251" lon="-121.549635"/><trkpt lat="40.426924" lon="-121.552523"/><trkpt lat="40.429597" lon="-121.555411"/><trkpt lat="40.431358" lon="-121.557533"/><trkpt lat="40.433529" lon="-121.559314"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="40.433529" lon="-121.559314"/><trkpt lat="40.434687" lon="-121.559698"/><trkpt lat="40.437824" lon="-121.559888"/><trkpt lat="40.438212" lon="-121.559985"/></trkseg>
+</trk>
+</gpx>

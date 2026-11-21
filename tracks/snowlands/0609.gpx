@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0609 Tamarack Lake (near Mt Rose Summit)</name><desc>out and back to waypoint 3. 0.4 mile round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/06/0609_tour.htm</desc></metadata>
+<wpt lat="39.320179" lon="-119.902061"><ele>2638.14</ele><name>0609-01 trailhead</name></wpt>
+<wpt lat="39.319304" lon="-119.904339"><ele>2655.58</ele><name>0609-02 clearing</name></wpt>
+<wpt lat="39.317916" lon="-119.904932"><ele>2687.53</ele><name>0609-03 Tamarack Lake</name></wpt>
+<trk><name>Snowlands 0609 Tamarack Lake (near Mt Rose Summit)</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.320179" lon="-119.902061"/><trkpt lat="39.319788" lon="-119.903551"/><trkpt lat="39.319304" lon="-119.904339"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.319304" lon="-119.904339"/><trkpt lat="39.317916" lon="-119.904932"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.317916" lon="-119.904932"/><trkpt lat="39.319304" lon="-119.904339"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.319304" lon="-119.904339"/><trkpt lat="39.319788" lon="-119.903551"/><trkpt lat="39.320179" lon="-119.902061"/></trkseg>
+</trk>
+</gpx>

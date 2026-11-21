@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0331 Firehouse Run</name><desc>one way. 3.8 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0331_tour.htm</desc></metadata>
+<wpt lat="39.339645" lon="-120.350227"><ele>2193.86</ele><name>0331-01 trailhead</name></wpt>
+<wpt lat="39.341951" lon="-120.348354"><ele>2227.55</ele><name>0331-02 road junction</name></wpt>
+<wpt lat="39.341365" lon="-120.35196"><ele>2258.92</ele><name>0331-03 location where you can leave the road to the north</name></wpt>
+<wpt lat="39.343169" lon="-120.353271"><ele>2301.38</ele><name>0331-04 Andesite Ridge</name></wpt>
+<wpt lat="39.351064" lon="-120.366674"><ele>2502.9</ele><name>0331-05 summit of Andesite Peak</name></wpt>
+<wpt lat="39.3433" lon="-120.370661"><ele>2347.78</ele><name>0331-06 location just to the west (right) of Peak 7826</name></wpt>
+<wpt lat="39.337176" lon="-120.372866"><ele>2276.3</ele><name>0331-07 location just to the west (right) of Peak 7563</name></wpt>
+<wpt lat="39.330209" lon="-120.387694"><ele>2094.27</ele><name>0331-08 buildings</name></wpt>
+<wpt lat="39.32855" lon="-120.389256"><ele>2040.19</ele><name>0331-09 Sherrit Lane</name></wpt>
+<trk><name>Snowlands 0331 Firehouse Run</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.339645" lon="-120.350227"/><trkpt lat="39.340011" lon="-120.349678"/><trkpt lat="39.340211" lon="-120.348344"/><trkpt lat="39.340704" lon="-120.347675"/><trkpt lat="39.340993" lon="-120.347546"/><trkpt lat="39.341251" lon="-120.347603"/><trkpt lat="39.341951" lon="-120.348354"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.341951" lon="-120.348354"/><trkpt lat="39.341799" lon="-120.350344"/><trkpt lat="39.341607" lon="-120.351386"/><trkpt lat="39.341365" lon="-120.351960"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.341365" lon="-120.351960"/><trkpt lat="39.341617" lon="-120.352510"/><trkpt lat="39.342153" lon="-120.353099"/><trkpt lat="39.342605" lon="-120.353311"/><trkpt lat="39.343169" lon="-120.353271"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.343169" lon="-120.353271"/><trkpt lat="39.343907" lon="-120.355094"/><trkpt lat="39.345521" lon="-120.357673"/><trkpt lat="39.346729" lon="-120.358998"/><trkpt lat="39.348243" lon="-120.360247"/><trkpt lat="39.348688" lon="-120.360802"/><trkpt lat="39.349660" lon="-120.363426"/><trkpt lat="39.349963" lon="-120.366092"/><trkpt lat="39.350434" lon="-120.366652"/><trkpt lat="39.351064" lon="-120.366674"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.351064" lon="-120.366674"/><trkpt lat="39.349886" lon="-120.367044"/><trkpt lat="39.348082" lon="-120.368246"/><trkpt lat="39.345182" lon="-120.369817"/><trkpt lat="39.343958" lon="-120.370276"/><trkpt lat="39.343300" lon="-120.370661"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="39.343300" lon="-120.370661"/><trkpt lat="39.342701" lon="-120.370771"/><trkpt lat="39.340333" lon="-120.371549"/><trkpt lat="39.337965" lon="-120.372328"/><trkpt lat="39.337176" lon="-120.372866"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="39.337176" lon="-120.372866"/><trkpt lat="39.336708" lon="-120.373135"/><trkpt lat="39.334968" lon="-120.374681"/><trkpt lat="39.334438" lon="-120.375425"/><trkpt lat="39.333180" lon="-120.377758"/><trkpt lat="39.332271" lon="-120.380487"/><trkpt lat="39.331362" lon="-120.383216"/><trkpt lat="39.330659" lon="-120.386632"/><trkpt lat="39.330209" lon="-120.387694"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="39.330209" lon="-120.387694"/><trkpt lat="39.328550" lon="-120.389256"/></trkseg>
+</trk>
+</gpx>

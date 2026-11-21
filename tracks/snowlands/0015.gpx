@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0015 Eighty-Nine Run</name><desc>one way. 1.1 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0015_tour.htm</desc></metadata>
+<wpt lat="40.404727" lon="-121.530043"><ele>1965.35</ele><name>0015-01 trailhead</name></wpt>
+<wpt lat="40.40452" lon="-121.532006"><ele>1998.5</ele><name>0015-02 level area</name></wpt>
+<wpt lat="40.391567" lon="-121.526104"><ele>1889.46</ele><name>0015-03 McGowan Road</name></wpt>
+<wpt lat="40.391468" lon="-121.524762"><ele>1893.33</ele><name>0015-04 McGowan Road Trailhead</name></wpt>
+<trk><name>Snowlands 0015 Eighty-Nine Run</name>
+<trkseg><!-- 1-2: straight: not traced --><trkpt lat="40.404727" lon="-121.530043"/><trkpt lat="40.404520" lon="-121.532006"/></trkseg>
+<trkseg><!-- 2-3: straight: not traced --><trkpt lat="40.404520" lon="-121.532006"/><trkpt lat="40.391567" lon="-121.526104"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="40.391567" lon="-121.526104"/><trkpt lat="40.391468" lon="-121.524762"/></trkseg>
+</trk>
+</gpx>

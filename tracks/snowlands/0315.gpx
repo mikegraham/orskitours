@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0315 Castle Valley</name><desc>out and back to waypoint 4; or continue as lollipop (stem back from waypoint 3). 3.4 miles round trip or 3.7 miles for loop. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0315_tour.htm</desc></metadata>
+<wpt lat="39.339645" lon="-120.350227"><ele>2193.86</ele><name>0315-01 trailhead</name></wpt>
+<wpt lat="39.341951" lon="-120.348354"><ele>2227.55</ele><name>0315-02 road junction</name></wpt>
+<wpt lat="39.344376" lon="-120.350788"><ele>2230.23</ele><name>0315-03 meadow</name></wpt>
+<wpt lat="39.356603" lon="-120.364173"><ele>2371.46</ele><name>0315-04 flat area</name></wpt>
+<wpt lat="39.358372" lon="-120.365444"><ele>2412.12</ele><name>0315-05</name></wpt>
+<wpt lat="39.348341" lon="-120.353156"><ele>2241.95</ele><name>0315-06 meadow</name></wpt>
+<trk><name>Snowlands 0315 Castle Valley</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.339645" lon="-120.350227"/><trkpt lat="39.339921" lon="-120.349827"/><trkpt lat="39.340239" lon="-120.348465"/><trkpt lat="39.340723" lon="-120.347820"/><trkpt lat="39.341185" lon="-120.347722"/><trkpt lat="39.341951" lon="-120.348354"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.341951" lon="-120.348354"/><trkpt lat="39.342704" lon="-120.349324"/><trkpt lat="39.343728" lon="-120.350115"/><trkpt lat="39.344376" lon="-120.350788"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.344376" lon="-120.350788"/><trkpt lat="39.344920" lon="-120.352862"/><trkpt lat="39.345480" lon="-120.353844"/><trkpt lat="39.346171" lon="-120.354636"/><trkpt lat="39.348482" lon="-120.356385"/><trkpt lat="39.350564" lon="-120.359520"/><trkpt lat="39.352807" lon="-120.362058"/><trkpt lat="39.354325" lon="-120.363102"/><trkpt lat="39.356603" lon="-120.364173"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="39.356603" lon="-120.364173"/><trkpt lat="39.354325" lon="-120.363102"/><trkpt lat="39.352807" lon="-120.362058"/><trkpt lat="39.350564" lon="-120.359520"/><trkpt lat="39.348482" lon="-120.356385"/><trkpt lat="39.346171" lon="-120.354636"/><trkpt lat="39.345480" lon="-120.353844"/><trkpt lat="39.344920" lon="-120.352862"/><trkpt lat="39.344376" lon="-120.350788"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.344376" lon="-120.350788"/><trkpt lat="39.343728" lon="-120.350115"/><trkpt lat="39.342704" lon="-120.349324"/><trkpt lat="39.341951" lon="-120.348354"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.341951" lon="-120.348354"/><trkpt lat="39.341185" lon="-120.347722"/><trkpt lat="39.340723" lon="-120.347820"/><trkpt lat="39.340239" lon="-120.348465"/><trkpt lat="39.339921" lon="-120.349827"/><trkpt lat="39.339645" lon="-120.350227"/></trkseg>
+</trk>
+<trk><name>Snowlands 0315 Castle Valley: optional continuation or side trip</name>
+<trkseg><!-- 4-6: libkind-line: traced from his map --><trkpt lat="39.356603" lon="-120.364173"/><trkpt lat="39.356951" lon="-120.363861"/><trkpt lat="39.357541" lon="-120.362766"/><trkpt lat="39.357824" lon="-120.361955"/><trkpt lat="39.357940" lon="-120.361229"/><trkpt lat="39.357889" lon="-120.358454"/><trkpt lat="39.357572" lon="-120.356960"/><trkpt lat="39.357191" lon="-120.356243"/><trkpt lat="39.356603" lon="-120.355605"/><trkpt lat="39.355712" lon="-120.355056"/><trkpt lat="39.353599" lon="-120.354106"/><trkpt lat="39.352311" lon="-120.353735"/><trkpt lat="39.348845" lon="-120.353368"/><trkpt lat="39.348341" lon="-120.353156"/></trkseg>
+<trkseg><!-- 6-3: libkind-line: traced from his map --><trkpt lat="39.348341" lon="-120.353156"/><trkpt lat="39.347756" lon="-120.353094"/><trkpt lat="39.346963" lon="-120.352727"/><trkpt lat="39.346006" lon="-120.351913"/><trkpt lat="39.344376" lon="-120.350788"/></trkseg>
+<trkseg><!-- 3-1: libkind-line: traced from his map --><trkpt lat="39.344376" lon="-120.350788"/><trkpt lat="39.343199" lon="-120.349928"/><trkpt lat="39.341945" lon="-120.348467"/><trkpt lat="39.341022" lon="-120.347713"/><trkpt lat="39.340776" lon="-120.347782"/><trkpt lat="39.340554" lon="-120.348086"/><trkpt lat="39.340113" lon="-120.349702"/><trkpt lat="39.339645" lon="-120.350227"/></trkseg>
+</trk>
+</gpx>

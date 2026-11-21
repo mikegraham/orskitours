@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1113 Round Valley From Poison Canyon</name><desc>out and back to waypoint 6. 4.0 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/11/1113_tour.htm</desc></metadata>
+<wpt lat="38.485199" lon="-120.019191"><ele>2308.52</ele><name>1113-01 trailhead</name></wpt>
+<wpt lat="38.485983" lon="-120.018653"><ele>2318.46</ele><name>1113-02 location where you can turn and head north (left)</name></wpt>
+<wpt lat="38.490614" lon="-120.018656"><ele>2437.86</ele><name>1113-03 ridge</name></wpt>
+<wpt lat="38.498659" lon="-120.008047"><ele>2619.11</ele><name>1113-04 Peak 8605</name></wpt>
+<wpt lat="38.501615" lon="-120.006591"><ele>2581.53</ele><name>1113-05 saddle</name></wpt>
+<wpt lat="38.500961" lon="-120.011797"><ele>2501.34</ele><name>1113-06 point in Round Valley that affords a good view</name></wpt>
+<trk><name>Snowlands 1113 Round Valley From Poison Canyon</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.485199" lon="-120.019191"/><trkpt lat="38.485983" lon="-120.018653"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.485983" lon="-120.018653"/><trkpt lat="38.486898" lon="-120.018476"/><trkpt lat="38.487339" lon="-120.019243"/><trkpt lat="38.487859" lon="-120.019499"/><trkpt lat="38.488223" lon="-120.019323"/><trkpt lat="38.489149" lon="-120.018272"/><trkpt lat="38.489843" lon="-120.017912"/><trkpt lat="38.490224" lon="-120.017943"/><trkpt lat="38.490614" lon="-120.018656"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.490614" lon="-120.018656"/><trkpt lat="38.491133" lon="-120.018334"/><trkpt lat="38.492787" lon="-120.016489"/><trkpt lat="38.494374" lon="-120.015288"/><trkpt lat="38.494867" lon="-120.014753"/><trkpt lat="38.495480" lon="-120.013572"/><trkpt lat="38.496468" lon="-120.010825"/><trkpt lat="38.498659" lon="-120.008047"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.498659" lon="-120.008047"/><trkpt lat="38.499996" lon="-120.007218"/><trkpt lat="38.501615" lon="-120.006591"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.501615" lon="-120.006591"/><trkpt lat="38.501711" lon="-120.007233"/><trkpt lat="38.501685" lon="-120.008670"/><trkpt lat="38.500961" lon="-120.011797"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="38.500961" lon="-120.011797"/><trkpt lat="38.501685" lon="-120.008670"/><trkpt lat="38.501711" lon="-120.007233"/><trkpt lat="38.501615" lon="-120.006591"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.501615" lon="-120.006591"/><trkpt lat="38.499996" lon="-120.007218"/><trkpt lat="38.498659" lon="-120.008047"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.498659" lon="-120.008047"/><trkpt lat="38.496468" lon="-120.010825"/><trkpt lat="38.495480" lon="-120.013572"/><trkpt lat="38.494867" lon="-120.014753"/><trkpt lat="38.494374" lon="-120.015288"/><trkpt lat="38.492787" lon="-120.016489"/><trkpt lat="38.491133" lon="-120.018334"/><trkpt lat="38.490614" lon="-120.018656"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.490614" lon="-120.018656"/><trkpt lat="38.490224" lon="-120.017943"/><trkpt lat="38.489843" lon="-120.017912"/><trkpt lat="38.489149" lon="-120.018272"/><trkpt lat="38.488223" lon="-120.019323"/><trkpt lat="38.487859" lon="-120.019499"/><trkpt lat="38.487339" lon="-120.019243"/><trkpt lat="38.486898" lon="-120.018476"/><trkpt lat="38.485983" lon="-120.018653"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.485983" lon="-120.018653"/><trkpt lat="38.485199" lon="-120.019191"/></trkseg>
+</trk>
+</gpx>

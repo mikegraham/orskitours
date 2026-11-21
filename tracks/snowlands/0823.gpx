@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0823 Berts Lake and Chipmunk Loop</name><desc>loop (ends 57 m from the start). 2.1 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/08/0823_tour.htm</desc></metadata>
+<wpt lat="38.984667" lon="-120.329585"><ele>1971.93</ele><name>0823-01 trailhead</name></wpt>
+<wpt lat="38.982264" lon="-120.33058"><ele>1993.99</ele><name>0823-02 marked trail crosses under the power lines</name></wpt>
+<wpt lat="38.981102" lon="-120.33017"><ele>2009.8</ele><name>0823-03 edge of an open area</name></wpt>
+<wpt lat="38.979653" lon="-120.328924"><ele>2020.98</ele><name>0823-04 trail enters the woods again</name></wpt>
+<wpt lat="38.976017" lon="-120.330264"><ele>2051.53</ele><name>0823-05 Berts Lake</name></wpt>
+<wpt lat="38.974898" lon="-120.333602"><ele>1983.8</ele><name>0823-06 road to Chipmunk Bluff</name></wpt>
+<wpt lat="38.984796" lon="-120.330225"><ele>1966.19</ele><name>0823-07 Loon Lake Chalet</name></wpt>
+<trk><name>Snowlands 0823 Berts Lake and Chipmunk Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.984667" lon="-120.329585"/><trkpt lat="38.983940" lon="-120.329631"/><trkpt lat="38.982862" lon="-120.330584"/><trkpt lat="38.982264" lon="-120.330580"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.982264" lon="-120.330580"/><trkpt lat="38.981587" lon="-120.330512"/><trkpt lat="38.981102" lon="-120.330170"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.981102" lon="-120.330170"/><trkpt lat="38.980481" lon="-120.330043"/><trkpt lat="38.979653" lon="-120.328924"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.979653" lon="-120.328924"/><trkpt lat="38.979317" lon="-120.328465"/><trkpt lat="38.978931" lon="-120.327375"/><trkpt lat="38.978484" lon="-120.326838"/><trkpt lat="38.977634" lon="-120.326311"/><trkpt lat="38.976262" lon="-120.326338"/><trkpt lat="38.975555" lon="-120.327039"/><trkpt lat="38.975320" lon="-120.327711"/><trkpt lat="38.975363" lon="-120.329387"/><trkpt lat="38.976017" lon="-120.330264"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.976017" lon="-120.330264"/><trkpt lat="38.976189" lon="-120.330583"/><trkpt lat="38.976171" lon="-120.331024"/><trkpt lat="38.974898" lon="-120.333602"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.974898" lon="-120.333602"/><trkpt lat="38.976393" lon="-120.333695"/><trkpt lat="38.977144" lon="-120.333299"/><trkpt lat="38.978549" lon="-120.333405"/><trkpt lat="38.978904" lon="-120.333623"/><trkpt lat="38.979792" lon="-120.334704"/><trkpt lat="38.980509" lon="-120.335003"/><trkpt lat="38.980934" lon="-120.335018"/><trkpt lat="38.982665" lon="-120.333589"/><trkpt lat="38.984796" lon="-120.330225"/></trkseg>
+</trk>
+</gpx>

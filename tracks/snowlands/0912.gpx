@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0912 Waterhouse Peak</name><desc>one way. 3.2 miles round trip or up to 4.2 miles one-way to Hope Valley. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/09/0912_tour.htm</desc></metadata>
+<wpt lat="38.787661" lon="-119.946362"><ele>2358.91</ele><name>0912-01 trailhead</name></wpt>
+<wpt lat="38.781589" lon="-119.947909"><ele>2399.98</ele><name>0912-02 terrain abruptly becomes more steep</name></wpt>
+<wpt lat="38.775929" lon="-119.96484"><ele>2883.63</ele><name>0912-03 Waterhouse Peak</name></wpt>
+<wpt lat="38.776371" lon="-119.918853"><ele>2153.59</ele><name>0912-04 Pickett Junction</name></wpt>
+<trk><name>Snowlands 0912 Waterhouse Peak</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.787661" lon="-119.946362"/><trkpt lat="38.786540" lon="-119.946726"/><trkpt lat="38.785295" lon="-119.947567"/><trkpt lat="38.784803" lon="-119.947758"/><trkpt lat="38.781589" lon="-119.947909"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.781589" lon="-119.947909"/><trkpt lat="38.780934" lon="-119.951290"/><trkpt lat="38.780557" lon="-119.952594"/><trkpt lat="38.780190" lon="-119.953309"/><trkpt lat="38.779169" lon="-119.954697"/><trkpt lat="38.778761" lon="-119.955622"/><trkpt lat="38.778511" lon="-119.959112"/><trkpt lat="38.776919" lon="-119.961426"/><trkpt lat="38.775929" lon="-119.964840"/></trkseg>
+</trk>
+</gpx>

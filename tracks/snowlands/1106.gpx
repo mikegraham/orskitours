@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1106 Cabbage Patch to Poison Spring</name><desc>broken (legs do not join end to end). 5.4 miles one-way via road 5.6 miles one-way via woods and clearing. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/11/1106_tour.htm</desc></metadata>
+<wpt lat="38.412856" lon="-120.136319"><ele>2045.3</ele><name>1106-01 trailhead</name></wpt>
+<wpt lat="38.418751" lon="-120.133787"><ele>2079.59</ele><name>1106-02 road junction</name></wpt>
+<wpt lat="38.418885" lon="-120.136285"><ele>2094.41</ele><name>1106-03 location from which you can ascend southwest (left) onto a ridge</name></wpt>
+<wpt lat="38.416052" lon="-120.141481"><ele>2186.05</ele><name>1106-04 high point</name></wpt>
+<wpt lat="38.416147" lon="-120.150651"><ele>2210.59</ele><name>1106-05 high point</name></wpt>
+<wpt lat="38.419006" lon="-120.159703"><ele>2211.2</ele><name>1106-06 Peak 7276</name></wpt>
+<wpt lat="38.416338" lon="-120.162765"><ele>2188.84</ele><name>1106-07 low point</name></wpt>
+<wpt lat="38.413274" lon="-120.165136"><ele>2202.52</ele><name>1106-08</name></wpt>
+<wpt lat="38.40937" lon="-120.168577"><ele>2247.48</ele><name>1106-09 high point</name></wpt>
+<wpt lat="38.40336" lon="-120.169761"><ele>2188.3</ele><name>1106-10 location where you must turn west to get on the next ridge</name></wpt>
+<wpt lat="38.396174" lon="-120.186905"><ele>2082.43</ele><name>1106-11 level terrain and road junction</name></wpt>
+<wpt lat="38.390613" lon="-120.183325"><ele>2015.71</ele><name>1106-12 road junction</name></wpt>
+<wpt lat="38.390575" lon="-120.190857"><ele>2099.99</ele><name>1106-13 flat area a short distance before a very low, broad knob</name></wpt>
+<wpt lat="38.38707" lon="-120.191882"><ele>2054.04</ele><name>1106-14 clearing</name></wpt>
+<wpt lat="38.385295" lon="-120.185785"><ele>1969.39</ele><name>1106-15 end point</name></wpt>
+<trk><name>Snowlands 1106 Cabbage Patch to Poison Spring</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.412856" lon="-120.136319"/><trkpt lat="38.413925" lon="-120.135813"/><trkpt lat="38.415547" lon="-120.135499"/><trkpt lat="38.416706" lon="-120.134542"/><trkpt lat="38.418030" lon="-120.134365"/><trkpt lat="38.418751" lon="-120.133787"/></trkseg>
+<trkseg><!-- 2-2: straight: not traced --><trkpt lat="38.418751" lon="-120.133787"/><trkpt lat="38.418751" lon="-120.133787"/></trkseg>
+<trkseg><!-- 2-4: libkind-line: traced from his map --><trkpt lat="38.418751" lon="-120.133787"/><trkpt lat="38.418857" lon="-120.134552"/><trkpt lat="38.418795" lon="-120.136147"/><trkpt lat="38.417612" lon="-120.137890"/><trkpt lat="38.416052" lon="-120.141481"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.416052" lon="-120.141481"/><trkpt lat="38.416097" lon="-120.142496"/><trkpt lat="38.416400" lon="-120.145411"/><trkpt lat="38.416704" lon="-120.148327"/><trkpt lat="38.416652" lon="-120.148961"/><trkpt lat="38.416147" lon="-120.150651"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.416147" lon="-120.150651"/><trkpt lat="38.416273" lon="-120.151454"/><trkpt lat="38.417272" lon="-120.152933"/><trkpt lat="38.418104" lon="-120.154877"/><trkpt lat="38.418627" lon="-120.156863"/><trkpt lat="38.419006" lon="-120.159703"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.419006" lon="-120.159703"/><trkpt lat="38.417170" lon="-120.161490"/><trkpt lat="38.416338" lon="-120.162765"/></trkseg>
+<trkseg><!-- 7-9: libkind-line: traced from his map --><trkpt lat="38.416338" lon="-120.162765"/><trkpt lat="38.416139" lon="-120.163364"/><trkpt lat="38.415713" lon="-120.163821"/><trkpt lat="38.414091" lon="-120.164816"/><trkpt lat="38.413098" lon="-120.165164"/><trkpt lat="38.411674" lon="-120.166110"/><trkpt lat="38.409370" lon="-120.168577"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="38.409370" lon="-120.168577"/><trkpt lat="38.407635" lon="-120.168765"/><trkpt lat="38.406443" lon="-120.169212"/><trkpt lat="38.403360" lon="-120.169761"/></trkseg>
+<trkseg><!-- 10-11: libkind-line: traced from his map --><trkpt lat="38.403360" lon="-120.169761"/><trkpt lat="38.403359" lon="-120.172624"/><trkpt lat="38.403271" lon="-120.173089"/><trkpt lat="38.402525" lon="-120.174610"/><trkpt lat="38.401995" lon="-120.176047"/><trkpt lat="38.400619" lon="-120.177969"/><trkpt lat="38.399244" lon="-120.179892"/><trkpt lat="38.398779" lon="-120.180695"/><trkpt lat="38.398522" lon="-120.181624"/><trkpt lat="38.398401" lon="-120.183610"/><trkpt lat="38.397694" lon="-120.186145"/><trkpt lat="38.397172" lon="-120.186743"/><trkpt lat="38.396174" lon="-120.186905"/></trkseg>
+<trkseg><!-- 11-12: libkind-line: traced from his map --><trkpt lat="38.396174" lon="-120.186905"/><trkpt lat="38.395550" lon="-120.186857"/><trkpt lat="38.394357" lon="-120.186440"/><trkpt lat="38.393165" lon="-120.185723"/><trkpt lat="38.392007" lon="-120.185538"/><trkpt lat="38.391709" lon="-120.185211"/><trkpt lat="38.391209" lon="-120.184160"/><trkpt lat="38.390613" lon="-120.183325"/></trkseg>
+<trkseg><!-- 12-15: libkind-line: traced from his map --><trkpt lat="38.390613" lon="-120.183325"/><trkpt lat="38.389324" lon="-120.183479"/><trkpt lat="38.387569" lon="-120.184622"/><trkpt lat="38.386741" lon="-120.185011"/><trkpt lat="38.385847" lon="-120.185942"/><trkpt lat="38.385590" lon="-120.185996"/><trkpt lat="38.385295" lon="-120.185785"/></trkseg>
+<trkseg><!-- 11-13: libkind-line: traced from his map --><trkpt lat="38.396174" lon="-120.186905"/><trkpt lat="38.393828" lon="-120.188247"/><trkpt lat="38.392337" lon="-120.188863"/><trkpt lat="38.390575" lon="-120.190857"/></trkseg>
+<trkseg><!-- 13-14: libkind-line: traced from his map --><trkpt lat="38.390575" lon="-120.190857"/><trkpt lat="38.388823" lon="-120.191370"/><trkpt lat="38.387070" lon="-120.191882"/></trkseg>
+<trkseg><!-- 14-15: libkind-line: traced from his map --><trkpt lat="38.387070" lon="-120.191882"/><trkpt lat="38.386935" lon="-120.191654"/><trkpt lat="38.386819" lon="-120.190667"/><trkpt lat="38.385962" lon="-120.187118"/><trkpt lat="38.385295" lon="-120.185785"/></trkseg>
+</trk>
+</gpx>

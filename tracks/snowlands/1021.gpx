@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1021 Castle Point Loop</name><desc>loop. 3.1 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1021_tour.htm</desc></metadata>
+<wpt lat="38.70544" lon="-120.109534"><ele>2401.0</ele><name>1021-01 trailhead</name></wpt>
+<wpt lat="38.705771" lon="-120.104116"><ele>2429.93</ele><name>1021-02 highpoint on Highway 88</name></wpt>
+<wpt lat="38.707037" lon="-120.107416"><ele>2455.67</ele><name>1021-03 highest peak</name></wpt>
+<wpt lat="38.704416" lon="-120.120185"><ele>2449.82</ele><name>1021-04 Castle Point</name></wpt>
+<wpt lat="38.696872" lon="-120.12411"><ele>2314.17</ele><name>1021-05 Martin Meadow Campground</name></wpt>
+<wpt lat="38.696896" lon="-120.119539"><ele>2314.32</ele><name>1021-06 Highway 88</name></wpt>
+<trk><name>Snowlands 1021 Castle Point Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.705440" lon="-120.109534"/><trkpt lat="38.705418" lon="-120.104949"/><trkpt lat="38.705504" lon="-120.104578"/><trkpt lat="38.705771" lon="-120.104116"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.705771" lon="-120.104116"/><trkpt lat="38.706247" lon="-120.105527"/><trkpt lat="38.707037" lon="-120.107416"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.707037" lon="-120.107416"/><trkpt lat="38.706996" lon="-120.110440"/><trkpt lat="38.706439" lon="-120.112586"/><trkpt lat="38.705002" lon="-120.116426"/><trkpt lat="38.704453" lon="-120.118985"/><trkpt lat="38.704416" lon="-120.120185"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.704416" lon="-120.120185"/><trkpt lat="38.703460" lon="-120.121586"/><trkpt lat="38.702249" lon="-120.123607"/><trkpt lat="38.701061" lon="-120.124687"/><trkpt lat="38.700030" lon="-120.124918"/><trkpt lat="38.698258" lon="-120.124911"/><trkpt lat="38.697388" lon="-120.124654"/><trkpt lat="38.696872" lon="-120.124110"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.696872" lon="-120.124110"/><trkpt lat="38.696745" lon="-120.121668"/><trkpt lat="38.696945" lon="-120.120100"/><trkpt lat="38.696896" lon="-120.119539"/></trkseg>
+<trkseg><!-- 6-1: libkind-line: traced from his map --><trkpt lat="38.696896" lon="-120.119539"/><trkpt lat="38.696931" lon="-120.118737"/><trkpt lat="38.697131" lon="-120.117994"/><trkpt lat="38.698134" lon="-120.115848"/><trkpt lat="38.698612" lon="-120.114196"/><trkpt lat="38.699356" lon="-120.112901"/><trkpt lat="38.700449" lon="-120.111950"/><trkpt lat="38.701802" lon="-120.111240"/><trkpt lat="38.705148" lon="-120.109878"/><trkpt lat="38.705440" lon="-120.109534"/></trkseg>
+</trk>
+</gpx>

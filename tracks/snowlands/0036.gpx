@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0036 Paradise Meadow Cutoff</name><desc>one way. 2.6 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0036_tour.htm</desc></metadata>
+<wpt lat="40.476217" lon="-121.479129"><ele>2456.41</ele><name>0036-01</name></wpt>
+<wpt lat="40.492946" lon="-121.468183"><ele>2161.42</ele><name>0036-02 point north of Paradise Meadow</name></wpt>
+<wpt lat="40.500475" lon="-121.465428"><ele>1991.44</ele><name>0036-03 tributary of the West Fork of Hat Creek</name></wpt>
+<wpt lat="40.509229" lon="-121.465079"><ele>1960.23</ele><name>0036-04 Lassen Park Road</name></wpt>
+<trk><name>Snowlands 0036 Paradise Meadow Cutoff</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.476217" lon="-121.479129"/><trkpt lat="40.477558" lon="-121.478870"/><trkpt lat="40.479673" lon="-121.478148"/><trkpt lat="40.481788" lon="-121.477426"/><trkpt lat="40.483742" lon="-121.476614"/><trkpt lat="40.485696" lon="-121.475801"/><trkpt lat="40.487521" lon="-121.474246"/><trkpt lat="40.489345" lon="-121.472690"/><trkpt lat="40.491259" lon="-121.470085"/><trkpt lat="40.492946" lon="-121.468183"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.492946" lon="-121.468183"/><trkpt lat="40.495876" lon="-121.467084"/><trkpt lat="40.498806" lon="-121.465985"/><trkpt lat="40.500475" lon="-121.465428"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="40.500475" lon="-121.465428"/><trkpt lat="40.503393" lon="-121.465312"/><trkpt lat="40.506311" lon="-121.465195"/><trkpt lat="40.509229" lon="-121.465079"/></trkseg>
+</trk>
+</gpx>

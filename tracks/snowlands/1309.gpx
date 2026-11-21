@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1309 Horse Ridge Loop</name><desc>loop. 4.5 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/13/1309_tour.htm</desc></metadata>
+<wpt lat="37.626781" lon="-119.549746"><ele>2603.31</ele><name>1309-01 Ostrander Ski Hut</name></wpt>
+<wpt lat="37.620309" lon="-119.535894"><ele>2792.78</ele><name>1309-02 base of a spur that ascends to Horse Ridge</name></wpt>
+<wpt lat="37.61673" lon="-119.536287"><ele>2891.5</ele><name>1309-03 Horse Ridge</name></wpt>
+<wpt lat="37.619197" lon="-119.552031"><ele>2773.5</ele><name>1309-04 location where the ridge splits</name></wpt>
+<wpt lat="37.616858" lon="-119.566739"><ele>2551.51</ele><name>1309-05 Merced Crest Trail</name></wpt>
+<trk><name>Snowlands 1309 Horse Ridge Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.626781" lon="-119.549746"/><trkpt lat="37.626792" lon="-119.547339"/><trkpt lat="37.626803" lon="-119.544931"/><trkpt lat="37.626706" lon="-119.543495"/><trkpt lat="37.626410" lon="-119.541720"/><trkpt lat="37.626010" lon="-119.540495"/><trkpt lat="37.625620" lon="-119.539838"/><trkpt lat="37.625132" lon="-119.539398"/><trkpt lat="37.622889" lon="-119.538573"/><trkpt lat="37.622153" lon="-119.538116"/><trkpt lat="37.620938" lon="-119.536456"/><trkpt lat="37.620309" lon="-119.535894"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.620309" lon="-119.535894"/><trkpt lat="37.617802" lon="-119.535954"/><trkpt lat="37.617100" lon="-119.536080"/><trkpt lat="37.616730" lon="-119.536287"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="37.616730" lon="-119.536287"/><trkpt lat="37.616164" lon="-119.538086"/><trkpt lat="37.615973" lon="-119.540157"/><trkpt lat="37.615990" lon="-119.541467"/><trkpt lat="37.616244" lon="-119.542269"/><trkpt lat="37.618096" lon="-119.545142"/><trkpt lat="37.618547" lon="-119.546241"/><trkpt lat="37.618896" lon="-119.547931"/><trkpt lat="37.619050" lon="-119.550973"/><trkpt lat="37.619197" lon="-119.552031"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="37.619197" lon="-119.552031"/><trkpt lat="37.619077" lon="-119.552663"/><trkpt lat="37.618079" lon="-119.554396"/><trkpt lat="37.617430" lon="-119.555917"/><trkpt lat="37.616821" lon="-119.557860"/><trkpt lat="37.616413" lon="-119.559846"/><trkpt lat="37.616268" lon="-119.561790"/><trkpt lat="37.616274" lon="-119.564494"/><trkpt lat="37.616520" lon="-119.566015"/><trkpt lat="37.616858" lon="-119.566739"/></trkseg>
+<trkseg><!-- 5-1: libkind-line: traced from his map --><trkpt lat="37.616858" lon="-119.566739"/><trkpt lat="37.617961" lon="-119.564113"/><trkpt lat="37.619495" lon="-119.561396"/><trkpt lat="37.620112" lon="-119.560897"/><trkpt lat="37.622153" lon="-119.560085"/><trkpt lat="37.623123" lon="-119.559168"/><trkpt lat="37.623704" lon="-119.558409"/><trkpt lat="37.624460" lon="-119.556466"/><trkpt lat="37.625285" lon="-119.553213"/><trkpt lat="37.626328" lon="-119.551142"/><trkpt lat="37.626781" lon="-119.549746"/></trkseg>
+</trk>
+</gpx>

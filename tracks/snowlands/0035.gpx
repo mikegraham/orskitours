@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0035 Terrace Lake - Shadow Lake Cutoff</name><desc>one way. 3.2 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0035_tour.htm</desc></metadata>
+<wpt lat="40.476217" lon="-121.479129"><ele>2456.41</ele><name>0035-01 From the Terrace Lake Trailhead</name></wpt>
+<wpt lat="40.479355" lon="-121.472652"><ele>2348.87</ele><name>0035-02 Terrace Lake</name></wpt>
+<wpt lat="40.479541" lon="-121.469022"><ele>2318.03</ele><name>0035-03 Shadow Lake</name></wpt>
+<wpt lat="40.493227" lon="-121.425448"><ele>2039.71</ele><name>0035-04 Lassen Park Road</name></wpt>
+<trk><name>Snowlands 0035 Terrace Lake - Shadow Lake Cutoff</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.476217" lon="-121.479129"/><trkpt lat="40.477230" lon="-121.478719"/><trkpt lat="40.478059" lon="-121.477595"/><trkpt lat="40.478623" lon="-121.476033"/><trkpt lat="40.479355" lon="-121.472652"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.479355" lon="-121.472652"/><trkpt lat="40.479390" lon="-121.470378"/><trkpt lat="40.479541" lon="-121.469022"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="40.479541" lon="-121.469022"/><trkpt lat="40.479680" lon="-121.464551"/><trkpt lat="40.479819" lon="-121.460079"/><trkpt lat="40.480455" lon="-121.456070"/><trkpt lat="40.481032" lon="-121.453791"/><trkpt lat="40.482413" lon="-121.450316"/><trkpt lat="40.483794" lon="-121.446841"/><trkpt lat="40.485176" lon="-121.443366"/><trkpt lat="40.486869" lon="-121.439314"/><trkpt lat="40.488562" lon="-121.435263"/><trkpt lat="40.490260" lon="-121.431485"/><trkpt lat="40.491957" lon="-121.427708"/><trkpt lat="40.493227" lon="-121.425448"/></trkseg>
+</trk>
+</gpx>

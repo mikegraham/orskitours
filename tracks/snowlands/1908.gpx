@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1908 Obsidian Dome Loop</name><desc>loop. 5.5 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/19/1908_tour.htm</desc></metadata>
+<wpt lat="37.774253" lon="-119.014926"><ele>2446.46</ele><name>1908-01 trailhead</name></wpt>
+<wpt lat="37.765444" lon="-119.027619"><ele>2502.15</ele><name>1908-02 road junction</name></wpt>
+<wpt lat="37.758267" lon="-119.027966"><ele>2540.19</ele><name>1908-03 very obscure road junction</name></wpt>
+<wpt lat="37.757844" lon="-119.027407"><ele>2543.73</ele><name>1908-04 road junction</name></wpt>
+<wpt lat="37.749005" lon="-119.022748"><ele>2483.51</ele><name>1908-05 south side of the Obsidian Dome</name></wpt>
+<wpt lat="37.758101" lon="-119.0097"><ele>2449.63</ele><name>1908-06 flat plateau on the dome's east side</name></wpt>
+<wpt lat="37.76267" lon="-119.012799"><ele>2453.62</ele><name>1908-07 lip of a large gully</name></wpt>
+<wpt lat="37.767675" lon="-119.024034"><ele>2484.45</ele><name>1908-08 Obsidian Dome Road</name></wpt>
+<trk><name>Snowlands 1908 Obsidian Dome Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.774253" lon="-119.014926"/><trkpt lat="37.772698" lon="-119.016031"/><trkpt lat="37.770415" lon="-119.018737"/><trkpt lat="37.769906" lon="-119.019582"/><trkpt lat="37.769354" lon="-119.021060"/><trkpt lat="37.768225" lon="-119.023004"/><trkpt lat="37.767600" lon="-119.024398"/><trkpt lat="37.766693" lon="-119.025635"/><trkpt lat="37.766164" lon="-119.026722"/><trkpt lat="37.765444" lon="-119.027619"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.765444" lon="-119.027619"/><trkpt lat="37.765022" lon="-119.026434"/><trkpt lat="37.764715" lon="-119.026118"/><trkpt lat="37.764348" lon="-119.026020"/><trkpt lat="37.761375" lon="-119.027338"/><trkpt lat="37.758267" lon="-119.027966"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="37.758267" lon="-119.027966"/><trkpt lat="37.757844" lon="-119.027407"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="37.757844" lon="-119.027407"/><trkpt lat="37.757704" lon="-119.026553"/><trkpt lat="37.757232" lon="-119.025838"/><trkpt lat="37.756565" lon="-119.025428"/><trkpt lat="37.755729" lon="-119.025377"/><trkpt lat="37.754794" lon="-119.025847"/><trkpt lat="37.753491" lon="-119.027345"/><trkpt lat="37.752790" lon="-119.027871"/><trkpt lat="37.751754" lon="-119.028143"/><trkpt lat="37.750451" lon="-119.028063"/><trkpt lat="37.749552" lon="-119.027102"/><trkpt lat="37.748867" lon="-119.026003"/><trkpt lat="37.748819" lon="-119.023468"/><trkpt lat="37.749005" lon="-119.022748"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="37.749005" lon="-119.022748"/><trkpt lat="37.749544" lon="-119.021483"/><trkpt lat="37.749704" lon="-119.018441"/><trkpt lat="37.750284" lon="-119.016286"/><trkpt lat="37.750665" lon="-119.015526"/><trkpt lat="37.751721" lon="-119.014293"/><trkpt lat="37.753959" lon="-119.012268"/><trkpt lat="37.755262" lon="-119.010828"/><trkpt lat="37.756164" lon="-119.010333"/><trkpt lat="37.758101" lon="-119.009700"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="37.758101" lon="-119.009700"/><trkpt lat="37.759204" lon="-119.009761"/><trkpt lat="37.759872" lon="-119.010074"/><trkpt lat="37.761542" lon="-119.011931"/><trkpt lat="37.762670" lon="-119.012799"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="37.762670" lon="-119.012799"/><trkpt lat="37.763980" lon="-119.012871"/><trkpt lat="37.764849" lon="-119.013467"/><trkpt lat="37.765495" lon="-119.014385"/><trkpt lat="37.766479" lon="-119.016371"/><trkpt lat="37.767463" lon="-119.018356"/><trkpt lat="37.767759" lon="-119.019244"/><trkpt lat="37.767849" lon="-119.019962"/><trkpt lat="37.767849" lon="-119.022623"/><trkpt lat="37.767675" lon="-119.024034"/></trkseg>
+<trkseg><!-- 8-1: libkind-line: traced from his map --><trkpt lat="37.767675" lon="-119.024034"/><trkpt lat="37.767815" lon="-119.023553"/><trkpt lat="37.769303" lon="-119.020722"/><trkpt lat="37.769855" lon="-119.019246"/><trkpt lat="37.772231" lon="-119.016673"/><trkpt lat="37.774253" lon="-119.014926"/></trkseg>
+</trk>
+</gpx>

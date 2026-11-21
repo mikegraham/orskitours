@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1012 Foster Meadow</name><desc>out and back to waypoint 5. 3.4 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1012_tour.htm</desc></metadata>
+<wpt lat="38.586299" lon="-120.242317"><ele>2150.32</ele><name>1012-01 trailhead</name></wpt>
+<wpt lat="38.590425" lon="-120.244083"><ele>2118.49</ele><name>1012-02 Silver Bear Snowmobile Trail</name></wpt>
+<wpt lat="38.596719" lon="-120.240552"><ele>2085.06</ele><name>1012-03 a lesser road that heads southwest</name></wpt>
+<wpt lat="38.590801" lon="-120.246259"><ele>2070.2</ele><name>1012-04 point where you leave the road</name></wpt>
+<wpt lat="38.591312" lon="-120.247172"><ele>2058.25</ele><name>1012-05 Foster Meadow</name></wpt>
+<trk><name>Snowlands 1012 Foster Meadow</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.586299" lon="-120.242317"/><trkpt lat="38.587168" lon="-120.241233"/><trkpt lat="38.587653" lon="-120.240826"/><trkpt lat="38.589054" lon="-120.240391"/><trkpt lat="38.590247" lon="-120.240401"/><trkpt lat="38.590444" lon="-120.240622"/><trkpt lat="38.590514" lon="-120.241019"/><trkpt lat="38.590502" lon="-120.242186"/><trkpt lat="38.590306" lon="-120.243479"/><trkpt lat="38.590425" lon="-120.244083"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.590425" lon="-120.244083"/><trkpt lat="38.591238" lon="-120.243762"/><trkpt lat="38.591880" lon="-120.244288"/><trkpt lat="38.592075" lon="-120.244321"/><trkpt lat="38.593160" lon="-120.243022"/><trkpt lat="38.594301" lon="-120.242532"/><trkpt lat="38.595181" lon="-120.241925"/><trkpt lat="38.596155" lon="-120.241467"/><trkpt lat="38.596719" lon="-120.240552"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.596719" lon="-120.240552"/><trkpt lat="38.596571" lon="-120.240954"/><trkpt lat="38.596316" lon="-120.241199"/><trkpt lat="38.595050" lon="-120.241770"/><trkpt lat="38.593030" lon="-120.243063"/><trkpt lat="38.591994" lon="-120.244707"/><trkpt lat="38.590801" lon="-120.246259"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.590801" lon="-120.246259"/><trkpt lat="38.591312" lon="-120.247172"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.591312" lon="-120.247172"/><trkpt lat="38.590801" lon="-120.246259"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.590801" lon="-120.246259"/><trkpt lat="38.591994" lon="-120.244707"/><trkpt lat="38.593030" lon="-120.243063"/><trkpt lat="38.595050" lon="-120.241770"/><trkpt lat="38.596316" lon="-120.241199"/><trkpt lat="38.596571" lon="-120.240954"/><trkpt lat="38.596719" lon="-120.240552"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.596719" lon="-120.240552"/><trkpt lat="38.596155" lon="-120.241467"/><trkpt lat="38.595181" lon="-120.241925"/><trkpt lat="38.594301" lon="-120.242532"/><trkpt lat="38.593160" lon="-120.243022"/><trkpt lat="38.592075" lon="-120.244321"/><trkpt lat="38.591880" lon="-120.244288"/><trkpt lat="38.591238" lon="-120.243762"/><trkpt lat="38.590425" lon="-120.244083"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.590425" lon="-120.244083"/><trkpt lat="38.590306" lon="-120.243479"/><trkpt lat="38.590502" lon="-120.242186"/><trkpt lat="38.590514" lon="-120.241019"/><trkpt lat="38.590444" lon="-120.240622"/><trkpt lat="38.590247" lon="-120.240401"/><trkpt lat="38.589054" lon="-120.240391"/><trkpt lat="38.587653" lon="-120.240826"/><trkpt lat="38.587168" lon="-120.241233"/><trkpt lat="38.586299" lon="-120.242317"/></trkseg>
+</trk>
+</gpx>

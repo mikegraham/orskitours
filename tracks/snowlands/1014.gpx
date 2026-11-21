@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1014 Trail Junction Via the Road</name><desc>out and back to waypoint 6. 5.0 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1014_tour.htm</desc></metadata>
+<wpt lat="38.586299" lon="-120.242317"><ele>2150.32</ele><name>1014-01 trailhead</name></wpt>
+<wpt lat="38.586651" lon="-120.239914"><ele>2173.76</ele><name>1014-02 snow-covered road</name></wpt>
+<wpt lat="38.586553" lon="-120.238826"><ele>2180.97</ele><name>1014-03</name></wpt>
+<wpt lat="38.600078" lon="-120.232147"><ele>2205.8</ele><name>1014-04 saddle</name></wpt>
+<wpt lat="38.604865" lon="-120.228403"><ele>2263.52</ele><name>1014-05</name></wpt>
+<wpt lat="38.608895" lon="-120.228293"><ele>2221.23</ele><name>1014-06 Trail Junction</name></wpt>
+<trk><name>Snowlands 1014 Trail Junction Via the Road</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.586299" lon="-120.242317"/><trkpt lat="38.586651" lon="-120.239914"/></trkseg>
+<trkseg><!-- 2-4: libkind-line: traced from his map --><trkpt lat="38.586651" lon="-120.239914"/><trkpt lat="38.586501" lon="-120.239234"/><trkpt lat="38.586503" lon="-120.238680"/><trkpt lat="38.587208" lon="-120.236933"/><trkpt lat="38.587519" lon="-120.234929"/><trkpt lat="38.587916" lon="-120.234123"/><trkpt lat="38.588675" lon="-120.233382"/><trkpt lat="38.590773" lon="-120.232266"/><trkpt lat="38.591973" lon="-120.231787"/><trkpt lat="38.592605" lon="-120.231841"/><trkpt lat="38.593938" lon="-120.232583"/><trkpt lat="38.595637" lon="-120.232644"/><trkpt lat="38.596702" lon="-120.232878"/><trkpt lat="38.599334" lon="-120.232666"/><trkpt lat="38.599733" lon="-120.232509"/><trkpt lat="38.600078" lon="-120.232147"/></trkseg>
+<trkseg><!-- 4-6: libkind-line: traced from his map --><trkpt lat="38.600078" lon="-120.232147"/><trkpt lat="38.600547" lon="-120.231883"/><trkpt lat="38.602098" lon="-120.229792"/><trkpt lat="38.603730" lon="-120.228772"/><trkpt lat="38.604862" lon="-120.228511"/><trkpt lat="38.608259" lon="-120.228488"/><trkpt lat="38.608895" lon="-120.228293"/></trkseg>
+<trkseg><!-- 6-4: return: retraced --><trkpt lat="38.608895" lon="-120.228293"/><trkpt lat="38.608259" lon="-120.228488"/><trkpt lat="38.604862" lon="-120.228511"/><trkpt lat="38.603730" lon="-120.228772"/><trkpt lat="38.602098" lon="-120.229792"/><trkpt lat="38.600547" lon="-120.231883"/><trkpt lat="38.600078" lon="-120.232147"/></trkseg>
+<trkseg><!-- 4-2: return: retraced --><trkpt lat="38.600078" lon="-120.232147"/><trkpt lat="38.599733" lon="-120.232509"/><trkpt lat="38.599334" lon="-120.232666"/><trkpt lat="38.596702" lon="-120.232878"/><trkpt lat="38.595637" lon="-120.232644"/><trkpt lat="38.593938" lon="-120.232583"/><trkpt lat="38.592605" lon="-120.231841"/><trkpt lat="38.591973" lon="-120.231787"/><trkpt lat="38.590773" lon="-120.232266"/><trkpt lat="38.588675" lon="-120.233382"/><trkpt lat="38.587916" lon="-120.234123"/><trkpt lat="38.587519" lon="-120.234929"/><trkpt lat="38.587208" lon="-120.236933"/><trkpt lat="38.586503" lon="-120.238680"/><trkpt lat="38.586501" lon="-120.239234"/><trkpt lat="38.586651" lon="-120.239914"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.586651" lon="-120.239914"/><trkpt lat="38.586299" lon="-120.242317"/></trkseg>
+</trk>
+</gpx>

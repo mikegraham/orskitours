@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1204 Zig-Zag</name><desc>one way. 1.6 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/12/1204_tour.htm</desc></metadata>
+<wpt lat="38.192272" lon="-119.962446"><ele>1994.54</ele><name>1204-01</name></wpt>
+<wpt lat="38.194729" lon="-119.957769"><ele>2036.5</ele><name>1204-02</name></wpt>
+<wpt lat="38.192721" lon="-119.957095"><ele>2053.84</ele><name>1204-03</name></wpt>
+<wpt lat="38.194598" lon="-119.951716"><ele>2120.03</ele><name>1204-04</name></wpt>
+<wpt lat="38.196812" lon="-119.947501"><ele>2162.37</ele><name>1204-05</name></wpt>
+<wpt lat="38.197537" lon="-119.945658"><ele>2182.35</ele><name>1204-06 junction of Gooseberry Road and the Zig-Zag trail</name></wpt>
+<wpt lat="38.197468" lon="-119.938594"><ele>2294.41</ele><name>1204-07</name></wpt>
+<wpt lat="38.19601" lon="-119.934359"><ele>2319.31</ele><name>1204-08</name></wpt>
+<wpt lat="38.191512" lon="-119.932367"><ele>2373.67</ele><name>1204-09 Gooseberry Road</name></wpt>
+<wpt lat="38.192531" lon="-119.928899"><ele>2416.28</ele><name>1204-10</name></wpt>
+<wpt lat="38.194835" lon="-119.920472"><ele>2438.05</ele><name>1204-11</name></wpt>
+<wpt lat="38.194909" lon="-119.912128"><ele>2487.57</ele><name>1204-12</name></wpt>
+<wpt lat="38.19612" lon="-119.957401"><ele>2064.7</ele><name>1204-13</name></wpt>
+<wpt lat="38.1995" lon="-119.94426"><ele>2245.15</ele><name>1204-14</name></wpt>
+<wpt lat="38.191879" lon="-119.93803"><ele>2261.4</ele><name>1204-15 sharp turn to the north (left)</name></wpt>
+<wpt lat="38.195246" lon="-119.938642"><ele>2289.21</ele><name>1204-16 sharp turn to the south (right)</name></wpt>
+<trk><name>Snowlands 1204 Zig-Zag</name>
+<trkseg><!-- 6-15: libkind-line: traced from his map --><trkpt lat="38.197537" lon="-119.945658"/><trkpt lat="38.197439" lon="-119.945071"/><trkpt lat="38.197162" lon="-119.944651"/><trkpt lat="38.194790" lon="-119.942568"/><trkpt lat="38.194052" lon="-119.941013"/><trkpt lat="38.192609" lon="-119.939277"/><trkpt lat="38.191879" lon="-119.938030"/></trkseg>
+<trkseg><!-- 15-16: libkind-line: traced from his map --><trkpt lat="38.191879" lon="-119.938030"/><trkpt lat="38.194643" lon="-119.938691"/><trkpt lat="38.195246" lon="-119.938642"/></trkseg>
+<trkseg><!-- 16-9: libkind-line: traced from his map --><trkpt lat="38.195246" lon="-119.938642"/><trkpt lat="38.194690" lon="-119.938244"/><trkpt lat="38.195052" lon="-119.937693"/><trkpt lat="38.194757" lon="-119.937079"/><trkpt lat="38.194556" lon="-119.935604"/><trkpt lat="38.194414" lon="-119.935226"/><trkpt lat="38.193564" lon="-119.934216"/><trkpt lat="38.193163" lon="-119.933301"/><trkpt lat="38.191861" lon="-119.933073"/><trkpt lat="38.191657" lon="-119.932843"/><trkpt lat="38.191512" lon="-119.932367"/></trkseg>
+</trk>
+</gpx>

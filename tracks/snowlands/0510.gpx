@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0510 Meeks Creek</name><desc>out and back to waypoint 3. Up to 4.0 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/05/0510_tour.htm</desc></metadata>
+<wpt lat="39.037339" lon="-120.126591"><ele>1903.22</ele><name>0510-01 trailhead</name></wpt>
+<wpt lat="39.024175" lon="-120.14634"><ele>1914.02</ele><name>0510-02 location where the road starts to climb</name></wpt>
+<wpt lat="39.0181" lon="-120.1486"><ele>1950.72</ele><name>0510-03 end of the valley</name></wpt>
+<trk><name>Snowlands 0510 Meeks Creek</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.037339" lon="-120.126591"/><trkpt lat="39.037208" lon="-120.128037"/><trkpt lat="39.036928" lon="-120.129387"/><trkpt lat="39.036057" lon="-120.132172"/><trkpt lat="39.034464" lon="-120.134535"/><trkpt lat="39.032931" lon="-120.137827"/><trkpt lat="39.031210" lon="-120.140865"/><trkpt lat="39.030121" lon="-120.142232"/><trkpt lat="39.028351" lon="-120.143705"/><trkpt lat="39.027466" lon="-120.144178"/><trkpt lat="39.026482" lon="-120.145071"/><trkpt lat="39.024876" lon="-120.145763"/><trkpt lat="39.024175" lon="-120.146340"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.024175" lon="-120.146340"/><trkpt lat="39.021991" lon="-120.146822"/><trkpt lat="39.019565" lon="-120.148242"/><trkpt lat="39.018877" lon="-120.148530"/><trkpt lat="39.018100" lon="-120.148600"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.018100" lon="-120.148600"/><trkpt lat="39.018877" lon="-120.148530"/><trkpt lat="39.019565" lon="-120.148242"/><trkpt lat="39.021991" lon="-120.146822"/><trkpt lat="39.024175" lon="-120.146340"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.024175" lon="-120.146340"/><trkpt lat="39.024876" lon="-120.145763"/><trkpt lat="39.026482" lon="-120.145071"/><trkpt lat="39.027466" lon="-120.144178"/><trkpt lat="39.028351" lon="-120.143705"/><trkpt lat="39.030121" lon="-120.142232"/><trkpt lat="39.031210" lon="-120.140865"/><trkpt lat="39.032931" lon="-120.137827"/><trkpt lat="39.034464" lon="-120.134535"/><trkpt lat="39.036057" lon="-120.132172"/><trkpt lat="39.036928" lon="-120.129387"/><trkpt lat="39.037208" lon="-120.128037"/><trkpt lat="39.037339" lon="-120.126591"/></trkseg>
+</trk>
+</gpx>

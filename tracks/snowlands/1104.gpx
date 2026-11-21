@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1104 Blue Creek Point Loop</name><desc>lollipop (stem back from waypoint 2) + spur to 5. 5.5 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/11/1104_tour.htm</desc></metadata>
+<wpt lat="38.412856" lon="-120.136319"><ele>2045.3</ele><name>1104-01 trailhead</name></wpt>
+<wpt lat="38.418751" lon="-120.133787"><ele>2079.59</ele><name>1104-02 road junction</name></wpt>
+<wpt lat="38.425093" lon="-120.155174"><ele>2103.33</ele><name>1104-03 north end of an open area located on the east (right) side of the road</name></wpt>
+<wpt lat="38.429506" lon="-120.162725"><ele>2114.63</ele><name>1104-04 high point at an obvious bend in the road</name></wpt>
+<wpt lat="38.430814" lon="-120.162695"><ele>2098.33</ele><name>1104-05 location where the terrain drops abruptly ahead</name></wpt>
+<wpt lat="38.427269" lon="-120.162316"><ele>2122.34</ele><name>1104-06</name></wpt>
+<wpt lat="38.419237" lon="-120.160117"><ele>2211.51</ele><name>1104-07 Peak 7276</name></wpt>
+<wpt lat="38.416147" lon="-120.150651"><ele>2210.59</ele><name>1104-08 high point</name></wpt>
+<wpt lat="38.416052" lon="-120.141481"><ele>2186.05</ele><name>1104-09 high point</name></wpt>
+<wpt lat="38.418885" lon="-120.136285"><ele>2094.41</ele><name>1104-10 road your skied earlier</name></wpt>
+<trk><name>Snowlands 1104 Blue Creek Point Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.412856" lon="-120.136319"/><trkpt lat="38.413217" lon="-120.136373"/><trkpt lat="38.414076" lon="-120.135897"/><trkpt lat="38.415499" lon="-120.135631"/><trkpt lat="38.416658" lon="-120.134690"/><trkpt lat="38.418148" lon="-120.134435"/><trkpt lat="38.418751" lon="-120.133787"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.418751" lon="-120.133787"/><trkpt lat="38.418935" lon="-120.134296"/><trkpt lat="38.419051" lon="-120.138477"/><trkpt lat="38.419302" lon="-120.140886"/><trkpt lat="38.419197" lon="-120.141815"/><trkpt lat="38.418458" lon="-120.144097"/><trkpt lat="38.418418" lon="-120.145069"/><trkpt lat="38.419395" lon="-120.149168"/><trkpt lat="38.419937" lon="-120.150166"/><trkpt lat="38.420896" lon="-120.150814"/><trkpt lat="38.421539" lon="-120.151703"/><trkpt lat="38.421713" lon="-120.152464"/><trkpt lat="38.421771" lon="-120.154489"/><trkpt lat="38.421924" lon="-120.154878"/><trkpt lat="38.422617" lon="-120.155154"/><trkpt lat="38.425093" lon="-120.155174"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.425093" lon="-120.155174"/><trkpt lat="38.425592" lon="-120.155450"/><trkpt lat="38.425932" lon="-120.156098"/><trkpt lat="38.425983" lon="-120.157154"/><trkpt lat="38.425784" lon="-120.158168"/><trkpt lat="38.425900" lon="-120.158619"/><trkpt lat="38.426919" lon="-120.159775"/><trkpt lat="38.427717" lon="-120.160977"/><trkpt lat="38.428874" lon="-120.161941"/><trkpt lat="38.429506" lon="-120.162725"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.429506" lon="-120.162725"/><trkpt lat="38.430814" lon="-120.162695"/></trkseg>
+<trkseg><!-- 5-4: libkind-line: traced from his map --><trkpt lat="38.430814" lon="-120.162695"/><trkpt lat="38.429506" lon="-120.162725"/></trkseg>
+<trkseg><!-- 4-6: libkind-line: traced from his map --><trkpt lat="38.429506" lon="-120.162725"/><trkpt lat="38.429172" lon="-120.162881"/><trkpt lat="38.428742" lon="-120.162856"/><trkpt lat="38.427749" lon="-120.162622"/><trkpt lat="38.427269" lon="-120.162316"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.427269" lon="-120.162316"/><trkpt lat="38.426855" lon="-120.162727"/><trkpt lat="38.426524" lon="-120.162844"/><trkpt lat="38.423743" lon="-120.162852"/><trkpt lat="38.420896" lon="-120.161444"/><trkpt lat="38.419237" lon="-120.160117"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="38.419237" lon="-120.160117"/><trkpt lat="38.418953" lon="-120.157239"/><trkpt lat="38.418314" lon="-120.154746"/><trkpt lat="38.417919" lon="-120.153816"/><trkpt lat="38.416590" lon="-120.151788"/><trkpt lat="38.416147" lon="-120.150651"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="38.416147" lon="-120.150651"/><trkpt lat="38.416690" lon="-120.148365"/><trkpt lat="38.416723" lon="-120.146717"/><trkpt lat="38.416382" lon="-120.142998"/><trkpt lat="38.416052" lon="-120.141481"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="38.416052" lon="-120.141481"/><trkpt lat="38.417166" lon="-120.138688"/><trkpt lat="38.417921" lon="-120.137421"/><trkpt lat="38.418885" lon="-120.136285"/></trkseg>
+<trkseg><!-- 10-2: libkind-line: traced from his map --><trkpt lat="38.418885" lon="-120.136285"/><trkpt lat="38.418903" lon="-120.134843"/><trkpt lat="38.418751" lon="-120.133787"/></trkseg>
+<trkseg><!-- 2-1: libkind-line: traced from his map --><trkpt lat="38.418751" lon="-120.133787"/><trkpt lat="38.417883" lon="-120.134324"/><trkpt lat="38.416761" lon="-120.134392"/><trkpt lat="38.415632" lon="-120.135366"/><trkpt lat="38.413945" lon="-120.135718"/><trkpt lat="38.413185" lon="-120.136313"/><trkpt lat="38.412856" lon="-120.136319"/></trkseg>
+</trk>
+</gpx>

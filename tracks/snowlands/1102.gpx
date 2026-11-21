@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1102 Stanislaus River Overlook</name><desc>out and back to waypoint 7. 2.4 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/11/1102_tour.htm</desc></metadata>
+<wpt lat="38.4162" lon="-120.111065"><ele>1996.26</ele><name>1102-01 trailhead</name></wpt>
+<wpt lat="38.417272" lon="-120.103104"><ele>1994.77</ele><name>1102-02 east end of the campground</name></wpt>
+<wpt lat="38.415465" lon="-120.098443"><ele>2014.83</ele><name>1102-03 high point</name></wpt>
+<wpt lat="38.414135" lon="-120.098564"><ele>2005.05</ele><name>1102-04 distinct turn in the road to the east (left)</name></wpt>
+<wpt lat="38.413825" lon="-120.097114"><ele>2004.2</ele><name>1102-05 location where you leave the road</name></wpt>
+<wpt lat="38.410909" lon="-120.097342"><ele>2026.25</ele><name>1102-06 Stanislaus River Overlook</name></wpt>
+<wpt lat="38.413954" lon="-120.097804"><ele>2002.45</ele><name>1102-07 snow-covered road</name></wpt>
+<wpt lat="38.414602" lon="-120.101039"><ele>2028.63</ele><name>1102-08 small, short ridge</name></wpt>
+<trk><name>Snowlands 1102 Stanislaus River Overlook</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.416200" lon="-120.111065"/><trkpt lat="38.416192" lon="-120.107828"/><trkpt lat="38.416603" lon="-120.106476"/><trkpt lat="38.416787" lon="-120.104828"/><trkpt lat="38.417226" lon="-120.103856"/><trkpt lat="38.417272" lon="-120.103104"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.417272" lon="-120.103104"/><trkpt lat="38.417376" lon="-120.101913"/><trkpt lat="38.417072" lon="-120.100814"/><trkpt lat="38.416377" lon="-120.099589"/><trkpt lat="38.415465" lon="-120.098443"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.415465" lon="-120.098443"/><trkpt lat="38.415042" lon="-120.098250"/><trkpt lat="38.414135" lon="-120.098564"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.414135" lon="-120.098564"/><trkpt lat="38.413825" lon="-120.097114"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.413825" lon="-120.097114"/><trkpt lat="38.412693" lon="-120.096837"/><trkpt lat="38.411699" lon="-120.096765"/><trkpt lat="38.411335" lon="-120.096906"/><trkpt lat="38.410909" lon="-120.097342"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.410909" lon="-120.097342"/><trkpt lat="38.411766" lon="-120.096595"/><trkpt lat="38.412693" lon="-120.096631"/><trkpt lat="38.413549" lon="-120.096981"/><trkpt lat="38.413954" lon="-120.097804"/></trkseg>
+<trkseg><!-- 7-6: return: retraced --><trkpt lat="38.413954" lon="-120.097804"/><trkpt lat="38.413549" lon="-120.096981"/><trkpt lat="38.412693" lon="-120.096631"/><trkpt lat="38.411766" lon="-120.096595"/><trkpt lat="38.410909" lon="-120.097342"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="38.410909" lon="-120.097342"/><trkpt lat="38.411335" lon="-120.096906"/><trkpt lat="38.411699" lon="-120.096765"/><trkpt lat="38.412693" lon="-120.096837"/><trkpt lat="38.413825" lon="-120.097114"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.413825" lon="-120.097114"/><trkpt lat="38.414135" lon="-120.098564"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.414135" lon="-120.098564"/><trkpt lat="38.415042" lon="-120.098250"/><trkpt lat="38.415465" lon="-120.098443"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.415465" lon="-120.098443"/><trkpt lat="38.416377" lon="-120.099589"/><trkpt lat="38.417072" lon="-120.100814"/><trkpt lat="38.417376" lon="-120.101913"/><trkpt lat="38.417272" lon="-120.103104"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.417272" lon="-120.103104"/><trkpt lat="38.417226" lon="-120.103856"/><trkpt lat="38.416787" lon="-120.104828"/><trkpt lat="38.416603" lon="-120.106476"/><trkpt lat="38.416192" lon="-120.107828"/><trkpt lat="38.416200" lon="-120.111065"/></trkseg>
+</trk>
+</gpx>

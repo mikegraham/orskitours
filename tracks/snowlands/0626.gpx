@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0626 Peak 8843 Loop</name><desc>loop. 1.5 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/06/0626_tour.htm</desc></metadata>
+<wpt lat="39.308277" lon="-119.907175"><ele>2669.57</ele><name>0626-01 trailhead</name></wpt>
+<wpt lat="39.306795" lon="-119.905376"><ele>2647.02</ele><name>0626-02 low point</name></wpt>
+<wpt lat="39.303566" lon="-119.902458"><ele>2687.63</ele><name>0626-03 summit of Peak 8843</name></wpt>
+<wpt lat="39.300661" lon="-119.906788"><ele>2584.25</ele><name>0626-04 level terrain</name></wpt>
+<trk><name>Snowlands 0626 Peak 8843 Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.308277" lon="-119.907175"/><trkpt lat="39.306795" lon="-119.905376"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.306795" lon="-119.905376"/><trkpt lat="39.304120" lon="-119.904726"/><trkpt lat="39.303827" lon="-119.904135"/><trkpt lat="39.303566" lon="-119.902458"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.303566" lon="-119.902458"/><trkpt lat="39.302113" lon="-119.904623"/><trkpt lat="39.300661" lon="-119.906788"/></trkseg>
+<trkseg><!-- 4-1: libkind-line: traced from his map --><trkpt lat="39.300661" lon="-119.906788"/><trkpt lat="39.300906" lon="-119.907557"/><trkpt lat="39.301752" lon="-119.908775"/><trkpt lat="39.302624" lon="-119.909402"/><trkpt lat="39.303366" lon="-119.909597"/><trkpt lat="39.304593" lon="-119.909477"/><trkpt lat="39.306435" lon="-119.908326"/><trkpt lat="39.308277" lon="-119.907175"/></trkseg>
+</trk>
+</gpx>

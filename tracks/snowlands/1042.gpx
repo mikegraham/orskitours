@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1042 Rabbit Ridge</name><desc>loop. 4.5 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1042_tour.htm</desc></metadata>
+<wpt lat="38.698811" lon="-119.966235"><ele>2381.77</ele><name>1042-01 trailhead</name></wpt>
+<wpt lat="38.680094" lon="-119.961149"><ele>2428.28</ele><name>1042-02 lessor road that heads east (left) from the road you are on</name></wpt>
+<wpt lat="38.679931" lon="-119.960506"><ele>2427.85</ele><name>1042-03</name></wpt>
+<wpt lat="38.682883" lon="-119.947092"><ele>2446.71</ele><name>1042-04 north of Peak 8070</name></wpt>
+<wpt lat="38.687302" lon="-119.948698"><ele>2514.95</ele><name>1042-05 southern-most high point on Rabbit Ridge</name></wpt>
+<wpt lat="38.692488" lon="-119.94969"><ele>2516.9</ele><name>1042-06 Peak 8256</name></wpt>
+<wpt lat="38.697475" lon="-119.956014"><ele>2382.19</ele><name>1042-07 gentle terrain</name></wpt>
+<trk><name>Snowlands 1042 Rabbit Ridge</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.698811" lon="-119.966235"/><trkpt lat="38.697889" lon="-119.965921"/><trkpt lat="38.697494" lon="-119.965632"/><trkpt lat="38.696236" lon="-119.963727"/><trkpt lat="38.695284" lon="-119.962705"/><trkpt lat="38.693569" lon="-119.960451"/><trkpt lat="38.692975" lon="-119.959830"/><trkpt lat="38.692316" lon="-119.959499"/><trkpt lat="38.690172" lon="-119.959447"/><trkpt lat="38.688753" lon="-119.959966"/><trkpt lat="38.687764" lon="-119.960528"/><trkpt lat="38.686445" lon="-119.960641"/><trkpt lat="38.685257" lon="-119.961186"/><trkpt lat="38.684300" lon="-119.961397"/><trkpt lat="38.680936" lon="-119.961777"/><trkpt lat="38.680540" lon="-119.961655"/><trkpt lat="38.680094" lon="-119.961149"/></trkseg>
+<trkseg><!-- 2-4: libkind-line: traced from his map --><trkpt lat="38.680094" lon="-119.961149"/><trkpt lat="38.680013" lon="-119.959461"/><trkpt lat="38.679342" lon="-119.958858"/><trkpt lat="38.678217" lon="-119.956752"/><trkpt lat="38.677804" lon="-119.955611"/><trkpt lat="38.677737" lon="-119.954385"/><trkpt lat="38.677826" lon="-119.953117"/><trkpt lat="38.677667" lon="-119.950924"/><trkpt lat="38.677824" lon="-119.950601"/><trkpt lat="38.678165" lon="-119.950385"/><trkpt lat="38.679458" lon="-119.950350"/><trkpt lat="38.679882" lon="-119.949315"/><trkpt lat="38.680251" lon="-119.948801"/><trkpt lat="38.682883" lon="-119.947092"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.682883" lon="-119.947092"/><trkpt lat="38.684136" lon="-119.947249"/><trkpt lat="38.686379" lon="-119.948164"/><trkpt lat="38.687302" lon="-119.948698"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.687302" lon="-119.948698"/><trkpt lat="38.688984" lon="-119.949240"/><trkpt lat="38.692488" lon="-119.949690"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.692488" lon="-119.949690"/><trkpt lat="38.694987" lon="-119.949774"/><trkpt lat="38.695449" lon="-119.949998"/><trkpt lat="38.696007" lon="-119.950588"/><trkpt lat="38.696675" lon="-119.951639"/><trkpt lat="38.697095" lon="-119.952864"/><trkpt lat="38.697351" lon="-119.954174"/><trkpt lat="38.697475" lon="-119.956014"/></trkseg>
+<trkseg><!-- 7-1: libkind-line: traced from his map --><trkpt lat="38.697475" lon="-119.956014"/><trkpt lat="38.697444" lon="-119.960543"/><trkpt lat="38.697414" lon="-119.965073"/><trkpt lat="38.697641" lon="-119.965542"/><trkpt lat="38.698811" lon="-119.966235"/></trkseg>
+</trk>
+</gpx>

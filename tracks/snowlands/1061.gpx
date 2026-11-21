@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1061 Tragedy Spring to Silver Lake Via Ridge and Option 2</name><desc>one way. 3.8 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1061_tour.htm</desc></metadata>
+<wpt lat="38.637841" lon="-120.141932"><ele>2421.07</ele><name>1061-01 trailhead</name></wpt>
+<wpt lat="38.64224" lon="-120.138188"><ele>2416.32</ele><name>1061-02 large, flat and open area</name></wpt>
+<wpt lat="38.653685" lon="-120.138338"><ele>2365.46</ele><name>1061-03 Peak 7752</name></wpt>
+<wpt lat="38.665121" lon="-120.140201"><ele>2313.29</ele><name>1061-04 point to the east of Peak 7681</name></wpt>
+<wpt lat="38.668069" lon="-120.140197"><ele>2282.48</ele><name>1061-05 broad saddle</name></wpt>
+<wpt lat="38.673201" lon="-120.132883"><ele>2187.53</ele><name>1061-06 7200-foot level</name></wpt>
+<wpt lat="38.668155" lon="-120.122206"><ele>2216.26</ele><name>1061-07 Highway 88 at the west end of the Silver Lake dam</name></wpt>
+<trk><name>Snowlands 1061 Tragedy Spring to Silver Lake Via Ridge and Option 2</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.637841" lon="-120.141932"/><trkpt lat="38.637874" lon="-120.140515"/><trkpt lat="38.638275" lon="-120.139861"/><trkpt lat="38.639761" lon="-120.138811"/><trkpt lat="38.640323" lon="-120.138668"/><trkpt lat="38.641743" lon="-120.138626"/><trkpt lat="38.642240" lon="-120.138188"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.642240" lon="-120.138188"/><trkpt lat="38.643197" lon="-120.137523"/><trkpt lat="38.645113" lon="-120.136743"/><trkpt lat="38.646732" lon="-120.135856"/><trkpt lat="38.647657" lon="-120.135610"/><trkpt lat="38.648681" lon="-120.135567"/><trkpt lat="38.649275" lon="-120.135676"/><trkpt lat="38.650564" lon="-120.136340"/><trkpt lat="38.651334" lon="-120.137118"/><trkpt lat="38.652942" lon="-120.137664"/><trkpt lat="38.653685" lon="-120.138338"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.653685" lon="-120.138338"/><trkpt lat="38.654227" lon="-120.139611"/><trkpt lat="38.654792" lon="-120.139986"/><trkpt lat="38.657104" lon="-120.140000"/><trkpt lat="38.658722" lon="-120.139722"/><trkpt lat="38.660605" lon="-120.140540"/><trkpt lat="38.661596" lon="-120.140724"/><trkpt lat="38.662356" lon="-120.140704"/><trkpt lat="38.665121" lon="-120.140201"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.665121" lon="-120.140201"/><trkpt lat="38.668069" lon="-120.140197"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.668069" lon="-120.140197"/><trkpt lat="38.668362" lon="-120.139542"/><trkpt lat="38.669833" lon="-120.137258"/><trkpt lat="38.671517" lon="-120.135070"/><trkpt lat="38.673201" lon="-120.132883"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.673201" lon="-120.132883"/><trkpt lat="38.673522" lon="-120.132309"/><trkpt lat="38.673755" lon="-120.131336"/><trkpt lat="38.673787" lon="-120.130659"/><trkpt lat="38.673530" lon="-120.129771"/><trkpt lat="38.673500" lon="-120.129221"/><trkpt lat="38.674178" lon="-120.127571"/><trkpt lat="38.674228" lon="-120.127148"/><trkpt lat="38.674135" lon="-120.126768"/><trkpt lat="38.673353" lon="-120.125837"/><trkpt lat="38.671074" lon="-120.124311"/><trkpt lat="38.668796" lon="-120.122785"/><trkpt lat="38.668155" lon="-120.122206"/></trkseg>
+</trk>
+</gpx>

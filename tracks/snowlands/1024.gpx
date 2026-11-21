@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1024 Meiss Saddle</name><desc>out and back to waypoint 2. 2.0 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1024_tour.htm</desc></metadata>
+<wpt lat="38.695957" lon="-119.992076"><ele>2601.08</ele><name>1024-01 Meiss Sno-Park</name></wpt>
+<wpt lat="38.704152" lon="-120.003701"><ele>2670.36</ele><name>1024-02 broad saddle</name></wpt>
+<trk><name>Snowlands 1024 Meiss Saddle</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.695957" lon="-119.992076"/><trkpt lat="38.695963" lon="-119.994397"/><trkpt lat="38.695730" lon="-119.995604"/><trkpt lat="38.695683" lon="-119.996520"/><trkpt lat="38.695750" lon="-119.997103"/><trkpt lat="38.696015" lon="-119.997603"/><trkpt lat="38.697079" lon="-119.998789"/><trkpt lat="38.698216" lon="-119.999409"/><trkpt lat="38.698866" lon="-119.999516"/><trkpt lat="38.701368" lon="-119.999481"/><trkpt lat="38.701721" lon="-119.999597"/><trkpt lat="38.702090" lon="-120.000226"/><trkpt lat="38.702398" lon="-120.001933"/><trkpt lat="38.702609" lon="-120.002514"/><trkpt lat="38.703123" lon="-120.003088"/><trkpt lat="38.704152" lon="-120.003701"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.704152" lon="-120.003701"/><trkpt lat="38.703123" lon="-120.003088"/><trkpt lat="38.702609" lon="-120.002514"/><trkpt lat="38.702398" lon="-120.001933"/><trkpt lat="38.702090" lon="-120.000226"/><trkpt lat="38.701721" lon="-119.999597"/><trkpt lat="38.701368" lon="-119.999481"/><trkpt lat="38.698866" lon="-119.999516"/><trkpt lat="38.698216" lon="-119.999409"/><trkpt lat="38.697079" lon="-119.998789"/><trkpt lat="38.696015" lon="-119.997603"/><trkpt lat="38.695750" lon="-119.997103"/><trkpt lat="38.695683" lon="-119.996520"/><trkpt lat="38.695730" lon="-119.995604"/><trkpt lat="38.695963" lon="-119.994397"/><trkpt lat="38.695957" lon="-119.992076"/></trkseg>
+</trk>
+</gpx>

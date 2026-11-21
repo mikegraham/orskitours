@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0821 Chipmunk Bluff</name><desc>out and back to waypoint 4. 2.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/08/0821_tour.htm</desc></metadata>
+<wpt lat="38.984796" lon="-120.330225"><ele>1966.19</ele><name>0821-01 trailhead</name></wpt>
+<wpt lat="38.97924" lon="-120.333988"><ele>1988.73</ele><name>0821-02 power line</name></wpt>
+<wpt lat="38.970895" lon="-120.336414"><ele>2001.38</ele><name>0821-03</name></wpt>
+<wpt lat="38.969382" lon="-120.337815"><ele>2026.25</ele><name>0821-04 ridge to the northeast of the peak</name></wpt>
+<trk><name>Snowlands 0821 Chipmunk Bluff</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.984796" lon="-120.330225"/><trkpt lat="38.983151" lon="-120.332975"/><trkpt lat="38.980976" lon="-120.334845"/><trkpt lat="38.980489" lon="-120.335053"/><trkpt lat="38.980067" lon="-120.334985"/><trkpt lat="38.979688" lon="-120.334673"/><trkpt lat="38.979240" lon="-120.333988"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.979240" lon="-120.333988"/><trkpt lat="38.978831" lon="-120.333551"/><trkpt lat="38.977695" lon="-120.333460"/><trkpt lat="38.977047" lon="-120.333144"/><trkpt lat="38.976103" lon="-120.333602"/><trkpt lat="38.973082" lon="-120.333520"/><trkpt lat="38.972372" lon="-120.334197"/><trkpt lat="38.970895" lon="-120.336414"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.970895" lon="-120.336414"/><trkpt lat="38.970223" lon="-120.336844"/><trkpt lat="38.969382" lon="-120.337815"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.969382" lon="-120.337815"/><trkpt lat="38.970223" lon="-120.336844"/><trkpt lat="38.970895" lon="-120.336414"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.970895" lon="-120.336414"/><trkpt lat="38.972372" lon="-120.334197"/><trkpt lat="38.973082" lon="-120.333520"/><trkpt lat="38.976103" lon="-120.333602"/><trkpt lat="38.977047" lon="-120.333144"/><trkpt lat="38.977695" lon="-120.333460"/><trkpt lat="38.978831" lon="-120.333551"/><trkpt lat="38.979240" lon="-120.333988"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.979240" lon="-120.333988"/><trkpt lat="38.979688" lon="-120.334673"/><trkpt lat="38.980067" lon="-120.334985"/><trkpt lat="38.980489" lon="-120.335053"/><trkpt lat="38.980976" lon="-120.334845"/><trkpt lat="38.983151" lon="-120.332975"/><trkpt lat="38.984796" lon="-120.330225"/></trkseg>
+</trk>
+</gpx>

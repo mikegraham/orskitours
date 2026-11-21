@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1037 Carson Pass to Kirkwood</name><desc>one way. 6.4 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1037_tour.htm</desc></metadata>
+<wpt lat="38.694817" lon="-119.989091"><ele>2614.43</ele><name>1037-01 Carson Pass Sno-Park</name></wpt>
+<wpt lat="38.688555" lon="-119.989206"><ele>2694.23</ele><name>1037-02 more open and level terrain</name></wpt>
+<wpt lat="38.672149" lon="-119.994392"><ele>2748.0</ele><name>1037-03 Winnemucca Lake</name></wpt>
+<wpt lat="38.669741" lon="-120.008438"><ele>2864.28</ele><name>1037-04 northwest spur of Round Top</name></wpt>
+<wpt lat="38.668713" lon="-120.011216"><ele>2847.57</ele><name>1037-05 Round Top Lake</name></wpt>
+<wpt lat="38.670344" lon="-120.034424"><ele>2565.92</ele><name>1037-06 small saddle</name></wpt>
+<wpt lat="38.669419" lon="-120.040632"><ele>2529.92</ele><name>1037-07 Emigrant Lake drainage</name></wpt>
+<wpt lat="38.671237" lon="-120.043194"><ele>2514.77</ele><name>1037-08 clearing at Emigrant Valley</name></wpt>
+<wpt lat="38.676024" lon="-120.049602"><ele>2643.06</ele><name>1037-09 top of chairlift 3</name></wpt>
+<wpt lat="38.683637" lon="-120.065881"><ele>2378.57</ele><name>1037-10 Main Lodge</name></wpt>
+<trk><name>Snowlands 1037 Carson Pass to Kirkwood</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.694817" lon="-119.989091"/><trkpt lat="38.694459" lon="-119.989468"/><trkpt lat="38.694030" lon="-119.989647"/><trkpt lat="38.691458" lon="-119.989980"/><trkpt lat="38.689676" lon="-119.989925"/><trkpt lat="38.689116" lon="-119.989671"/><trkpt lat="38.688555" lon="-119.989206"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.688555" lon="-119.989206"/><trkpt lat="38.688126" lon="-119.989137"/><trkpt lat="38.686971" lon="-119.988364"/><trkpt lat="38.686213" lon="-119.988110"/><trkpt lat="38.683970" lon="-119.987750"/><trkpt lat="38.682254" lon="-119.987876"/><trkpt lat="38.680011" lon="-119.988611"/><trkpt lat="38.678460" lon="-119.989293"/><trkpt lat="38.677339" lon="-119.989596"/><trkpt lat="38.676760" lon="-119.990158"/><trkpt lat="38.675390" lon="-119.992128"/><trkpt lat="38.673770" lon="-119.993260"/><trkpt lat="38.672149" lon="-119.994392"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.672149" lon="-119.994392"/><trkpt lat="38.671286" lon="-119.996320"/><trkpt lat="38.670857" lon="-119.997884"/><trkpt lat="38.670649" lon="-120.000504"/><trkpt lat="38.670608" lon="-120.002912"/><trkpt lat="38.670568" lon="-120.005321"/><trkpt lat="38.670235" lon="-120.007138"/><trkpt lat="38.669741" lon="-120.008438"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.669741" lon="-120.008438"/><trkpt lat="38.669064" lon="-120.010603"/><trkpt lat="38.668713" lon="-120.011216"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.668713" lon="-120.011216"/><trkpt lat="38.668856" lon="-120.012716"/><trkpt lat="38.669283" lon="-120.013899"/><trkpt lat="38.670003" lon="-120.015378"/><trkpt lat="38.670949" lon="-120.017026"/><trkpt lat="38.672354" lon="-120.018906"/><trkpt lat="38.673758" lon="-120.020787"/><trkpt lat="38.674032" lon="-120.021420"/><trkpt lat="38.674258" lon="-120.022477"/><trkpt lat="38.674170" lon="-120.023829"/><trkpt lat="38.673379" lon="-120.025963"/><trkpt lat="38.672588" lon="-120.028097"/><trkpt lat="38.671641" lon="-120.030949"/><trkpt lat="38.670693" lon="-120.033801"/><trkpt lat="38.670344" lon="-120.034424"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.670344" lon="-120.034424"/><trkpt lat="38.670286" lon="-120.035196"/><trkpt lat="38.669589" lon="-120.037900"/><trkpt lat="38.669419" lon="-120.040632"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="38.669419" lon="-120.040632"/><trkpt lat="38.669666" lon="-120.041189"/><trkpt lat="38.671237" lon="-120.043194"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="38.671237" lon="-120.043194"/><trkpt lat="38.672654" lon="-120.043986"/><trkpt lat="38.673277" lon="-120.044662"/><trkpt lat="38.674651" lon="-120.047132"/><trkpt lat="38.676024" lon="-120.049602"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="38.676024" lon="-120.049602"/><trkpt lat="38.676045" lon="-120.053998"/><trkpt lat="38.676066" lon="-120.058394"/><trkpt lat="38.676303" lon="-120.059493"/><trkpt lat="38.676955" lon="-120.061014"/><trkpt lat="38.677512" lon="-120.061881"/><trkpt lat="38.678328" lon="-120.062629"/><trkpt lat="38.680983" lon="-120.064255"/><trkpt lat="38.683637" lon="-120.065881"/></trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1901 Wilson Butte</name><desc>loop. 2.6 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/19/1901_tour.htm</desc></metadata>
+<wpt lat="37.774253" lon="-119.014926"><ele>2446.46</ele><name>1901-01 trailhead</name></wpt>
+<wpt lat="37.771574" lon="-119.017212"><ele>2450.82</ele><name>1901-02 first of two marked trails heading northwest</name></wpt>
+<wpt lat="37.780319" lon="-119.031027"><ele>2489.3</ele><name>1901-03 point where the two marked trails from Obsidian Dome Road intersect</name></wpt>
+<wpt lat="37.771078" lon="-119.017779"><ele>2451.06</ele><name>1901-04 Obsidian Dome Road</name></wpt>
+<trk><name>Snowlands 1901 Wilson Butte</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.774253" lon="-119.014926"/><trkpt lat="37.773814" lon="-119.015103"/><trkpt lat="37.772612" lon="-119.016018"/><trkpt lat="37.771574" lon="-119.017212"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.771574" lon="-119.017212"/><trkpt lat="37.771344" lon="-119.017814"/><trkpt lat="37.771691" lon="-119.018738"/><trkpt lat="37.772013" lon="-119.020681"/><trkpt lat="37.772165" lon="-119.023090"/><trkpt lat="37.772864" lon="-119.026174"/><trkpt lat="37.773648" lon="-119.027610"/><trkpt lat="37.774249" lon="-119.028325"/><trkpt lat="37.775017" lon="-119.028889"/><trkpt lat="37.778190" lon="-119.030154"/><trkpt lat="37.779492" lon="-119.030800"/><trkpt lat="37.780319" lon="-119.031027"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="37.780319" lon="-119.031027"/><trkpt lat="37.779927" lon="-119.031124"/><trkpt lat="37.779459" lon="-119.031007"/><trkpt lat="37.777238" lon="-119.030066"/><trkpt lat="37.775017" lon="-119.029124"/><trkpt lat="37.774304" lon="-119.028565"/><trkpt lat="37.772985" lon="-119.025963"/><trkpt lat="37.772300" lon="-119.022836"/><trkpt lat="37.771880" lon="-119.018865"/><trkpt lat="37.771691" lon="-119.018459"/><trkpt lat="37.771078" lon="-119.017779"/></trkseg>
+<trkseg><!-- 4-1: libkind-line: traced from his map --><trkpt lat="37.771078" lon="-119.017779"/><trkpt lat="37.772046" lon="-119.016617"/><trkpt lat="37.774253" lon="-119.014926"/></trkseg>
+</trk>
+</gpx>

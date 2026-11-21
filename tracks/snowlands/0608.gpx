@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0608 Tamarack Peak Loop</name><desc>loop. 5.1 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/06/0608_tour.htm</desc></metadata>
+<wpt lat="39.310374" lon="-119.901264"><ele>2690.93</ele><name>0608-01 trailhead</name></wpt>
+<wpt lat="39.310023" lon="-119.906417"><ele>2710.96</ele><name>0608-02 terrain to the north (right) is open</name></wpt>
+<wpt lat="39.312051" lon="-119.908165"><ele>2766.08</ele><name>0608-03 saddle</name></wpt>
+<wpt lat="39.320084" lon="-119.912542"><ele>2797.49</ele><name>0608-04 saddle</name></wpt>
+<wpt lat="39.326741" lon="-119.920901"><ele>2767.03</ele><name>0608-05 spur ridge</name></wpt>
+<wpt lat="39.321975" lon="-119.932148"><ele>2861.06</ele><name>0608-06 Relay Road</name></wpt>
+<trk><name>Snowlands 0608 Tamarack Peak Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.310374" lon="-119.901264"/><trkpt lat="39.310162" lon="-119.902213"/><trkpt lat="39.310151" lon="-119.905810"/><trkpt lat="39.310023" lon="-119.906417"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.310023" lon="-119.906417"/><trkpt lat="39.311431" lon="-119.906982"/><trkpt lat="39.311807" lon="-119.907461"/><trkpt lat="39.312051" lon="-119.908165"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.312051" lon="-119.908165"/><trkpt lat="39.313363" lon="-119.909973"/><trkpt lat="39.314574" lon="-119.911010"/><trkpt lat="39.316309" lon="-119.911178"/><trkpt lat="39.317651" lon="-119.911059"/><trkpt lat="39.319321" lon="-119.911919"/><trkpt lat="39.320084" lon="-119.912542"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.320084" lon="-119.912542"/><trkpt lat="39.320322" lon="-119.912854"/><trkpt lat="39.320798" lon="-119.913976"/><trkpt lat="39.321416" lon="-119.914737"/><trkpt lat="39.322332" lon="-119.915270"/><trkpt lat="39.323903" lon="-119.915703"/><trkpt lat="39.324492" lon="-119.916185"/><trkpt lat="39.325059" lon="-119.917150"/><trkpt lat="39.325470" lon="-119.919347"/><trkpt lat="39.326344" lon="-119.920259"/><trkpt lat="39.326741" lon="-119.920901"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.326741" lon="-119.920901"/><trkpt lat="39.326780" lon="-119.923116"/><trkpt lat="39.326595" lon="-119.924724"/><trkpt lat="39.326590" lon="-119.927242"/><trkpt lat="39.326586" lon="-119.929760"/><trkpt lat="39.326478" lon="-119.930394"/><trkpt lat="39.325966" lon="-119.931082"/><trkpt lat="39.325180" lon="-119.931561"/><trkpt lat="39.323249" lon="-119.931699"/><trkpt lat="39.321975" lon="-119.932148"/></trkseg>
+<trkseg><!-- 6-1: libkind-line: traced from his map --><trkpt lat="39.321975" lon="-119.932148"/><trkpt lat="39.319321" lon="-119.929018"/><trkpt lat="39.318764" lon="-119.928608"/><trkpt lat="39.316375" lon="-119.928545"/><trkpt lat="39.314902" lon="-119.929339"/><trkpt lat="39.314018" lon="-119.929365"/><trkpt lat="39.313527" lon="-119.929180"/><trkpt lat="39.311236" lon="-119.927716"/><trkpt lat="39.310285" lon="-119.926508"/><trkpt lat="39.309272" lon="-119.925815"/><trkpt lat="39.308566" lon="-119.924470"/><trkpt lat="39.307724" lon="-119.921931"/><trkpt lat="39.307733" lon="-119.919541"/><trkpt lat="39.307742" lon="-119.917150"/><trkpt lat="39.308554" lon="-119.914611"/><trkpt lat="39.309016" lon="-119.910549"/><trkpt lat="39.309937" lon="-119.906402"/><trkpt lat="39.310009" lon="-119.902467"/><trkpt lat="39.310131" lon="-119.901790"/><trkpt lat="39.310374" lon="-119.901264"/></trkseg>
+</trk>
+</gpx>

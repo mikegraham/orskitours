@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1308 Ostrander Ski Hut Via Merced Crest Trail</name><desc>one way. 8.4 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/13/1308_tour.htm</desc></metadata>
+<wpt lat="37.662008" lon="-119.663609"><ele>2202.51</ele><name>1308-01 lodge at Badger Pass Ski Area</name></wpt>
+<wpt lat="37.653056" lon="-119.65884"><ele>2374.4</ele><name>1308-02 top of the lifts and the summit of Peak 7785</name></wpt>
+<wpt lat="37.650515" lon="-119.652062"><ele>2382.45</ele><name>1308-03 Tempo Dome</name></wpt>
+<wpt lat="37.647959" lon="-119.647528"><ele>2268.59</ele><name>1308-04 tree-filled saddle</name></wpt>
+<wpt lat="37.644859" lon="-119.643325"><ele>2307.39</ele><name>1308-05 broad, open highpoint</name></wpt>
+<wpt lat="37.644985" lon="-119.634127"><ele>2183.52</ele><name>1308-06 saddle</name></wpt>
+<wpt lat="37.638221" lon="-119.615374"><ele>2328.58</ele><name>1308-07 Peak 7625</name></wpt>
+<wpt lat="37.636953" lon="-119.60227"><ele>2168.63</ele><name>1308-08 a tributary of the west fork of Bridalveil Creek</name></wpt>
+<wpt lat="37.619998" lon="-119.587952"><ele>2459.74</ele><name>1308-09 level terrain at the west end of a broad ridge</name></wpt>
+<wpt lat="37.616754" lon="-119.567689"><ele>2545.98</ele><name>1308-10 marked trail descends into a bowl to the northeast</name></wpt>
+<wpt lat="37.626781" lon="-119.549746"><ele>2603.31</ele><name>1308-11 Ostrander Ski Hut</name></wpt>
+<trk><name>Snowlands 1308 Ostrander Ski Hut Via Merced Crest Trail</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.662008" lon="-119.663609"/><trkpt lat="37.661046" lon="-119.663899"/><trkpt lat="37.660351" lon="-119.663694"/><trkpt lat="37.657263" lon="-119.661871"/><trkpt lat="37.654175" lon="-119.660047"/><trkpt lat="37.653056" lon="-119.658840"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.653056" lon="-119.658840"/><trkpt lat="37.652820" lon="-119.657941"/><trkpt lat="37.652717" lon="-119.655414"/><trkpt lat="37.652474" lon="-119.654315"/><trkpt lat="37.651996" lon="-119.653522"/><trkpt lat="37.650515" lon="-119.652062"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="37.650515" lon="-119.652062"/><trkpt lat="37.650028" lon="-119.650086"/><trkpt lat="37.647959" lon="-119.647528"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="37.647959" lon="-119.647528"/><trkpt lat="37.647347" lon="-119.647040"/><trkpt lat="37.645964" lon="-119.645307"/><trkpt lat="37.644859" lon="-119.643325"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="37.644859" lon="-119.643325"/><trkpt lat="37.644402" lon="-119.640363"/><trkpt lat="37.644348" lon="-119.637452"/><trkpt lat="37.644504" lon="-119.636133"/><trkpt lat="37.644985" lon="-119.634127"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="37.644985" lon="-119.634127"/><trkpt lat="37.644970" lon="-119.632124"/><trkpt lat="37.644571" lon="-119.630915"/><trkpt lat="37.643476" lon="-119.629485"/><trkpt lat="37.641650" lon="-119.627779"/><trkpt lat="37.640729" lon="-119.626191"/><trkpt lat="37.640153" lon="-119.624021"/><trkpt lat="37.639576" lon="-119.621852"/><trkpt lat="37.638394" lon="-119.618831"/><trkpt lat="37.638220" lon="-119.617622"/><trkpt lat="37.638221" lon="-119.615374"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="37.638221" lon="-119.615374"/><trkpt lat="37.638570" lon="-119.612625"/><trkpt lat="37.638920" lon="-119.609877"/><trkpt lat="37.638931" lon="-119.608449"/><trkpt lat="37.637649" lon="-119.604823"/><trkpt lat="37.636953" lon="-119.602270"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="37.636953" lon="-119.602270"/><trkpt lat="37.636615" lon="-119.598891"/><trkpt lat="37.636280" lon="-119.598197"/><trkpt lat="37.635689" lon="-119.597676"/><trkpt lat="37.632383" lon="-119.596968"/><trkpt lat="37.629076" lon="-119.596259"/><trkpt lat="37.625770" lon="-119.595551"/><trkpt lat="37.623856" lon="-119.594780"/><trkpt lat="37.622955" lon="-119.593673"/><trkpt lat="37.621406" lon="-119.591036"/><trkpt lat="37.619998" lon="-119.587952"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="37.619998" lon="-119.587952"/><trkpt lat="37.619190" lon="-119.583785"/><trkpt lat="37.619084" lon="-119.580572"/><trkpt lat="37.618979" lon="-119.577358"/><trkpt lat="37.618045" lon="-119.573568"/><trkpt lat="37.617110" lon="-119.569778"/><trkpt lat="37.616754" lon="-119.567689"/></trkseg>
+<trkseg><!-- 10-11: libkind-line: traced from his map --><trkpt lat="37.616754" lon="-119.567689"/><trkpt lat="37.616860" lon="-119.566757"/><trkpt lat="37.617316" lon="-119.565548"/><trkpt lat="37.618165" lon="-119.563736"/><trkpt lat="37.619256" lon="-119.561870"/><trkpt lat="37.620070" lon="-119.561077"/><trkpt lat="37.622246" lon="-119.560154"/><trkpt lat="37.623779" lon="-119.558243"/><trkpt lat="37.624334" lon="-119.556815"/><trkpt lat="37.625118" lon="-119.553684"/><trkpt lat="37.626781" lon="-119.549746"/></trkseg>
+</trk>
+</gpx>

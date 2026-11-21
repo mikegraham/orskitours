@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1903 Hartley Springs and Peak 8925</name><desc>out and back to waypoint 9. 5.8 miles round trip to bowl above Hartley Springs and 6.4 miles round trip to Peak 8925. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/19/1903_tour.htm</desc></metadata>
+<wpt lat="37.774253" lon="-119.014926"><ele>2446.46</ele><name>1903-01 trailhead</name></wpt>
+<wpt lat="37.765444" lon="-119.027619"><ele>2502.15</ele><name>1903-02 road junction</name></wpt>
+<wpt lat="37.758058" lon="-119.02813"><ele>2546.27</ele><name>1903-03 very obscure road junction</name></wpt>
+<wpt lat="37.761643" lon="-119.03206"><ele>2593.24</ele><name>1903-04 road junction</name></wpt>
+<wpt lat="37.766763" lon="-119.037933"><ele>2627.89</ele><name>1903-05 road junction</name></wpt>
+<wpt lat="37.766007" lon="-119.042676"><ele>2675.06</ele><name>1903-06 small bowl</name></wpt>
+<wpt lat="37.764414" lon="-119.042076"><ele>2700.66</ele><name>1903-07 ridge</name></wpt>
+<wpt lat="37.764898" lon="-119.040141"><ele>2696.37</ele><name>1903-08 base of Peak 8925</name></wpt>
+<wpt lat="37.764847" lon="-119.039569"><ele>2719.78</ele><name>1903-09 summit of Peak 8925</name></wpt>
+<trk><name>Snowlands 1903 Hartley Springs and Peak 8925</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.774253" lon="-119.014926"/><trkpt lat="37.772832" lon="-119.015808"/><trkpt lat="37.770230" lon="-119.018813"/><trkpt lat="37.769843" lon="-119.019514"/><trkpt lat="37.769327" lon="-119.020993"/><trkpt lat="37.767645" lon="-119.024162"/><trkpt lat="37.766672" lon="-119.025613"/><trkpt lat="37.766153" lon="-119.026697"/><trkpt lat="37.765444" lon="-119.027619"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.765444" lon="-119.027619"/><trkpt lat="37.764901" lon="-119.026377"/><trkpt lat="37.764582" lon="-119.026100"/><trkpt lat="37.764215" lon="-119.026032"/><trkpt lat="37.761409" lon="-119.027283"/><trkpt lat="37.758058" lon="-119.028130"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="37.758058" lon="-119.028130"/><trkpt lat="37.757334" lon="-119.027491"/><trkpt lat="37.757022" lon="-119.027367"/><trkpt lat="37.756904" lon="-119.027466"/><trkpt lat="37.756894" lon="-119.027675"/><trkpt lat="37.757235" lon="-119.028231"/><trkpt lat="37.758169" lon="-119.028887"/><trkpt lat="37.759571" lon="-119.029499"/><trkpt lat="37.760742" lon="-119.031128"/><trkpt lat="37.761643" lon="-119.032060"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="37.761643" lon="-119.032060"/><trkpt lat="37.762265" lon="-119.034472"/><trkpt lat="37.763847" lon="-119.036490"/><trkpt lat="37.764349" lon="-119.036856"/><trkpt lat="37.765751" lon="-119.036961"/><trkpt lat="37.766763" lon="-119.037933"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="37.766763" lon="-119.037933"/><trkpt lat="37.766916" lon="-119.039712"/><trkpt lat="37.766890" lon="-119.040937"/><trkpt lat="37.766454" lon="-119.042078"/><trkpt lat="37.766007" lon="-119.042676"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="37.766007" lon="-119.042676"/><trkpt lat="37.765384" lon="-119.042583"/><trkpt lat="37.764414" lon="-119.042076"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="37.764414" lon="-119.042076"/><trkpt lat="37.764519" lon="-119.041148"/><trkpt lat="37.764898" lon="-119.040141"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="37.764898" lon="-119.040141"/><trkpt lat="37.765342" lon="-119.039968"/><trkpt lat="37.765549" lon="-119.039528"/><trkpt lat="37.765312" lon="-119.039325"/><trkpt lat="37.764847" lon="-119.039569"/></trkseg>
+<trkseg><!-- 9-8: return: retraced --><trkpt lat="37.764847" lon="-119.039569"/><trkpt lat="37.765312" lon="-119.039325"/><trkpt lat="37.765549" lon="-119.039528"/><trkpt lat="37.765342" lon="-119.039968"/><trkpt lat="37.764898" lon="-119.040141"/></trkseg>
+<trkseg><!-- 8-7: return: retraced --><trkpt lat="37.764898" lon="-119.040141"/><trkpt lat="37.764519" lon="-119.041148"/><trkpt lat="37.764414" lon="-119.042076"/></trkseg>
+<trkseg><!-- 7-6: return: retraced --><trkpt lat="37.764414" lon="-119.042076"/><trkpt lat="37.765384" lon="-119.042583"/><trkpt lat="37.766007" lon="-119.042676"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="37.766007" lon="-119.042676"/><trkpt lat="37.766454" lon="-119.042078"/><trkpt lat="37.766890" lon="-119.040937"/><trkpt lat="37.766916" lon="-119.039712"/><trkpt lat="37.766763" lon="-119.037933"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="37.766763" lon="-119.037933"/><trkpt lat="37.765751" lon="-119.036961"/><trkpt lat="37.764349" lon="-119.036856"/><trkpt lat="37.763847" lon="-119.036490"/><trkpt lat="37.762265" lon="-119.034472"/><trkpt lat="37.761643" lon="-119.032060"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="37.761643" lon="-119.032060"/><trkpt lat="37.760742" lon="-119.031128"/><trkpt lat="37.759571" lon="-119.029499"/><trkpt lat="37.758169" lon="-119.028887"/><trkpt lat="37.757235" lon="-119.028231"/><trkpt lat="37.756894" lon="-119.027675"/><trkpt lat="37.756904" lon="-119.027466"/><trkpt lat="37.757022" lon="-119.027367"/><trkpt lat="37.757334" lon="-119.027491"/><trkpt lat="37.758058" lon="-119.028130"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="37.758058" lon="-119.028130"/><trkpt lat="37.761409" lon="-119.027283"/><trkpt lat="37.764215" lon="-119.026032"/><trkpt lat="37.764582" lon="-119.026100"/><trkpt lat="37.764901" lon="-119.026377"/><trkpt lat="37.765444" lon="-119.027619"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="37.765444" lon="-119.027619"/><trkpt lat="37.766153" lon="-119.026697"/><trkpt lat="37.766672" lon="-119.025613"/><trkpt lat="37.767645" lon="-119.024162"/><trkpt lat="37.769327" lon="-119.020993"/><trkpt lat="37.769843" lon="-119.019514"/><trkpt lat="37.770230" lon="-119.018813"/><trkpt lat="37.772832" lon="-119.015808"/><trkpt lat="37.774253" lon="-119.014926"/></trkseg>
+</trk>
+</gpx>

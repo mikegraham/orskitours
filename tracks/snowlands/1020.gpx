@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1020 Castle Point</name><desc>out and back to waypoint 4. 2.6 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1020_tour.htm</desc></metadata>
+<wpt lat="38.70544" lon="-120.109534"><ele>2401.0</ele><name>1020-01 trailhead</name></wpt>
+<wpt lat="38.705771" lon="-120.104116"><ele>2429.93</ele><name>1020-02 highpoint on Highway 88</name></wpt>
+<wpt lat="38.707037" lon="-120.107416"><ele>2455.67</ele><name>1020-03 highest peak</name></wpt>
+<wpt lat="38.704416" lon="-120.120185"><ele>2449.82</ele><name>1020-04 Castle Point</name></wpt>
+<trk><name>Snowlands 1020 Castle Point</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.705440" lon="-120.109534"/><trkpt lat="38.705444" lon="-120.104943"/><trkpt lat="38.705535" lon="-120.104531"/><trkpt lat="38.705771" lon="-120.104116"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.705771" lon="-120.104116"/><trkpt lat="38.706723" lon="-120.106343"/><trkpt lat="38.707037" lon="-120.107416"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.707037" lon="-120.107416"/><trkpt lat="38.706983" lon="-120.110585"/><trkpt lat="38.706543" lon="-120.112273"/><trkpt lat="38.705129" lon="-120.116062"/><trkpt lat="38.704589" lon="-120.118450"/><trkpt lat="38.704416" lon="-120.120185"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.704416" lon="-120.120185"/><trkpt lat="38.704589" lon="-120.118450"/><trkpt lat="38.705129" lon="-120.116062"/><trkpt lat="38.706543" lon="-120.112273"/><trkpt lat="38.706983" lon="-120.110585"/><trkpt lat="38.707037" lon="-120.107416"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.707037" lon="-120.107416"/><trkpt lat="38.706723" lon="-120.106343"/><trkpt lat="38.705771" lon="-120.104116"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.705771" lon="-120.104116"/><trkpt lat="38.705535" lon="-120.104531"/><trkpt lat="38.705444" lon="-120.104943"/><trkpt lat="38.705440" lon="-120.109534"/></trkseg>
+</trk>
+</gpx>

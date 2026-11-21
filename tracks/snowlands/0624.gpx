@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0624 Ophir Creek and Peak 8843</name><desc>loop + spur to 4. 2.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/06/0624_tour.htm</desc></metadata>
+<wpt lat="39.302106" lon="-119.918525"><ele>2607.47</ele><name>0624-01 trailhead</name></wpt>
+<wpt lat="39.299447" lon="-119.906847"><ele>2575.38</ele><name>0624-02 trees that divide the path ahead into two possible routes</name></wpt>
+<wpt lat="39.299358" lon="-119.902573"><ele>2562.1</ele><name>0624-03 mileage point</name></wpt>
+<wpt lat="39.30094" lon="-119.898371"><ele>2558.67</ele><name>0624-04 point where the creek drops abruptly as it continues east</name></wpt>
+<wpt lat="39.299979" lon="-119.904666"><ele>2571.64</ele><name>0624-05 point from which you can easily ascend north to Peak 8843</name></wpt>
+<wpt lat="39.303757" lon="-119.902881"><ele>2686.45</ele><name>0624-06 summit of Peak 8843</name></wpt>
+<wpt lat="39.300849" lon="-119.907212"><ele>2587.56</ele><name>0624-07 level terrain</name></wpt>
+<trk><name>Snowlands 0624 Ophir Creek and Peak 8843</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.302106" lon="-119.918525"/><trkpt lat="39.301959" lon="-119.916143"/><trkpt lat="39.301812" lon="-119.913761"/><trkpt lat="39.300610" lon="-119.911184"/><trkpt lat="39.299893" lon="-119.907777"/><trkpt lat="39.299447" lon="-119.906847"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.299447" lon="-119.906847"/><trkpt lat="39.299082" lon="-119.905492"/><trkpt lat="39.298899" lon="-119.904287"/><trkpt lat="39.298947" lon="-119.903290"/><trkpt lat="39.299358" lon="-119.902573"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.299358" lon="-119.902573"/><trkpt lat="39.299602" lon="-119.902043"/><trkpt lat="39.300653" lon="-119.900422"/><trkpt lat="39.300940" lon="-119.898371"/></trkseg>
+<trkseg><!-- 4-3: libkind-line: traced from his map --><trkpt lat="39.300940" lon="-119.898371"/><trkpt lat="39.300946" lon="-119.899758"/><trkpt lat="39.300848" lon="-119.900298"/><trkpt lat="39.299358" lon="-119.902573"/></trkseg>
+<trkseg><!-- 3-5: libkind-line: traced from his map --><trkpt lat="39.299358" lon="-119.902573"/><trkpt lat="39.299601" lon="-119.903954"/><trkpt lat="39.299979" lon="-119.904666"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.299979" lon="-119.904666"/><trkpt lat="39.300504" lon="-119.904611"/><trkpt lat="39.303205" lon="-119.903382"/><trkpt lat="39.303757" lon="-119.902881"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="39.303757" lon="-119.902881"/><trkpt lat="39.303627" lon="-119.903312"/><trkpt lat="39.302238" lon="-119.905262"/><trkpt lat="39.300849" lon="-119.907212"/></trkseg>
+<trkseg><!-- 7-1: libkind-line: traced from his map --><trkpt lat="39.300849" lon="-119.907212"/><trkpt lat="39.300893" lon="-119.908733"/><trkpt lat="39.301638" lon="-119.913013"/><trkpt lat="39.301576" lon="-119.913636"/><trkpt lat="39.301778" lon="-119.914675"/><trkpt lat="39.301921" lon="-119.917956"/><trkpt lat="39.302106" lon="-119.918525"/></trkseg>
+</trk>
+</gpx>

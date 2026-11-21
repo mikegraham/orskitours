@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1069 Wilderness Boundary Loop</name><desc>loop (ends 256 m from the start). 2.9 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1069_tour.htm</desc></metadata>
+<wpt lat="38.695198" lon="-119.989294"><ele>2614.14</ele><name>1069-01 trailhead</name></wpt>
+<wpt lat="38.690666" lon="-119.991438"><ele>2615.89</ele><name>1069-02</name></wpt>
+<wpt lat="38.690382" lon="-119.998828"><ele>2602.42</ele><name>1069-03 location where the trail abruptly begins to descend</name></wpt>
+<wpt lat="38.689793" lon="-120.007558"><ele>2495.97</ele><name>1069-04 junction of marked trails</name></wpt>
+<wpt lat="38.690942" lon="-120.00889"><ele>2494.13</ele><name>1069-05 Woods Lake road</name></wpt>
+<wpt lat="38.692922" lon="-120.007576"><ele>2498.06</ele><name>1069-06 road junction</name></wpt>
+<wpt lat="38.695957" lon="-119.992076"><ele>2601.08</ele><name>1069-07 Highway 88</name></wpt>
+<trk><name>Snowlands 1069 Wilderness Boundary Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.695198" lon="-119.989294"/><trkpt lat="38.694027" lon="-119.991429"/><trkpt lat="38.693332" lon="-119.992083"/><trkpt lat="38.692541" lon="-119.992152"/><trkpt lat="38.691782" lon="-119.992028"/><trkpt lat="38.690991" lon="-119.991532"/><trkpt lat="38.690666" lon="-119.991438"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.690666" lon="-119.991438"/><trkpt lat="38.690850" lon="-119.992535"/><trkpt lat="38.690542" lon="-119.993930"/><trkpt lat="38.690656" lon="-119.995747"/><trkpt lat="38.690382" lon="-119.998828"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.690382" lon="-119.998828"/><trkpt lat="38.690453" lon="-119.999973"/><trkpt lat="38.690170" lon="-120.001409"/><trkpt lat="38.690270" lon="-120.002804"/><trkpt lat="38.690040" lon="-120.003686"/><trkpt lat="38.690649" lon="-120.004665"/><trkpt lat="38.690753" lon="-120.005846"/><trkpt lat="38.690657" lon="-120.006245"/><trkpt lat="38.690137" lon="-120.006795"/><trkpt lat="38.689793" lon="-120.007558"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.689793" lon="-120.007558"/><trkpt lat="38.690942" lon="-120.008890"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.690942" lon="-120.008890"/><trkpt lat="38.691650" lon="-120.008368"/><trkpt lat="38.692442" lon="-120.008113"/><trkpt lat="38.692922" lon="-120.007576"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.692922" lon="-120.007576"/><trkpt lat="38.692948" lon="-120.006102"/><trkpt lat="38.693098" lon="-120.005702"/><trkpt lat="38.695608" lon="-120.004722"/><trkpt lat="38.695995" lon="-120.004359"/><trkpt lat="38.696224" lon="-120.003903"/><trkpt lat="38.696194" lon="-120.003396"/><trkpt lat="38.695644" lon="-120.002043"/><trkpt lat="38.695387" lon="-120.001029"/><trkpt lat="38.694000" lon="-119.998747"/><trkpt lat="38.693773" lon="-119.998029"/><trkpt lat="38.693699" lon="-119.997310"/><trkpt lat="38.693856" lon="-119.994606"/><trkpt lat="38.694696" lon="-119.992830"/><trkpt lat="38.695179" lon="-119.992460"/><trkpt lat="38.695957" lon="-119.992076"/></trkseg>
+</trk>
+</gpx>

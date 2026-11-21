@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0819 Orion Trail - Inner Loop</name><desc>loop. 2.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/08/0819_tour.htm</desc></metadata>
+<wpt lat="38.975812" lon="-120.324853"><ele>1977.64</ele><name>0819-01 trailhead</name></wpt>
+<wpt lat="38.978819" lon="-120.319265"><ele>1959.39</ele><name>0819-02 sign marking the Van Vleck turnoff</name></wpt>
+<wpt lat="38.978977" lon="-120.310986"><ele>1977.71</ele><name>0819-03 trail junction</name></wpt>
+<wpt lat="38.982011" lon="-120.305331"><ele>2019.15</ele><name>0819-04 ridgetop</name></wpt>
+<wpt lat="38.982179" lon="-120.314702"><ele>1972.68</ele><name>0819-05 summer Wilderness trailhead</name></wpt>
+<wpt lat="38.980523" lon="-120.316396"><ele>1966.56</ele><name>0819-06 road junction</name></wpt>
+<wpt lat="38.979707" lon="-120.319281"><ele>1958.54</ele><name>0819-07 road junction</name></wpt>
+<trk><name>Snowlands 0819 Orion Trail - Inner Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.975812" lon="-120.324853"/><trkpt lat="38.976851" lon="-120.323130"/><trkpt lat="38.977776" lon="-120.320376"/><trkpt lat="38.978118" lon="-120.319908"/><trkpt lat="38.978819" lon="-120.319265"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.978819" lon="-120.319265"/><trkpt lat="38.979006" lon="-120.317204"/><trkpt lat="38.980027" lon="-120.314408"/><trkpt lat="38.980122" lon="-120.313824"/><trkpt lat="38.980052" lon="-120.313365"/><trkpt lat="38.979391" lon="-120.312280"/><trkpt lat="38.978977" lon="-120.310986"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.978977" lon="-120.310986"/><trkpt lat="38.978868" lon="-120.310110"/><trkpt lat="38.978867" lon="-120.307355"/><trkpt lat="38.979104" lon="-120.306395"/><trkpt lat="38.979707" lon="-120.305618"/><trkpt lat="38.980453" lon="-120.305132"/><trkpt lat="38.980810" lon="-120.305111"/><trkpt lat="38.981426" lon="-120.305420"/><trkpt lat="38.982011" lon="-120.305331"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.982011" lon="-120.305331"/><trkpt lat="38.982171" lon="-120.309275"/><trkpt lat="38.981967" lon="-120.310527"/><trkpt lat="38.982409" lon="-120.311737"/><trkpt lat="38.982494" lon="-120.312363"/><trkpt lat="38.982179" lon="-120.314702"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.982179" lon="-120.314702"/><trkpt lat="38.980523" lon="-120.316396"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.980523" lon="-120.316396"/><trkpt lat="38.980083" lon="-120.316647"/><trkpt lat="38.979605" lon="-120.317580"/><trkpt lat="38.979519" lon="-120.318623"/><trkpt lat="38.979707" lon="-120.319281"/></trkseg>
+<trkseg><!-- 7-1: libkind-line: traced from his map --><trkpt lat="38.979707" lon="-120.319281"/><trkpt lat="38.978604" lon="-120.319453"/><trkpt lat="38.978203" lon="-120.319798"/><trkpt lat="38.977860" lon="-120.320543"/><trkpt lat="38.977032" lon="-120.323088"/><trkpt lat="38.975812" lon="-120.324853"/></trkseg>
+</trk>
+</gpx>

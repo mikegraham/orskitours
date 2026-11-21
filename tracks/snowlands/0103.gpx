@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0103 Yuba Pass Vista</name><desc>out and back to waypoint 3. 3.0 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/01/0103_tour.htm</desc></metadata>
+<wpt lat="39.617394" lon="-120.489812"><ele>2046.13</ele><name>0103-01 trailhead</name></wpt>
+<wpt lat="39.62988" lon="-120.4863"><ele>2031.39</ele><name>0103-02 fork in the road</name></wpt>
+<wpt lat="39.629664" lon="-120.477092"><ele>1991.19</ele><name>0103-03 road turns north and a minor ridge heads southeast</name></wpt>
+<trk><name>Snowlands 0103 Yuba Pass Vista</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.617394" lon="-120.489812"/><trkpt lat="39.618705" lon="-120.489385"/><trkpt lat="39.620618" lon="-120.488049"/><trkpt lat="39.621014" lon="-120.487897"/><trkpt lat="39.621938" lon="-120.487964"/><trkpt lat="39.623554" lon="-120.488808"/><trkpt lat="39.626292" lon="-120.488617"/><trkpt lat="39.626687" lon="-120.488329"/><trkpt lat="39.628007" lon="-120.486837"/><trkpt lat="39.629260" lon="-120.486682"/><trkpt lat="39.629880" lon="-120.486300"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.629880" lon="-120.486300"/><trkpt lat="39.629871" lon="-120.485271"/><trkpt lat="39.628582" lon="-120.482959"/><trkpt lat="39.628346" lon="-120.482317"/><trkpt lat="39.628273" lon="-120.481717"/><trkpt lat="39.628330" lon="-120.479191"/><trkpt lat="39.628739" lon="-120.478421"/><trkpt lat="39.629664" lon="-120.477092"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.629664" lon="-120.477092"/><trkpt lat="39.628739" lon="-120.478421"/><trkpt lat="39.628330" lon="-120.479191"/><trkpt lat="39.628273" lon="-120.481717"/><trkpt lat="39.628346" lon="-120.482317"/><trkpt lat="39.628582" lon="-120.482959"/><trkpt lat="39.629871" lon="-120.485271"/><trkpt lat="39.629880" lon="-120.486300"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.629880" lon="-120.486300"/><trkpt lat="39.629260" lon="-120.486682"/><trkpt lat="39.628007" lon="-120.486837"/><trkpt lat="39.626687" lon="-120.488329"/><trkpt lat="39.626292" lon="-120.488617"/><trkpt lat="39.623554" lon="-120.488808"/><trkpt lat="39.621938" lon="-120.487964"/><trkpt lat="39.621014" lon="-120.487897"/><trkpt lat="39.620618" lon="-120.488049"/><trkpt lat="39.618705" lon="-120.489385"/><trkpt lat="39.617394" lon="-120.489812"/></trkseg>
+</trk>
+</gpx>

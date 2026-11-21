@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0008 Nanny Creek Road</name><desc>one way. 2.1 miles one-way to McGowan Road. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0008_tour.htm</desc></metadata>
+<wpt lat="40.365696" lon="-121.564212"><ele>1558.96</ele><name>0008-01 trailhead</name></wpt>
+<wpt lat="40.37635" lon="-121.560861"><ele>1631.8</ele><name>0008-02 a small meadow</name></wpt>
+<wpt lat="40.382419" lon="-121.554924"><ele>1680.72</ele><name>0008-03 180 degree turn</name></wpt>
+<wpt lat="40.379111" lon="-121.566182"><ele>1744.14</ele><name>0008-04 McGowan Road</name></wpt>
+<trk><name>Snowlands 0008 Nanny Creek Road</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.365696" lon="-121.564212"/><trkpt lat="40.366593" lon="-121.564057"/><trkpt lat="40.368106" lon="-121.562470"/><trkpt lat="40.369039" lon="-121.561975"/><trkpt lat="40.369780" lon="-121.561839"/><trkpt lat="40.370971" lon="-121.561851"/><trkpt lat="40.372226" lon="-121.562742"/><trkpt lat="40.373707" lon="-121.562877"/><trkpt lat="40.374093" lon="-121.562700"/><trkpt lat="40.375123" lon="-121.561752"/><trkpt lat="40.376350" lon="-121.560861"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.376350" lon="-121.560861"/><trkpt lat="40.376829" lon="-121.560767"/><trkpt lat="40.377312" lon="-121.560427"/><trkpt lat="40.378857" lon="-121.558465"/><trkpt lat="40.380402" lon="-121.556503"/><trkpt lat="40.382139" lon="-121.555061"/><trkpt lat="40.382419" lon="-121.554924"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="40.382419" lon="-121.554924"/><trkpt lat="40.382301" lon="-121.555448"/><trkpt lat="40.381308" lon="-121.556552"/><trkpt lat="40.381081" lon="-121.557354"/><trkpt lat="40.380310" lon="-121.558749"/><trkpt lat="40.380033" lon="-121.559467"/><trkpt lat="40.379897" lon="-121.560312"/><trkpt lat="40.380130" lon="-121.561369"/><trkpt lat="40.380113" lon="-121.562340"/><trkpt lat="40.379980" lon="-121.562805"/><trkpt lat="40.379396" lon="-121.563946"/><trkpt lat="40.379111" lon="-121.566182"/></trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0402 Pole Creek Loop</name><desc>loop. 3.7 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/04/0402_tour.htm</desc></metadata>
+<wpt lat="39.236267" lon="-120.207023"><ele>1836.23</ele><name>0402-01 trailhead</name></wpt>
+<wpt lat="39.239415" lon="-120.209232"><ele>1829.75</ele><name>0402-02 small snow-covered road</name></wpt>
+<wpt lat="39.236602" lon="-120.209356"><ele>1891.76</ele><name>0402-03 road turns west (right)</name></wpt>
+<wpt lat="39.237051" lon="-120.224597"><ele>1997.2</ele><name>0402-04 road junction</name></wpt>
+<wpt lat="39.231786" lon="-120.220304"><ele>2030.04</ele><name>0402-05 road junction</name></wpt>
+<trk><name>Snowlands 0402 Pole Creek Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.236267" lon="-120.207023"/><trkpt lat="39.237671" lon="-120.208163"/><trkpt lat="39.239001" lon="-120.208846"/><trkpt lat="39.239415" lon="-120.209232"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.239415" lon="-120.209232"/><trkpt lat="39.239032" lon="-120.209457"/><trkpt lat="39.236602" lon="-120.209356"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.236602" lon="-120.209356"/><trkpt lat="39.236073" lon="-120.211470"/><trkpt lat="39.236096" lon="-120.213982"/><trkpt lat="39.235657" lon="-120.215364"/><trkpt lat="39.235264" lon="-120.217122"/><trkpt lat="39.235127" lon="-120.218294"/><trkpt lat="39.235112" lon="-120.219843"/><trkpt lat="39.235186" lon="-120.220346"/><trkpt lat="39.235779" lon="-120.221979"/><trkpt lat="39.237051" lon="-120.224597"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.237051" lon="-120.224597"/><trkpt lat="39.236615" lon="-120.224340"/><trkpt lat="39.234752" lon="-120.221727"/><trkpt lat="39.233423" lon="-120.220200"/><trkpt lat="39.233099" lon="-120.220089"/><trkpt lat="39.232353" lon="-120.220405"/><trkpt lat="39.231786" lon="-120.220304"/></trkseg>
+<trkseg><!-- 5-1: libkind-line: traced from his map --><trkpt lat="39.231786" lon="-120.220304"/><trkpt lat="39.232446" lon="-120.220590"/><trkpt lat="39.233099" lon="-120.220161"/><trkpt lat="39.233455" lon="-120.220231"/><trkpt lat="39.234128" lon="-120.220942"/><trkpt lat="39.236444" lon="-120.224131"/><trkpt lat="39.236715" lon="-120.224326"/><trkpt lat="39.236886" lon="-120.224200"/><trkpt lat="39.236817" lon="-120.223611"/><trkpt lat="39.235964" lon="-120.221979"/><trkpt lat="39.234955" lon="-120.219257"/><trkpt lat="39.234963" lon="-120.218127"/><trkpt lat="39.235133" lon="-120.216703"/><trkpt lat="39.235664" lon="-120.214736"/><trkpt lat="39.236254" lon="-120.213354"/><trkpt lat="39.236226" lon="-120.212726"/><trkpt lat="39.235925" lon="-120.211805"/><trkpt lat="39.235921" lon="-120.211344"/><trkpt lat="39.236432" lon="-120.209521"/><trkpt lat="39.236595" lon="-120.209274"/><trkpt lat="39.237055" lon="-120.209169"/><trkpt lat="39.239171" lon="-120.209216"/><trkpt lat="39.237250" lon="-120.208179"/><trkpt lat="39.236267" lon="-120.207023"/></trkseg>
+</trk>
+</gpx>

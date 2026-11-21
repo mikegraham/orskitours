@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0811 Becker Peak</name><desc>out and back to waypoint 5. 3.6 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/08/0811_tour.htm</desc></metadata>
+<wpt lat="38.824241" lon="-120.033629"><ele>2246.36</ele><name>0811-01 trailhead</name></wpt>
+<wpt lat="38.830327" lon="-120.038651"><ele>2272.81</ele><name>0811-02 location where you must leave the road</name></wpt>
+<wpt lat="38.831606" lon="-120.042873"><ele>2351.54</ele><name>0811-03 east end of the ridge</name></wpt>
+<wpt lat="38.831753" lon="-120.054792"><ele>2423.63</ele><name>0811-04 small high point</name></wpt>
+<wpt lat="38.832324" lon="-120.059768"><ele>2528.78</ele><name>0811-05 summit of Becker Peak</name></wpt>
+<trk><name>Snowlands 0811 Becker Peak</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.824241" lon="-120.033629"/><trkpt lat="38.825341" lon="-120.034297"/><trkpt lat="38.825802" lon="-120.034729"/><trkpt lat="38.826306" lon="-120.035441"/><trkpt lat="38.826911" lon="-120.036838"/><trkpt lat="38.827550" lon="-120.037631"/><trkpt lat="38.828308" lon="-120.038023"/><trkpt lat="38.829923" lon="-120.038370"/><trkpt lat="38.830327" lon="-120.038651"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.830327" lon="-120.038651"/><trkpt lat="38.830889" lon="-120.040012"/><trkpt lat="38.831606" lon="-120.042873"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.831606" lon="-120.042873"/><trkpt lat="38.831172" lon="-120.046106"/><trkpt lat="38.831145" lon="-120.048645"/><trkpt lat="38.831394" lon="-120.051480"/><trkpt lat="38.831643" lon="-120.054316"/><trkpt lat="38.831753" lon="-120.054792"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.831753" lon="-120.054792"/><trkpt lat="38.831764" lon="-120.056897"/><trkpt lat="38.831623" lon="-120.058378"/><trkpt lat="38.831889" lon="-120.059459"/><trkpt lat="38.832324" lon="-120.059768"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.832324" lon="-120.059768"/><trkpt lat="38.831889" lon="-120.059459"/><trkpt lat="38.831623" lon="-120.058378"/><trkpt lat="38.831764" lon="-120.056897"/><trkpt lat="38.831753" lon="-120.054792"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.831753" lon="-120.054792"/><trkpt lat="38.831643" lon="-120.054316"/><trkpt lat="38.831394" lon="-120.051480"/><trkpt lat="38.831145" lon="-120.048645"/><trkpt lat="38.831172" lon="-120.046106"/><trkpt lat="38.831606" lon="-120.042873"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.831606" lon="-120.042873"/><trkpt lat="38.830889" lon="-120.040012"/><trkpt lat="38.830327" lon="-120.038651"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.830327" lon="-120.038651"/><trkpt lat="38.829923" lon="-120.038370"/><trkpt lat="38.828308" lon="-120.038023"/><trkpt lat="38.827550" lon="-120.037631"/><trkpt lat="38.826911" lon="-120.036838"/><trkpt lat="38.826306" lon="-120.035441"/><trkpt lat="38.825802" lon="-120.034729"/><trkpt lat="38.825341" lon="-120.034297"/><trkpt lat="38.824241" lon="-120.033629"/></trkseg>
+</trk>
+</gpx>

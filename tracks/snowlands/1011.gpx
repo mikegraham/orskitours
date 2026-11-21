@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1011 Caples Lake to Kirkwood</name><desc>one way. 4.7 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1011_tour.htm</desc></metadata>
+<wpt lat="38.703144" lon="-120.065475"><ele>2371.22</ele><name>1011-01 dam</name></wpt>
+<wpt lat="38.68326" lon="-120.037313"><ele>2384.42</ele><name>1011-02 southern tip of the lake</name></wpt>
+<wpt lat="38.673885" lon="-120.040744"><ele>2468.47</ele><name>1011-03</name></wpt>
+<wpt lat="38.672619" lon="-120.042375"><ele>2503.0</ele><name>1011-04 clearing at Emigrant Valley</name></wpt>
+<wpt lat="38.676265" lon="-120.049415"><ele>2632.77</ele><name>1011-05 top of chairlift 3</name></wpt>
+<wpt lat="38.683856" lon="-120.065706"><ele>2378.72</ele><name>1011-06 Main Lodge</name></wpt>
+<wpt lat="38.703012" lon="-120.072868"><ele>2345.85</ele><name>1011-10</name></wpt>
+<trk><name>Snowlands 1011 Caples Lake to Kirkwood</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.703144" lon="-120.065475"/><trkpt lat="38.702760" lon="-120.065259"/><trkpt lat="38.702081" lon="-120.064377"/><trkpt lat="38.700847" lon="-120.062146"/><trkpt lat="38.700415" lon="-120.061154"/><trkpt lat="38.699366" lon="-120.057806"/><trkpt lat="38.698281" lon="-120.055284"/><trkpt lat="38.698059" lon="-120.054458"/><trkpt lat="38.697525" lon="-120.053342"/><trkpt lat="38.696978" lon="-120.051771"/><trkpt lat="38.696732" lon="-120.050490"/><trkpt lat="38.696585" lon="-120.048341"/><trkpt lat="38.696182" lon="-120.047432"/><trkpt lat="38.695082" lon="-120.046277"/><trkpt lat="38.693308" lon="-120.045523"/><trkpt lat="38.692179" lon="-120.044791"/><trkpt lat="38.690308" lon="-120.043198"/><trkpt lat="38.688921" lon="-120.041839"/><trkpt lat="38.687340" lon="-120.041067"/><trkpt lat="38.685565" lon="-120.040483"/><trkpt lat="38.684779" lon="-120.039537"/><trkpt lat="38.683886" lon="-120.038041"/><trkpt lat="38.683260" lon="-120.037313"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.683260" lon="-120.037313"/><trkpt lat="38.682306" lon="-120.037399"/><trkpt lat="38.679596" lon="-120.038894"/><trkpt lat="38.678144" lon="-120.039269"/><trkpt lat="38.676498" lon="-120.040456"/><trkpt lat="38.674336" lon="-120.040614"/><trkpt lat="38.673885" lon="-120.040744"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.673885" lon="-120.040744"/><trkpt lat="38.673178" lon="-120.041411"/><trkpt lat="38.672619" lon="-120.042375"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.672619" lon="-120.042375"/><trkpt lat="38.672870" lon="-120.043174"/><trkpt lat="38.673938" lon="-120.045220"/><trkpt lat="38.675006" lon="-120.047266"/><trkpt lat="38.676265" lon="-120.049415"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.676265" lon="-120.049415"/><trkpt lat="38.676274" lon="-120.053817"/><trkpt lat="38.676283" lon="-120.058219"/><trkpt lat="38.676425" lon="-120.058963"/><trkpt lat="38.677047" lon="-120.060575"/><trkpt lat="38.677681" lon="-120.061632"/><trkpt lat="38.678241" lon="-120.062217"/><trkpt lat="38.681048" lon="-120.063961"/><trkpt lat="38.683856" lon="-120.065706"/></trkseg>
+</trk>
+</gpx>

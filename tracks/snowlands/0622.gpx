@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0622 Ginny Lake</name><desc>out and back to waypoint 5; or continue as one way. 2.8 miles round trip to Ginny Lake 3.8 miles round trip to ridge above lake. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/06/0622_tour.htm</desc></metadata>
+<wpt lat="39.300835" lon="-119.920074"><ele>2612.08</ele><name>0622-01 trailhead</name></wpt>
+<wpt lat="39.301803" lon="-119.92692"><ele>2588.21</ele><name>0622-02 road begins a sharp turn to the south (left)</name></wpt>
+<wpt lat="39.302879" lon="-119.929105"><ele>2601.0</ele><name>0622-03 Third Creek</name></wpt>
+<wpt lat="39.301964" lon="-119.935203"><ele>2606.47</ele><name>0622-04 west end of the meadow area</name></wpt>
+<wpt lat="39.30355" lon="-119.942983"><ele>2714.69</ele><name>0622-05 Ginny Lake</name></wpt>
+<wpt lat="39.297819" lon="-119.944711"><ele>2848.45</ele><name>0622-06 saddle and ridgetop</name></wpt>
+<trk><name>Snowlands 0622 Ginny Lake</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.300835" lon="-119.920074"/><trkpt lat="39.300472" lon="-119.922333"/><trkpt lat="39.300471" lon="-119.922968"/><trkpt lat="39.301551" lon="-119.925890"/><trkpt lat="39.301803" lon="-119.926920"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.301803" lon="-119.926920"/><trkpt lat="39.302180" lon="-119.927146"/><trkpt lat="39.302505" lon="-119.927554"/><trkpt lat="39.302879" lon="-119.929105"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.302879" lon="-119.929105"/><trkpt lat="39.302777" lon="-119.930208"/><trkpt lat="39.302734" lon="-119.932918"/><trkpt lat="39.302559" lon="-119.933680"/><trkpt lat="39.302160" lon="-119.934526"/><trkpt lat="39.301964" lon="-119.935203"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.301964" lon="-119.935203"/><trkpt lat="39.302065" lon="-119.936050"/><trkpt lat="39.302796" lon="-119.937236"/><trkpt lat="39.303230" lon="-119.938548"/><trkpt lat="39.303310" lon="-119.939607"/><trkpt lat="39.303668" lon="-119.941639"/><trkpt lat="39.303678" lon="-119.942528"/><trkpt lat="39.303550" lon="-119.942983"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="39.303550" lon="-119.942983"/><trkpt lat="39.303678" lon="-119.942528"/><trkpt lat="39.303668" lon="-119.941639"/><trkpt lat="39.303310" lon="-119.939607"/><trkpt lat="39.303230" lon="-119.938548"/><trkpt lat="39.302796" lon="-119.937236"/><trkpt lat="39.302065" lon="-119.936050"/><trkpt lat="39.301964" lon="-119.935203"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="39.301964" lon="-119.935203"/><trkpt lat="39.302160" lon="-119.934526"/><trkpt lat="39.302559" lon="-119.933680"/><trkpt lat="39.302734" lon="-119.932918"/><trkpt lat="39.302777" lon="-119.930208"/><trkpt lat="39.302879" lon="-119.929105"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.302879" lon="-119.929105"/><trkpt lat="39.302505" lon="-119.927554"/><trkpt lat="39.302180" lon="-119.927146"/><trkpt lat="39.301803" lon="-119.926920"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.301803" lon="-119.926920"/><trkpt lat="39.301551" lon="-119.925890"/><trkpt lat="39.300471" lon="-119.922968"/><trkpt lat="39.300472" lon="-119.922333"/><trkpt lat="39.300835" lon="-119.920074"/></trkseg>
+</trk>
+<trk><name>Snowlands 0622 Ginny Lake: optional continuation or side trip</name>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.303550" lon="-119.942983"/><trkpt lat="39.302313" lon="-119.943269"/><trkpt lat="39.300380" lon="-119.944246"/><trkpt lat="39.297819" lon="-119.944711"/></trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0028 Brokeoff Mountain Viewpoint Loop</name><desc>loop. 3.0 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0028_tour.htm</desc></metadata>
+<wpt lat="40.438172" lon="-121.535081"><ele>2054.29</ele><name>0028-01 trailhead</name></wpt>
+<wpt lat="40.447965" lon="-121.536078"><ele>2107.88</ele><name>0028-02 bridge</name></wpt>
+<wpt lat="40.448867" lon="-121.535153"><ele>2129.24</ele><name>0028-03 Sulphur Works</name></wpt>
+<wpt lat="40.442506" lon="-121.528242"><ele>2163.88</ele><name>0028-04 Brokeoff Mountain Viewpoint</name></wpt>
+<wpt lat="40.444466" lon="-121.527133"><ele>2179.24</ele><name>0028-05 clearing</name></wpt>
+<wpt lat="40.435375" lon="-121.525099"><ele>1954.36</ele><name>0028-06</name></wpt>
+<wpt lat="40.439373" lon="-121.531603"><ele>2000.13</ele><name>0028-07 south end of a steep ridge</name></wpt>
+<trk><name>Snowlands 0028 Brokeoff Mountain Viewpoint Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.438172" lon="-121.535081"/><trkpt lat="40.438664" lon="-121.535391"/><trkpt lat="40.439568" lon="-121.535671"/><trkpt lat="40.442247" lon="-121.535693"/><trkpt lat="40.443279" lon="-121.535842"/><trkpt lat="40.445442" lon="-121.536328"/><trkpt lat="40.446410" lon="-121.536779"/><trkpt lat="40.447345" lon="-121.536700"/><trkpt lat="40.447965" lon="-121.536078"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.447965" lon="-121.536078"/><trkpt lat="40.448867" lon="-121.535153"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="40.448867" lon="-121.535153"/><trkpt lat="40.449283" lon="-121.534121"/><trkpt lat="40.449136" lon="-121.533633"/><trkpt lat="40.447475" lon="-121.532766"/><trkpt lat="40.446022" lon="-121.531435"/><trkpt lat="40.444312" lon="-121.530807"/><trkpt lat="40.442995" lon="-121.529073"/><trkpt lat="40.442506" lon="-121.528242"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="40.442506" lon="-121.528242"/><trkpt lat="40.443118" lon="-121.527803"/><trkpt lat="40.444086" lon="-121.527454"/><trkpt lat="40.444466" lon="-121.527133"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="40.444466" lon="-121.527133"/><trkpt lat="40.443699" lon="-121.526578"/><trkpt lat="40.443086" lon="-121.526288"/><trkpt lat="40.440665" lon="-121.525703"/><trkpt lat="40.438245" lon="-121.525118"/><trkpt lat="40.435953" lon="-121.524846"/><trkpt lat="40.435375" lon="-121.525099"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="40.435375" lon="-121.525099"/><trkpt lat="40.435540" lon="-121.525680"/><trkpt lat="40.436133" lon="-121.526613"/><trkpt lat="40.437382" lon="-121.529073"/><trkpt lat="40.439373" lon="-121.531603"/></trkseg>
+<trkseg><!-- 7-1: libkind-line: traced from his map --><trkpt lat="40.439373" lon="-121.531603"/><trkpt lat="40.438650" lon="-121.534204"/><trkpt lat="40.438172" lon="-121.535081"/></trkseg>
+</trk>
+</gpx>

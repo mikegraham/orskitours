@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0318 Summit Lake</name><desc>out and back to waypoint 3. 3.4 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0318_tour.htm</desc></metadata>
+<wpt lat="39.339645" lon="-120.350227"><ele>2193.86</ele><name>0318-01 trailhead</name></wpt>
+<wpt lat="39.34088" lon="-120.347414"><ele>2215.81</ele><name>0318-02 road turns northwest (left)</name></wpt>
+<wpt lat="39.350176" lon="-120.325078"><ele>2255.57</ele><name>0318-03 Summit Lake</name></wpt>
+<trk><name>Snowlands 0318 Summit Lake</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.339645" lon="-120.350227"/><trkpt lat="39.339969" lon="-120.349588"/><trkpt lat="39.340276" lon="-120.348263"/><trkpt lat="39.340880" lon="-120.347414"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.340880" lon="-120.347414"/><trkpt lat="39.341458" lon="-120.347275"/><trkpt lat="39.342219" lon="-120.346791"/><trkpt lat="39.342947" lon="-120.346090"/><trkpt lat="39.343644" lon="-120.345182"/><trkpt lat="39.343906" lon="-120.344540"/><trkpt lat="39.344381" lon="-120.342487"/><trkpt lat="39.346539" lon="-120.339535"/><trkpt lat="39.346927" lon="-120.338551"/><trkpt lat="39.347668" lon="-120.335898"/><trkpt lat="39.349206" lon="-120.333502"/><trkpt lat="39.349713" lon="-120.332005"/><trkpt lat="39.349857" lon="-120.331106"/><trkpt lat="39.349833" lon="-120.330165"/><trkpt lat="39.349449" lon="-120.327598"/><trkpt lat="39.349923" lon="-120.326486"/><trkpt lat="39.350176" lon="-120.325078"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.350176" lon="-120.325078"/><trkpt lat="39.349923" lon="-120.326486"/><trkpt lat="39.349449" lon="-120.327598"/><trkpt lat="39.349833" lon="-120.330165"/><trkpt lat="39.349857" lon="-120.331106"/><trkpt lat="39.349713" lon="-120.332005"/><trkpt lat="39.349206" lon="-120.333502"/><trkpt lat="39.347668" lon="-120.335898"/><trkpt lat="39.346927" lon="-120.338551"/><trkpt lat="39.346539" lon="-120.339535"/><trkpt lat="39.344381" lon="-120.342487"/><trkpt lat="39.343906" lon="-120.344540"/><trkpt lat="39.343644" lon="-120.345182"/><trkpt lat="39.342947" lon="-120.346090"/><trkpt lat="39.342219" lon="-120.346791"/><trkpt lat="39.341458" lon="-120.347275"/><trkpt lat="39.340880" lon="-120.347414"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.340880" lon="-120.347414"/><trkpt lat="39.340276" lon="-120.348263"/><trkpt lat="39.339969" lon="-120.349588"/><trkpt lat="39.339645" lon="-120.350227"/></trkseg>
+</trk>
+</gpx>

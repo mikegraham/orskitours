@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1035 Winnemucca Lake and Lost Cabin Mine Loop</name><desc>loop (ends 288 m from the start). 6.3 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1035_tour.htm</desc></metadata>
+<wpt lat="38.694817" lon="-119.989091"><ele>2614.43</ele><name>1035-01 Carson Pass Sno-Park</name></wpt>
+<wpt lat="38.688555" lon="-119.989206"><ele>2694.23</ele><name>1035-02 more open and level terrain</name></wpt>
+<wpt lat="38.672149" lon="-119.994392"><ele>2748.0</ele><name>1035-03 Winnemucca Lake</name></wpt>
+<wpt lat="38.669741" lon="-120.008438"><ele>2864.28</ele><name>1035-04 northwest spur of Round Top</name></wpt>
+<wpt lat="38.668508" lon="-120.011399"><ele>2846.17</ele><name>1035-05 Round Top Lake</name></wpt>
+<wpt lat="38.682633" lon="-120.017051"><ele>2627.59</ele><name>1035-06 flat area to the east (right) of Black Butte</name></wpt>
+<wpt lat="38.682861" lon="-120.013756"><ele>2585.58</ele><name>1035-07 Lost Cabin Mine</name></wpt>
+<wpt lat="38.686031" lon="-120.008988"><ele>2500.09</ele><name>1035-08 Woods Lake Road</name></wpt>
+<wpt lat="38.692923" lon="-120.008031"><ele>2494.96</ele><name>1035-09 road junction</name></wpt>
+<wpt lat="38.695957" lon="-119.992076"><ele>2601.08</ele><name>1035-10 Highway 88</name></wpt>
+<trk><name>Snowlands 1035 Winnemucca Lake and Lost Cabin Mine Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.694817" lon="-119.989091"/><trkpt lat="38.693913" lon="-119.988304"/><trkpt lat="38.693045" lon="-119.988157"/><trkpt lat="38.692702" lon="-119.987882"/><trkpt lat="38.692448" lon="-119.987329"/><trkpt lat="38.692329" lon="-119.985877"/><trkpt lat="38.691138" lon="-119.985837"/><trkpt lat="38.690764" lon="-119.985946"/><trkpt lat="38.690321" lon="-119.986335"/><trkpt lat="38.690223" lon="-119.987984"/><trkpt lat="38.689841" lon="-119.988919"/><trkpt lat="38.688555" lon="-119.989206"/></trkseg>
+<trkseg><!-- 2-3: straight: not traced --><trkpt lat="38.688555" lon="-119.989206"/><trkpt lat="38.672149" lon="-119.994392"/></trkseg>
+<trkseg><!-- 3-4: straight: not traced --><trkpt lat="38.672149" lon="-119.994392"/><trkpt lat="38.669741" lon="-120.008438"/></trkseg>
+<trkseg><!-- 4-5: straight: not traced --><trkpt lat="38.669741" lon="-120.008438"/><trkpt lat="38.668508" lon="-120.011399"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.668508" lon="-120.011399"/><trkpt lat="38.668520" lon="-120.012463"/><trkpt lat="38.668373" lon="-120.013522"/><trkpt lat="38.668436" lon="-120.013766"/><trkpt lat="38.668618" lon="-120.013866"/><trkpt lat="38.672080" lon="-120.013879"/><trkpt lat="38.675542" lon="-120.013893"/><trkpt lat="38.679004" lon="-120.013906"/><trkpt lat="38.682465" lon="-120.013920"/><trkpt lat="38.682655" lon="-120.014343"/><trkpt lat="38.682633" lon="-120.017051"/></trkseg>
+<trkseg><!-- 6-7: straight: not traced --><trkpt lat="38.682633" lon="-120.017051"/><trkpt lat="38.682861" lon="-120.013756"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="38.682861" lon="-120.013756"/><trkpt lat="38.684974" lon="-120.013880"/><trkpt lat="38.685400" lon="-120.013734"/><trkpt lat="38.685638" lon="-120.012941"/><trkpt lat="38.685495" lon="-120.011251"/><trkpt lat="38.685852" lon="-120.009372"/><trkpt lat="38.686031" lon="-120.008988"/></trkseg>
+<trkseg><!-- 8-9: straight: not traced --><trkpt lat="38.686031" lon="-120.008988"/><trkpt lat="38.692923" lon="-120.008031"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="38.692923" lon="-120.008031"/><trkpt lat="38.694152" lon="-120.008352"/><trkpt lat="38.695037" lon="-120.008353"/><trkpt lat="38.695378" lon="-120.008222"/><trkpt lat="38.696352" lon="-120.006987"/><trkpt lat="38.697193" lon="-120.004696"/><trkpt lat="38.697300" lon="-120.003387"/><trkpt lat="38.697033" lon="-120.002475"/><trkpt lat="38.696530" lon="-120.001447"/><trkpt lat="38.695734" lon="-120.000238"/><trkpt lat="38.694510" lon="-119.998998"/><trkpt lat="38.694210" lon="-119.998434"/><trkpt lat="38.694091" lon="-119.997911"/><trkpt lat="38.694136" lon="-119.996907"/><trkpt lat="38.695028" lon="-119.993918"/><trkpt lat="38.695957" lon="-119.992076"/></trkseg>
+</trk>
+</gpx>

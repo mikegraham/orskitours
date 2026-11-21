@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0501 Paige Meadows</name><desc>out and back to waypoint 2. 1 to 3 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/05/0501_tour.htm</desc></metadata>
+<wpt lat="39.146214" lon="-120.173028"><ele>2131.75</ele><name>0501-01 trailhead</name></wpt>
+<wpt lat="39.148168" lon="-120.178916"><ele>2119.1</ele><name>0501-02 first meadow of Paige Meadows</name></wpt>
+<trk><name>Snowlands 0501 Paige Meadows</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.146214" lon="-120.173028"/><trkpt lat="39.146554" lon="-120.173529"/><trkpt lat="39.146685" lon="-120.173985"/><trkpt lat="39.146766" lon="-120.176471"/><trkpt lat="39.147024" lon="-120.177466"/><trkpt lat="39.147150" lon="-120.178486"/><trkpt lat="39.147366" lon="-120.178741"/><trkpt lat="39.148168" lon="-120.178916"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.148168" lon="-120.178916"/><trkpt lat="39.147366" lon="-120.178741"/><trkpt lat="39.147150" lon="-120.178486"/><trkpt lat="39.147024" lon="-120.177466"/><trkpt lat="39.146766" lon="-120.176471"/><trkpt lat="39.146685" lon="-120.173985"/><trkpt lat="39.146554" lon="-120.173529"/><trkpt lat="39.146214" lon="-120.173028"/></trkseg>
+</trk>
+</gpx>

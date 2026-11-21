@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1604 Round Meadow</name><desc>lollipop (stem back from waypoint 2) + spur to 2. 0.2 mile round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/16/1604_tour.htm</desc></metadata>
+<wpt lat="36.564976" lon="-118.768481"><ele>1947.83</ele><name>1604-01 trailhead</name></wpt>
+<wpt lat="36.567018" lon="-118.769206"><ele>1950.04</ele><name>1604-02 Round Meadow</name></wpt>
+<trk><name>Snowlands 1604 Round Meadow</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="36.564976" lon="-118.768481"/><trkpt lat="36.565709" lon="-118.768837"/><trkpt lat="36.566588" lon="-118.768977"/><trkpt lat="36.567018" lon="-118.769206"/></trkseg>
+<trkseg><!-- 2-1: libkind-line: traced from his map --><trkpt lat="36.567018" lon="-118.769206"/><trkpt lat="36.566431" lon="-118.769017"/><trkpt lat="36.565552" lon="-118.768948"/><trkpt lat="36.564976" lon="-118.768481"/></trkseg>
+</trk>
+</gpx>

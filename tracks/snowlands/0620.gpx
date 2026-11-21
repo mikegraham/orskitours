@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0620 Tamarack Peak Direct</name><desc>out and back to waypoint 3. 3.6 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/06/0620_tour.htm</desc></metadata>
+<wpt lat="39.310374" lon="-119.901264"><ele>2690.93</ele><name>0620-01 trailhead</name></wpt>
+<wpt lat="39.307716" lon="-119.918554"><ele>2762.14</ele><name>0620-02 terrain to the north (right) looks good to ascend</name></wpt>
+<wpt lat="39.318302" lon="-119.921651"><ele>3014.67</ele><name>0620-03 summit of Tamarack Peak</name></wpt>
+<trk><name>Snowlands 0620 Tamarack Peak Direct</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.310374" lon="-119.901264"/><trkpt lat="39.310189" lon="-119.902446"/><trkpt lat="39.310111" lon="-119.906540"/><trkpt lat="39.309297" lon="-119.909874"/><trkpt lat="39.308836" lon="-119.914306"/><trkpt lat="39.308562" lon="-119.915361"/><trkpt lat="39.307859" lon="-119.917260"/><trkpt lat="39.307716" lon="-119.918554"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.307716" lon="-119.918554"/><trkpt lat="39.309383" lon="-119.917744"/><trkpt lat="39.310265" lon="-119.917475"/><trkpt lat="39.313433" lon="-119.917453"/><trkpt lat="39.314608" lon="-119.918068"/><trkpt lat="39.316633" lon="-119.920229"/><trkpt lat="39.318302" lon="-119.921651"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.318302" lon="-119.921651"/><trkpt lat="39.316633" lon="-119.920229"/><trkpt lat="39.314608" lon="-119.918068"/><trkpt lat="39.313433" lon="-119.917453"/><trkpt lat="39.310265" lon="-119.917475"/><trkpt lat="39.309383" lon="-119.917744"/><trkpt lat="39.307716" lon="-119.918554"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.307716" lon="-119.918554"/><trkpt lat="39.307859" lon="-119.917260"/><trkpt lat="39.308562" lon="-119.915361"/><trkpt lat="39.308836" lon="-119.914306"/><trkpt lat="39.309297" lon="-119.909874"/><trkpt lat="39.310111" lon="-119.906540"/><trkpt lat="39.310189" lon="-119.902446"/><trkpt lat="39.310374" lon="-119.901264"/></trkseg>
+</trk>
+</gpx>

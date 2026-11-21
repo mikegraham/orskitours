@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0329 Boreal Ridge From Clair Tappaan Lodge</name><desc>one way. 3.6 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0329_tour.htm</desc></metadata>
+<wpt lat="39.318025" lon="-120.350441"><ele>2136.37</ele><name>0329-01 trailhead</name></wpt>
+<wpt lat="39.325514" lon="-120.33676"><ele>2230.4</ele><name>0329-02 bottom of two ski lifts</name></wpt>
+<wpt lat="39.325046" lon="-120.333616"><ele>2251.91</ele><name>0329-03 saddle</name></wpt>
+<wpt lat="39.33021" lon="-120.336353"><ele>2321.05</ele><name>0329-04 top of a Boreal Ridge ski lift</name></wpt>
+<wpt lat="39.33141" lon="-120.333724"><ele>2335.58</ele><name>0329-05 Peak 7666</name></wpt>
+<trk><name>Snowlands 0329 Boreal Ridge From Clair Tappaan Lodge</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.318025" lon="-120.350441"/><trkpt lat="39.319590" lon="-120.350471"/><trkpt lat="39.319880" lon="-120.350295"/><trkpt lat="39.320150" lon="-120.349909"/><trkpt lat="39.320752" lon="-120.348723"/><trkpt lat="39.321490" lon="-120.346689"/><trkpt lat="39.322562" lon="-120.345206"/><trkpt lat="39.323323" lon="-120.343808"/><trkpt lat="39.324084" lon="-120.342071"/><trkpt lat="39.325256" lon="-120.338173"/><trkpt lat="39.325514" lon="-120.336760"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.325514" lon="-120.336760"/><trkpt lat="39.325399" lon="-120.334487"/><trkpt lat="39.325046" lon="-120.333616"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.325046" lon="-120.333616"/><trkpt lat="39.325555" lon="-120.333504"/><trkpt lat="39.326865" lon="-120.333839"/><trkpt lat="39.327685" lon="-120.333627"/><trkpt lat="39.328007" lon="-120.333679"/><trkpt lat="39.330210" lon="-120.336353"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.330210" lon="-120.336353"/><trkpt lat="39.330677" lon="-120.335122"/><trkpt lat="39.331410" lon="-120.333724"/></trkseg>
+<trkseg><!-- 5-5: straight: not traced --><trkpt lat="39.331410" lon="-120.333724"/><trkpt lat="39.331410" lon="-120.333724"/></trkseg>
+</trk>
+</gpx>

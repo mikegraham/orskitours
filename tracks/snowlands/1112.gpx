@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1112 Poison Canyon Loop</name><desc>lollipop (stem back from waypoint 8). 2.9 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/11/1112_tour.htm</desc></metadata>
+<wpt lat="38.485199" lon="-120.019191"><ele>2308.52</ele><name>1112-01 trailhead</name></wpt>
+<wpt lat="38.485983" lon="-120.018653"><ele>2318.46</ele><name>1112-02 location where you can turn and head north (left)</name></wpt>
+<wpt lat="38.490614" lon="-120.018656"><ele>2437.86</ele><name>1112-03 ridge</name></wpt>
+<wpt lat="38.496042" lon="-120.014934"><ele>2559.31</ele><name>1112-04 ridge</name></wpt>
+<wpt lat="38.498516" lon="-120.008462"><ele>2618.13</ele><name>1112-05 Peak 8605</name></wpt>
+<wpt lat="38.494792" lon="-120.00914"><ele>2523.18</ele><name>1112-06 saddle</name></wpt>
+<wpt lat="38.490264" lon="-120.014279"><ele>2397.15</ele><name>1112-07 trees</name></wpt>
+<wpt lat="38.489199" lon="-120.018054"><ele>2384.62</ele><name>1112-08 route you ascended</name></wpt>
+<trk><name>Snowlands 1112 Poison Canyon Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.485199" lon="-120.019191"/><trkpt lat="38.485983" lon="-120.018653"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.485983" lon="-120.018653"/><trkpt lat="38.486829" lon="-120.018490"/><trkpt lat="38.487252" lon="-120.019319"/><trkpt lat="38.487780" lon="-120.019550"/><trkpt lat="38.488154" lon="-120.019370"/><trkpt lat="38.489071" lon="-120.018320"/><trkpt lat="38.489716" lon="-120.017985"/><trkpt lat="38.490155" lon="-120.017979"/><trkpt lat="38.490614" lon="-120.018656"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.490614" lon="-120.018656"/><trkpt lat="38.491210" lon="-120.018276"/><trkpt lat="38.492942" lon="-120.016339"/><trkpt lat="38.493485" lon="-120.016100"/><trkpt lat="38.494164" lon="-120.016296"/><trkpt lat="38.494504" lon="-120.016255"/><trkpt lat="38.495183" lon="-120.015794"/><trkpt lat="38.496042" lon="-120.014934"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.496042" lon="-120.014934"/><trkpt lat="38.497218" lon="-120.012163"/><trkpt lat="38.497922" lon="-120.009950"/><trkpt lat="38.498516" lon="-120.008462"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.498516" lon="-120.008462"/><trkpt lat="38.498345" lon="-120.009168"/><trkpt lat="38.497898" lon="-120.009612"/><trkpt lat="38.495556" lon="-120.009489"/><trkpt lat="38.494792" lon="-120.009140"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.494792" lon="-120.009140"/><trkpt lat="38.494609" lon="-120.010601"/><trkpt lat="38.493997" lon="-120.012205"/><trkpt lat="38.493748" lon="-120.012599"/><trkpt lat="38.493112" lon="-120.013045"/><trkpt lat="38.490264" lon="-120.014279"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="38.490264" lon="-120.014279"/><trkpt lat="38.489794" lon="-120.015070"/><trkpt lat="38.489639" lon="-120.016632"/><trkpt lat="38.489199" lon="-120.018054"/></trkseg>
+<trkseg><!-- 8-1: libkind-line: traced from his map --><trkpt lat="38.489199" lon="-120.018054"/><trkpt lat="38.488154" lon="-120.019291"/><trkpt lat="38.487781" lon="-120.019542"/><trkpt lat="38.487412" lon="-120.019456"/><trkpt lat="38.487059" lon="-120.018657"/><trkpt lat="38.486693" lon="-120.018426"/><trkpt lat="38.485980" lon="-120.018521"/><trkpt lat="38.485199" lon="-120.019191"/></trkseg>
+</trk>
+</gpx>

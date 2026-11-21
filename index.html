@@ -1,7 +1,6 @@
 <!doctype html>
 <!-- One page for the trailheads and the route lines (design: notes/ui-design-proposal.md; test: map_test.py).
-     What it shows is decided by the data files below and nothing else: a
-     published copy drops the tracks_map.js line and is then the book map with book lines.
+     What it shows is decided by the data files below and nothing else.
 
      How it behaves, all of it:
      - At rest: a pin per trailhead (a count bubble where pins would hide each other) and, from zoom 9, every line.
@@ -21,6 +20,7 @@
 <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script src="build/trailheads.js?v=981bddb8"></script>       <!-- book trailheads and tours (build.py) -->
 <script src="build/map_routes.js?v=a6e05c82"></script>  <!-- lines of book tours, ours to publish (map_routes.py) -->
+<script src="build/tracks_map.js?v=7cbbcc65"></script>       <!-- Libkind's Snowlands tours and their lines (tracks_map.py) -->
 <style>
 body { margin: 0; }
 #map { height: 100vh; height: 100dvh; }  /* dvh = the visible height on phones, under the address bar */
@@ -138,11 +138,10 @@ const mapsLink = (p, ll) => p.place
 const pinLevels = tours => tours.every(t => t.difficulty === "double") ? ["double"]
   : ["green", "blue", "black"].filter(d => tours.some(t => (t.difficulty === "double" ? "black" : t.difficulty) === d));
 
-// ---- Data. Each file is optional and the page draws what it is given: with tracks_map.js left out (a published
-// copy) there are no Snowlands tours and nothing of Libkind's in the page at all. ----
-const BOOK_ROUTES = typeof bookRoutes === "undefined" ? {} : bookRoutes;  // tour image path -> the tour's line
-const BOOK_GPX = typeof bookGpx === "undefined" ? {} : bookGpx;           // tour image path -> the line's GPX file
-const SNOWLANDS = typeof tracksMap === "undefined" ? [] : tracksMap.snowlands || [];
+// ---- Data: the three files loaded above. ----
+const BOOK_ROUTES = bookRoutes;        // tour image path -> the tour's line
+const BOOK_GPX = bookGpx;              // tour image path -> the line's GPX file
+const SNOWLANDS = tracksMap.snowlands;
 
 // Both sources are put into one shape, and the rest of the page knows no other:
 //   place (a trailhead) = {name, at, tours, and for its heading: approximate, status, note, place (a Google place)}

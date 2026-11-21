@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1605 Sunset Rock</name><desc>lollipop (stem back from waypoint 4). 1.6 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/16/1605_tour.htm</desc></metadata>
+<wpt lat="36.565601" lon="-118.772237"><ele>1955.11</ele><name>1605-01 trailhead</name></wpt>
+<wpt lat="36.566521" lon="-118.771615"><ele>1939.4</ele><name>1605-02 Little Deer Creek</name></wpt>
+<wpt lat="36.572869" lon="-118.774827"><ele>1961.96</ele><name>1605-03 large flat area</name></wpt>
+<wpt lat="36.575617" lon="-118.774618"><ele>1953.76</ele><name>1605-04 Sunset Rock</name></wpt>
+<trk><name>Snowlands 1605 Sunset Rock</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="36.565601" lon="-118.772237"/><trkpt lat="36.565974" lon="-118.771915"/><trkpt lat="36.566521" lon="-118.771615"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="36.566521" lon="-118.771615"/><trkpt lat="36.567763" lon="-118.772497"/><trkpt lat="36.568893" lon="-118.773597"/><trkpt lat="36.570713" lon="-118.773713"/><trkpt lat="36.570977" lon="-118.773899"/><trkpt lat="36.571687" lon="-118.774854"/><trkpt lat="36.572869" lon="-118.774827"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="36.572869" lon="-118.774827"/><trkpt lat="36.574856" lon="-118.774546"/><trkpt lat="36.575617" lon="-118.774618"/></trkseg>
+<trkseg><!-- 4-1: libkind-line: traced from his map --><trkpt lat="36.575617" lon="-118.774618"/><trkpt lat="36.574888" lon="-118.774541"/><trkpt lat="36.573318" lon="-118.774584"/><trkpt lat="36.572377" lon="-118.774894"/><trkpt lat="36.571818" lon="-118.774903"/><trkpt lat="36.571182" lon="-118.774137"/><trkpt lat="36.570807" lon="-118.773877"/><trkpt lat="36.568736" lon="-118.773704"/><trkpt lat="36.567794" lon="-118.772758"/><trkpt lat="36.567072" lon="-118.772329"/><trkpt lat="36.566444" lon="-118.771786"/><trkpt lat="36.566037" lon="-118.771817"/><trkpt lat="36.565601" lon="-118.772237"/></trkseg>
+</trk>
+</gpx>

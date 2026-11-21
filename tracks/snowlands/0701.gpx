@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0701 Angora Lookout</name><desc>out and back to waypoint 3. 3.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/07/0701_tour.htm</desc></metadata>
+<wpt lat="38.903039" lon="-120.035844"><ele>2049.94</ele><name>0701-01 trailhead</name></wpt>
+<wpt lat="38.903583" lon="-120.03815"><ele>2034.13</ele><name>0701-02 small meadow</name></wpt>
+<wpt lat="38.882225" lon="-120.054303"><ele>2212.56</ele><name>0701-03 Angora Lookout</name></wpt>
+<trk><name>Snowlands 0701 Angora Lookout</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.903039" lon="-120.035844"/><trkpt lat="38.903178" lon="-120.037418"/><trkpt lat="38.903583" lon="-120.038150"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.903583" lon="-120.038150"/><trkpt lat="38.902726" lon="-120.037900"/><trkpt lat="38.902147" lon="-120.037875"/><trkpt lat="38.900377" lon="-120.037974"/><trkpt lat="38.899830" lon="-120.038258"/><trkpt lat="38.898396" lon="-120.040022"/><trkpt lat="38.897354" lon="-120.041796"/><trkpt lat="38.896001" lon="-120.043255"/><trkpt lat="38.894200" lon="-120.045541"/><trkpt lat="38.892269" lon="-120.047492"/><trkpt lat="38.890950" lon="-120.048494"/><trkpt lat="38.889631" lon="-120.049959"/><trkpt lat="38.887507" lon="-120.051460"/><trkpt lat="38.886863" lon="-120.051665"/><trkpt lat="38.883838" lon="-120.053133"/><trkpt lat="38.882680" lon="-120.053874"/><trkpt lat="38.882225" lon="-120.054303"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.882225" lon="-120.054303"/><trkpt lat="38.882680" lon="-120.053874"/><trkpt lat="38.883838" lon="-120.053133"/><trkpt lat="38.886863" lon="-120.051665"/><trkpt lat="38.887507" lon="-120.051460"/><trkpt lat="38.889631" lon="-120.049959"/><trkpt lat="38.890950" lon="-120.048494"/><trkpt lat="38.892269" lon="-120.047492"/><trkpt lat="38.894200" lon="-120.045541"/><trkpt lat="38.896001" lon="-120.043255"/><trkpt lat="38.897354" lon="-120.041796"/><trkpt lat="38.898396" lon="-120.040022"/><trkpt lat="38.899830" lon="-120.038258"/><trkpt lat="38.900377" lon="-120.037974"/><trkpt lat="38.902147" lon="-120.037875"/><trkpt lat="38.902726" lon="-120.037900"/><trkpt lat="38.903583" lon="-120.038150"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.903583" lon="-120.038150"/><trkpt lat="38.903178" lon="-120.037418"/><trkpt lat="38.903039" lon="-120.035844"/></trkseg>
+</trk>
+</gpx>

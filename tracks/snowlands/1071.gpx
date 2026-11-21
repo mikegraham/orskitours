@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1071 Tragedy Spring to Maidens Grave</name><desc>one way. 3.1 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1071_tour.htm</desc></metadata>
+<wpt lat="38.637841" lon="-120.141932"><ele>2421.07</ele><name>1071-01 trailhead</name></wpt>
+<wpt lat="38.638609" lon="-120.143341"><ele>2408.93</ele><name>1071-02 location where you can easily leave the road to the north</name></wpt>
+<wpt lat="38.640723" lon="-120.142923"><ele>2434.43</ele><name>1071-03 saddle</name></wpt>
+<wpt lat="38.641062" lon="-120.15342"><ele>2471.33</ele><name>1071-04 Peak 8096</name></wpt>
+<wpt lat="38.646654" lon="-120.161749"><ele>2318.23</ele><name>1071-05 Peak 7617</name></wpt>
+<wpt lat="38.64577" lon="-120.160947"><ele>2313.29</ele><name>1071-06 location where you can descend to the southwest</name></wpt>
+<wpt lat="38.642093" lon="-120.168882"><ele>2193.66</ele><name>1071-07 location where it is convenient to cross the creek and traverse to the south</name></wpt>
+<wpt lat="38.634871" lon="-120.170704"><ele>2244.52</ele><name>1071-08 location where you can cross the small drainage and continue to the southwest</name></wpt>
+<wpt lat="38.633059" lon="-120.174452"><ele>2319.77</ele><name>1071-09 snow-covered road at the base of a steep slope</name></wpt>
+<wpt lat="38.633167" lon="-120.176984"><ele>2336.93</ele><name>1071-10 end point</name></wpt>
+<trk><name>Snowlands 1071 Tragedy Spring to Maidens Grave</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.637841" lon="-120.141932"/><trkpt lat="38.638609" lon="-120.143341"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.638609" lon="-120.143341"/><trkpt lat="38.640723" lon="-120.142923"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.640723" lon="-120.142923"/><trkpt lat="38.641159" lon="-120.143175"/><trkpt lat="38.642741" lon="-120.144813"/><trkpt lat="38.643056" lon="-120.145398"/><trkpt lat="38.643174" lon="-120.146076"/><trkpt lat="38.643165" lon="-120.147009"/><trkpt lat="38.643046" lon="-120.147475"/><trkpt lat="38.641992" lon="-120.148917"/><trkpt lat="38.641270" lon="-120.150359"/><trkpt lat="38.641104" lon="-120.151503"/><trkpt lat="38.641062" lon="-120.153420"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.641062" lon="-120.153420"/><trkpt lat="38.641284" lon="-120.154217"/><trkpt lat="38.643053" lon="-120.156506"/><trkpt lat="38.644655" lon="-120.159474"/><trkpt lat="38.645464" lon="-120.160556"/><trkpt lat="38.646654" lon="-120.161749"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.646654" lon="-120.161749"/><trkpt lat="38.645770" lon="-120.160947"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.645770" lon="-120.160947"/><trkpt lat="38.644541" lon="-120.164217"/><trkpt lat="38.643313" lon="-120.167488"/><trkpt lat="38.642810" lon="-120.168273"/><trkpt lat="38.642093" lon="-120.168882"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="38.642093" lon="-120.168882"/><trkpt lat="38.641225" lon="-120.169456"/><trkpt lat="38.639635" lon="-120.171131"/><trkpt lat="38.638807" lon="-120.171506"/><trkpt lat="38.637317" lon="-120.171519"/><trkpt lat="38.634871" lon="-120.170704"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="38.634871" lon="-120.170704"/><trkpt lat="38.634378" lon="-120.171108"/><trkpt lat="38.633785" lon="-120.172109"/><trkpt lat="38.633372" lon="-120.173212"/><trkpt lat="38.633059" lon="-120.174452"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="38.633059" lon="-120.174452"/><trkpt lat="38.633167" lon="-120.176984"/></trkseg>
+</trk>
+</gpx>

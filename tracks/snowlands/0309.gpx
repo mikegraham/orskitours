@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0309 Lake Angela, Flora Lake and Azalea Lake</name><desc>out and back to waypoint 4. 2.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0309_tour.htm</desc></metadata>
+<wpt lat="39.317626" lon="-120.329334"><ele>2146.84</ele><name>0309-01 trailhead</name></wpt>
+<wpt lat="39.322151" lon="-120.325418"><ele>2190.34</ele><name>0309-02 dam at the south end of Angela Lake</name></wpt>
+<wpt lat="39.331102" lon="-120.325228"><ele>2191.24</ele><name>0309-03 Flora Lake</name></wpt>
+<wpt lat="39.333907" lon="-120.32748"><ele>2195.64</ele><name>0309-04 Azalea Lake</name></wpt>
+<trk><name>Snowlands 0309 Lake Angela, Flora Lake and Azalea Lake</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.317626" lon="-120.329334"/><trkpt lat="39.317745" lon="-120.328498"/><trkpt lat="39.318108" lon="-120.327989"/><trkpt lat="39.320024" lon="-120.326732"/><trkpt lat="39.321356" lon="-120.326064"/><trkpt lat="39.322151" lon="-120.325418"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.322151" lon="-120.325418"/><trkpt lat="39.323176" lon="-120.325013"/><trkpt lat="39.324443" lon="-120.324258"/><trkpt lat="39.325190" lon="-120.324127"/><trkpt lat="39.327058" lon="-120.324152"/><trkpt lat="39.328926" lon="-120.324178"/><trkpt lat="39.329998" lon="-120.324537"/><trkpt lat="39.331102" lon="-120.325228"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.331102" lon="-120.325228"/><trkpt lat="39.333150" lon="-120.326749"/><trkpt lat="39.333907" lon="-120.327480"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="39.333907" lon="-120.327480"/><trkpt lat="39.333150" lon="-120.326749"/><trkpt lat="39.331102" lon="-120.325228"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.331102" lon="-120.325228"/><trkpt lat="39.329998" lon="-120.324537"/><trkpt lat="39.328926" lon="-120.324178"/><trkpt lat="39.327058" lon="-120.324152"/><trkpt lat="39.325190" lon="-120.324127"/><trkpt lat="39.324443" lon="-120.324258"/><trkpt lat="39.323176" lon="-120.325013"/><trkpt lat="39.322151" lon="-120.325418"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.322151" lon="-120.325418"/><trkpt lat="39.321356" lon="-120.326064"/><trkpt lat="39.320024" lon="-120.326732"/><trkpt lat="39.318108" lon="-120.327989"/><trkpt lat="39.317745" lon="-120.328498"/><trkpt lat="39.317626" lon="-120.329334"/></trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0822 Berts Lake and Peak 6836</name><desc>out and back to waypoint 6; side trip from waypoint 4 to 1. 2.4 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/08/0822_tour.htm</desc></metadata>
+<wpt lat="38.984667" lon="-120.329585"><ele>1971.93</ele><name>0822-01 trailhead</name></wpt>
+<wpt lat="38.982264" lon="-120.33058"><ele>1993.99</ele><name>0822-02 marked trail crosses under the power lines</name></wpt>
+<wpt lat="38.981102" lon="-120.33017"><ele>2009.8</ele><name>0822-03 edge of an open area</name></wpt>
+<wpt lat="38.979653" lon="-120.328924"><ele>2020.98</ele><name>0822-04 trail enters the woods again</name></wpt>
+<wpt lat="38.975966" lon="-120.329976"><ele>2051.81</ele><name>0822-05 Berts Lake</name></wpt>
+<wpt lat="38.977137" lon="-120.329157"><ele>2082.61</ele><name>0822-06 Peak 6836</name></wpt>
+<trk><name>Snowlands 0822 Berts Lake and Peak 6836</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.984667" lon="-120.329585"/><trkpt lat="38.984298" lon="-120.329434"/><trkpt lat="38.984010" lon="-120.329459"/><trkpt lat="38.983014" lon="-120.330343"/><trkpt lat="38.982264" lon="-120.330580"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.982264" lon="-120.330580"/><trkpt lat="38.981102" lon="-120.330170"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.981102" lon="-120.330170"/><trkpt lat="38.980542" lon="-120.329957"/><trkpt lat="38.979653" lon="-120.328924"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.979653" lon="-120.328924"/><trkpt lat="38.979016" lon="-120.327291"/><trkpt lat="38.978517" lon="-120.326743"/><trkpt lat="38.977746" lon="-120.326242"/><trkpt lat="38.976300" lon="-120.326249"/><trkpt lat="38.975666" lon="-120.326794"/><trkpt lat="38.975380" lon="-120.327494"/><trkpt lat="38.975406" lon="-120.329188"/><trkpt lat="38.975966" lon="-120.329976"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.975966" lon="-120.329976"/><trkpt lat="38.976525" lon="-120.329802"/><trkpt lat="38.977137" lon="-120.329157"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="38.977137" lon="-120.329157"/><trkpt lat="38.976525" lon="-120.329802"/><trkpt lat="38.975966" lon="-120.329976"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.975966" lon="-120.329976"/><trkpt lat="38.975406" lon="-120.329188"/><trkpt lat="38.975380" lon="-120.327494"/><trkpt lat="38.975666" lon="-120.326794"/><trkpt lat="38.976300" lon="-120.326249"/><trkpt lat="38.977746" lon="-120.326242"/><trkpt lat="38.978517" lon="-120.326743"/><trkpt lat="38.979016" lon="-120.327291"/><trkpt lat="38.979653" lon="-120.328924"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.979653" lon="-120.328924"/><trkpt lat="38.980542" lon="-120.329957"/><trkpt lat="38.981102" lon="-120.330170"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.981102" lon="-120.330170"/><trkpt lat="38.982264" lon="-120.330580"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.982264" lon="-120.330580"/><trkpt lat="38.983014" lon="-120.330343"/><trkpt lat="38.984010" lon="-120.329459"/><trkpt lat="38.984298" lon="-120.329434"/><trkpt lat="38.984667" lon="-120.329585"/></trkseg>
+</trk>
+<trk><name>Snowlands 0822 Berts Lake and Peak 6836: optional continuation or side trip</name>
+<trkseg><!-- 4-1: libkind-line: traced from his map --><trkpt lat="38.979653" lon="-120.328924"/><trkpt lat="38.980637" lon="-120.329840"/><trkpt lat="38.982661" lon="-120.330499"/><trkpt lat="38.983111" lon="-120.330390"/><trkpt lat="38.984010" lon="-120.329459"/><trkpt lat="38.984361" lon="-120.329416"/><trkpt lat="38.984667" lon="-120.329585"/></trkseg>
+</trk>
+</gpx>

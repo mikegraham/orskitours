@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1068 Ridge West of Shealor Lakes</name><desc>out and back to waypoint 6. 4.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1068_tour.htm</desc></metadata>
+<wpt lat="38.637841" lon="-120.141932"><ele>2421.07</ele><name>1068-01 trailhead</name></wpt>
+<wpt lat="38.638609" lon="-120.143341"><ele>2408.93</ele><name>1068-02 location where you can easily leave the road to the north</name></wpt>
+<wpt lat="38.640723" lon="-120.142923"><ele>2434.43</ele><name>1068-03 saddle</name></wpt>
+<wpt lat="38.641062" lon="-120.15342"><ele>2471.33</ele><name>1068-04 Peak 8096</name></wpt>
+<wpt lat="38.646654" lon="-120.161749"><ele>2318.23</ele><name>1068-05 Peak 7617</name></wpt>
+<wpt lat="38.658615" lon="-120.160527"><ele>2202.74</ele><name>1068-06 ridge drops abruptly into the Shealor Lakes drainage</name></wpt>
+<trk><name>Snowlands 1068 Ridge West of Shealor Lakes</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.637841" lon="-120.141932"/><trkpt lat="38.638609" lon="-120.143341"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.638609" lon="-120.143341"/><trkpt lat="38.639734" lon="-120.143303"/><trkpt lat="38.640723" lon="-120.142923"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.640723" lon="-120.142923"/><trkpt lat="38.641199" lon="-120.143252"/><trkpt lat="38.642848" lon="-120.144952"/><trkpt lat="38.643160" lon="-120.145567"/><trkpt lat="38.643260" lon="-120.146206"/><trkpt lat="38.643159" lon="-120.147485"/><trkpt lat="38.642033" lon="-120.149063"/><trkpt lat="38.641353" lon="-120.150428"/><trkpt lat="38.641201" lon="-120.151280"/><trkpt lat="38.641062" lon="-120.153420"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.641062" lon="-120.153420"/><trkpt lat="38.641372" lon="-120.154265"/><trkpt lat="38.643313" lon="-120.156866"/><trkpt lat="38.644566" lon="-120.159254"/><trkpt lat="38.645962" lon="-120.161086"/><trkpt lat="38.646654" lon="-120.161749"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.646654" lon="-120.161749"/><trkpt lat="38.650158" lon="-120.161800"/><trkpt lat="38.651989" lon="-120.161059"/><trkpt lat="38.652855" lon="-120.160862"/><trkpt lat="38.654220" lon="-120.160708"/><trkpt lat="38.657484" lon="-120.160696"/><trkpt lat="38.658615" lon="-120.160527"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="38.658615" lon="-120.160527"/><trkpt lat="38.657484" lon="-120.160696"/><trkpt lat="38.654220" lon="-120.160708"/><trkpt lat="38.652855" lon="-120.160862"/><trkpt lat="38.651989" lon="-120.161059"/><trkpt lat="38.650158" lon="-120.161800"/><trkpt lat="38.646654" lon="-120.161749"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.646654" lon="-120.161749"/><trkpt lat="38.645962" lon="-120.161086"/><trkpt lat="38.644566" lon="-120.159254"/><trkpt lat="38.643313" lon="-120.156866"/><trkpt lat="38.641372" lon="-120.154265"/><trkpt lat="38.641062" lon="-120.153420"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.641062" lon="-120.153420"/><trkpt lat="38.641201" lon="-120.151280"/><trkpt lat="38.641353" lon="-120.150428"/><trkpt lat="38.642033" lon="-120.149063"/><trkpt lat="38.643159" lon="-120.147485"/><trkpt lat="38.643260" lon="-120.146206"/><trkpt lat="38.643160" lon="-120.145567"/><trkpt lat="38.642848" lon="-120.144952"/><trkpt lat="38.641199" lon="-120.143252"/><trkpt lat="38.640723" lon="-120.142923"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.640723" lon="-120.142923"/><trkpt lat="38.639734" lon="-120.143303"/><trkpt lat="38.638609" lon="-120.143341"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.638609" lon="-120.143341"/><trkpt lat="38.637841" lon="-120.141932"/></trkseg>
+</trk>
+</gpx>

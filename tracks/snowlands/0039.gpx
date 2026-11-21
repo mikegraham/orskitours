@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0039 Nobles Trail</name><desc>one way. 5.1 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0039_tour.htm</desc></metadata>
+<wpt lat="40.537148" lon="-121.570238"><ele>1784.03</ele><name>0039-01 trailhead</name></wpt>
+<wpt lat="40.543282" lon="-121.571285"><ele>1773.08</ele><name>0039-02 end of the road</name></wpt>
+<wpt lat="40.545472" lon="-121.551622"><ele>1850.42</ele><name>0039-03 trail turns north</name></wpt>
+<wpt lat="40.556064" lon="-121.534576"><ele>1838.59</ele><name>0039-04 Sunflower Flat</name></wpt>
+<wpt lat="40.543036" lon="-121.541261"><ele>1883.79</ele><name>0039-05 high point</name></wpt>
+<wpt lat="40.536603" lon="-121.56216"><ele>1799.71</ele><name>0039-06 plowed road</name></wpt>
+<trk><name>Snowlands 0039 Nobles Trail</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.537148" lon="-121.570238"/><trkpt lat="40.538206" lon="-121.570412"/><trkpt lat="40.539031" lon="-121.571002"/><trkpt lat="40.540153" lon="-121.570949"/><trkpt lat="40.541011" lon="-121.571459"/><trkpt lat="40.542892" lon="-121.571427"/><trkpt lat="40.543282" lon="-121.571285"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.543282" lon="-121.571285"/><trkpt lat="40.543915" lon="-121.570261"/><trkpt lat="40.544391" lon="-121.568959"/><trkpt lat="40.544742" lon="-121.567569"/><trkpt lat="40.544900" lon="-121.566440"/><trkpt lat="40.544805" lon="-121.564269"/><trkpt lat="40.544154" lon="-121.561013"/><trkpt lat="40.543795" lon="-121.557062"/><trkpt lat="40.543802" lon="-121.555846"/><trkpt lat="40.545149" lon="-121.552285"/><trkpt lat="40.545472" lon="-121.551622"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="40.545472" lon="-121.551622"/><trkpt lat="40.547512" lon="-121.550863"/><trkpt lat="40.548319" lon="-121.550145"/><trkpt lat="40.549313" lon="-121.548378"/><trkpt lat="40.550391" lon="-121.545903"/><trkpt lat="40.551606" lon="-121.543514"/><trkpt lat="40.552820" lon="-121.541126"/><trkpt lat="40.553700" lon="-121.539042"/><trkpt lat="40.555414" lon="-121.536046"/><trkpt lat="40.556064" lon="-121.534576"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="40.556064" lon="-121.534576"/><trkpt lat="40.555820" lon="-121.534529"/><trkpt lat="40.555201" lon="-121.535003"/><trkpt lat="40.553353" lon="-121.537606"/><trkpt lat="40.552660" lon="-121.538246"/><trkpt lat="40.549668" lon="-121.539108"/><trkpt lat="40.546676" lon="-121.539971"/><trkpt lat="40.543684" lon="-121.540833"/><trkpt lat="40.543036" lon="-121.541261"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="40.543036" lon="-121.541261"/><trkpt lat="40.542134" lon="-121.542256"/><trkpt lat="40.541187" lon="-121.543775"/><trkpt lat="40.539207" lon="-121.547249"/><trkpt lat="40.538102" lon="-121.549854"/><trkpt lat="40.537621" lon="-121.551895"/><trkpt lat="40.537556" lon="-121.555477"/><trkpt lat="40.537492" lon="-121.559059"/><trkpt lat="40.536603" lon="-121.562160"/></trkseg>
+</trk>
+</gpx>

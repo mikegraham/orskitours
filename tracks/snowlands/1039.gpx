@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1039 Forestdale Creek</name><desc>out and back to waypoint 2. 3.2 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1039_tour.htm</desc></metadata>
+<wpt lat="38.698811" lon="-119.966235"><ele>2381.77</ele><name>1039-01 trailhead</name></wpt>
+<wpt lat="38.678593" lon="-119.960541"><ele>2424.29</ele><name>1039-02 bridge across Forestdale Creek</name></wpt>
+<trk><name>Snowlands 1039 Forestdale Creek</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.698811" lon="-119.966235"/><trkpt lat="38.698116" lon="-119.966174"/><trkpt lat="38.697359" lon="-119.965702"/><trkpt lat="38.696094" lon="-119.963681"/><trkpt lat="38.695216" lon="-119.962821"/><trkpt lat="38.693565" lon="-119.960658"/><trkpt lat="38.693037" lon="-119.960121"/><trkpt lat="38.692180" lon="-119.959583"/><trkpt lat="38.690069" lon="-119.959519"/><trkpt lat="38.688551" lon="-119.960083"/><trkpt lat="38.687727" lon="-119.960595"/><trkpt lat="38.686243" lon="-119.960721"/><trkpt lat="38.684527" lon="-119.961354"/><trkpt lat="38.681196" lon="-119.961807"/><trkpt lat="38.680503" lon="-119.961740"/><trkpt lat="38.679184" lon="-119.960810"/><trkpt lat="38.678593" lon="-119.960541"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.678593" lon="-119.960541"/><trkpt lat="38.679184" lon="-119.960810"/><trkpt lat="38.680503" lon="-119.961740"/><trkpt lat="38.681196" lon="-119.961807"/><trkpt lat="38.684527" lon="-119.961354"/><trkpt lat="38.686243" lon="-119.960721"/><trkpt lat="38.687727" lon="-119.960595"/><trkpt lat="38.688551" lon="-119.960083"/><trkpt lat="38.690069" lon="-119.959519"/><trkpt lat="38.692180" lon="-119.959583"/><trkpt lat="38.693037" lon="-119.960121"/><trkpt lat="38.693565" lon="-119.960658"/><trkpt lat="38.695216" lon="-119.962821"/><trkpt lat="38.696094" lon="-119.963681"/><trkpt lat="38.697359" lon="-119.965702"/><trkpt lat="38.698116" lon="-119.966174"/><trkpt lat="38.698811" lon="-119.966235"/></trkseg>
+</trk>
+</gpx>

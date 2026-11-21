@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0027 Sulphur Works Cutoff</name><desc>one way. 0.7 mile one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0027_tour.htm</desc></metadata>
+<wpt lat="40.44959" lon="-121.534452"><ele>2139.02</ele><name>0027-01 Sulphur Works</name></wpt>
+<wpt lat="40.454701" lon="-121.53302"><ele>2234.48</ele><name>0027-02 North Fork of West Sulphur Creek</name></wpt>
+<wpt lat="40.45654" lon="-121.52716"><ele>2325.58</ele><name>0027-03 Lassen Park Road</name></wpt>
+<trk><name>Snowlands 0027 Sulphur Works Cutoff</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.449590" lon="-121.534452"/><trkpt lat="40.451595" lon="-121.534441"/><trkpt lat="40.453599" lon="-121.534430"/><trkpt lat="40.454016" lon="-121.534107"/><trkpt lat="40.454701" lon="-121.533020"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.454701" lon="-121.533020"/><trkpt lat="40.455665" lon="-121.530437"/><trkpt lat="40.456540" lon="-121.527160"/></trkseg>
+</trk>
+</gpx>

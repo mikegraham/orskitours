@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1818 Sagehen Peak and Crooked Peak</name><desc>out and back to waypoint 6; side trip from waypoint 5 to 7. 7.6 miles round trip (add 0.8 mile round trip if you ascend both peaks). Line traced from Marcus Libkind's map, tours.snowlands.org/tours/18/1818_tour.htm</desc></metadata>
+<wpt lat="37.890648" lon="-118.865222"><ele>2476.74</ele><name>1818-01 trailhead</name></wpt>
+<wpt lat="37.876277" lon="-118.865536"><ele>2543.88</ele><name>1818-02 west side of the 8600-foot knob</name></wpt>
+<wpt lat="37.872144" lon="-118.862264"><ele>2559.72</ele><name>1818-03 saddle</name></wpt>
+<wpt lat="37.869424" lon="-118.857797"><ele>2542.89</ele><name>1818-04 center of Sagehen Meadows</name></wpt>
+<wpt lat="37.847967" lon="-118.843544"><ele>2753.04</ele><name>1818-05 saddle</name></wpt>
+<wpt lat="37.85274" lon="-118.841576"><ele>2795.07</ele><name>1818-06 summit of Sagehen Peak</name></wpt>
+<wpt lat="37.846138" lon="-118.84808"><ele>2833.93</ele><name>1818-07 summit of Crooked Peak</name></wpt>
+<trk><name>Snowlands 1818 Sagehen Peak and Crooked Peak</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.890648" lon="-118.865222"/><trkpt lat="37.887774" lon="-118.865285"/><trkpt lat="37.884900" lon="-118.865348"/><trkpt lat="37.882025" lon="-118.865410"/><trkpt lat="37.879151" lon="-118.865473"/><trkpt lat="37.876277" lon="-118.865536"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.876277" lon="-118.865536"/><trkpt lat="37.875159" lon="-118.865349"/><trkpt lat="37.874059" lon="-118.864721"/><trkpt lat="37.872969" lon="-118.863618"/><trkpt lat="37.872144" lon="-118.862264"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="37.872144" lon="-118.862264"/><trkpt lat="37.872031" lon="-118.861823"/><trkpt lat="37.871425" lon="-118.860725"/><trkpt lat="37.869424" lon="-118.857797"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="37.869424" lon="-118.857797"/><trkpt lat="37.867739" lon="-118.855613"/><trkpt lat="37.866054" lon="-118.853429"/><trkpt lat="37.864853" lon="-118.852086"/><trkpt lat="37.863619" lon="-118.851041"/><trkpt lat="37.861450" lon="-118.849976"/><trkpt lat="37.858415" lon="-118.848907"/><trkpt lat="37.855379" lon="-118.847838"/><trkpt lat="37.853444" lon="-118.847020"/><trkpt lat="37.851326" lon="-118.845825"/><trkpt lat="37.849207" lon="-118.844630"/><trkpt lat="37.847967" lon="-118.843544"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="37.847967" lon="-118.843544"/><trkpt lat="37.848310" lon="-118.843022"/><trkpt lat="37.848840" lon="-118.842628"/><trkpt lat="37.851709" lon="-118.842116"/><trkpt lat="37.852343" lon="-118.841906"/><trkpt lat="37.852740" lon="-118.841576"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="37.852740" lon="-118.841576"/><trkpt lat="37.852343" lon="-118.841906"/><trkpt lat="37.851709" lon="-118.842116"/><trkpt lat="37.848840" lon="-118.842628"/><trkpt lat="37.848310" lon="-118.843022"/><trkpt lat="37.847967" lon="-118.843544"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="37.847967" lon="-118.843544"/><trkpt lat="37.849207" lon="-118.844630"/><trkpt lat="37.851326" lon="-118.845825"/><trkpt lat="37.853444" lon="-118.847020"/><trkpt lat="37.855379" lon="-118.847838"/><trkpt lat="37.858415" lon="-118.848907"/><trkpt lat="37.861450" lon="-118.849976"/><trkpt lat="37.863619" lon="-118.851041"/><trkpt lat="37.864853" lon="-118.852086"/><trkpt lat="37.866054" lon="-118.853429"/><trkpt lat="37.867739" lon="-118.855613"/><trkpt lat="37.869424" lon="-118.857797"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="37.869424" lon="-118.857797"/><trkpt lat="37.871425" lon="-118.860725"/><trkpt lat="37.872031" lon="-118.861823"/><trkpt lat="37.872144" lon="-118.862264"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="37.872144" lon="-118.862264"/><trkpt lat="37.872969" lon="-118.863618"/><trkpt lat="37.874059" lon="-118.864721"/><trkpt lat="37.875159" lon="-118.865349"/><trkpt lat="37.876277" lon="-118.865536"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="37.876277" lon="-118.865536"/><trkpt lat="37.879151" lon="-118.865473"/><trkpt lat="37.882025" lon="-118.865410"/><trkpt lat="37.884900" lon="-118.865348"/><trkpt lat="37.887774" lon="-118.865285"/><trkpt lat="37.890648" lon="-118.865222"/></trkseg>
+</trk>
+<trk><name>Snowlands 1818 Sagehen Peak and Crooked Peak: optional continuation or side trip</name>
+<trkseg><!-- 5-7: libkind-line: traced from his map --><trkpt lat="37.847967" lon="-118.843544"/><trkpt lat="37.846438" lon="-118.844711"/><trkpt lat="37.845751" lon="-118.845556"/><trkpt lat="37.845714" lon="-118.845979"/><trkpt lat="37.846023" lon="-118.847035"/><trkpt lat="37.846138" lon="-118.848080"/></trkseg>
+</trk>
+</gpx>

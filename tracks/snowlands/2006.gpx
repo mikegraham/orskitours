@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 2006 Lake Sabrina</name><desc>out and back to waypoint 3. 3.6 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/20/2006_tour.htm</desc></metadata>
+<wpt lat="37.233836" lon="-118.597102"><ele>2594.94</ele><name>2006-01 trailhead</name></wpt>
+<wpt lat="37.22152" lon="-118.604541"><ele>2731.58</ele><name>2006-02 turnoff to North Lake</name></wpt>
+<wpt lat="37.212089" lon="-118.61247"><ele>2774.48</ele><name>2006-03 dam at Lake Sabrina</name></wpt>
+<trk><name>Snowlands 2006 Lake Sabrina</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.233836" lon="-118.597102"/><trkpt lat="37.232508" lon="-118.597274"/><trkpt lat="37.231754" lon="-118.597515"/><trkpt lat="37.229392" lon="-118.599025"/><trkpt lat="37.226309" lon="-118.600617"/><trkpt lat="37.224209" lon="-118.602159"/><trkpt lat="37.221520" lon="-118.604541"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.221520" lon="-118.604541"/><trkpt lat="37.219814" lon="-118.605435"/><trkpt lat="37.218108" lon="-118.606329"/><trkpt lat="37.216926" lon="-118.607190"/><trkpt lat="37.216139" lon="-118.607606"/><trkpt lat="37.213946" lon="-118.609842"/><trkpt lat="37.213135" lon="-118.611297"/><trkpt lat="37.212089" lon="-118.612470"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="37.212089" lon="-118.612470"/><trkpt lat="37.213135" lon="-118.611297"/><trkpt lat="37.213946" lon="-118.609842"/><trkpt lat="37.216139" lon="-118.607606"/><trkpt lat="37.216926" lon="-118.607190"/><trkpt lat="37.218108" lon="-118.606329"/><trkpt lat="37.219814" lon="-118.605435"/><trkpt lat="37.221520" lon="-118.604541"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="37.221520" lon="-118.604541"/><trkpt lat="37.224209" lon="-118.602159"/><trkpt lat="37.226309" lon="-118.600617"/><trkpt lat="37.229392" lon="-118.599025"/><trkpt lat="37.231754" lon="-118.597515"/><trkpt lat="37.232508" lon="-118.597274"/><trkpt lat="37.233836" lon="-118.597102"/></trkseg>
+</trk>
+</gpx>

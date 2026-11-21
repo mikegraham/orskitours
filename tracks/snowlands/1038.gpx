@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1038 Carson Pass to Red Lake Via Old Highway 88</name><desc>one way. 1.4 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1038_tour.htm</desc></metadata>
+<wpt lat="38.693815" lon="-119.988205"><ele>2610.3</ele><name>1038-01 Highway 88</name></wpt>
+<wpt lat="38.692533" lon="-119.985832"><ele>2582.36</ele><name>1038-02 lookout point</name></wpt>
+<wpt lat="38.698426" lon="-119.96906"><ele>2400.66</ele><name>1038-03 Red Lake</name></wpt>
+<trk><name>Snowlands 1038 Carson Pass to Red Lake Via Old Highway 88</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.693815" lon="-119.988205"/><trkpt lat="38.692928" lon="-119.988108"/><trkpt lat="38.692603" lon="-119.987821"/><trkpt lat="38.692434" lon="-119.987000"/><trkpt lat="38.692533" lon="-119.985832"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.692533" lon="-119.985832"/><trkpt lat="38.692100" lon="-119.984549"/><trkpt lat="38.691313" lon="-119.983070"/><trkpt lat="38.690869" lon="-119.981507"/><trkpt lat="38.690888" lon="-119.980749"/><trkpt lat="38.691216" lon="-119.980274"/><trkpt lat="38.692829" lon="-119.978832"/><trkpt lat="38.693052" lon="-119.978211"/><trkpt lat="38.693330" lon="-119.976352"/><trkpt lat="38.694022" lon="-119.975006"/><trkpt lat="38.695862" lon="-119.973379"/><trkpt lat="38.697082" lon="-119.972680"/><trkpt lat="38.697515" lon="-119.972168"/><trkpt lat="38.697900" lon="-119.971408"/><trkpt lat="38.698426" lon="-119.969060"/></trkseg>
+</trk>
+</gpx>

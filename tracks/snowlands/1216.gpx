@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1216 Burst Rock from Burst Rock Junction</name><desc>out and back to waypoint 6. 4.8 miles round trip from Burst Rock Junction and 13.2 miles round trip via Gooseberry Road tour (see description). Line traced from Marcus Libkind's map, tours.snowlands.org/tours/12/1216_tour.htm</desc></metadata>
+<wpt lat="38.194909" lon="-119.912128"><ele>2487.57</ele><name>1216-01 Burst Rock Junction</name></wpt>
+<wpt lat="38.195534" lon="-119.910307"><ele>2483.45</ele><name>1216-02</name></wpt>
+<wpt lat="38.198621" lon="-119.894925"><ele>2605.01</ele><name>1216-03 road junction</name></wpt>
+<wpt lat="38.2007" lon="-119.890065"><ele>2642.23</ele><name>1216-04</name></wpt>
+<wpt lat="38.20458" lon="-119.879422"><ele>2679.9</ele><name>1216-05 location to the south of a knob</name></wpt>
+<wpt lat="38.202235" lon="-119.874565"><ele>2790.02</ele><name>1216-06 Burst Rock</name></wpt>
+<trk><name>Snowlands 1216 Burst Rock from Burst Rock Junction</name>
+<trkseg><!-- 1-3: libkind-line: traced from his map --><trkpt lat="38.194909" lon="-119.912128"/><trkpt lat="38.195399" lon="-119.910410"/><trkpt lat="38.196549" lon="-119.908766"/><trkpt lat="38.196748" lon="-119.908117"/><trkpt lat="38.196685" lon="-119.907468"/><trkpt lat="38.195831" lon="-119.905001"/><trkpt lat="38.195643" lon="-119.904136"/><trkpt lat="38.195660" lon="-119.899680"/><trkpt lat="38.196018" lon="-119.898901"/><trkpt lat="38.197899" lon="-119.896521"/><trkpt lat="38.198621" lon="-119.894925"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.198621" lon="-119.894925"/><trkpt lat="38.198792" lon="-119.894185"/><trkpt lat="38.199820" lon="-119.892324"/><trkpt lat="38.200700" lon="-119.890065"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.200700" lon="-119.890065"/><trkpt lat="38.200749" lon="-119.889382"/><trkpt lat="38.201607" lon="-119.884969"/><trkpt lat="38.202272" lon="-119.882848"/><trkpt lat="38.203413" lon="-119.880988"/><trkpt lat="38.204580" lon="-119.879422"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.204580" lon="-119.879422"/><trkpt lat="38.204604" lon="-119.878305"/><trkpt lat="38.204493" lon="-119.877873"/><trkpt lat="38.204102" lon="-119.877332"/><trkpt lat="38.203320" lon="-119.876715"/><trkpt lat="38.202658" lon="-119.875882"/><trkpt lat="38.202334" lon="-119.875233"/><trkpt lat="38.202235" lon="-119.874565"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="38.202235" lon="-119.874565"/><trkpt lat="38.202334" lon="-119.875233"/><trkpt lat="38.202658" lon="-119.875882"/><trkpt lat="38.203320" lon="-119.876715"/><trkpt lat="38.204102" lon="-119.877332"/><trkpt lat="38.204493" lon="-119.877873"/><trkpt lat="38.204604" lon="-119.878305"/><trkpt lat="38.204580" lon="-119.879422"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.204580" lon="-119.879422"/><trkpt lat="38.203413" lon="-119.880988"/><trkpt lat="38.202272" lon="-119.882848"/><trkpt lat="38.201607" lon="-119.884969"/><trkpt lat="38.200749" lon="-119.889382"/><trkpt lat="38.200700" lon="-119.890065"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.200700" lon="-119.890065"/><trkpt lat="38.199820" lon="-119.892324"/><trkpt lat="38.198792" lon="-119.894185"/><trkpt lat="38.198621" lon="-119.894925"/></trkseg>
+<trkseg><!-- 3-1: return: retraced --><trkpt lat="38.198621" lon="-119.894925"/><trkpt lat="38.197899" lon="-119.896521"/><trkpt lat="38.196018" lon="-119.898901"/><trkpt lat="38.195660" lon="-119.899680"/><trkpt lat="38.195643" lon="-119.904136"/><trkpt lat="38.195831" lon="-119.905001"/><trkpt lat="38.196685" lon="-119.907468"/><trkpt lat="38.196748" lon="-119.908117"/><trkpt lat="38.196549" lon="-119.908766"/><trkpt lat="38.195399" lon="-119.910410"/><trkpt lat="38.194909" lon="-119.912128"/></trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1048 Carson Pass to Red Lake Via &amp;quot;the Canyon&amp;quot;</name><desc>broken (legs do not join end to end). 2.5 miles one-way (2.0 miles round trip for return to Carson Pass). Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1048_tour.htm</desc></metadata>
+<wpt lat="38.694817" lon="-119.989091"><ele>2614.43</ele><name>1048-01 Carson Pass Sno-Park</name></wpt>
+<wpt lat="38.688555" lon="-119.989206"><ele>2694.23</ele><name>1048-02 more open and level terrain</name></wpt>
+<wpt lat="38.684879" lon="-119.983873"><ele>2746.97</ele><name>1048-03 Elephants Back</name></wpt>
+<wpt lat="38.686449" lon="-119.980293"><ele>2688.24</ele><name>1048-04 saddle</name></wpt>
+<wpt lat="38.690686" lon="-119.981263"><ele>2541.31</ele><name>1048-05 old Highway 88</name></wpt>
+<wpt lat="38.698426" lon="-119.96906"><ele>2400.66</ele><name>1048-06 Red Lake</name></wpt>
+<wpt lat="38.693815" lon="-119.988205"><ele>2610.3</ele><name>1048-07 Carson Pass</name></wpt>
+<trk><name>Snowlands 1048 Carson Pass to Red Lake Via &amp;quot;the Canyon&amp;quot;</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.694817" lon="-119.989091"/><trkpt lat="38.694599" lon="-119.989448"/><trkpt lat="38.694215" lon="-119.989647"/><trkpt lat="38.692896" lon="-119.989914"/><trkpt lat="38.691313" lon="-119.990024"/><trkpt lat="38.689762" lon="-119.989970"/><trkpt lat="38.689136" lon="-119.989684"/><trkpt lat="38.688555" lon="-119.989206"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.688555" lon="-119.989206"/><trkpt lat="38.687256" lon="-119.988329"/><trkpt lat="38.686229" lon="-119.987268"/><trkpt lat="38.685745" lon="-119.986265"/><trkpt lat="38.684879" lon="-119.983873"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.684879" lon="-119.983873"/><trkpt lat="38.684596" lon="-119.981491"/><trkpt lat="38.684662" lon="-119.980443"/><trkpt lat="38.684949" lon="-119.980101"/><trkpt lat="38.685442" lon="-119.979936"/><trkpt lat="38.686035" lon="-119.979981"/><trkpt lat="38.686449" lon="-119.980293"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.686449" lon="-119.980293"/><trkpt lat="38.688568" lon="-119.980778"/><trkpt lat="38.690686" lon="-119.981263"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.690686" lon="-119.981263"/><trkpt lat="38.691319" lon="-119.980202"/><trkpt lat="38.692499" lon="-119.979237"/><trkpt lat="38.692853" lon="-119.978785"/><trkpt lat="38.693029" lon="-119.978237"/><trkpt lat="38.693295" lon="-119.976420"/><trkpt lat="38.694104" lon="-119.974913"/><trkpt lat="38.695930" lon="-119.973344"/><trkpt lat="38.697015" lon="-119.972692"/><trkpt lat="38.697442" lon="-119.972187"/><trkpt lat="38.698042" lon="-119.970842"/><trkpt lat="38.698426" lon="-119.969060"/></trkseg>
+<trkseg><!-- 5-7: libkind-line: traced from his map --><trkpt lat="38.690686" lon="-119.981263"/><trkpt lat="38.691093" lon="-119.983096"/><trkpt lat="38.691832" lon="-119.984406"/><trkpt lat="38.692381" lon="-119.985885"/><trkpt lat="38.692479" lon="-119.987636"/><trkpt lat="38.692863" lon="-119.987987"/><trkpt lat="38.693815" lon="-119.988205"/></trkseg>
+</trk>
+</gpx>

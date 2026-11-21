@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0907 Big Meadow</name><desc>out and back to waypoint 2. 0.8 mile round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/09/0907_tour.htm</desc></metadata>
+<wpt lat="38.786154" lon="-120.003118"><ele>2205.34</ele><name>0907-01 trailhead</name></wpt>
+<wpt lat="38.780865" lon="-120.000062"><ele>2290.89</ele><name>0907-02 Big Meadow</name></wpt>
+<trk><name>Snowlands 0907 Big Meadow</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.786154" lon="-120.003118"/><trkpt lat="38.784558" lon="-120.001342"/><trkpt lat="38.783800" lon="-120.000851"/><trkpt lat="38.782744" lon="-120.000389"/><trkpt lat="38.781324" lon="-120.000263"/><trkpt lat="38.780865" lon="-120.000062"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.780865" lon="-120.000062"/><trkpt lat="38.781324" lon="-120.000263"/><trkpt lat="38.782744" lon="-120.000389"/><trkpt lat="38.783800" lon="-120.000851"/><trkpt lat="38.784558" lon="-120.001342"/><trkpt lat="38.786154" lon="-120.003118"/></trkseg>
+</trk>
+</gpx>

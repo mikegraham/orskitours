@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1063 Shot Rock Loop</name><desc>lollipop (stem back from waypoint 3). 5.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1063_tour.htm</desc></metadata>
+<wpt lat="38.624925" lon="-120.196681"><ele>2321.63</ele><name>1063-01 trailhead</name></wpt>
+<wpt lat="38.624626" lon="-120.195361"><ele>2320.1</ele><name>1063-02 Shot Rock Vista</name></wpt>
+<wpt lat="38.616803" lon="-120.191509"><ele>2176.43</ele><name>1063-03 small creek</name></wpt>
+<wpt lat="38.618945" lon="-120.180245"><ele>2211.13</ele><name>1063-04 Tragedy Creek</name></wpt>
+<wpt lat="38.606746" lon="-120.161041"><ele>2389.96</ele><name>1063-05 broad ridge</name></wpt>
+<wpt lat="38.603562" lon="-120.173848"><ele>2417.97</ele><name>1063-06 location where a drainage descends northwest through trees</name></wpt>
+<wpt lat="38.612966" lon="-120.182728"><ele>2224.86</ele><name>1063-07 location approximately 150 feet above trees that you can see below</name></wpt>
+<wpt lat="38.613619" lon="-120.188644"><ele>2183.07</ele><name>1063-08 Tragedy Creek</name></wpt>
+<wpt lat="38.599407" lon="-120.181738"><ele>2429.92</ele><name>1063-09</name></wpt>
+<trk><name>Snowlands 1063 Shot Rock Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.624925" lon="-120.196681"/><trkpt lat="38.624626" lon="-120.195361"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.624626" lon="-120.195361"/><trkpt lat="38.621815" lon="-120.193725"/><trkpt lat="38.619600" lon="-120.192914"/><trkpt lat="38.617386" lon="-120.192102"/><trkpt lat="38.616803" lon="-120.191509"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.616803" lon="-120.191509"/><trkpt lat="38.616792" lon="-120.190547"/><trkpt lat="38.616548" lon="-120.189246"/><trkpt lat="38.617778" lon="-120.187566"/><trkpt lat="38.618690" lon="-120.185089"/><trkpt lat="38.618936" lon="-120.183997"/><trkpt lat="38.619052" lon="-120.182780"/><trkpt lat="38.619086" lon="-120.181016"/><trkpt lat="38.618945" lon="-120.180245"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.618945" lon="-120.180245"/><trkpt lat="38.618849" lon="-120.178875"/><trkpt lat="38.618646" lon="-120.177909"/><trkpt lat="38.618610" lon="-120.176565"/><trkpt lat="38.618314" lon="-120.173836"/><trkpt lat="38.618082" lon="-120.172996"/><trkpt lat="38.617417" lon="-120.171778"/><trkpt lat="38.616596" lon="-120.170607"/><trkpt lat="38.615679" lon="-120.169556"/><trkpt lat="38.613131" lon="-120.167023"/><trkpt lat="38.610583" lon="-120.164491"/><trkpt lat="38.608034" lon="-120.161959"/><trkpt lat="38.607312" lon="-120.161351"/><trkpt lat="38.606746" lon="-120.161041"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.606746" lon="-120.161041"/><trkpt lat="38.606606" lon="-120.161417"/><trkpt lat="38.606292" lon="-120.164808"/><trkpt lat="38.605864" lon="-120.167370"/><trkpt lat="38.605055" lon="-120.169868"/><trkpt lat="38.604246" lon="-120.172366"/><trkpt lat="38.603562" lon="-120.173848"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.603562" lon="-120.173848"/><trkpt lat="38.604106" lon="-120.174676"/><trkpt lat="38.604683" lon="-120.176103"/><trkpt lat="38.605325" lon="-120.177237"/><trkpt lat="38.606590" lon="-120.178697"/><trkpt lat="38.608986" lon="-120.180579"/><trkpt lat="38.610976" lon="-120.181653"/><trkpt lat="38.612966" lon="-120.182728"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="38.612966" lon="-120.182728"/><trkpt lat="38.613210" lon="-120.184669"/><trkpt lat="38.613243" lon="-120.187692"/><trkpt lat="38.613375" lon="-120.188235"/><trkpt lat="38.613619" lon="-120.188644"/></trkseg>
+<trkseg><!-- 8-3: libkind-line: traced from his map --><trkpt lat="38.613619" lon="-120.188644"/><trkpt lat="38.614400" lon="-120.189320"/><trkpt lat="38.616267" lon="-120.189931"/><trkpt lat="38.616585" lon="-120.190422"/><trkpt lat="38.616803" lon="-120.191509"/></trkseg>
+<trkseg><!-- 3-1: libkind-line: traced from his map --><trkpt lat="38.616803" lon="-120.191509"/><trkpt lat="38.617255" lon="-120.191884"/><trkpt lat="38.618599" lon="-120.192230"/><trkpt lat="38.620305" lon="-120.192885"/><trkpt lat="38.622274" lon="-120.193699"/><trkpt lat="38.623061" lon="-120.194152"/><trkpt lat="38.623849" lon="-120.194714"/><trkpt lat="38.624333" lon="-120.195251"/><trkpt lat="38.624925" lon="-120.196681"/></trkseg>
+</trk>
+</gpx>

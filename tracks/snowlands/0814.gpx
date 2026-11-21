@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0814 Benwood Meadow</name><desc>broken (legs do not join end to end). 0.8 mile round trip for Rock Garden Loop 1.7 miles round trip for Frog Pond Loop. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/08/0814_tour.htm</desc></metadata>
+<wpt lat="38.810671" lon="-120.031831"><ele>2252.45</ele><name>0814-01 trailhead</name></wpt>
+<wpt lat="38.806729" lon="-120.029052"><ele>2291.32</ele><name>0814-02 trail junction</name></wpt>
+<wpt lat="38.805556" lon="-120.026604"><ele>2289.52</ele><name>0814-03 location adjacent to an abrupt drop off</name></wpt>
+<wpt lat="38.80212" lon="-120.032426"><ele>2284.13</ele><name>0814-04 trail junction</name></wpt>
+<wpt lat="38.806564" lon="-120.031577"><ele>2283.09</ele><name>0814-05 trail junction</name></wpt>
+<trk><name>Snowlands 0814 Benwood Meadow</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.810671" lon="-120.031831"/><trkpt lat="38.809346" lon="-120.032203"/><trkpt lat="38.808311" lon="-120.032223"/><trkpt lat="38.806872" lon="-120.031529"/><trkpt lat="38.806667" lon="-120.031026"/><trkpt lat="38.806667" lon="-120.029574"/><trkpt lat="38.806729" lon="-120.029052"/></trkseg>
+<trkseg><!-- 2-5: libkind-line: traced from his map --><trkpt lat="38.806729" lon="-120.029052"/><trkpt lat="38.806773" lon="-120.030072"/><trkpt lat="38.806549" lon="-120.031230"/><trkpt lat="38.806564" lon="-120.031577"/></trkseg>
+<trkseg><!-- 5-1: libkind-line: traced from his map --><trkpt lat="38.806564" lon="-120.031577"/><trkpt lat="38.807373" lon="-120.031653"/><trkpt lat="38.808861" lon="-120.032430"/><trkpt lat="38.809864" lon="-120.032282"/><trkpt lat="38.810671" lon="-120.031831"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.806729" lon="-120.029052"/><trkpt lat="38.806604" lon="-120.028163"/><trkpt lat="38.805946" lon="-120.027322"/><trkpt lat="38.805556" lon="-120.026604"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.805556" lon="-120.026604"/><trkpt lat="38.805660" lon="-120.027119"/><trkpt lat="38.806259" lon="-120.027672"/><trkpt lat="38.806524" lon="-120.028328"/><trkpt lat="38.806661" lon="-120.029823"/><trkpt lat="38.806654" lon="-120.030819"/><trkpt lat="38.806549" lon="-120.031207"/><trkpt lat="38.806304" lon="-120.031408"/><trkpt lat="38.804915" lon="-120.031785"/><trkpt lat="38.802781" lon="-120.031848"/><trkpt lat="38.802120" lon="-120.032426"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.802120" lon="-120.032426"/><trkpt lat="38.803395" lon="-120.031629"/><trkpt lat="38.805174" lon="-120.031813"/><trkpt lat="38.806564" lon="-120.031577"/></trkseg>
+<trkseg><!-- 5-1: libkind-line: traced from his map --><trkpt lat="38.806564" lon="-120.031577"/><trkpt lat="38.807341" lon="-120.031643"/><trkpt lat="38.807923" lon="-120.031957"/><trkpt lat="38.808829" lon="-120.032224"/><trkpt lat="38.809993" lon="-120.032205"/><trkpt lat="38.810671" lon="-120.031831"/></trkseg>
+</trk>
+</gpx>

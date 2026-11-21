@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1013 Foster Meadow Loop</name><desc>lollipop (loop from waypoint 3, stem retraced). 3.5 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1013_tour.htm</desc></metadata>
+<wpt lat="38.586299" lon="-120.242317"><ele>2150.32</ele><name>1013-01 trailhead</name></wpt>
+<wpt lat="38.590425" lon="-120.244083"><ele>2118.49</ele><name>1013-02 Silver Bear Snowmobile Trail</name></wpt>
+<wpt lat="38.596719" lon="-120.240552"><ele>2085.06</ele><name>1013-03 a lesser road that heads southwest</name></wpt>
+<wpt lat="38.590801" lon="-120.246259"><ele>2070.2</ele><name>1013-04 point where you leave the road</name></wpt>
+<wpt lat="38.591312" lon="-120.247172"><ele>2058.25</ele><name>1013-05 Foster Meadow</name></wpt>
+<wpt lat="38.592068" lon="-120.248499"><ele>2064.06</ele><name>1013-06 snow-covered road</name></wpt>
+<wpt lat="38.596167" lon="-120.245377"><ele>2094.86</ele><name>1013-07 Foster Meadow Road</name></wpt>
+<wpt lat="38.598326" lon="-120.240771"><ele>2080.28</ele><name>1013-08 turnoff for the headwaters of the Middle Fork of the Cosumnes River</name></wpt>
+<trk><name>Snowlands 1013 Foster Meadow Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.586299" lon="-120.242317"/><trkpt lat="38.587304" lon="-120.241133"/><trkpt lat="38.587698" lon="-120.240813"/><trkpt lat="38.589045" lon="-120.240392"/><trkpt lat="38.590247" lon="-120.240412"/><trkpt lat="38.590446" lon="-120.240636"/><trkpt lat="38.590546" lon="-120.241162"/><trkpt lat="38.590540" lon="-120.242128"/><trkpt lat="38.590306" lon="-120.243556"/><trkpt lat="38.590425" lon="-120.244083"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.590425" lon="-120.244083"/><trkpt lat="38.590983" lon="-120.243805"/><trkpt lat="38.592100" lon="-120.242575"/><trkpt lat="38.592362" lon="-120.242591"/><trkpt lat="38.592921" lon="-120.243069"/><trkpt lat="38.593282" lon="-120.243044"/><trkpt lat="38.596008" lon="-120.241543"/><trkpt lat="38.596404" lon="-120.241167"/><trkpt lat="38.596719" lon="-120.240552"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.596719" lon="-120.240552"/><trkpt lat="38.596594" lon="-120.240920"/><trkpt lat="38.596303" lon="-120.241201"/><trkpt lat="38.595123" lon="-120.241736"/><trkpt lat="38.593216" lon="-120.242892"/><trkpt lat="38.592585" lon="-120.243683"/><trkpt lat="38.591951" lon="-120.244854"/><trkpt lat="38.590801" lon="-120.246259"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.590801" lon="-120.246259"/><trkpt lat="38.591312" lon="-120.247172"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.591312" lon="-120.247172"/><trkpt lat="38.592068" lon="-120.248499"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.592068" lon="-120.248499"/><trkpt lat="38.592559" lon="-120.248259"/><trkpt lat="38.594694" lon="-120.246327"/><trkpt lat="38.596167" lon="-120.245377"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="38.596167" lon="-120.245377"/><trkpt lat="38.596829" lon="-120.245059"/><trkpt lat="38.597537" lon="-120.244145"/><trkpt lat="38.598108" lon="-120.242422"/><trkpt lat="38.598326" lon="-120.240771"/></trkseg>
+<trkseg><!-- 8-3: libkind-line: traced from his map --><trkpt lat="38.598326" lon="-120.240771"/><trkpt lat="38.598141" lon="-120.240475"/><trkpt lat="38.597845" lon="-120.240335"/><trkpt lat="38.597256" lon="-120.240346"/><trkpt lat="38.596719" lon="-120.240552"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.596719" lon="-120.240552"/><trkpt lat="38.596404" lon="-120.241167"/><trkpt lat="38.596008" lon="-120.241543"/><trkpt lat="38.593282" lon="-120.243044"/><trkpt lat="38.592921" lon="-120.243069"/><trkpt lat="38.592362" lon="-120.242591"/><trkpt lat="38.592100" lon="-120.242575"/><trkpt lat="38.590983" lon="-120.243805"/><trkpt lat="38.590425" lon="-120.244083"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.590425" lon="-120.244083"/><trkpt lat="38.590306" lon="-120.243556"/><trkpt lat="38.590540" lon="-120.242128"/><trkpt lat="38.590546" lon="-120.241162"/><trkpt lat="38.590446" lon="-120.240636"/><trkpt lat="38.590247" lon="-120.240412"/><trkpt lat="38.589045" lon="-120.240392"/><trkpt lat="38.587698" lon="-120.240813"/><trkpt lat="38.587304" lon="-120.241133"/><trkpt lat="38.586299" lon="-120.242317"/></trkseg>
+</trk>
+</gpx>

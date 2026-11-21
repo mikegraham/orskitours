@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0330 Lakes Loop From Clair Tappaan Lodge</name><desc>lollipop (stem back from waypoint 9). 4.7 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0330_tour.htm</desc></metadata>
+<wpt lat="39.318025" lon="-120.350441"><ele>2136.37</ele><name>0330-01 trailhead</name></wpt>
+<wpt lat="39.325514" lon="-120.33676"><ele>2230.4</ele><name>0330-02 bottom of two ski lifts</name></wpt>
+<wpt lat="39.325046" lon="-120.333616"><ele>2251.91</ele><name>0330-03 saddle</name></wpt>
+<wpt lat="39.33021" lon="-120.336353"><ele>2321.05</ele><name>0330-04 top of a Boreal Ridge ski lift</name></wpt>
+<wpt lat="39.33141" lon="-120.333724"><ele>2335.58</ele><name>0330-05 Peak 7666</name></wpt>
+<wpt lat="39.335227" lon="-120.329514"><ele>2194.79</ele><name>0330-06 Azalea Lake</name></wpt>
+<wpt lat="39.332804" lon="-120.326791"><ele>2187.89</ele><name>0330-07 Flora Lake</name></wpt>
+<wpt lat="39.32588" lon="-120.325256"><ele>2198.77</ele><name>0330-08 Lake Angela</name></wpt>
+<wpt lat="39.327438" lon="-120.333497"><ele>2287.2</ele><name>0330-09 groomed road and route you skied earlier</name></wpt>
+<trk><name>Snowlands 0330 Lakes Loop From Clair Tappaan Lodge</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.318025" lon="-120.350441"/><trkpt lat="39.319633" lon="-120.350487"/><trkpt lat="39.320132" lon="-120.350044"/><trkpt lat="39.320992" lon="-120.348364"/><trkpt lat="39.321519" lon="-120.346681"/><trkpt lat="39.322972" lon="-120.344536"/><trkpt lat="39.324344" lon="-120.341590"/><trkpt lat="39.325318" lon="-120.338014"/><trkpt lat="39.325514" lon="-120.336760"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.325514" lon="-120.336760"/><trkpt lat="39.325432" lon="-120.334480"/><trkpt lat="39.325046" lon="-120.333616"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.325046" lon="-120.333616"/><trkpt lat="39.325620" lon="-120.333532"/><trkpt lat="39.326889" lon="-120.333841"/><trkpt lat="39.327735" lon="-120.333635"/><trkpt lat="39.328058" lon="-120.333690"/><trkpt lat="39.330210" lon="-120.336353"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.330210" lon="-120.336353"/><trkpt lat="39.330449" lon="-120.336101"/><trkpt lat="39.330719" lon="-120.335111"/><trkpt lat="39.331410" lon="-120.333724"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.331410" lon="-120.333724"/><trkpt lat="39.333202" lon="-120.333827"/><trkpt lat="39.334632" lon="-120.332512"/><trkpt lat="39.335005" lon="-120.331956"/><trkpt lat="39.335286" lon="-120.331114"/><trkpt lat="39.335379" lon="-120.330147"/><trkpt lat="39.335227" lon="-120.329514"/></trkseg>
+<trkseg><!-- 6-7: libkind-lake: his line across the ice --><trkpt lat="39.335227" lon="-120.329514"/><trkpt lat="39.334341" lon="-120.328232"/><trkpt lat="39.332804" lon="-120.326791"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="39.332804" lon="-120.326791"/><trkpt lat="39.331184" lon="-120.325678"/><trkpt lat="39.329070" lon="-120.324898"/><trkpt lat="39.326889" lon="-120.324863"/><trkpt lat="39.326239" lon="-120.325023"/><trkpt lat="39.325880" lon="-120.325256"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="39.325880" lon="-120.325256"/><trkpt lat="39.326094" lon="-120.326108"/><trkpt lat="39.326974" lon="-120.328169"/><trkpt lat="39.327723" lon="-120.330820"/><trkpt lat="39.327746" lon="-120.332040"/><trkpt lat="39.327438" lon="-120.333497"/></trkseg>
+<trkseg><!-- 9-1: libkind-line: traced from his map --><trkpt lat="39.327438" lon="-120.333497"/><trkpt lat="39.326824" lon="-120.333835"/><trkpt lat="39.325463" lon="-120.333715"/><trkpt lat="39.325244" lon="-120.333829"/><trkpt lat="39.325452" lon="-120.337131"/><trkpt lat="39.325414" lon="-120.338225"/><trkpt lat="39.324840" lon="-120.340455"/><trkpt lat="39.323496" lon="-120.343778"/><trkpt lat="39.322863" lon="-120.344913"/><trkpt lat="39.321992" lon="-120.346094"/><trkpt lat="39.320799" lon="-120.348995"/><trkpt lat="39.320166" lon="-120.350014"/><trkpt lat="39.319437" lon="-120.350481"/><trkpt lat="39.318025" lon="-120.350441"/></trkseg>
+</trk>
+</gpx>

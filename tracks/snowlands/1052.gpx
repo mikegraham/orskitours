@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1052 Headwaters of the Middle Fork of the Cosumnes River</name><desc>out and back to waypoint 5. 4.4 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1052_tour.htm</desc></metadata>
+<wpt lat="38.586299" lon="-120.242317"><ele>2150.32</ele><name>1052-01 trailhead</name></wpt>
+<wpt lat="38.590282" lon="-120.244165"><ele>2116.22</ele><name>1052-02 Silver Bear Snowmobile Trail</name></wpt>
+<wpt lat="38.598326" lon="-120.240771"><ele>2080.28</ele><name>1052-03 turnoff for the headwaters of the Middle Fork of the Cosumnes River</name></wpt>
+<wpt lat="38.604135" lon="-120.237188"><ele>2123.69</ele><name>1052-04 road junction</name></wpt>
+<wpt lat="38.609299" lon="-120.230461"><ele>2191.6</ele><name>1052-05 headwaters of the Middle Fork of the Cosumnes River</name></wpt>
+<trk><name>Snowlands 1052 Headwaters of the Middle Fork of the Cosumnes River</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.586299" lon="-120.242317"/><trkpt lat="38.586993" lon="-120.241268"/><trkpt lat="38.587807" lon="-120.240684"/><trkpt lat="38.588914" lon="-120.240373"/><trkpt lat="38.590232" lon="-120.240299"/><trkpt lat="38.590432" lon="-120.240553"/><trkpt lat="38.590507" lon="-120.241163"/><trkpt lat="38.590492" lon="-120.242288"/><trkpt lat="38.590268" lon="-120.243704"/><trkpt lat="38.590282" lon="-120.244165"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.590282" lon="-120.244165"/><trkpt lat="38.591225" lon="-120.243418"/><trkpt lat="38.592203" lon="-120.242194"/><trkpt lat="38.593113" lon="-120.241452"/><trkpt lat="38.594513" lon="-120.240900"/><trkpt lat="38.595718" lon="-120.240572"/><trkpt lat="38.596727" lon="-120.240507"/><trkpt lat="38.597509" lon="-120.240198"/><trkpt lat="38.597921" lon="-120.240264"/><trkpt lat="38.598326" lon="-120.240771"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.598326" lon="-120.240771"/><trkpt lat="38.600977" lon="-120.239206"/><trkpt lat="38.603629" lon="-120.237642"/><trkpt lat="38.604135" lon="-120.237188"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.604135" lon="-120.237188"/><trkpt lat="38.606493" lon="-120.236115"/><trkpt lat="38.607108" lon="-120.235537"/><trkpt lat="38.608378" lon="-120.233207"/><trkpt lat="38.609299" lon="-120.230461"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.609299" lon="-120.230461"/><trkpt lat="38.608378" lon="-120.233207"/><trkpt lat="38.607108" lon="-120.235537"/><trkpt lat="38.606493" lon="-120.236115"/><trkpt lat="38.604135" lon="-120.237188"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.604135" lon="-120.237188"/><trkpt lat="38.603629" lon="-120.237642"/><trkpt lat="38.600977" lon="-120.239206"/><trkpt lat="38.598326" lon="-120.240771"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.598326" lon="-120.240771"/><trkpt lat="38.597921" lon="-120.240264"/><trkpt lat="38.597509" lon="-120.240198"/><trkpt lat="38.596727" lon="-120.240507"/><trkpt lat="38.595718" lon="-120.240572"/><trkpt lat="38.594513" lon="-120.240900"/><trkpt lat="38.593113" lon="-120.241452"/><trkpt lat="38.592203" lon="-120.242194"/><trkpt lat="38.591225" lon="-120.243418"/><trkpt lat="38.590282" lon="-120.244165"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.590282" lon="-120.244165"/><trkpt lat="38.590268" lon="-120.243704"/><trkpt lat="38.590492" lon="-120.242288"/><trkpt lat="38.590507" lon="-120.241163"/><trkpt lat="38.590432" lon="-120.240553"/><trkpt lat="38.590232" lon="-120.240299"/><trkpt lat="38.588914" lon="-120.240373"/><trkpt lat="38.587807" lon="-120.240684"/><trkpt lat="38.586993" lon="-120.241268"/><trkpt lat="38.586299" lon="-120.242317"/></trkseg>
+</trk>
+</gpx>

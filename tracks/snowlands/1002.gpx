@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1002 Two Sentinels</name><desc>out and back to waypoint 4; or continue as loop. 2.8 miles round trip or 3.1 miles round trip via alternate return route. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1002_tour.htm</desc></metadata>
+<wpt lat="38.705208" lon="-120.110452"><ele>2400.24</ele><name>1002-01 trailhead</name></wpt>
+<wpt lat="38.702479" lon="-120.099846"><ele>2522.71</ele><name>1002-02 ridgetop</name></wpt>
+<wpt lat="38.698739" lon="-120.089849"><ele>2651.71</ele><name>1002-03 first of the Two Sentinels</name></wpt>
+<wpt lat="38.697548" lon="-120.088469"><ele>2663.43</ele><name>1002-04 second of the Two Sentinels</name></wpt>
+<wpt lat="38.69967" lon="-120.112267"><ele>2342.11</ele><name>1002-05</name></wpt>
+<trk><name>Snowlands 1002 Two Sentinels</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.705208" lon="-120.110452"/><trkpt lat="38.703662" lon="-120.107506"/><trkpt lat="38.702785" lon="-120.105095"/><trkpt lat="38.702638" lon="-120.104165"/><trkpt lat="38.702625" lon="-120.100485"/><trkpt lat="38.702479" lon="-120.099846"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.702479" lon="-120.099846"/><trkpt lat="38.701139" lon="-120.096425"/><trkpt lat="38.700453" lon="-120.092618"/><trkpt lat="38.698739" lon="-120.089849"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.698739" lon="-120.089849"/><trkpt lat="38.697548" lon="-120.088469"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.697548" lon="-120.088469"/><trkpt lat="38.698739" lon="-120.089849"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.698739" lon="-120.089849"/><trkpt lat="38.700453" lon="-120.092618"/><trkpt lat="38.701139" lon="-120.096425"/><trkpt lat="38.702479" lon="-120.099846"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.702479" lon="-120.099846"/><trkpt lat="38.702625" lon="-120.100485"/><trkpt lat="38.702638" lon="-120.104165"/><trkpt lat="38.702785" lon="-120.105095"/><trkpt lat="38.703662" lon="-120.107506"/><trkpt lat="38.705208" lon="-120.110452"/></trkseg>
+</trk>
+<trk><name>Snowlands 1002 Two Sentinels: optional continuation or side trip</name>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.697548" lon="-120.088469"/><trkpt lat="38.697266" lon="-120.090546"/><trkpt lat="38.697184" lon="-120.091815"/><trkpt lat="38.697189" lon="-120.095790"/><trkpt lat="38.697329" lon="-120.098095"/><trkpt lat="38.697469" lon="-120.100400"/><trkpt lat="38.697692" lon="-120.102177"/><trkpt lat="38.698307" lon="-120.104672"/><trkpt lat="38.698633" lon="-120.106956"/><trkpt lat="38.698934" lon="-120.110763"/><trkpt lat="38.699158" lon="-120.111523"/><trkpt lat="38.699670" lon="-120.112267"/></trkseg>
+<trkseg><!-- 5-1: libkind-line: traced from his map --><trkpt lat="38.699670" lon="-120.112267"/><trkpt lat="38.700090" lon="-120.112575"/><trkpt lat="38.700781" lon="-120.112707"/><trkpt lat="38.701969" lon="-120.112693"/><trkpt lat="38.703091" lon="-120.112347"/><trkpt lat="38.704147" lon="-120.111736"/><trkpt lat="38.705208" lon="-120.110452"/></trkseg>
+</trk>
+</gpx>

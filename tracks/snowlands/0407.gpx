@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0407 Truckee River</name><desc>out and back to waypoint 4. 2.0 miles round trip to bridge. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/04/0407_tour.htm</desc></metadata>
+<wpt lat="39.163687" lon="-120.147367"><ele>1899.81</ele><name>0407-01 trailhead</name></wpt>
+<wpt lat="39.16195" lon="-120.151712"><ele>1900.95</ele><name>0407-02 drainage</name></wpt>
+<wpt lat="39.162489" lon="-120.156729"><ele>1901.34</ele><name>0407-03 river</name></wpt>
+<wpt lat="39.16265" lon="-120.165232"><ele>1894.83</ele><name>0407-04 bridge</name></wpt>
+<trk><name>Snowlands 0407 Truckee River</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.163687" lon="-120.147367"/><trkpt lat="39.163417" lon="-120.147913"/><trkpt lat="39.162706" lon="-120.148541"/><trkpt lat="39.162346" lon="-120.149110"/><trkpt lat="39.162123" lon="-120.150125"/><trkpt lat="39.161950" lon="-120.151712"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.161950" lon="-120.151712"/><trkpt lat="39.161999" lon="-120.155413"/><trkpt lat="39.162178" lon="-120.156132"/><trkpt lat="39.162489" lon="-120.156729"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.162489" lon="-120.156729"/><trkpt lat="39.162751" lon="-120.157697"/><trkpt lat="39.162865" lon="-120.159897"/><trkpt lat="39.162815" lon="-120.162308"/><trkpt lat="39.162766" lon="-120.164719"/><trkpt lat="39.162650" lon="-120.165232"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="39.162650" lon="-120.165232"/><trkpt lat="39.162766" lon="-120.164719"/><trkpt lat="39.162815" lon="-120.162308"/><trkpt lat="39.162865" lon="-120.159897"/><trkpt lat="39.162751" lon="-120.157697"/><trkpt lat="39.162489" lon="-120.156729"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.162489" lon="-120.156729"/><trkpt lat="39.162178" lon="-120.156132"/><trkpt lat="39.161999" lon="-120.155413"/><trkpt lat="39.161950" lon="-120.151712"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.161950" lon="-120.151712"/><trkpt lat="39.162123" lon="-120.150125"/><trkpt lat="39.162346" lon="-120.149110"/><trkpt lat="39.162706" lon="-120.148541"/><trkpt lat="39.163417" lon="-120.147913"/><trkpt lat="39.163687" lon="-120.147367"/></trkseg>
+</trk>
+</gpx>

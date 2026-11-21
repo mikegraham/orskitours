@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0913 Powderhouse Peak</name><desc>loop. 2.2 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/09/0913_tour.htm</desc></metadata>
+<wpt lat="38.796736" lon="-119.973409"><ele>2355.66</ele><name>0913-01 trailhead</name></wpt>
+<wpt lat="38.789823" lon="-119.976361"><ele>2446.24</ele><name>0913-02 terrain abruptly becomes more steep</name></wpt>
+<wpt lat="38.78283" lon="-119.975331"><ele>2864.06</ele><name>0913-03 Powderhouse Peak</name></wpt>
+<trk><name>Snowlands 0913 Powderhouse Peak</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.796736" lon="-119.973409"/><trkpt lat="38.796427" lon="-119.973946"/><trkpt lat="38.795900" lon="-119.975500"/><trkpt lat="38.795303" lon="-119.976315"/><trkpt lat="38.794879" lon="-119.976620"/><trkpt lat="38.794323" lon="-119.976750"/><trkpt lat="38.793014" lon="-119.976754"/><trkpt lat="38.789823" lon="-119.976361"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.789823" lon="-119.976361"/><trkpt lat="38.787548" lon="-119.976941"/><trkpt lat="38.784766" lon="-119.976933"/><trkpt lat="38.783883" lon="-119.976612"/><trkpt lat="38.782830" lon="-119.975331"/></trkseg>
+<trkseg><!-- 3-1: libkind-line: traced from his map --><trkpt lat="38.782830" lon="-119.975331"/><trkpt lat="38.783555" lon="-119.976211"/><trkpt lat="38.784079" lon="-119.976546"/><trkpt lat="38.786632" lon="-119.976922"/><trkpt lat="38.787286" lon="-119.977150"/><trkpt lat="38.788203" lon="-119.977037"/><trkpt lat="38.789774" lon="-119.976523"/><trkpt lat="38.791017" lon="-119.976281"/><trkpt lat="38.792834" lon="-119.976513"/><trkpt lat="38.794650" lon="-119.976744"/><trkpt lat="38.795040" lon="-119.976582"/><trkpt lat="38.795420" lon="-119.976128"/><trkpt lat="38.796736" lon="-119.973409"/></trkseg>
+</trk>
+</gpx>

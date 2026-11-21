@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1902 Hartley Springs Campground Loop</name><desc>one way. 4.6 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/19/1902_tour.htm</desc></metadata>
+<wpt lat="37.774253" lon="-119.014926"><ele>2446.46</ele><name>1902-01 trailhead</name></wpt>
+<wpt lat="37.765444" lon="-119.027619"><ele>2502.15</ele><name>1902-02 road junction</name></wpt>
+<wpt lat="37.768419" lon="-119.035637"><ele>2567.84</ele><name>1902-03 road junction</name></wpt>
+<wpt lat="37.773892" lon="-119.039607"><ele>2570.98</ele><name>1902-04 road junction</name></wpt>
+<wpt lat="37.783206" lon="-119.038113"><ele>2482.03</ele><name>1902-05 view of Wilson Butte to the east and the terrain becomes more level</name></wpt>
+<wpt lat="37.781732" lon="-119.031195"><ele>2482.65</ele><name>1902-06 broad saddle</name></wpt>
+<wpt lat="37.780319" lon="-119.031027"><ele>2489.3</ele><name>1902-07 marked trail</name></wpt>
+<wpt lat="37.771078" lon="-119.017779"><ele>2451.06</ele><name>1902-08 Obsidian Dome Road</name></wpt>
+<wpt lat="37.771574" lon="-119.017212"><ele>2450.82</ele><name>1902-09 Obsidian Dome Road</name></wpt>
+<trk><name>Snowlands 1902 Hartley Springs Campground Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.774253" lon="-119.014926"/><trkpt lat="37.772539" lon="-119.016090"/><trkpt lat="37.770184" lon="-119.018811"/><trkpt lat="37.769811" lon="-119.019487"/><trkpt lat="37.769120" lon="-119.021262"/><trkpt lat="37.767556" lon="-119.024177"/><trkpt lat="37.766612" lon="-119.025586"/><trkpt lat="37.766073" lon="-119.026797"/><trkpt lat="37.765444" lon="-119.027619"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.765444" lon="-119.027619"/><trkpt lat="37.765621" lon="-119.028067"/><trkpt lat="37.766323" lon="-119.027962"/><trkpt lat="37.766611" lon="-119.028212"/><trkpt lat="37.767289" lon="-119.030853"/><trkpt lat="37.767399" lon="-119.033557"/><trkpt lat="37.768419" lon="-119.035637"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="37.768419" lon="-119.035637"/><trkpt lat="37.769128" lon="-119.036844"/><trkpt lat="37.769500" lon="-119.037224"/><trkpt lat="37.770802" lon="-119.037891"/><trkpt lat="37.771904" lon="-119.038696"/><trkpt lat="37.773340" lon="-119.039108"/><trkpt lat="37.773892" lon="-119.039607"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="37.773892" lon="-119.039607"/><trkpt lat="37.775511" lon="-119.039072"/><trkpt lat="37.776547" lon="-119.038924"/><trkpt lat="37.777114" lon="-119.038954"/><trkpt lat="37.779218" lon="-119.039568"/><trkpt lat="37.780922" lon="-119.039579"/><trkpt lat="37.782057" lon="-119.039114"/><trkpt lat="37.783206" lon="-119.038113"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="37.783206" lon="-119.038113"/><trkpt lat="37.783679" lon="-119.037022"/><trkpt lat="37.783967" lon="-119.035966"/><trkpt lat="37.784086" lon="-119.035078"/><trkpt lat="37.784058" lon="-119.034191"/><trkpt lat="37.783625" lon="-119.033430"/><trkpt lat="37.781732" lon="-119.031195"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="37.781732" lon="-119.031195"/><trkpt lat="37.780319" lon="-119.031027"/></trkseg>
+</trk>
+</gpx>

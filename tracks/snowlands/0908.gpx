@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0908 Scotts Lake Via Big Meadow</name><desc>out and back to waypoint 5. 5.4 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/09/0908_tour.htm</desc></metadata>
+<wpt lat="38.786154" lon="-120.003118"><ele>2205.34</ele><name>0908-01 trailhead</name></wpt>
+<wpt lat="38.780865" lon="-120.000062"><ele>2290.89</ele><name>0908-02 Big Meadow</name></wpt>
+<wpt lat="38.777183" lon="-119.996793"><ele>2296.97</ele><name>0908-03 Big Meadow Creek enters the meadow</name></wpt>
+<wpt lat="38.773732" lon="-119.985606"><ele>2374.32</ele><name>0908-04 meadow</name></wpt>
+<wpt lat="38.76534" lon="-119.967505"><ele>2440.76</ele><name>0908-05 Scotts Lake</name></wpt>
+<trk><name>Snowlands 0908 Scotts Lake Via Big Meadow</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.786154" lon="-120.003118"/><trkpt lat="38.784047" lon="-120.000960"/><trkpt lat="38.782802" lon="-120.000427"/><trkpt lat="38.781294" lon="-120.000292"/><trkpt lat="38.780865" lon="-120.000062"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.780865" lon="-120.000062"/><trkpt lat="38.779197" lon="-119.998175"/><trkpt lat="38.777183" lon="-119.996793"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.777183" lon="-119.996793"/><trkpt lat="38.776575" lon="-119.996659"/><trkpt lat="38.775747" lon="-119.995590"/><trkpt lat="38.775049" lon="-119.994245"/><trkpt lat="38.774216" lon="-119.991764"/><trkpt lat="38.773807" lon="-119.990251"/><trkpt lat="38.773639" lon="-119.989200"/><trkpt lat="38.773628" lon="-119.986215"/><trkpt lat="38.773732" lon="-119.985606"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.773732" lon="-119.985606"/><trkpt lat="38.774415" lon="-119.984449"/><trkpt lat="38.774509" lon="-119.983146"/><trkpt lat="38.774411" lon="-119.979908"/><trkpt lat="38.773691" lon="-119.977975"/><trkpt lat="38.773124" lon="-119.977097"/><trkpt lat="38.771986" lon="-119.975731"/><trkpt lat="38.769724" lon="-119.973702"/><trkpt lat="38.768511" lon="-119.972381"/><trkpt lat="38.767300" lon="-119.970785"/><trkpt lat="38.766015" lon="-119.968431"/><trkpt lat="38.765340" lon="-119.967505"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.765340" lon="-119.967505"/><trkpt lat="38.766015" lon="-119.968431"/><trkpt lat="38.767300" lon="-119.970785"/><trkpt lat="38.768511" lon="-119.972381"/><trkpt lat="38.769724" lon="-119.973702"/><trkpt lat="38.771986" lon="-119.975731"/><trkpt lat="38.773124" lon="-119.977097"/><trkpt lat="38.773691" lon="-119.977975"/><trkpt lat="38.774411" lon="-119.979908"/><trkpt lat="38.774509" lon="-119.983146"/><trkpt lat="38.774415" lon="-119.984449"/><trkpt lat="38.773732" lon="-119.985606"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.773732" lon="-119.985606"/><trkpt lat="38.773628" lon="-119.986215"/><trkpt lat="38.773639" lon="-119.989200"/><trkpt lat="38.773807" lon="-119.990251"/><trkpt lat="38.774216" lon="-119.991764"/><trkpt lat="38.775049" lon="-119.994245"/><trkpt lat="38.775747" lon="-119.995590"/><trkpt lat="38.776575" lon="-119.996659"/><trkpt lat="38.777183" lon="-119.996793"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.777183" lon="-119.996793"/><trkpt lat="38.779197" lon="-119.998175"/><trkpt lat="38.780865" lon="-120.000062"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.780865" lon="-120.000062"/><trkpt lat="38.781294" lon="-120.000292"/><trkpt lat="38.782802" lon="-120.000427"/><trkpt lat="38.784047" lon="-120.000960"/><trkpt lat="38.786154" lon="-120.003118"/></trkseg>
+</trk>
+</gpx>

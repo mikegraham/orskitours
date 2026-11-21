@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0628 North Canyon Creek</name><desc>lollipop (loop from waypoint 2, stem retraced). 2.1 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/06/0628_tour.htm</desc></metadata>
+<wpt lat="39.106287" lon="-119.91637"><ele>2147.59</ele><name>0628-01 trailhead</name></wpt>
+<wpt lat="39.107675" lon="-119.914452"><ele>2128.08</ele><name>0628-02 road</name></wpt>
+<wpt lat="39.11561" lon="-119.91413"><ele>2141.25</ele><name>0628-03 old cabin</name></wpt>
+<wpt lat="39.118055" lon="-119.914575"><ele>2152.16</ele><name>0628-04 North Canyon Creek</name></wpt>
+<wpt lat="39.112924" lon="-119.918874"><ele>2115.71</ele><name>0628-05 large meadow</name></wpt>
+<wpt lat="39.108453" lon="-119.918991"><ele>2116.13</ele><name>0628-06 road</name></wpt>
+<trk><name>Snowlands 0628 North Canyon Creek</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.106287" lon="-119.916370"/><trkpt lat="39.107675" lon="-119.914452"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.107675" lon="-119.914452"/><trkpt lat="39.109085" lon="-119.914133"/><trkpt lat="39.111497" lon="-119.914656"/><trkpt lat="39.113780" lon="-119.914670"/><trkpt lat="39.115610" lon="-119.914130"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.115610" lon="-119.914130"/><trkpt lat="39.117529" lon="-119.914247"/><trkpt lat="39.118055" lon="-119.914575"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.118055" lon="-119.914575"/><trkpt lat="39.117872" lon="-119.914792"/><trkpt lat="39.114726" lon="-119.916219"/><trkpt lat="39.114403" lon="-119.916609"/><trkpt lat="39.113495" lon="-119.918242"/><trkpt lat="39.112924" lon="-119.918874"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.112924" lon="-119.918874"/><trkpt lat="39.110688" lon="-119.918933"/><trkpt lat="39.108453" lon="-119.918991"/></trkseg>
+<trkseg><!-- 6-2: libkind-line: traced from his map --><trkpt lat="39.108453" lon="-119.918991"/><trkpt lat="39.108678" lon="-119.917614"/><trkpt lat="39.108661" lon="-119.916648"/><trkpt lat="39.108289" lon="-119.915640"/><trkpt lat="39.107675" lon="-119.914452"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.107675" lon="-119.914452"/><trkpt lat="39.106287" lon="-119.916370"/></trkseg>
+</trk>
+</gpx>

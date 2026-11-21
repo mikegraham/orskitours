@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1803 Burger's Sanctuary</name><desc>out and back to waypoint 4. 3.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/18/1803_tour.htm</desc></metadata>
+<wpt lat="37.940491" lon="-119.126913"><ele>2194.46</ele><name>1803-01 trailhead</name></wpt>
+<wpt lat="37.943126" lon="-119.13061"><ele>2303.62</ele><name>1803-02 road junction</name></wpt>
+<wpt lat="37.940446" lon="-119.146444"><ele>2373.93</ele><name>1803-03 road turns north (right)</name></wpt>
+<wpt lat="37.943857" lon="-119.148708"><ele>2389.95</ele><name>1803-04 Burger's Sierra Retreat</name></wpt>
+<trk><name>Snowlands 1803 Burger's Sanctuary</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.940491" lon="-119.126913"/><trkpt lat="37.940847" lon="-119.126055"/><trkpt lat="37.941069" lon="-119.125865"/><trkpt lat="37.941773" lon="-119.126390"/><trkpt lat="37.942356" lon="-119.126572"/><trkpt lat="37.942389" lon="-119.126826"/><trkpt lat="37.942144" lon="-119.127705"/><trkpt lat="37.942268" lon="-119.128508"/><trkpt lat="37.942293" lon="-119.131241"/><trkpt lat="37.942379" lon="-119.131423"/><trkpt lat="37.942515" lon="-119.131391"/><trkpt lat="37.943126" lon="-119.130610"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.943126" lon="-119.130610"/><trkpt lat="37.943165" lon="-119.133705"/><trkpt lat="37.942659" lon="-119.135903"/><trkpt lat="37.942581" lon="-119.136663"/><trkpt lat="37.942734" lon="-119.138607"/><trkpt lat="37.942695" lon="-119.140466"/><trkpt lat="37.942449" lon="-119.141311"/><trkpt lat="37.941371" lon="-119.143804"/><trkpt lat="37.940446" lon="-119.146444"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="37.940446" lon="-119.146444"/><trkpt lat="37.940809" lon="-119.146816"/><trkpt lat="37.943271" lon="-119.148197"/><trkpt lat="37.943857" lon="-119.148708"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="37.943857" lon="-119.148708"/><trkpt lat="37.943271" lon="-119.148197"/><trkpt lat="37.940809" lon="-119.146816"/><trkpt lat="37.940446" lon="-119.146444"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="37.940446" lon="-119.146444"/><trkpt lat="37.941371" lon="-119.143804"/><trkpt lat="37.942449" lon="-119.141311"/><trkpt lat="37.942695" lon="-119.140466"/><trkpt lat="37.942734" lon="-119.138607"/><trkpt lat="37.942581" lon="-119.136663"/><trkpt lat="37.942659" lon="-119.135903"/><trkpt lat="37.943165" lon="-119.133705"/><trkpt lat="37.943126" lon="-119.130610"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="37.943126" lon="-119.130610"/><trkpt lat="37.942515" lon="-119.131391"/><trkpt lat="37.942379" lon="-119.131423"/><trkpt lat="37.942293" lon="-119.131241"/><trkpt lat="37.942268" lon="-119.128508"/><trkpt lat="37.942144" lon="-119.127705"/><trkpt lat="37.942389" lon="-119.126826"/><trkpt lat="37.942356" lon="-119.126572"/><trkpt lat="37.941773" lon="-119.126390"/><trkpt lat="37.941069" lon="-119.125865"/><trkpt lat="37.940847" lon="-119.126055"/><trkpt lat="37.940491" lon="-119.126913"/></trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1209 Ridge Route</name><desc>lollipop (stem back from waypoint 3). 3.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/12/1209_tour.htm</desc></metadata>
+<wpt lat="38.189112" lon="-119.965625"><ele>1948.08</ele><name>1209-01 trailhead</name></wpt>
+<wpt lat="38.18644" lon="-119.96786"><ele>1933.68</ele><name>1209-02</name></wpt>
+<wpt lat="38.186673" lon="-119.969427"><ele>1934.52</ele><name>1209-03 intersection with Crabtree Road</name></wpt>
+<wpt lat="38.182869" lon="-119.962714"><ele>1987.67</ele><name>1209-04</name></wpt>
+<wpt lat="38.182457" lon="-119.953625"><ele>2095.08</ele><name>1209-05 Hair Pin</name></wpt>
+<wpt lat="38.177021" lon="-119.953844"><ele>2148.23</ele><name>1209-06 road junction</name></wpt>
+<wpt lat="38.177024" lon="-119.955893"><ele>2151.7</ele><name>1209-07 top of a ridge that descends northwest</name></wpt>
+<wpt lat="38.186475" lon="-119.971176"><ele>1943.15</ele><name>1209-08 Crabtree trail</name></wpt>
+<trk><name>Snowlands 1209 Ridge Route</name>
+<trkseg><!-- 1-3: libkind-line: traced from his map --><trkpt lat="38.189112" lon="-119.965625"/><trkpt lat="38.188495" lon="-119.965503"/><trkpt lat="38.188195" lon="-119.965623"/><trkpt lat="38.187924" lon="-119.966192"/><trkpt lat="38.187799" lon="-119.967789"/><trkpt lat="38.187528" lon="-119.967951"/><trkpt lat="38.186708" lon="-119.967974"/><trkpt lat="38.186505" lon="-119.968133"/><trkpt lat="38.186452" lon="-119.968517"/><trkpt lat="38.186673" lon="-119.969427"/></trkseg>
+<trkseg><!-- 3-5: libkind-line: traced from his map --><trkpt lat="38.186673" lon="-119.969427"/><trkpt lat="38.186235" lon="-119.969308"/><trkpt lat="38.185620" lon="-119.968668"/><trkpt lat="38.184925" lon="-119.967291"/><trkpt lat="38.183874" lon="-119.965685"/><trkpt lat="38.183526" lon="-119.964882"/><trkpt lat="38.183131" lon="-119.963234"/><trkpt lat="38.182389" lon="-119.961417"/><trkpt lat="38.180427" lon="-119.958206"/><trkpt lat="38.180124" lon="-119.957403"/><trkpt lat="38.179938" lon="-119.956262"/><trkpt lat="38.180063" lon="-119.955695"/><trkpt lat="38.180489" lon="-119.955408"/><trkpt lat="38.181815" lon="-119.955294"/><trkpt lat="38.182457" lon="-119.953625"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.182457" lon="-119.953625"/><trkpt lat="38.181154" lon="-119.954049"/><trkpt lat="38.179925" lon="-119.953370"/><trkpt lat="38.179127" lon="-119.953321"/><trkpt lat="38.178397" lon="-119.953583"/><trkpt lat="38.177409" lon="-119.954320"/><trkpt lat="38.177219" lon="-119.954226"/><trkpt lat="38.177021" lon="-119.953844"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.177021" lon="-119.953844"/><trkpt lat="38.176935" lon="-119.954952"/><trkpt lat="38.177024" lon="-119.955893"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="38.177024" lon="-119.955893"/><trkpt lat="38.177543" lon="-119.956474"/><trkpt lat="38.177871" lon="-119.957783"/><trkpt lat="38.178211" lon="-119.958586"/><trkpt lat="38.179786" lon="-119.960826"/><trkpt lat="38.180285" lon="-119.961755"/><trkpt lat="38.180783" lon="-119.963572"/><trkpt lat="38.180894" lon="-119.964798"/><trkpt lat="38.181695" lon="-119.966192"/><trkpt lat="38.183526" lon="-119.969016"/><trkpt lat="38.184076" lon="-119.969678"/><trkpt lat="38.185272" lon="-119.970647"/><trkpt lat="38.186475" lon="-119.971176"/></trkseg>
+<trkseg><!-- 8-3: libkind-line: traced from his map --><trkpt lat="38.186475" lon="-119.971176"/><trkpt lat="38.186673" lon="-119.969427"/></trkseg>
+<trkseg><!-- 3-1: libkind-line: traced from his map --><trkpt lat="38.186673" lon="-119.969427"/><trkpt lat="38.186499" lon="-119.968171"/><trkpt lat="38.186834" lon="-119.967945"/><trkpt lat="38.187549" lon="-119.968125"/><trkpt lat="38.187735" lon="-119.968029"/><trkpt lat="38.187859" lon="-119.967418"/><trkpt lat="38.187764" lon="-119.966361"/><trkpt lat="38.188063" lon="-119.965690"/><trkpt lat="38.188527" lon="-119.965297"/><trkpt lat="38.189112" lon="-119.965625"/></trkseg>
+</trk>
+</gpx>

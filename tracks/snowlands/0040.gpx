@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0040 Manzanita Lake</name><desc>loop. 1.7 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0040_tour.htm</desc></metadata>
+<wpt lat="40.535092" lon="-121.563872"><ele>1791.0</ele><name>0040-01 trailhead</name></wpt>
+<wpt lat="40.534612" lon="-121.56652"><ele>1783.87</ele><name>0040-02 Manzanita Lake</name></wpt>
+<wpt lat="40.536139" lon="-121.571492"><ele>1784.05</ele><name>0040-03 bridge</name></wpt>
+<wpt lat="40.534417" lon="-121.564763"><ele>1784.98</ele><name>0040-04 bridge</name></wpt>
+<trk><name>Snowlands 0040 Manzanita Lake</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.535092" lon="-121.563872"/><trkpt lat="40.534876" lon="-121.564609"/><trkpt lat="40.534612" lon="-121.566520"/></trkseg>
+<trkseg><!-- 2-3: libkind-lake: his line across the ice --><trkpt lat="40.534612" lon="-121.566520"/><trkpt lat="40.535375" lon="-121.567019"/><trkpt lat="40.535962" lon="-121.569051"/><trkpt lat="40.537288" lon="-121.570908"/><trkpt lat="40.537208" lon="-121.571197"/><trkpt lat="40.536139" lon="-121.571492"/></trkseg>
+<trkseg><!-- 3-4: libkind-lake: his line across the ice --><trkpt lat="40.536139" lon="-121.571492"/><trkpt lat="40.537211" lon="-121.571442"/><trkpt lat="40.537360" lon="-121.571269"/><trkpt lat="40.537354" lon="-121.571007"/><trkpt lat="40.536288" lon="-121.569443"/><trkpt lat="40.535677" lon="-121.567314"/><trkpt lat="40.534888" lon="-121.566646"/><trkpt lat="40.534641" lon="-121.566262"/><trkpt lat="40.534589" lon="-121.565828"/><trkpt lat="40.534745" lon="-121.564449"/><trkpt lat="40.534417" lon="-121.564763"/></trkseg>
+<trkseg><!-- 4-1: libkind-line: traced from his map --><trkpt lat="40.534417" lon="-121.564763"/><trkpt lat="40.534696" lon="-121.564144"/><trkpt lat="40.535092" lon="-121.563872"/></trkseg>
+</trk>
+</gpx>

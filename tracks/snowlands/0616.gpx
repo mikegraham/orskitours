@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0616 Old Tannenbaum Ski Area</name><desc>broken (legs do not join end to end). 1.1 miles one-way (1.7 miles one-way to alternate end point). Line traced from Marcus Libkind's map, tours.snowlands.org/tours/06/0616_tour.htm</desc></metadata>
+<wpt lat="39.342361" lon="-119.864944"><ele>2178.23</ele><name>0616-01 trailhead</name></wpt>
+<wpt lat="39.344711" lon="-119.863451"><ele>2150.18</ele><name>0616-02 top of an obvious ski run</name></wpt>
+<wpt lat="39.349045" lon="-119.863425"><ele>2035.91</ele><name>0616-03 water tank</name></wpt>
+<wpt lat="39.354076" lon="-119.855441"><ele>1905.1</ele><name>0616-04 south entrance to Galena Creek Regional Park</name></wpt>
+<wpt lat="39.35365" lon="-119.857109"><ele>1922.85</ele><name>0616-05 entrance kiosk</name></wpt>
+<wpt lat="39.35438" lon="-119.858337"><ele>1923.97</ele><name>0616-06 bridge across Galena Creek</name></wpt>
+<wpt lat="39.359471" lon="-119.85878"><ele>1907.12</ele><name>0616-07 north entrance parking loop</name></wpt>
+<trk><name>Snowlands 0616 Old Tannenbaum Ski Area</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.342361" lon="-119.864944"/><trkpt lat="39.343382" lon="-119.864724"/><trkpt lat="39.344711" lon="-119.863451"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.344711" lon="-119.863451"/><trkpt lat="39.346878" lon="-119.863438"/><trkpt lat="39.349045" lon="-119.863425"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.349045" lon="-119.863425"/><trkpt lat="39.349216" lon="-119.862899"/><trkpt lat="39.350184" lon="-119.861175"/><trkpt lat="39.352437" lon="-119.857855"/><trkpt lat="39.353384" lon="-119.856030"/><trkpt lat="39.354076" lon="-119.855441"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.353650" lon="-119.857109"/><trkpt lat="39.354380" lon="-119.858337"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="39.354380" lon="-119.858337"/><trkpt lat="39.354820" lon="-119.859156"/><trkpt lat="39.355150" lon="-119.859540"/><trkpt lat="39.356967" lon="-119.859736"/><trkpt lat="39.357224" lon="-119.859975"/><trkpt lat="39.357724" lon="-119.860826"/><trkpt lat="39.358065" lon="-119.861093"/><trkpt lat="39.358290" lon="-119.860940"/><trkpt lat="39.358600" lon="-119.860209"/><trkpt lat="39.359471" lon="-119.858780"/></trkseg>
+</trk>
+</gpx>

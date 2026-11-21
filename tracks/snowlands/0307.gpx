@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0307 Mount Judah and Donner Peak Loop</name><desc>broken (legs do not join end to end) + spur to 5. 4.5 miles round trip or 3.8 miles one-way to alternate end point. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0307_tour.htm</desc></metadata>
+<wpt lat="39.31655" lon="-120.326218"><ele>2161.28</ele><name>0307-01 snow-covered road 50 feet west of the Sugar Bowl Academy parking lot</name></wpt>
+<wpt lat="39.314554" lon="-120.327174"><ele>2154.76</ele><name>0307-02 road turns west (right)</name></wpt>
+<wpt lat="39.308667" lon="-120.320211"><ele>2344.39</ele><name>0307-03 more level terrain</name></wpt>
+<wpt lat="39.306789" lon="-120.314414"><ele>2386.29</ele><name>0307-04 saddle</name></wpt>
+<wpt lat="39.308582" lon="-120.312359"><ele>2434.22</ele><name>0307-05 summit of Donner Peak</name></wpt>
+<wpt lat="39.304396" lon="-120.317553"><ele>2481.63</ele><name>0307-06 north end of the ridge of which Mount Judah is the high point</name></wpt>
+<wpt lat="39.298216" lon="-120.315611"><ele>2506.31</ele><name>0307-07</name></wpt>
+<wpt lat="39.293959" lon="-120.320029"><ele>2392.64</ele><name>0307-08</name></wpt>
+<wpt lat="39.30179" lon="-120.328455"><ele>2258.78</ele><name>0307-09 broad ridge</name></wpt>
+<wpt lat="39.305339" lon="-120.333001"><ele>2130.41</ele><name>0307-10 Mount Judah Lodge</name></wpt>
+<wpt lat="39.310236" lon="-120.329602"><ele>2141.55</ele><name>0307-11 south end of Lake Mary</name></wpt>
+<wpt lat="39.317115" lon="-120.329002"><ele>2150.28</ele><name>0307-12 Donner Ski Ranch</name></wpt>
+<trk><name>Snowlands 0307 Mount Judah and Donner Peak Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.316550" lon="-120.326218"/><trkpt lat="39.315914" lon="-120.326407"/><trkpt lat="39.314554" lon="-120.327174"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.314554" lon="-120.327174"/><trkpt lat="39.313956" lon="-120.327140"/><trkpt lat="39.313107" lon="-120.326445"/><trkpt lat="39.311994" lon="-120.324767"/><trkpt lat="39.310710" lon="-120.321945"/><trkpt lat="39.310299" lon="-120.321500"/><trkpt lat="39.309092" lon="-120.320699"/><trkpt lat="39.308667" lon="-120.320211"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.308667" lon="-120.320211"/><trkpt lat="39.307735" lon="-120.318776"/><trkpt lat="39.307035" lon="-120.317089"/><trkpt lat="39.306868" lon="-120.316161"/><trkpt lat="39.306789" lon="-120.314414"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.306789" lon="-120.314414"/><trkpt lat="39.307693" lon="-120.313065"/><trkpt lat="39.308582" lon="-120.312359"/></trkseg>
+<trkseg><!-- 5-4: libkind-line: traced from his map --><trkpt lat="39.308582" lon="-120.312359"/><trkpt lat="39.307986" lon="-120.312680"/><trkpt lat="39.306789" lon="-120.314414"/></trkseg>
+<trkseg><!-- 4-6: libkind-line: traced from his map --><trkpt lat="39.306789" lon="-120.314414"/><trkpt lat="39.306405" lon="-120.314875"/><trkpt lat="39.305661" lon="-120.316118"/><trkpt lat="39.304396" lon="-120.317553"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="39.304396" lon="-120.317553"/><trkpt lat="39.302105" lon="-120.317519"/><trkpt lat="39.299167" lon="-120.316234"/><trkpt lat="39.298216" lon="-120.315611"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="39.298216" lon="-120.315611"/><trkpt lat="39.297795" lon="-120.315820"/><trkpt lat="39.297077" lon="-120.316464"/><trkpt lat="39.295518" lon="-120.318246"/><trkpt lat="39.293959" lon="-120.320029"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="39.293959" lon="-120.320029"/><trkpt lat="39.293616" lon="-120.321856"/><trkpt lat="39.293555" lon="-120.323460"/><trkpt lat="39.293681" lon="-120.324050"/><trkpt lat="39.294140" lon="-120.324737"/><trkpt lat="39.294530" lon="-120.325002"/><trkpt lat="39.295085" lon="-120.325102"/><trkpt lat="39.297338" lon="-120.324779"/><trkpt lat="39.298383" lon="-120.324872"/><trkpt lat="39.299461" lon="-120.325836"/><trkpt lat="39.300808" lon="-120.327721"/><trkpt lat="39.301790" lon="-120.328455"/></trkseg>
+<trkseg><!-- 9-11: libkind-line: traced from his map --><trkpt lat="39.301790" lon="-120.328455"/><trkpt lat="39.303792" lon="-120.328477"/><trkpt lat="39.305794" lon="-120.328499"/><trkpt lat="39.308733" lon="-120.329332"/><trkpt lat="39.310236" lon="-120.329602"/></trkseg>
+<trkseg><!-- 11-12: libkind-lake: his line across the ice --><trkpt lat="39.310236" lon="-120.329602"/><trkpt lat="39.312471" lon="-120.329627"/><trkpt lat="39.314706" lon="-120.329653"/><trkpt lat="39.315718" lon="-120.329281"/><trkpt lat="39.317115" lon="-120.329002"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="39.301790" lon="-120.328455"/><trkpt lat="39.301942" lon="-120.330632"/><trkpt lat="39.302347" lon="-120.331507"/><trkpt lat="39.302954" lon="-120.332033"/><trkpt lat="39.305339" lon="-120.333001"/></trkseg>
+</trk>
+</gpx>

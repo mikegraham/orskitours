@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1001 Martin Point</name><desc>out and back to waypoint 7; or continue as loop. 4.4 miles round trip or 4.7 miles round trip via alternate return route. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1001_tour.htm</desc></metadata>
+<wpt lat="38.705208" lon="-120.110452"><ele>2400.24</ele><name>1001-01 trailhead</name></wpt>
+<wpt lat="38.702479" lon="-120.099846"><ele>2522.71</ele><name>1001-02 ridgetop</name></wpt>
+<wpt lat="38.698739" lon="-120.089849"><ele>2651.71</ele><name>1001-03 first of the Two Sentinels</name></wpt>
+<wpt lat="38.696927" lon="-120.088213"><ele>2669.26</ele><name>1001-04 south of the south-most of the Two Sentinels</name></wpt>
+<wpt lat="38.695223" lon="-120.088423"><ele>2677.78</ele><name>1001-05 north side of the last rock outcrop</name></wpt>
+<wpt lat="38.69249" lon="-120.088753"><ele>2689.06</ele><name>1001-06 saddle just to the south of the outcrop</name></wpt>
+<wpt lat="38.688682" lon="-120.092247"><ele>2817.84</ele><name>1001-07 Martin Point</name></wpt>
+<wpt lat="38.699428" lon="-120.112012"><ele>2341.81</ele><name>1001-08 terrain becomes flat</name></wpt>
+<trk><name>Snowlands 1001 Martin Point</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.705208" lon="-120.110452"/><trkpt lat="38.703385" lon="-120.106953"/><trkpt lat="38.702737" lon="-120.105084"/><trkpt lat="38.702582" lon="-120.104047"/><trkpt lat="38.702479" lon="-120.099846"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.702479" lon="-120.099846"/><trkpt lat="38.701095" lon="-120.096573"/><trkpt lat="38.700413" lon="-120.092629"/><trkpt lat="38.699691" lon="-120.091300"/><trkpt lat="38.698739" lon="-120.089849"/></trkseg>
+<trkseg><!-- 3-5: libkind-line: traced from his map --><trkpt lat="38.698739" lon="-120.089849"/><trkpt lat="38.697746" lon="-120.088766"/><trkpt lat="38.697357" lon="-120.088485"/><trkpt lat="38.696418" lon="-120.088313"/><trkpt lat="38.695223" lon="-120.088423"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.695223" lon="-120.088423"/><trkpt lat="38.694829" lon="-120.088830"/><trkpt lat="38.694279" lon="-120.089047"/><trkpt lat="38.693015" lon="-120.089086"/><trkpt lat="38.692490" lon="-120.088753"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="38.692490" lon="-120.088753"/><trkpt lat="38.690195" lon="-120.089121"/><trkpt lat="38.689256" lon="-120.089529"/><trkpt lat="38.688910" lon="-120.089972"/><trkpt lat="38.688721" lon="-120.090511"/><trkpt lat="38.688640" lon="-120.091425"/><trkpt lat="38.688682" lon="-120.092247"/></trkseg>
+<trkseg><!-- 7-6: return: retraced --><trkpt lat="38.688682" lon="-120.092247"/><trkpt lat="38.688640" lon="-120.091425"/><trkpt lat="38.688721" lon="-120.090511"/><trkpt lat="38.688910" lon="-120.089972"/><trkpt lat="38.689256" lon="-120.089529"/><trkpt lat="38.690195" lon="-120.089121"/><trkpt lat="38.692490" lon="-120.088753"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="38.692490" lon="-120.088753"/><trkpt lat="38.693015" lon="-120.089086"/><trkpt lat="38.694279" lon="-120.089047"/><trkpt lat="38.694829" lon="-120.088830"/><trkpt lat="38.695223" lon="-120.088423"/></trkseg>
+<trkseg><!-- 5-3: return: retraced --><trkpt lat="38.695223" lon="-120.088423"/><trkpt lat="38.696418" lon="-120.088313"/><trkpt lat="38.697357" lon="-120.088485"/><trkpt lat="38.697746" lon="-120.088766"/><trkpt lat="38.698739" lon="-120.089849"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.698739" lon="-120.089849"/><trkpt lat="38.699691" lon="-120.091300"/><trkpt lat="38.700413" lon="-120.092629"/><trkpt lat="38.701095" lon="-120.096573"/><trkpt lat="38.702479" lon="-120.099846"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.702479" lon="-120.099846"/><trkpt lat="38.702582" lon="-120.104047"/><trkpt lat="38.702737" lon="-120.105084"/><trkpt lat="38.703385" lon="-120.106953"/><trkpt lat="38.705208" lon="-120.110452"/></trkseg>
+</trk>
+<trk><name>Snowlands 1001 Martin Point: optional continuation or side trip</name>
+<trkseg><!-- 7-4: libkind-line: traced from his map --><trkpt lat="38.688682" lon="-120.092247"/><trkpt lat="38.688709" lon="-120.090348"/><trkpt lat="38.688939" lon="-120.089939"/><trkpt lat="38.689352" lon="-120.089629"/><trkpt lat="38.692399" lon="-120.088922"/><trkpt lat="38.694408" lon="-120.089082"/><trkpt lat="38.695607" lon="-120.088415"/><trkpt lat="38.696927" lon="-120.088213"/></trkseg>
+<trkseg><!-- 4-8: libkind-line: traced from his map --><trkpt lat="38.696927" lon="-120.088213"/><trkpt lat="38.696937" lon="-120.091023"/><trkpt lat="38.696947" lon="-120.093833"/><trkpt lat="38.697262" lon="-120.097694"/><trkpt lat="38.697577" lon="-120.101555"/><trkpt lat="38.698024" lon="-120.104005"/><trkpt lat="38.698265" lon="-120.104794"/><trkpt lat="38.698553" lon="-120.106745"/><trkpt lat="38.698884" lon="-120.110606"/><trkpt lat="38.699066" lon="-120.111271"/><trkpt lat="38.699428" lon="-120.112012"/></trkseg>
+<trkseg><!-- 8-1: libkind-line: traced from his map --><trkpt lat="38.699428" lon="-120.112012"/><trkpt lat="38.699887" lon="-120.112367"/><trkpt lat="38.700371" lon="-120.112535"/><trkpt lat="38.702283" lon="-120.112493"/><trkpt lat="38.703839" lon="-120.111794"/><trkpt lat="38.705208" lon="-120.110452"/></trkseg>
+</trk>
+</gpx>

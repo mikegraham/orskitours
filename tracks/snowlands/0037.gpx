@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0037 Cold Boiling and Crumbaugh Lakes</name><desc>one way. 2.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0037_tour.htm</desc></metadata>
+<wpt lat="40.463542" lon="-121.477845"><ele>2271.08</ele><name>0037-01 turnoff to Kings Creek Picnic Area</name></wpt>
+<wpt lat="40.45572" lon="-121.483526"><ele>2263.22</ele><name>0037-02 Cold Boiling Lake</name></wpt>
+<wpt lat="40.447837" lon="-121.488239"><ele>2199.37</ele><name>0037-03 Crumbaugh Lake</name></wpt>
+<trk><name>Snowlands 0037 Cold Boiling and Crumbaugh Lakes</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.463542" lon="-121.477845"/><trkpt lat="40.462416" lon="-121.477827"/><trkpt lat="40.461681" lon="-121.477109"/><trkpt lat="40.461298" lon="-121.476960"/><trkpt lat="40.459349" lon="-121.476972"/><trkpt lat="40.458327" lon="-121.477392"/><trkpt lat="40.457639" lon="-121.478130"/><trkpt lat="40.456941" lon="-121.479429"/><trkpt lat="40.456273" lon="-121.481277"/><trkpt lat="40.455720" lon="-121.483526"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.455720" lon="-121.483526"/><trkpt lat="40.452694" lon="-121.485280"/><trkpt lat="40.449669" lon="-121.487034"/><trkpt lat="40.447837" lon="-121.488239"/></trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0323 Huysink Lake and Peak 6966 Loop</name><desc>out and back to waypoint 3 + spur to 15. 4.7 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0323_tour.htm</desc></metadata>
+<wpt lat="39.305282" lon="-120.518115"><ele>1749.77</ele><name>0323-01 trailhead</name></wpt>
+<wpt lat="39.302765" lon="-120.522425"><ele>1755.33</ele><name>0323-02 road junction</name></wpt>
+<wpt lat="39.301883" lon="-120.523082"><ele>1763.52</ele><name>0323-03 road</name></wpt>
+<wpt lat="39.302392" lon="-120.524274"><ele>1774.6</ele><name>0323-04</name></wpt>
+<wpt lat="39.298932" lon="-120.527834"><ele>1787.72</ele><name>0323-05</name></wpt>
+<wpt lat="39.299296" lon="-120.528633"><ele>1792.16</ele><name>0323-06</name></wpt>
+<wpt lat="39.297732" lon="-120.529216"><ele>1804.22</ele><name>0323-07</name></wpt>
+<wpt lat="39.298278" lon="-120.529608"><ele>1810.7</ele><name>0323-08</name></wpt>
+<wpt lat="39.296877" lon="-120.531349"><ele>1833.06</ele><name>0323-09 railroad tracks</name></wpt>
+<wpt lat="39.295346" lon="-120.533352"><ele>1861.46</ele><name>0323-10</name></wpt>
+<wpt lat="39.295585" lon="-120.536327"><ele>1889.12</ele><name>0323-11 sharp turn in the road</name></wpt>
+<wpt lat="39.288465" lon="-120.535567"><ele>1967.68</ele><name>0323-12 Huysink Lake</name></wpt>
+<wpt lat="39.287692" lon="-120.528"><ele>2072.43</ele><name>0323-13 flat area between two higher areas</name></wpt>
+<wpt lat="39.287832" lon="-120.524154"><ele>2111.86</ele><name>0323-14 broccoli tree</name></wpt>
+<wpt lat="39.287046" lon="-120.522032"><ele>2122.11</ele><name>0323-15 Peak 6966</name></wpt>
+<wpt lat="39.292713" lon="-120.527536"><ele>1961.35</ele><name>0323-16</name></wpt>
+<wpt lat="39.296242" lon="-120.525974"><ele>1842.22</ele><name>0323-17 intersect the railroad tracks just south of a very small finger that juts north</name></wpt>
+<trk><name>Snowlands 0323 Huysink Lake and Peak 6966 Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.305282" lon="-120.518115"/><trkpt lat="39.304113" lon="-120.518253"/><trkpt lat="39.303788" lon="-120.518492"/><trkpt lat="39.303570" lon="-120.519153"/><trkpt lat="39.303286" lon="-120.520790"/><trkpt lat="39.302765" lon="-120.522425"/></trkseg>
+<trkseg><!-- 2-9: libkind-line: traced from his map --><trkpt lat="39.302765" lon="-120.522425"/><trkpt lat="39.302661" lon="-120.522937"/><trkpt lat="39.302119" lon="-120.523297"/><trkpt lat="39.302302" lon="-120.524036"/><trkpt lat="39.302257" lon="-120.524198"/><trkpt lat="39.301110" lon="-120.524407"/><trkpt lat="39.299927" lon="-120.525789"/><trkpt lat="39.299265" lon="-120.527383"/><trkpt lat="39.299151" lon="-120.528421"/><trkpt lat="39.298443" lon="-120.528624"/><trkpt lat="39.298106" lon="-120.528898"/><trkpt lat="39.298021" lon="-120.529147"/><trkpt lat="39.298115" lon="-120.529756"/><trkpt lat="39.296877" lon="-120.531349"/></trkseg>
+<trkseg><!-- 9-11: libkind-line: traced from his map --><trkpt lat="39.296877" lon="-120.531349"/><trkpt lat="39.295728" lon="-120.532855"/><trkpt lat="39.295535" lon="-120.533249"/><trkpt lat="39.295412" lon="-120.535311"/><trkpt lat="39.295585" lon="-120.536327"/></trkseg>
+<trkseg><!-- 11-12: libkind-line: traced from his map --><trkpt lat="39.295585" lon="-120.536327"/><trkpt lat="39.295108" lon="-120.536246"/><trkpt lat="39.293707" lon="-120.535539"/><trkpt lat="39.292674" lon="-120.535541"/><trkpt lat="39.290573" lon="-120.535870"/><trkpt lat="39.288465" lon="-120.535567"/></trkseg>
+<trkseg><!-- 12-13: libkind-line: traced from his map --><trkpt lat="39.288465" lon="-120.535567"/><trkpt lat="39.288777" lon="-120.535197"/><trkpt lat="39.289505" lon="-120.535111"/><trkpt lat="39.289791" lon="-120.534940"/><trkpt lat="39.290015" lon="-120.534531"/><trkpt lat="39.290052" lon="-120.534019"/><trkpt lat="39.289846" lon="-120.533329"/><trkpt lat="39.288827" lon="-120.531045"/><trkpt lat="39.288014" lon="-120.528589"/><trkpt lat="39.287692" lon="-120.528000"/></trkseg>
+<trkseg><!-- 13-14: libkind-line: traced from his map --><trkpt lat="39.287692" lon="-120.528000"/><trkpt lat="39.287576" lon="-120.525875"/><trkpt lat="39.287832" lon="-120.524154"/></trkseg>
+<trkseg><!-- 14-15: libkind-line: traced from his map --><trkpt lat="39.287832" lon="-120.524154"/><trkpt lat="39.287714" lon="-120.523505"/><trkpt lat="39.287046" lon="-120.522032"/></trkseg>
+<trkseg><!-- 15-14: libkind-line: traced from his map --><trkpt lat="39.287046" lon="-120.522032"/><trkpt lat="39.287832" lon="-120.524154"/></trkseg>
+<trkseg><!-- 14-17: libkind-line: traced from his map --><trkpt lat="39.287832" lon="-120.524154"/><trkpt lat="39.288504" lon="-120.524778"/><trkpt lat="39.289672" lon="-120.526419"/><trkpt lat="39.290973" lon="-120.527108"/><trkpt lat="39.292740" lon="-120.527451"/><trkpt lat="39.294374" lon="-120.527424"/><trkpt lat="39.295369" lon="-120.527024"/><trkpt lat="39.296242" lon="-120.525974"/></trkseg>
+<trkseg><!-- 17-3: libkind-line: traced from his map --><trkpt lat="39.296242" lon="-120.525974"/><trkpt lat="39.297309" lon="-120.525857"/><trkpt lat="39.298176" lon="-120.525528"/><trkpt lat="39.298676" lon="-120.525114"/><trkpt lat="39.299843" lon="-120.523758"/><trkpt lat="39.300543" lon="-120.523254"/><trkpt lat="39.301210" lon="-120.523043"/><trkpt lat="39.301883" lon="-120.523082"/></trkseg>
+<trkseg><!-- 3-17: return: retraced --><trkpt lat="39.301883" lon="-120.523082"/><trkpt lat="39.301210" lon="-120.523043"/><trkpt lat="39.300543" lon="-120.523254"/><trkpt lat="39.299843" lon="-120.523758"/><trkpt lat="39.298676" lon="-120.525114"/><trkpt lat="39.298176" lon="-120.525528"/><trkpt lat="39.297309" lon="-120.525857"/><trkpt lat="39.296242" lon="-120.525974"/></trkseg>
+<trkseg><!-- 17-14: return: retraced --><trkpt lat="39.296242" lon="-120.525974"/><trkpt lat="39.295369" lon="-120.527024"/><trkpt lat="39.294374" lon="-120.527424"/><trkpt lat="39.292740" lon="-120.527451"/><trkpt lat="39.290973" lon="-120.527108"/><trkpt lat="39.289672" lon="-120.526419"/><trkpt lat="39.288504" lon="-120.524778"/><trkpt lat="39.287832" lon="-120.524154"/></trkseg>
+<trkseg><!-- 14-15: return: retraced --><trkpt lat="39.287832" lon="-120.524154"/><trkpt lat="39.287046" lon="-120.522032"/></trkseg>
+<trkseg><!-- 15-14: return: retraced --><trkpt lat="39.287046" lon="-120.522032"/><trkpt lat="39.287714" lon="-120.523505"/><trkpt lat="39.287832" lon="-120.524154"/></trkseg>
+<trkseg><!-- 14-13: return: retraced --><trkpt lat="39.287832" lon="-120.524154"/><trkpt lat="39.287576" lon="-120.525875"/><trkpt lat="39.287692" lon="-120.528000"/></trkseg>
+<trkseg><!-- 13-12: return: retraced --><trkpt lat="39.287692" lon="-120.528000"/><trkpt lat="39.288014" lon="-120.528589"/><trkpt lat="39.288827" lon="-120.531045"/><trkpt lat="39.289846" lon="-120.533329"/><trkpt lat="39.290052" lon="-120.534019"/><trkpt lat="39.290015" lon="-120.534531"/><trkpt lat="39.289791" lon="-120.534940"/><trkpt lat="39.289505" lon="-120.535111"/><trkpt lat="39.288777" lon="-120.535197"/><trkpt lat="39.288465" lon="-120.535567"/></trkseg>
+<trkseg><!-- 12-11: return: retraced --><trkpt lat="39.288465" lon="-120.535567"/><trkpt lat="39.290573" lon="-120.535870"/><trkpt lat="39.292674" lon="-120.535541"/><trkpt lat="39.293707" lon="-120.535539"/><trkpt lat="39.295108" lon="-120.536246"/><trkpt lat="39.295585" lon="-120.536327"/></trkseg>
+<trkseg><!-- 11-9: return: retraced --><trkpt lat="39.295585" lon="-120.536327"/><trkpt lat="39.295412" lon="-120.535311"/><trkpt lat="39.295535" lon="-120.533249"/><trkpt lat="39.295728" lon="-120.532855"/><trkpt lat="39.296877" lon="-120.531349"/></trkseg>
+<trkseg><!-- 9-2: return: retraced --><trkpt lat="39.296877" lon="-120.531349"/><trkpt lat="39.298115" lon="-120.529756"/><trkpt lat="39.298021" lon="-120.529147"/><trkpt lat="39.298106" lon="-120.528898"/><trkpt lat="39.298443" lon="-120.528624"/><trkpt lat="39.299151" lon="-120.528421"/><trkpt lat="39.299265" lon="-120.527383"/><trkpt lat="39.299927" lon="-120.525789"/><trkpt lat="39.301110" lon="-120.524407"/><trkpt lat="39.302257" lon="-120.524198"/><trkpt lat="39.302302" lon="-120.524036"/><trkpt lat="39.302119" lon="-120.523297"/><trkpt lat="39.302661" lon="-120.522937"/><trkpt lat="39.302765" lon="-120.522425"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.302765" lon="-120.522425"/><trkpt lat="39.303286" lon="-120.520790"/><trkpt lat="39.303570" lon="-120.519153"/><trkpt lat="39.303788" lon="-120.518492"/><trkpt lat="39.304113" lon="-120.518253"/><trkpt lat="39.305282" lon="-120.518115"/></trkseg>
+</trk>
+</gpx>

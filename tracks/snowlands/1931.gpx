@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1931 Obsidian Dome</name><desc>out and back to waypoint 5. 3.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/19/1931_tour.htm</desc></metadata>
+<wpt lat="37.774253" lon="-119.014926"><ele>2446.46</ele><name>1931-01 trailhead</name></wpt>
+<wpt lat="37.765444" lon="-119.027619"><ele>2502.15</ele><name>1931-02 road junction</name></wpt>
+<wpt lat="37.758267" lon="-119.027966"><ele>2540.19</ele><name>1931-03 very obscure road junction</name></wpt>
+<wpt lat="37.757829" lon="-119.026979"><ele>2539.68</ele><name>1931-04 road junction</name></wpt>
+<wpt lat="37.759564" lon="-119.024946"><ele>2572.46</ele><name>1931-05 end of the road</name></wpt>
+<trk><name>Snowlands 1931 Obsidian Dome</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.774253" lon="-119.014926"/><trkpt lat="37.773655" lon="-119.015157"/><trkpt lat="37.772620" lon="-119.015918"/><trkpt lat="37.770316" lon="-119.018663"/><trkpt lat="37.769753" lon="-119.019534"/><trkpt lat="37.769254" lon="-119.020844"/><trkpt lat="37.767406" lon="-119.024393"/><trkpt lat="37.765444" lon="-119.027619"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.765444" lon="-119.027619"/><trkpt lat="37.765231" lon="-119.027373"/><trkpt lat="37.764824" lon="-119.026350"/><trkpt lat="37.764536" lon="-119.026085"/><trkpt lat="37.764203" lon="-119.026009"/><trkpt lat="37.761263" lon="-119.027293"/><trkpt lat="37.758267" lon="-119.027966"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="37.758267" lon="-119.027966"/><trkpt lat="37.757829" lon="-119.026979"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="37.757829" lon="-119.026979"/><trkpt lat="37.757846" lon="-119.025407"/><trkpt lat="37.757670" lon="-119.024528"/><trkpt lat="37.757742" lon="-119.024265"/><trkpt lat="37.758290" lon="-119.024215"/><trkpt lat="37.759564" lon="-119.024946"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="37.759564" lon="-119.024946"/><trkpt lat="37.758290" lon="-119.024215"/><trkpt lat="37.757742" lon="-119.024265"/><trkpt lat="37.757670" lon="-119.024528"/><trkpt lat="37.757846" lon="-119.025407"/><trkpt lat="37.757829" lon="-119.026979"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="37.757829" lon="-119.026979"/><trkpt lat="37.758267" lon="-119.027966"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="37.758267" lon="-119.027966"/><trkpt lat="37.761263" lon="-119.027293"/><trkpt lat="37.764203" lon="-119.026009"/><trkpt lat="37.764536" lon="-119.026085"/><trkpt lat="37.764824" lon="-119.026350"/><trkpt lat="37.765231" lon="-119.027373"/><trkpt lat="37.765444" lon="-119.027619"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="37.765444" lon="-119.027619"/><trkpt lat="37.767406" lon="-119.024393"/><trkpt lat="37.769254" lon="-119.020844"/><trkpt lat="37.769753" lon="-119.019534"/><trkpt lat="37.770316" lon="-119.018663"/><trkpt lat="37.772620" lon="-119.015918"/><trkpt lat="37.773655" lon="-119.015157"/><trkpt lat="37.774253" lon="-119.014926"/></trkseg>
+</trk>
+</gpx>

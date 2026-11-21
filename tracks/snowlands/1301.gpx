@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1301 Crane Flat</name><desc>lollipop (stem back from waypoint 2) + spur to 2. Short. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/13/1301_tour.htm</desc></metadata>
+<wpt lat="37.758633" lon="-119.805019"><ele>1888.1</ele><name>1301-01 trailhead</name></wpt>
+<wpt lat="37.753353" lon="-119.797605"><ele>1878.21</ele><name>1301-02 gas station</name></wpt>
+<trk><name>Snowlands 1301 Crane Flat</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.758633" lon="-119.805019"/><trkpt lat="37.758829" lon="-119.804154"/><trkpt lat="37.759006" lon="-119.800689"/><trkpt lat="37.758931" lon="-119.799887"/><trkpt lat="37.758629" lon="-119.799254"/><trkpt lat="37.758104" lon="-119.798696"/><trkpt lat="37.757303" lon="-119.798188"/><trkpt lat="37.754263" lon="-119.798092"/><trkpt lat="37.753728" lon="-119.797920"/><trkpt lat="37.753353" lon="-119.797605"/></trkseg>
+<trkseg><!-- 2-1: libkind-line: traced from his map --><trkpt lat="37.753353" lon="-119.797605"/><trkpt lat="37.753895" lon="-119.797765"/><trkpt lat="37.754998" lon="-119.798305"/><trkpt lat="37.756701" lon="-119.797933"/><trkpt lat="37.757303" lon="-119.797983"/><trkpt lat="37.757737" lon="-119.798214"/><trkpt lat="37.758352" lon="-119.798922"/><trkpt lat="37.758835" lon="-119.799844"/><trkpt lat="37.759165" lon="-119.801619"/><trkpt lat="37.759081" lon="-119.802760"/><trkpt lat="37.758633" lon="-119.805019"/></trkseg>
+</trk>
+</gpx>

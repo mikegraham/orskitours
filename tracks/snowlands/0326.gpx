@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0326 Schallenberger Ridge</name><desc>out and back to waypoint 7. 5.0 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0326_tour.htm</desc></metadata>
+<wpt lat="39.318768" lon="-120.2313"><ele>1811.12</ele><name>0326-01 trailhead</name></wpt>
+<wpt lat="39.314972" lon="-120.23177"><ele>1845.82</ele><name>0326-02 road levels after a short but steep section</name></wpt>
+<wpt lat="39.314776" lon="-120.241485"><ele>1974.65</ele><name>0326-03 road that crosses the ridge</name></wpt>
+<wpt lat="39.312647" lon="-120.252653"><ele>2131.95</ele><name>0326-04 terrain becomes significantly less steep</name></wpt>
+<wpt lat="39.31039" lon="-120.258727"><ele>2153.32</ele><name>0326-05 location where the terrain begins to climb more steeply</name></wpt>
+<wpt lat="39.310318" lon="-120.263448"><ele>2183.2</ele><name>0326-06 north spur of Peak 7469</name></wpt>
+<wpt lat="39.306316" lon="-120.26596"><ele>2274.34</ele><name>0326-07 summit of Peak 7469</name></wpt>
+<trk><name>Snowlands 0326 Schallenberger Ridge</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.318768" lon="-120.231300"/><trkpt lat="39.317851" lon="-120.230310"/><trkpt lat="39.317096" lon="-120.230190"/><trkpt lat="39.316342" lon="-120.230536"/><trkpt lat="39.314972" lon="-120.231770"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.314972" lon="-120.231770"/><trkpt lat="39.314967" lon="-120.235044"/><trkpt lat="39.314962" lon="-120.238317"/><trkpt lat="39.314894" lon="-120.240988"/><trkpt lat="39.314776" lon="-120.241485"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.314776" lon="-120.241485"/><trkpt lat="39.314716" lon="-120.243108"/><trkpt lat="39.314075" lon="-120.246733"/><trkpt lat="39.313435" lon="-120.250358"/><trkpt lat="39.313080" lon="-120.251673"/><trkpt lat="39.312647" lon="-120.252653"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.312647" lon="-120.252653"/><trkpt lat="39.312607" lon="-120.253284"/><trkpt lat="39.311978" lon="-120.255828"/><trkpt lat="39.311524" lon="-120.256973"/><trkpt lat="39.310390" lon="-120.258727"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.310390" lon="-120.258727"/><trkpt lat="39.310429" lon="-120.259517"/><trkpt lat="39.310653" lon="-120.260831"/><trkpt lat="39.310665" lon="-120.262400"/><trkpt lat="39.310603" lon="-120.262951"/><trkpt lat="39.310318" lon="-120.263448"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="39.310318" lon="-120.263448"/><trkpt lat="39.309748" lon="-120.263553"/><trkpt lat="39.307159" lon="-120.264492"/><trkpt lat="39.306796" lon="-120.264905"/><trkpt lat="39.306316" lon="-120.265960"/></trkseg>
+<trkseg><!-- 7-6: return: retraced --><trkpt lat="39.306316" lon="-120.265960"/><trkpt lat="39.306796" lon="-120.264905"/><trkpt lat="39.307159" lon="-120.264492"/><trkpt lat="39.309748" lon="-120.263553"/><trkpt lat="39.310318" lon="-120.263448"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="39.310318" lon="-120.263448"/><trkpt lat="39.310603" lon="-120.262951"/><trkpt lat="39.310665" lon="-120.262400"/><trkpt lat="39.310653" lon="-120.260831"/><trkpt lat="39.310429" lon="-120.259517"/><trkpt lat="39.310390" lon="-120.258727"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="39.310390" lon="-120.258727"/><trkpt lat="39.311524" lon="-120.256973"/><trkpt lat="39.311978" lon="-120.255828"/><trkpt lat="39.312607" lon="-120.253284"/><trkpt lat="39.312647" lon="-120.252653"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="39.312647" lon="-120.252653"/><trkpt lat="39.313080" lon="-120.251673"/><trkpt lat="39.313435" lon="-120.250358"/><trkpt lat="39.314075" lon="-120.246733"/><trkpt lat="39.314716" lon="-120.243108"/><trkpt lat="39.314776" lon="-120.241485"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.314776" lon="-120.241485"/><trkpt lat="39.314894" lon="-120.240988"/><trkpt lat="39.314962" lon="-120.238317"/><trkpt lat="39.314967" lon="-120.235044"/><trkpt lat="39.314972" lon="-120.231770"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.314972" lon="-120.231770"/><trkpt lat="39.316342" lon="-120.230536"/><trkpt lat="39.317096" lon="-120.230190"/><trkpt lat="39.317851" lon="-120.230310"/><trkpt lat="39.318768" lon="-120.231300"/></trkseg>
+</trk>
+</gpx>

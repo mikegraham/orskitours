@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0011 McGowan Lake</name><desc>out and back to waypoint 5. 3.4 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0011_tour.htm</desc></metadata>
+<wpt lat="40.391468" lon="-121.524762"><ele>1893.33</ele><name>0011-01 trailhead</name></wpt>
+<wpt lat="40.391477" lon="-121.526852"><ele>1885.76</ele><name>0011-02 Christie Hill Road</name></wpt>
+<wpt lat="40.390382" lon="-121.541557"><ele>1896.02</ele><name>0011-03 road begins to descend</name></wpt>
+<wpt lat="40.392152" lon="-121.544976"><ele>1864.49</ele><name>0011-04 McGowan Lake turnoff</name></wpt>
+<wpt lat="40.393096" lon="-121.552119"><ele>1852.27</ele><name>0011-05 McGowan Lake</name></wpt>
+<trk><name>Snowlands 0011 McGowan Lake</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.391468" lon="-121.524762"/><trkpt lat="40.391477" lon="-121.526852"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.391477" lon="-121.526852"/><trkpt lat="40.391430" lon="-121.528081"/><trkpt lat="40.390839" lon="-121.529353"/><trkpt lat="40.390816" lon="-121.530498"/><trkpt lat="40.390961" lon="-121.531007"/><trkpt lat="40.391529" lon="-121.531898"/><trkpt lat="40.392179" lon="-121.533255"/><trkpt lat="40.392591" lon="-121.534357"/><trkpt lat="40.392731" lon="-121.535333"/><trkpt lat="40.392726" lon="-121.537495"/><trkpt lat="40.392573" lon="-121.538301"/><trkpt lat="40.392276" lon="-121.538980"/><trkpt lat="40.390382" lon="-121.541557"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="40.390382" lon="-121.541557"/><trkpt lat="40.390546" lon="-121.542372"/><trkpt lat="40.391486" lon="-121.543687"/><trkpt lat="40.392152" lon="-121.544976"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="40.392152" lon="-121.544976"/><trkpt lat="40.392429" lon="-121.545208"/><trkpt lat="40.392608" lon="-121.545554"/><trkpt lat="40.392965" lon="-121.548776"/><trkpt lat="40.393491" lon="-121.549836"/><trkpt lat="40.393613" lon="-121.550302"/><trkpt lat="40.393598" lon="-121.550939"/><trkpt lat="40.393096" lon="-121.552119"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="40.393096" lon="-121.552119"/><trkpt lat="40.393598" lon="-121.550939"/><trkpt lat="40.393613" lon="-121.550302"/><trkpt lat="40.393491" lon="-121.549836"/><trkpt lat="40.392965" lon="-121.548776"/><trkpt lat="40.392608" lon="-121.545554"/><trkpt lat="40.392429" lon="-121.545208"/><trkpt lat="40.392152" lon="-121.544976"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="40.392152" lon="-121.544976"/><trkpt lat="40.391486" lon="-121.543687"/><trkpt lat="40.390546" lon="-121.542372"/><trkpt lat="40.390382" lon="-121.541557"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="40.390382" lon="-121.541557"/><trkpt lat="40.392276" lon="-121.538980"/><trkpt lat="40.392573" lon="-121.538301"/><trkpt lat="40.392726" lon="-121.537495"/><trkpt lat="40.392731" lon="-121.535333"/><trkpt lat="40.392591" lon="-121.534357"/><trkpt lat="40.392179" lon="-121.533255"/><trkpt lat="40.391529" lon="-121.531898"/><trkpt lat="40.390961" lon="-121.531007"/><trkpt lat="40.390816" lon="-121.530498"/><trkpt lat="40.390839" lon="-121.529353"/><trkpt lat="40.391430" lon="-121.528081"/><trkpt lat="40.391477" lon="-121.526852"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="40.391477" lon="-121.526852"/><trkpt lat="40.391468" lon="-121.524762"/></trkseg>
+</trk>
+</gpx>

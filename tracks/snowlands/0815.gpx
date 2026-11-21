@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0815 Benwood Meadow Drainage</name><desc>out and back to waypoint 4. 2.6 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/08/0815_tour.htm</desc></metadata>
+<wpt lat="38.810671" lon="-120.031831"><ele>2252.45</ele><name>0815-01 trailhead</name></wpt>
+<wpt lat="38.806564" lon="-120.031577"><ele>2283.09</ele><name>0815-02 trail junction</name></wpt>
+<wpt lat="38.80212" lon="-120.032426"><ele>2284.13</ele><name>0815-03 trail junction</name></wpt>
+<wpt lat="38.79569" lon="-120.03847"><ele>2362.02</ele><name>0815-04 meadow</name></wpt>
+<trk><name>Snowlands 0815 Benwood Meadow Drainage</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.810671" lon="-120.031831"/><trkpt lat="38.810210" lon="-120.032158"/><trkpt lat="38.809535" lon="-120.032310"/><trkpt lat="38.808314" lon="-120.032360"/><trkpt lat="38.806564" lon="-120.031577"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.806564" lon="-120.031577"/><trkpt lat="38.804875" lon="-120.031941"/><trkpt lat="38.802850" lon="-120.031974"/><trkpt lat="38.802120" lon="-120.032426"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.802120" lon="-120.032426"/><trkpt lat="38.802115" lon="-120.032984"/><trkpt lat="38.801971" lon="-120.033396"/><trkpt lat="38.800823" lon="-120.034964"/><trkpt lat="38.800379" lon="-120.036035"/><trkpt lat="38.800115" lon="-120.036400"/><trkpt lat="38.799701" lon="-120.036552"/><trkpt lat="38.798929" lon="-120.036247"/><trkpt lat="38.798222" lon="-120.036276"/><trkpt lat="38.797421" lon="-120.036931"/><trkpt lat="38.796802" lon="-120.037829"/><trkpt lat="38.795690" lon="-120.038470"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.795690" lon="-120.038470"/><trkpt lat="38.796802" lon="-120.037829"/><trkpt lat="38.797421" lon="-120.036931"/><trkpt lat="38.798222" lon="-120.036276"/><trkpt lat="38.798929" lon="-120.036247"/><trkpt lat="38.799701" lon="-120.036552"/><trkpt lat="38.800115" lon="-120.036400"/><trkpt lat="38.800379" lon="-120.036035"/><trkpt lat="38.800823" lon="-120.034964"/><trkpt lat="38.801971" lon="-120.033396"/><trkpt lat="38.802115" lon="-120.032984"/><trkpt lat="38.802120" lon="-120.032426"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.802120" lon="-120.032426"/><trkpt lat="38.802850" lon="-120.031974"/><trkpt lat="38.804875" lon="-120.031941"/><trkpt lat="38.806564" lon="-120.031577"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.806564" lon="-120.031577"/><trkpt lat="38.808314" lon="-120.032360"/><trkpt lat="38.809535" lon="-120.032310"/><trkpt lat="38.810210" lon="-120.032158"/><trkpt lat="38.810671" lon="-120.031831"/></trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0338 Frog Lake From Castle Valley</name><desc>out and back to waypoint 10. 7.4 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0338_tour.htm</desc></metadata>
+<wpt lat="39.339645" lon="-120.350227"><ele>2193.86</ele><name>0338-01 trailhead</name></wpt>
+<wpt lat="39.341951" lon="-120.348354"><ele>2227.55</ele><name>0338-02 road junction</name></wpt>
+<wpt lat="39.344592" lon="-120.351115"><ele>2229.88</ele><name>0338-03 meadow</name></wpt>
+<wpt lat="39.353996" lon="-120.342855"><ele>2407.02</ele><name>0338-04 small knob</name></wpt>
+<wpt lat="39.355228" lon="-120.340953"><ele>2424.15</ele><name>0338-05 small but prominent ridge</name></wpt>
+<wpt lat="39.360404" lon="-120.336665"><ele>2569.54</ele><name>0338-06 noticeably less steep terrain</name></wpt>
+<wpt lat="39.366801" lon="-120.331108"><ele>2606.13</ele><name>0338-07 notch to the west of Frog Lake Cliff</name></wpt>
+<wpt lat="39.369616" lon="-120.332483"><ele>2515.44</ele><name>0338-08 flattest part of the bowl</name></wpt>
+<wpt lat="39.371773" lon="-120.328291"><ele>2449.12</ele><name>0338-09 narrow gap</name></wpt>
+<wpt lat="39.370331" lon="-120.321494"><ele>2325.4</ele><name>0338-10 Frog Lake and Frog Lake Hut</name></wpt>
+<trk><name>Snowlands 0338 Frog Lake From Castle Valley</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.339645" lon="-120.350227"/><trkpt lat="39.340323" lon="-120.348325"/><trkpt lat="39.340728" lon="-120.347765"/><trkpt lat="39.341249" lon="-120.347691"/><trkpt lat="39.341951" lon="-120.348354"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.341951" lon="-120.348354"/><trkpt lat="39.342719" lon="-120.349324"/><trkpt lat="39.343831" lon="-120.350229"/><trkpt lat="39.344592" lon="-120.351115"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.344592" lon="-120.351115"/><trkpt lat="39.345693" lon="-120.351139"/><trkpt lat="39.346050" lon="-120.350971"/><trkpt lat="39.347244" lon="-120.348952"/><trkpt lat="39.348537" lon="-120.347340"/><trkpt lat="39.350204" lon="-120.345791"/><trkpt lat="39.353145" lon="-120.343802"/><trkpt lat="39.353996" lon="-120.342855"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.353996" lon="-120.342855"/><trkpt lat="39.354628" lon="-120.342064"/><trkpt lat="39.355228" lon="-120.340953"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="39.355228" lon="-120.340953"/><trkpt lat="39.357622" lon="-120.338727"/><trkpt lat="39.360404" lon="-120.336665"/></trkseg>
+<trkseg><!-- 6-7: libkind-line: traced from his map --><trkpt lat="39.360404" lon="-120.336665"/><trkpt lat="39.361281" lon="-120.336350"/><trkpt lat="39.363569" lon="-120.334838"/><trkpt lat="39.365790" lon="-120.331937"/><trkpt lat="39.366801" lon="-120.331108"/></trkseg>
+<trkseg><!-- 7-8: libkind-line: traced from his map --><trkpt lat="39.366801" lon="-120.331108"/><trkpt lat="39.367391" lon="-120.331800"/><trkpt lat="39.368077" lon="-120.332237"/><trkpt lat="39.369616" lon="-120.332483"/></trkseg>
+<trkseg><!-- 8-9: libkind-line: traced from his map --><trkpt lat="39.369616" lon="-120.332483"/><trkpt lat="39.370103" lon="-120.332455"/><trkpt lat="39.370463" lon="-120.332219"/><trkpt lat="39.371044" lon="-120.331690"/><trkpt lat="39.371510" lon="-120.330991"/><trkpt lat="39.371748" lon="-120.330188"/><trkpt lat="39.371773" lon="-120.328291"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="39.371773" lon="-120.328291"/><trkpt lat="39.371116" lon="-120.326004"/><trkpt lat="39.371040" lon="-120.323891"/><trkpt lat="39.370912" lon="-120.323088"/><trkpt lat="39.370689" lon="-120.322285"/><trkpt lat="39.370331" lon="-120.321494"/></trkseg>
+<trkseg><!-- 10-9: return: retraced --><trkpt lat="39.370331" lon="-120.321494"/><trkpt lat="39.370689" lon="-120.322285"/><trkpt lat="39.370912" lon="-120.323088"/><trkpt lat="39.371040" lon="-120.323891"/><trkpt lat="39.371116" lon="-120.326004"/><trkpt lat="39.371773" lon="-120.328291"/></trkseg>
+<trkseg><!-- 9-8: return: retraced --><trkpt lat="39.371773" lon="-120.328291"/><trkpt lat="39.371748" lon="-120.330188"/><trkpt lat="39.371510" lon="-120.330991"/><trkpt lat="39.371044" lon="-120.331690"/><trkpt lat="39.370463" lon="-120.332219"/><trkpt lat="39.370103" lon="-120.332455"/><trkpt lat="39.369616" lon="-120.332483"/></trkseg>
+<trkseg><!-- 8-7: return: retraced --><trkpt lat="39.369616" lon="-120.332483"/><trkpt lat="39.368077" lon="-120.332237"/><trkpt lat="39.367391" lon="-120.331800"/><trkpt lat="39.366801" lon="-120.331108"/></trkseg>
+<trkseg><!-- 7-6: return: retraced --><trkpt lat="39.366801" lon="-120.331108"/><trkpt lat="39.365790" lon="-120.331937"/><trkpt lat="39.363569" lon="-120.334838"/><trkpt lat="39.361281" lon="-120.336350"/><trkpt lat="39.360404" lon="-120.336665"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="39.360404" lon="-120.336665"/><trkpt lat="39.357622" lon="-120.338727"/><trkpt lat="39.355228" lon="-120.340953"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="39.355228" lon="-120.340953"/><trkpt lat="39.354628" lon="-120.342064"/><trkpt lat="39.353996" lon="-120.342855"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="39.353996" lon="-120.342855"/><trkpt lat="39.353145" lon="-120.343802"/><trkpt lat="39.350204" lon="-120.345791"/><trkpt lat="39.348537" lon="-120.347340"/><trkpt lat="39.347244" lon="-120.348952"/><trkpt lat="39.346050" lon="-120.350971"/><trkpt lat="39.345693" lon="-120.351139"/><trkpt lat="39.344592" lon="-120.351115"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="39.344592" lon="-120.351115"/><trkpt lat="39.343831" lon="-120.350229"/><trkpt lat="39.342719" lon="-120.349324"/><trkpt lat="39.341951" lon="-120.348354"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="39.341951" lon="-120.348354"/><trkpt lat="39.341249" lon="-120.347691"/><trkpt lat="39.340728" lon="-120.347765"/><trkpt lat="39.340323" lon="-120.348325"/><trkpt lat="39.339645" lon="-120.350227"/></trkseg>
+</trk>
+</gpx>

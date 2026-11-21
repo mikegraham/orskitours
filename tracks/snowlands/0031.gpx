@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0031 Lake Helen Cutoff</name><desc>one way. 1.7 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0031_tour.htm</desc></metadata>
+<wpt lat="40.466284" lon="-121.50504"><ele>2527.34</ele><name>0031-01 Lassen Park Road</name></wpt>
+<wpt lat="40.465107" lon="-121.502066"><ele>2575.12</ele><name>0031-02 saddle</name></wpt>
+<wpt lat="40.464726" lon="-121.49502"><ele>2471.01</ele><name>0031-03 flat area</name></wpt>
+<wpt lat="40.466771" lon="-121.490266"><ele>2409.35</ele><name>0031-04 Kings Creek</name></wpt>
+<wpt lat="40.463542" lon="-121.477845"><ele>2271.08</ele><name>0031-05 Lassen Park Road</name></wpt>
+<trk><name>Snowlands 0031 Lake Helen Cutoff</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.466284" lon="-121.505040"/><trkpt lat="40.465972" lon="-121.504823"/><trkpt lat="40.465709" lon="-121.504386"/><trkpt lat="40.465272" lon="-121.503035"/><trkpt lat="40.465107" lon="-121.502066"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.465107" lon="-121.502066"/><trkpt lat="40.465170" lon="-121.499426"/><trkpt lat="40.465232" lon="-121.496786"/><trkpt lat="40.465037" lon="-121.495730"/><trkpt lat="40.464726" lon="-121.495020"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="40.464726" lon="-121.495020"/><trkpt lat="40.465380" lon="-121.493365"/><trkpt lat="40.466771" lon="-121.490266"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="40.466771" lon="-121.490266"/><trkpt lat="40.466720" lon="-121.488932"/><trkpt lat="40.466326" lon="-121.487243"/><trkpt lat="40.465704" lon="-121.486145"/><trkpt lat="40.463629" lon="-121.483104"/><trkpt lat="40.462702" lon="-121.481162"/><trkpt lat="40.462555" lon="-121.480106"/><trkpt lat="40.462560" lon="-121.479051"/><trkpt lat="40.462834" lon="-121.478569"/><trkpt lat="40.463542" lon="-121.477845"/></trkseg>
+</trk>
+</gpx>

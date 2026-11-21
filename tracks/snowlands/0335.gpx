@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0335 Steephollow Grand Traverse</name><desc>one way. 6.5 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0335_tour.htm</desc></metadata>
+<wpt lat="39.315341" lon="-120.752574"><ele>1574.6</ele><name>0335-01 From the trailhead</name></wpt>
+<wpt lat="39.316659" lon="-120.75123"><ele>1568.59</ele><name>0335-03 trail junction</name></wpt>
+<wpt lat="39.322876" lon="-120.740392"><ele>1573.99</ele><name>0335-05 trail junction</name></wpt>
+<wpt lat="39.315787" lon="-120.720554"><ele>1643.21</ele><name>0335-09 trail junction</name></wpt>
+<wpt lat="39.31579" lon="-120.719837"><ele>1641.77</ele><name>0335-11 trail junction</name></wpt>
+<wpt lat="39.316336" lon="-120.71491"><ele>1646.82</ele><name>0335-13 trail junction</name></wpt>
+<wpt lat="39.317479" lon="-120.705604"><ele>1672.25</ele><name>0335-15 trail junction</name></wpt>
+<wpt lat="39.32277" lon="-120.691454"><ele>1756.76</ele><name>0335-17 trail junction</name></wpt>
+<wpt lat="39.309786" lon="-120.709028"><ele>1665.59</ele><name>0335-19 trail junction</name></wpt>
+<wpt lat="39.308226" lon="-120.715859"><ele>1599.17</ele><name>0335-25 trail junction</name></wpt>
+<wpt lat="39.318947" lon="-120.723812"><ele>1626.01</ele><name>0335-30</name></wpt>
+<wpt lat="39.319885" lon="-120.723675"><ele>1623.46</ele><name>0335-31</name></wpt>
+<wpt lat="39.317509" lon="-120.708734"><ele>1652.6</ele><name>0335-32</name></wpt>
+<wpt lat="39.318295" lon="-120.708699"><ele>1646.75</ele><name>0335-33</name></wpt>
+<wpt lat="39.319051" lon="-120.698143"><ele>1734.8</ele><name>0335-34</name></wpt>
+<wpt lat="39.322522" lon="-120.689523"><ele>1757.09</ele><name>0335-35 point where the trail intersects a snow-covered road</name></wpt>
+<wpt lat="39.32176" lon="-120.686574"><ele>1767.27</ele><name>0335-36</name></wpt>
+<wpt lat="39.322165" lon="-120.684464"><ele>1758.63</ele><name>0335-37 overlook point</name></wpt>
+<wpt lat="39.303927" lon="-120.716601"><ele>1610.87</ele><name>0335-38 tee intersection</name></wpt>
+<trk><name>Snowlands 0335 Steephollow Grand Traverse</name>
+<trkseg><!-- 1-3: libkind-line: traced from his map --><trkpt lat="39.315341" lon="-120.752574"/><trkpt lat="39.316659" lon="-120.751230"/></trkseg>
+<trkseg><!-- 3-5: libkind-line: traced from his map --><trkpt lat="39.316659" lon="-120.751230"/><trkpt lat="39.318329" lon="-120.748865"/><trkpt lat="39.319773" lon="-120.747429"/><trkpt lat="39.321420" lon="-120.744797"/><trkpt lat="39.322726" lon="-120.741909"/><trkpt lat="39.322876" lon="-120.740392"/></trkseg>
+<trkseg><!-- 5-9: libkind-line: traced from his map --><trkpt lat="39.322876" lon="-120.740392"/><trkpt lat="39.322764" lon="-120.738729"/><trkpt lat="39.322822" lon="-120.736344"/><trkpt lat="39.321839" lon="-120.734419"/><trkpt lat="39.320894" lon="-120.732159"/><trkpt lat="39.319961" lon="-120.727911"/><trkpt lat="39.319028" lon="-120.723664"/><trkpt lat="39.318737" lon="-120.723036"/><trkpt lat="39.318193" lon="-120.722273"/><trkpt lat="39.316254" lon="-120.720763"/><trkpt lat="39.315787" lon="-120.720554"/></trkseg>
+<trkseg><!-- 9-11: libkind-line: traced from his map --><trkpt lat="39.315787" lon="-120.720554"/><trkpt lat="39.315790" lon="-120.719837"/></trkseg>
+<trkseg><!-- 11-13: libkind-line: traced from his map --><trkpt lat="39.315790" lon="-120.719837"/><trkpt lat="39.315953" lon="-120.718224"/><trkpt lat="39.315978" lon="-120.715964"/><trkpt lat="39.316336" lon="-120.714910"/></trkseg>
+<trkseg><!-- 13-15: libkind-line: traced from his map --><trkpt lat="39.316336" lon="-120.714910"/><trkpt lat="39.316433" lon="-120.714374"/><trkpt lat="39.316904" lon="-120.713035"/><trkpt lat="39.317010" lon="-120.711779"/><trkpt lat="39.317434" lon="-120.710189"/><trkpt lat="39.317479" lon="-120.705604"/></trkseg>
+<trkseg><!-- 15-17: libkind-line: traced from his map --><trkpt lat="39.317479" lon="-120.705604"/><trkpt lat="39.317475" lon="-120.703828"/><trkpt lat="39.317157" lon="-120.702029"/><trkpt lat="39.317204" lon="-120.701277"/><trkpt lat="39.318193" lon="-120.699685"/><trkpt lat="39.319719" lon="-120.696942"/><trkpt lat="39.321244" lon="-120.694198"/><trkpt lat="39.322770" lon="-120.691454"/></trkseg>
+<trkseg><!-- 17-35: libkind-line: traced from his map --><trkpt lat="39.322770" lon="-120.691454"/><trkpt lat="39.322706" lon="-120.690228"/><trkpt lat="39.322522" lon="-120.689523"/></trkseg>
+<trkseg><!-- 35-19: libkind-line: traced from his map --><trkpt lat="39.322522" lon="-120.689523"/><trkpt lat="39.320171" lon="-120.689965"/><trkpt lat="39.318132" lon="-120.691167"/><trkpt lat="39.315908" lon="-120.694088"/><trkpt lat="39.314935" lon="-120.696254"/><trkpt lat="39.314225" lon="-120.699392"/><trkpt lat="39.313516" lon="-120.702531"/><trkpt lat="39.311972" lon="-120.704581"/><trkpt lat="39.311667" lon="-120.705293"/><trkpt lat="39.311042" lon="-120.707511"/><trkpt lat="39.310472" lon="-120.708414"/><trkpt lat="39.309786" lon="-120.709028"/></trkseg>
+<trkseg><!-- 19-38: libkind-line: traced from his map --><trkpt lat="39.309786" lon="-120.709028"/><trkpt lat="39.309001" lon="-120.709157"/><trkpt lat="39.307264" lon="-120.710331"/><trkpt lat="39.305776" lon="-120.713118"/><trkpt lat="39.304491" lon="-120.715043"/><trkpt lat="39.303927" lon="-120.716601"/></trkseg>
+<trkseg><!-- 38-25: libkind-line: traced from his map --><trkpt lat="39.303927" lon="-120.716601"/><trkpt lat="39.306054" lon="-120.714682"/><trkpt lat="39.306637" lon="-120.714399"/><trkpt lat="39.307188" lon="-120.714390"/><trkpt lat="39.307511" lon="-120.714550"/><trkpt lat="39.308035" lon="-120.715220"/><trkpt lat="39.308226" lon="-120.715859"/></trkseg>
+</trk>
+</gpx>

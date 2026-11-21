@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1202 Stanislaus Overlook</name><desc>out and back to waypoint 5. 1.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/12/1202_tour.htm</desc></metadata>
+<wpt lat="38.192272" lon="-119.962446"><ele>1994.54</ele><name>1202-01 trailhead</name></wpt>
+<wpt lat="38.194729" lon="-119.957769"><ele>2036.5</ele><name>1202-02 180-degree turn in the road</name></wpt>
+<wpt lat="38.19612" lon="-119.957401"><ele>2064.7</ele><name>1202-03 sharp turn in the road and a broad ridge that crosses the road</name></wpt>
+<wpt lat="38.199007" lon="-119.954011"><ele>2066.88</ele><name>1202-04 clearing</name></wpt>
+<wpt lat="38.19974" lon="-119.953941"><ele>2053.99</ele><name>1202-05 abrupt drop down into the South Fork of the Stanislaus River</name></wpt>
+<trk><name>Snowlands 1202 Stanislaus Overlook</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.192272" lon="-119.962446"/><trkpt lat="38.192323" lon="-119.960786"/><trkpt lat="38.192728" lon="-119.959688"/><trkpt lat="38.193286" lon="-119.958986"/><trkpt lat="38.194335" lon="-119.958431"/><trkpt lat="38.194729" lon="-119.957769"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.194729" lon="-119.957769"/><trkpt lat="38.194819" lon="-119.956647"/><trkpt lat="38.195024" lon="-119.956296"/><trkpt lat="38.195312" lon="-119.956089"/><trkpt lat="38.195696" lon="-119.956252"/><trkpt lat="38.196120" lon="-119.957401"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.196120" lon="-119.957401"/><trkpt lat="38.197338" lon="-119.956426"/><trkpt lat="38.198286" lon="-119.955209"/><trkpt lat="38.199007" lon="-119.954011"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.199007" lon="-119.954011"/><trkpt lat="38.199740" lon="-119.953941"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.199740" lon="-119.953941"/><trkpt lat="38.199007" lon="-119.954011"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.199007" lon="-119.954011"/><trkpt lat="38.198286" lon="-119.955209"/><trkpt lat="38.197338" lon="-119.956426"/><trkpt lat="38.196120" lon="-119.957401"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.196120" lon="-119.957401"/><trkpt lat="38.195696" lon="-119.956252"/><trkpt lat="38.195312" lon="-119.956089"/><trkpt lat="38.195024" lon="-119.956296"/><trkpt lat="38.194819" lon="-119.956647"/><trkpt lat="38.194729" lon="-119.957769"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.194729" lon="-119.957769"/><trkpt lat="38.194335" lon="-119.958431"/><trkpt lat="38.193286" lon="-119.958986"/><trkpt lat="38.192728" lon="-119.959688"/><trkpt lat="38.192323" lon="-119.960786"/><trkpt lat="38.192272" lon="-119.962446"/></trkseg>
+</trk>
+</gpx>

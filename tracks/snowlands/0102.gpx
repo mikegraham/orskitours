@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0102 Three Knobs</name><desc>loop. 5.3 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/01/0102_tour.htm</desc></metadata>
+<wpt lat="39.630048" lon="-120.516184"><ele>2125.53</ele><name>0102-09 very large snow-covered road</name></wpt>
+<wpt lat="39.61743" lon="-120.506132"><ele>1972.06</ele><name>0102-10 trailhead</name></wpt>
+<wpt lat="39.618291" lon="-120.506247"><ele>1986.21</ele><name>0102-11 fork in the road</name></wpt>
+<wpt lat="39.623164" lon="-120.505979"><ele>2071.55</ele><name>0102-12 second sharp left turn</name></wpt>
+<wpt lat="39.6286" lon="-120.500554"><ele>2150.94</ele><name>0102-13 road junction</name></wpt>
+<wpt lat="39.630848" lon="-120.498985"><ele>2137.64</ele><name>0102-14 open area where Lunch Creek is located</name></wpt>
+<wpt lat="39.632491" lon="-120.497196"><ele>2155.23</ele><name>0102-15 three dead trees</name></wpt>
+<wpt lat="39.633241" lon="-120.49799"><ele>2162.2</ele><name>0102-16 single snag with an arrow pointing to where the route enters the trees</name></wpt>
+<wpt lat="39.633809" lon="-120.497213"><ele>2175.29</ele><name>0102-17 snow-covered road</name></wpt>
+<wpt lat="39.634991" lon="-120.494526"><ele>2193.62</ele><name>0102-18 trail sign indicating that the route turns north (left)</name></wpt>
+<wpt lat="39.634594" lon="-120.493959"><ele>2193.01</ele><name>0102-19</name></wpt>
+<wpt lat="39.638557" lon="-120.494797"><ele>2233.95</ele><name>0102-20 east-west snow-covered road</name></wpt>
+<wpt lat="39.638572" lon="-120.494251"><ele>2232.95</ele><name>0102-21</name></wpt>
+<wpt lat="39.638139" lon="-120.499184"><ele>2229.99</ele><name>0102-22 trail marker indicating that you leave the road to the north (right)</name></wpt>
+<wpt lat="39.638378" lon="-120.500254"><ele>2230.66</ele><name>0102-23</name></wpt>
+<wpt lat="39.637914" lon="-120.501913"><ele>2251.22</ele><name>0102-24</name></wpt>
+<wpt lat="39.637037" lon="-120.502321"><ele>2254.14</ele><name>0102-25</name></wpt>
+<wpt lat="39.636283" lon="-120.504582"><ele>2240.15</ele><name>0102-26 large snow-covered road</name></wpt>
+<wpt lat="39.636862" lon="-120.51383"><ele>2181.61</ele><name>0102-27 road junction</name></wpt>
+<trk><name>Snowlands 0102 Three Knobs</name>
+<trkseg><!-- 10-11: libkind-line: traced from his map --><trkpt lat="39.617430" lon="-120.506132"/><trkpt lat="39.618291" lon="-120.506247"/></trkseg>
+<trkseg><!-- 11-12: libkind-line: traced from his map --><trkpt lat="39.618291" lon="-120.506247"/><trkpt lat="39.620225" lon="-120.505965"/><trkpt lat="39.621328" lon="-120.506654"/><trkpt lat="39.622001" lon="-120.506101"/><trkpt lat="39.622882" lon="-120.506455"/><trkpt lat="39.623164" lon="-120.505979"/></trkseg>
+<trkseg><!-- 12-13: libkind-line: traced from his map --><trkpt lat="39.623164" lon="-120.505979"/><trkpt lat="39.624367" lon="-120.505351"/><trkpt lat="39.625378" lon="-120.505049"/><trkpt lat="39.625747" lon="-120.504501"/><trkpt lat="39.626510" lon="-120.502862"/><trkpt lat="39.627326" lon="-120.502025"/><trkpt lat="39.628362" lon="-120.501250"/><trkpt lat="39.628600" lon="-120.500554"/></trkseg>
+<trkseg><!-- 13-14: libkind-line: traced from his map --><trkpt lat="39.628600" lon="-120.500554"/><trkpt lat="39.628844" lon="-120.499807"/><trkpt lat="39.629299" lon="-120.499252"/><trkpt lat="39.629989" lon="-120.498976"/><trkpt lat="39.630848" lon="-120.498985"/></trkseg>
+<trkseg><!-- 14-15: libkind-line: traced from his map --><trkpt lat="39.630848" lon="-120.498985"/><trkpt lat="39.632491" lon="-120.497196"/></trkseg>
+<trkseg><!-- 15-16: libkind-line: traced from his map --><trkpt lat="39.632491" lon="-120.497196"/><trkpt lat="39.633241" lon="-120.497990"/></trkseg>
+<trkseg><!-- 16-17: libkind-line: traced from his map --><trkpt lat="39.633241" lon="-120.497990"/><trkpt lat="39.633809" lon="-120.497213"/></trkseg>
+<trkseg><!-- 17-18: libkind-line: traced from his map --><trkpt lat="39.633809" lon="-120.497213"/><trkpt lat="39.634777" lon="-120.495410"/><trkpt lat="39.634991" lon="-120.494526"/></trkseg>
+<trkseg><!-- 18-20: libkind-line: traced from his map --><trkpt lat="39.634991" lon="-120.494526"/><trkpt lat="39.637484" lon="-120.494478"/><trkpt lat="39.638557" lon="-120.494797"/></trkseg>
+<trkseg><!-- 20-22: libkind-line: traced from his map --><trkpt lat="39.638557" lon="-120.494797"/><trkpt lat="39.638584" lon="-120.497629"/><trkpt lat="39.638139" lon="-120.499184"/></trkseg>
+<trkseg><!-- 22-25: libkind-line: traced from his map --><trkpt lat="39.638139" lon="-120.499184"/><trkpt lat="39.638330" lon="-120.500446"/><trkpt lat="39.638276" lon="-120.501469"/><trkpt lat="39.637779" lon="-120.502085"/><trkpt lat="39.637037" lon="-120.502321"/></trkseg>
+<trkseg><!-- 25-26: libkind-line: traced from his map --><trkpt lat="39.637037" lon="-120.502321"/><trkpt lat="39.636778" lon="-120.503690"/><trkpt lat="39.636283" lon="-120.504582"/></trkseg>
+<trkseg><!-- 26-27: libkind-line: traced from his map --><trkpt lat="39.636283" lon="-120.504582"/><trkpt lat="39.636329" lon="-120.506076"/><trkpt lat="39.636873" lon="-120.507276"/><trkpt lat="39.636865" lon="-120.508727"/><trkpt lat="39.636990" lon="-120.510093"/><trkpt lat="39.636932" lon="-120.511885"/><trkpt lat="39.636763" lon="-120.512526"/><trkpt lat="39.636313" lon="-120.513455"/><trkpt lat="39.636862" lon="-120.513830"/></trkseg>
+<trkseg><!-- 27-9: libkind-line: traced from his map --><trkpt lat="39.636862" lon="-120.513830"/><trkpt lat="39.636679" lon="-120.514046"/><trkpt lat="39.636037" lon="-120.514211"/><trkpt lat="39.633802" lon="-120.514279"/><trkpt lat="39.633520" lon="-120.514457"/><trkpt lat="39.632913" lon="-120.515217"/><trkpt lat="39.631468" lon="-120.516005"/><trkpt lat="39.630048" lon="-120.516184"/></trkseg>
+<trkseg><!-- 9-10: libkind-line: traced from his map --><trkpt lat="39.630048" lon="-120.516184"/><trkpt lat="39.630043" lon="-120.514702"/><trkpt lat="39.629869" lon="-120.514199"/><trkpt lat="39.629529" lon="-120.513851"/><trkpt lat="39.628904" lon="-120.513568"/><trkpt lat="39.627556" lon="-120.513351"/><trkpt lat="39.627267" lon="-120.513171"/><trkpt lat="39.626405" lon="-120.511330"/><trkpt lat="39.626149" lon="-120.510051"/><trkpt lat="39.625813" lon="-120.509595"/><trkpt lat="39.625420" lon="-120.509367"/><trkpt lat="39.625106" lon="-120.509430"/><trkpt lat="39.624849" lon="-120.509797"/><trkpt lat="39.624222" lon="-120.511459"/><trkpt lat="39.623930" lon="-120.513080"/><trkpt lat="39.623184" lon="-120.514091"/><trkpt lat="39.622033" lon="-120.514544"/><trkpt lat="39.620652" lon="-120.514615"/><trkpt lat="39.619896" lon="-120.514442"/><trkpt lat="39.619107" lon="-120.513992"/><trkpt lat="39.618590" lon="-120.513379"/><trkpt lat="39.618347" lon="-120.512654"/><trkpt lat="39.618364" lon="-120.509709"/><trkpt lat="39.617942" lon="-120.507446"/><trkpt lat="39.618094" lon="-120.506517"/><trkpt lat="39.617430" lon="-120.506132"/></trkseg>
+</trk>
+</gpx>

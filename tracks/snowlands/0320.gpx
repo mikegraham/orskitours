@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0320 Donner Memorial State Park</name><desc>loop. 2.4 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/03/0320_tour.htm</desc></metadata>
+<wpt lat="39.323939" lon="-120.234316"><ele>1810.83</ele><name>0320-01 trailhead</name></wpt>
+<wpt lat="39.323515" lon="-120.234777"><ele>1809.44</ele><name>0320-02 fork in the road</name></wpt>
+<wpt lat="39.320199" lon="-120.251311"><ele>1812.85</ele><name>0320-03 China Cove</name></wpt>
+<wpt lat="39.318081" lon="-120.238863"><ele>1814.73</ele><name>0320-04 road</name></wpt>
+<wpt lat="39.319368" lon="-120.234797"><ele>1810.63</ele><name>0320-05 road turns north</name></wpt>
+<trk><name>Snowlands 0320 Donner Memorial State Park</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="39.323939" lon="-120.234316"/><trkpt lat="39.323515" lon="-120.234777"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="39.323515" lon="-120.234777"/><trkpt lat="39.322797" lon="-120.235190"/><trkpt lat="39.322240" lon="-120.235278"/><trkpt lat="39.321061" lon="-120.235244"/><trkpt lat="39.320045" lon="-120.234789"/><trkpt lat="39.319464" lon="-120.234894"/><trkpt lat="39.319211" lon="-120.235240"/><trkpt lat="39.318986" lon="-120.235915"/><trkpt lat="39.318826" lon="-120.237904"/><trkpt lat="39.317883" lon="-120.239472"/><trkpt lat="39.317921" lon="-120.240107"/><trkpt lat="39.318588" lon="-120.241208"/><trkpt lat="39.318966" lon="-120.242605"/><trkpt lat="39.318974" lon="-120.243918"/><trkpt lat="39.318618" lon="-120.245061"/><trkpt lat="39.318655" lon="-120.246120"/><trkpt lat="39.319063" lon="-120.247433"/><trkpt lat="39.320019" lon="-120.248915"/><trkpt lat="39.320299" lon="-120.249550"/><trkpt lat="39.320366" lon="-120.250354"/><trkpt lat="39.320199" lon="-120.251311"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="39.320199" lon="-120.251311"/><trkpt lat="39.320177" lon="-120.250736"/><trkpt lat="39.320464" lon="-120.249973"/><trkpt lat="39.320448" lon="-120.249635"/><trkpt lat="39.319374" lon="-120.247814"/><trkpt lat="39.318481" lon="-120.245231"/><trkpt lat="39.318513" lon="-120.244765"/><trkpt lat="39.319092" lon="-120.243071"/><trkpt lat="39.319139" lon="-120.242648"/><trkpt lat="39.318863" lon="-120.241515"/><trkpt lat="39.317769" lon="-120.239768"/><trkpt lat="39.317787" lon="-120.239387"/><trkpt lat="39.318081" lon="-120.238863"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="39.318081" lon="-120.238863"/><trkpt lat="39.318419" lon="-120.238569"/><trkpt lat="39.318616" lon="-120.238159"/><trkpt lat="39.318748" lon="-120.237524"/><trkpt lat="39.318850" lon="-120.235748"/><trkpt lat="39.319368" lon="-120.234797"/></trkseg>
+<trkseg><!-- 5-1: libkind-line: traced from his map --><trkpt lat="39.319368" lon="-120.234797"/><trkpt lat="39.320308" lon="-120.234799"/><trkpt lat="39.320864" lon="-120.235047"/><trkpt lat="39.322601" lon="-120.235439"/><trkpt lat="39.323371" lon="-120.235117"/><trkpt lat="39.323939" lon="-120.234316"/></trkseg>
+</trk>
+</gpx>

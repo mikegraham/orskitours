@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1015 Trail Junction Via the Ridge</name><desc>out and back to waypoint 6. 4.0 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/10/1015_tour.htm</desc></metadata>
+<wpt lat="38.586299" lon="-120.242317"><ele>2150.32</ele><name>1015-01 trailhead</name></wpt>
+<wpt lat="38.586651" lon="-120.239914"><ele>2173.76</ele><name>1015-02 snow-covered road</name></wpt>
+<wpt lat="38.586553" lon="-120.238826"><ele>2180.97</ele><name>1015-03 turnoff for the "ridge"</name></wpt>
+<wpt lat="38.60019" lon="-120.232361"><ele>2207.22</ele><name>1015-04 saddle</name></wpt>
+<wpt lat="38.604865" lon="-120.228403"><ele>2263.52</ele><name>1015-05 north end of a high point</name></wpt>
+<wpt lat="38.608895" lon="-120.228293"><ele>2221.23</ele><name>1015-06 Trail Junction</name></wpt>
+<trk><name>Snowlands 1015 Trail Junction Via the Ridge</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="38.586299" lon="-120.242317"/><trkpt lat="38.586651" lon="-120.239914"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="38.586651" lon="-120.239914"/><trkpt lat="38.586529" lon="-120.239347"/><trkpt lat="38.586553" lon="-120.238826"/></trkseg>
+<trkseg><!-- 3-4: libkind-line: traced from his map --><trkpt lat="38.586553" lon="-120.238826"/><trkpt lat="38.586963" lon="-120.238643"/><trkpt lat="38.587848" lon="-120.237807"/><trkpt lat="38.589487" lon="-120.235659"/><trkpt lat="38.590339" lon="-120.235134"/><trkpt lat="38.591388" lon="-120.234813"/><trkpt lat="38.593584" lon="-120.234762"/><trkpt lat="38.595386" lon="-120.234486"/><trkpt lat="38.597189" lon="-120.234209"/><trkpt lat="38.598565" lon="-120.233676"/><trkpt lat="38.599549" lon="-120.233061"/><trkpt lat="38.600190" lon="-120.232361"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="38.600190" lon="-120.232361"/><trkpt lat="38.602137" lon="-120.229820"/><trkpt lat="38.603547" lon="-120.228951"/><trkpt lat="38.604865" lon="-120.228403"/></trkseg>
+<trkseg><!-- 5-6: libkind-line: traced from his map --><trkpt lat="38.604865" lon="-120.228403"/><trkpt lat="38.608396" lon="-120.228485"/><trkpt lat="38.608895" lon="-120.228293"/></trkseg>
+<trkseg><!-- 6-5: return: retraced --><trkpt lat="38.608895" lon="-120.228293"/><trkpt lat="38.608396" lon="-120.228485"/><trkpt lat="38.604865" lon="-120.228403"/></trkseg>
+<trkseg><!-- 5-4: return: retraced --><trkpt lat="38.604865" lon="-120.228403"/><trkpt lat="38.603547" lon="-120.228951"/><trkpt lat="38.602137" lon="-120.229820"/><trkpt lat="38.600190" lon="-120.232361"/></trkseg>
+<trkseg><!-- 4-3: return: retraced --><trkpt lat="38.600190" lon="-120.232361"/><trkpt lat="38.599549" lon="-120.233061"/><trkpt lat="38.598565" lon="-120.233676"/><trkpt lat="38.597189" lon="-120.234209"/><trkpt lat="38.595386" lon="-120.234486"/><trkpt lat="38.593584" lon="-120.234762"/><trkpt lat="38.591388" lon="-120.234813"/><trkpt lat="38.590339" lon="-120.235134"/><trkpt lat="38.589487" lon="-120.235659"/><trkpt lat="38.587848" lon="-120.237807"/><trkpt lat="38.586963" lon="-120.238643"/><trkpt lat="38.586553" lon="-120.238826"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="38.586553" lon="-120.238826"/><trkpt lat="38.586529" lon="-120.239347"/><trkpt lat="38.586651" lon="-120.239914"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="38.586651" lon="-120.239914"/><trkpt lat="38.586299" lon="-120.242317"/></trkseg>
+</trk>
+</gpx>

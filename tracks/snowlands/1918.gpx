@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1918 Minaret Vista</name><desc>out and back to waypoint 3. 2.8 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/19/1918_tour.htm</desc></metadata>
+<wpt lat="37.65043" lon="-119.040552"><ele>2729.09</ele><name>1918-01 trailhead</name></wpt>
+<wpt lat="37.65386" lon="-119.057844"><ele>2793.24</ele><name>1918-02 road junction and crest of the road at Minaret Summit</name></wpt>
+<wpt lat="37.656514" lon="-119.061319"><ele>2816.46</ele><name>1918-03 high point and Minaret Vista</name></wpt>
+<trk><name>Snowlands 1918 Minaret Vista</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="37.650430" lon="-119.040552"/><trkpt lat="37.650655" lon="-119.041476"/><trkpt lat="37.650788" lon="-119.043969"/><trkpt lat="37.651073" lon="-119.044941"/><trkpt lat="37.651132" lon="-119.045913"/><trkpt lat="37.651102" lon="-119.046927"/><trkpt lat="37.650542" lon="-119.048110"/><trkpt lat="37.650501" lon="-119.049124"/><trkpt lat="37.651042" lon="-119.050518"/><trkpt lat="37.651753" lon="-119.053138"/><trkpt lat="37.652744" lon="-119.054449"/><trkpt lat="37.653165" lon="-119.055209"/><trkpt lat="37.653444" lon="-119.057068"/><trkpt lat="37.653860" lon="-119.057844"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="37.653860" lon="-119.057844"/><trkpt lat="37.654406" lon="-119.058110"/><trkpt lat="37.655673" lon="-119.060575"/><trkpt lat="37.656050" lon="-119.061036"/><trkpt lat="37.656514" lon="-119.061319"/></trkseg>
+<trkseg><!-- 3-2: return: retraced --><trkpt lat="37.656514" lon="-119.061319"/><trkpt lat="37.656050" lon="-119.061036"/><trkpt lat="37.655673" lon="-119.060575"/><trkpt lat="37.654406" lon="-119.058110"/><trkpt lat="37.653860" lon="-119.057844"/></trkseg>
+<trkseg><!-- 2-1: return: retraced --><trkpt lat="37.653860" lon="-119.057844"/><trkpt lat="37.653444" lon="-119.057068"/><trkpt lat="37.653165" lon="-119.055209"/><trkpt lat="37.652744" lon="-119.054449"/><trkpt lat="37.651753" lon="-119.053138"/><trkpt lat="37.651042" lon="-119.050518"/><trkpt lat="37.650501" lon="-119.049124"/><trkpt lat="37.650542" lon="-119.048110"/><trkpt lat="37.651102" lon="-119.046927"/><trkpt lat="37.651132" lon="-119.045913"/><trkpt lat="37.651073" lon="-119.044941"/><trkpt lat="37.650788" lon="-119.043969"/><trkpt lat="37.650655" lon="-119.041476"/><trkpt lat="37.650430" lon="-119.040552"/></trkseg>
+</trk>
+</gpx>

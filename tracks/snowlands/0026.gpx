@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 0026 Sulphur Works Loop</name><desc>loop. 1.9 miles round trip. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/00/0026_tour.htm</desc></metadata>
+<wpt lat="40.438172" lon="-121.535081"><ele>2054.29</ele><name>0026-01 trailhead</name></wpt>
+<wpt lat="40.447965" lon="-121.536078"><ele>2107.88</ele><name>0026-02 bridge</name></wpt>
+<wpt lat="40.449192" lon="-121.534901"><ele>2132.99</ele><name>0026-03 Sulphur Works</name></wpt>
+<wpt lat="40.448106" lon="-121.533104"><ele>2129.3</ele><name>0026-04 point where you can easily descend to the south</name></wpt>
+<wpt lat="40.439373" lon="-121.531603"><ele>2000.13</ele><name>0026-05 foot bridge</name></wpt>
+<trk><name>Snowlands 0026 Sulphur Works Loop</name>
+<trkseg><!-- 1-2: libkind-line: traced from his map --><trkpt lat="40.438172" lon="-121.535081"/><trkpt lat="40.439617" lon="-121.535831"/><trkpt lat="40.442412" lon="-121.535705"/><trkpt lat="40.445401" lon="-121.536315"/><trkpt lat="40.446376" lon="-121.536782"/><trkpt lat="40.447351" lon="-121.536746"/><trkpt lat="40.447965" lon="-121.536078"/></trkseg>
+<trkseg><!-- 2-3: libkind-line: traced from his map --><trkpt lat="40.447965" lon="-121.536078"/><trkpt lat="40.448743" lon="-121.535580"/><trkpt lat="40.449192" lon="-121.534901"/></trkseg>
+<trkseg><!-- 3-4: straight: not traced --><trkpt lat="40.449192" lon="-121.534901"/><trkpt lat="40.448106" lon="-121.533104"/></trkseg>
+<trkseg><!-- 4-5: libkind-line: traced from his map --><trkpt lat="40.448106" lon="-121.533104"/><trkpt lat="40.447721" lon="-121.533743"/><trkpt lat="40.447335" lon="-121.534895"/><trkpt lat="40.447372" lon="-121.535280"/><trkpt lat="40.447715" lon="-121.535962"/><trkpt lat="40.447658" lon="-121.536298"/><trkpt lat="40.447091" lon="-121.536660"/><trkpt lat="40.445921" lon="-121.536753"/><trkpt lat="40.443431" lon="-121.536174"/><trkpt lat="40.440942" lon="-121.535594"/><trkpt lat="40.440782" lon="-121.535213"/><trkpt lat="40.440693" lon="-121.533148"/><trkpt lat="40.439373" lon="-121.531603"/></trkseg>
+<trkseg><!-- 5-1: straight: not traced --><trkpt lat="40.439373" lon="-121.531603"/><trkpt lat="40.438172" lon="-121.535081"/></trkseg>
+</trk>
+</gpx>

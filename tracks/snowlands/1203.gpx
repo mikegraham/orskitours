@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="skitours snowlands_all.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>Snowlands 1203 Rock and Roll</name><desc>one way. 1.4 miles one-way. Line traced from Marcus Libkind's map, tours.snowlands.org/tours/12/1203_tour.htm</desc></metadata>
+<wpt lat="38.192272" lon="-119.962446"><ele>1994.54</ele><name>1203-01</name></wpt>
+<wpt lat="38.194729" lon="-119.957769"><ele>2036.5</ele><name>1203-02 180-degree turn in Gooseberry Road</name></wpt>
+<wpt lat="38.192721" lon="-119.957095"><ele>2053.84</ele><name>1203-03</name></wpt>
+<wpt lat="38.194598" lon="-119.951716"><ele>2120.03</ele><name>1203-04</name></wpt>
+<wpt lat="38.196812" lon="-119.947501"><ele>2162.37</ele><name>1203-05</name></wpt>
+<wpt lat="38.197537" lon="-119.945658"><ele>2182.35</ele><name>1203-06</name></wpt>
+<wpt lat="38.197468" lon="-119.938594"><ele>2294.41</ele><name>1203-07 Gooseberry Road</name></wpt>
+<wpt lat="38.19601" lon="-119.934359"><ele>2319.31</ele><name>1203-08</name></wpt>
+<wpt lat="38.191512" lon="-119.932367"><ele>2373.67</ele><name>1203-09</name></wpt>
+<wpt lat="38.192531" lon="-119.928899"><ele>2416.28</ele><name>1203-10</name></wpt>
+<wpt lat="38.194835" lon="-119.920472"><ele>2438.05</ele><name>1203-11</name></wpt>
+<wpt lat="38.194909" lon="-119.912128"><ele>2487.57</ele><name>1203-12</name></wpt>
+<wpt lat="38.19612" lon="-119.957401"><ele>2064.7</ele><name>1203-13 sharp turn in the road and a broad ridge that crosses the road</name></wpt>
+<wpt lat="38.1995" lon="-119.94426"><ele>2245.15</ele><name>1203-14 point where the ridge turns to the southeast and becomes a bit less steep</name></wpt>
+<wpt lat="38.191879" lon="-119.93803"><ele>2261.4</ele><name>1203-15</name></wpt>
+<wpt lat="38.195246" lon="-119.938642"><ele>2289.21</ele><name>1203-16</name></wpt>
+<trk><name>Snowlands 1203 Rock and Roll</name>
+<trkseg><!-- 2-13: libkind-line: traced from his map --><trkpt lat="38.194729" lon="-119.957769"/><trkpt lat="38.195023" lon="-119.956425"/><trkpt lat="38.195384" lon="-119.956059"/><trkpt lat="38.195745" lon="-119.956271"/><trkpt lat="38.195940" lon="-119.957053"/><trkpt lat="38.196120" lon="-119.957401"/></trkseg>
+<trkseg><!-- 13-14: libkind-line: traced from his map --><trkpt lat="38.196120" lon="-119.957401"/><trkpt lat="38.196651" lon="-119.955531"/><trkpt lat="38.196851" lon="-119.953503"/><trkpt lat="38.197421" lon="-119.952024"/><trkpt lat="38.197514" lon="-119.950292"/><trkpt lat="38.197298" lon="-119.949193"/><trkpt lat="38.197333" lon="-119.948644"/><trkpt lat="38.197655" lon="-119.947984"/><trkpt lat="38.198532" lon="-119.947404"/><trkpt lat="38.198774" lon="-119.947113"/><trkpt lat="38.199462" lon="-119.945094"/><trkpt lat="38.199500" lon="-119.944260"/></trkseg>
+<trkseg><!-- 14-7: libkind-line: traced from his map --><trkpt lat="38.199500" lon="-119.944260"/><trkpt lat="38.199061" lon="-119.941925"/><trkpt lat="38.197986" lon="-119.939854"/><trkpt lat="38.197468" lon="-119.938594"/></trkseg>
+</trk>
+</gpx>
